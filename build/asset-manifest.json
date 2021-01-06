@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73b0eb39.chunk.css",
+    "main.js": "/static/js/main.6aed7585.chunk.js",
+    "main.js.map": "/static/js/main.6aed7585.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c3d0d640.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c3d0d640.js.map",
+    "static/js/2.02bdda3d.chunk.js": "/static/js/2.02bdda3d.chunk.js",
+    "static/js/2.02bdda3d.chunk.js.map": "/static/js/2.02bdda3d.chunk.js.map",
+    "static/js/3.cd00c3fe.chunk.js": "/static/js/3.cd00c3fe.chunk.js",
+    "static/js/3.cd00c3fe.chunk.js.map": "/static/js/3.cd00c3fe.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ea5eddde166b21ba0d48a07895723a19.js": "/precache-manifest.ea5eddde166b21ba0d48a07895723a19.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.73b0eb39.chunk.css.map": "/static/css/main.73b0eb39.chunk.css.map",
+    "static/js/2.02bdda3d.chunk.js.LICENSE.txt": "/static/js/2.02bdda3d.chunk.js.LICENSE.txt",
+    "static/media/bruno-abatti.jpg": "/static/media/bruno-abatti.80954654.jpg",
+    "static/media/clem-onojeghuo-3.jpg": "/static/media/clem-onojeghuo-3.ae11d928.jpg",
+    "static/media/erik-lucatero-2.jpg": "/static/media/erik-lucatero-2.2051e0e8.jpg",
+    "static/media/joe-gardner-2.jpg": "/static/media/joe-gardner-2.76ff47ae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3d0d640.js",
+    "static/js/2.02bdda3d.chunk.js",
+    "static/css/main.73b0eb39.chunk.css",
+    "static/js/main.6aed7585.chunk.js"
+  ]
+}

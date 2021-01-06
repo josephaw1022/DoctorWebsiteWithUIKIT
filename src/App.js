@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { Route , Redirect} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import {Layout } from "Components/Layout";
+import LandingPageHeader from "Components/Headers/LandingPageHeader";
+
+export default class App extends Component {
+  static displayName = App.name;
+
+  render () {
+    return (
+      <>
+        <Layout>
+         <Route  exact path='/' component={LandingPageHeader} />
+         <Redirect from="/index" to="/"/> 
+ 
+        </Layout>
+      </>
+    );
+  }
 }
-
-export default App;

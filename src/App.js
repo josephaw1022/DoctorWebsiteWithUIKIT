@@ -15,8 +15,8 @@ export default class App extends Component {
         <Layout>
          <Route  exact path='/' component={PartOne} />
          
-         <Route path="/AboutHeader" component={AboutHeader}/> 
-         <Route path="/Contact" component={Contact} navbarbg="#000000"/> 
+         <Route path="/About" component={AboutHeader}/> 
+         <Route path="/Contact" component={Contact} /> 
         </Layout>
       </>
     );

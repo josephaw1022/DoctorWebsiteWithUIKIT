@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.94ad3bc8.chunk.css",
-    "main.js": "/static/js/main.ce3481c3.chunk.js",
-    "main.js.map": "/static/js/main.ce3481c3.chunk.js.map",
+    "main.css": "/static/css/main.35161f28.chunk.css",
+    "main.js": "/static/js/main.46337efc.chunk.js",
+    "main.js.map": "/static/js/main.46337efc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f693082c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f693082c.js.map",
-    "static/js/2.cecdb32e.chunk.js": "/static/js/2.cecdb32e.chunk.js",
-    "static/js/2.cecdb32e.chunk.js.map": "/static/js/2.cecdb32e.chunk.js.map",
+    "static/js/2.289240b2.chunk.js": "/static/js/2.289240b2.chunk.js",
+    "static/js/2.289240b2.chunk.js.map": "/static/js/2.289240b2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b0d95c3ef878753dd416e62cca852d12.js": "/precache-manifest.b0d95c3ef878753dd416e62cca852d12.js",
+    "precache-manifest.9a55c1ead3c7aa71967aa520af4cd788.js": "/precache-manifest.9a55c1ead3c7aa71967aa520af4cd788.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.94ad3bc8.chunk.css.map": "/static/css/main.94ad3bc8.chunk.css.map",
-    "static/js/2.cecdb32e.chunk.js.LICENSE.txt": "/static/js/2.cecdb32e.chunk.js.LICENSE.txt",
+    "static/css/main.35161f28.chunk.css.map": "/static/css/main.35161f28.chunk.css.map",
+    "static/js/2.289240b2.chunk.js.LICENSE.txt": "/static/js/2.289240b2.chunk.js.LICENSE.txt",
     "static/media/brownprofile.png": "/static/media/brownprofile.1e4967d1.png",
-    "static/media/clem-onojeghuo-3.jpg": "/static/media/clem-onojeghuo-3.ae11d928.jpg",
-    "static/media/erik-lucatero-2.jpg": "/static/media/erik-lucatero-2.2051e0e8.jpg",
-    "static/media/forest-bg.jpg": "/static/media/forest-bg.c01a822c.jpg",
-    "static/media/joe-gardner-2.jpg": "/static/media/joe-gardner-2.76ff47ae.jpg"
+    "static/media/daniel-olahh.jpg": "/static/media/daniel-olahh.facbbdb7.jpg",
+    "static/media/forest-bg.jpg": "/static/media/forest-bg.c01a822c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f693082c.js",
-    "static/js/2.cecdb32e.chunk.js",
-    "static/css/main.94ad3bc8.chunk.css",
-    "static/js/main.ce3481c3.chunk.js"
+    "static/js/2.289240b2.chunk.js",
+    "static/css/main.35161f28.chunk.css",
+    "static/js/main.46337efc.chunk.js"
   ]
 }

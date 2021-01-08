@@ -54,6 +54,9 @@ import PartTwo from "./PartTwo"
               Learn more 
             </Button>
           </div>
+          <p className="scrolldown">
+         <a className="smoothscroll" href="#about"><i className="fa fa-down"></i></a>
+      </p>
         </Container>
 
       </div>

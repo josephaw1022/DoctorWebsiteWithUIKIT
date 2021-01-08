@@ -31,7 +31,7 @@ export default function ExamplesNavbar() {
         document.documentElement.scrollTop > 299 ||
         document.body.scrollTop > 299
       ) {
-        setNavbarColor("");
+        setNavbarColor("#ffffff");
       } else if (
         document.documentElement.scrollTop < 300 ||
         document.body.scrollTop < 300

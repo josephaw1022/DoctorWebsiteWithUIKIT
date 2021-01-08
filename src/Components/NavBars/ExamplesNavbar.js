@@ -82,7 +82,7 @@ export default function ExamplesNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink tag={Link} to="/AboutHeader" title="About" >
+              <NavLink tag={Link} to="/About" title="About" >
                 <i className="nc-icon nc-layout-11" /> About
               </NavLink>
             </NavItem>

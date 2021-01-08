@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { Route , Redirect} from 'react-router-dom'
-
-
-import {Layout } from "Components/Layout";
-import LandingPageHeader from "Components/Headers/LandingPageHeader";
+import { Route} from 'react-router-dom'
+import {Layout } from "Components/Layout" 
+import PartOne from "Components/Home/PartOne"
+import AboutHeader from "Components/About/AboutHeader"
+import Contact from "Components/Contact/Contact"
 
 export default class App extends Component {
   static displayName = App.name;
@@ -11,10 +11,12 @@ export default class App extends Component {
   render () {
     return (
       <>
+        
         <Layout>
-         <Route  exact path='/' component={LandingPageHeader} />
-         <Redirect from="/index" to="/"/> 
- 
+         <Route  exact path='/' component={PartOne} />
+         
+         <Route path="/AboutHeader" component={AboutHeader}/> 
+         <Route path="/Contact" component={Contact} navbarbg="#000000"/> 
         </Layout>
       </>
     );

@@ -12,34 +12,22 @@ export default function DemoFooter() {
           <nav className="footer-nav">
             <ul>
               <li>
-                <a
-                  href="/"
-                  
-                >
+                <a href="/">
                   Whiteaker Productions
                 </a>
               </li>
               <li>
-                <a
-                  href="/"
-                 
-                >
+                <a href="/">
                   Blog
                 </a>
               </li>
               <li>
-                <a
-                  href="/"
-                 
-                >
+                <a href="/">
                   Licenses
                 </a>
               </li>
             </ul>
           </nav>
-          <div className="credits ml-auto">
-            
-          </div>
         </Row>
       </Container>
     </footer>

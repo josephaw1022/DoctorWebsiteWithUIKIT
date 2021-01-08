@@ -16,6 +16,7 @@ import {
 } from "reactstrap";
 
 export default function ExamplesNavbar() {
+  ExamplesNavbar.displayName = ExamplesNavbar.name ; 
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
@@ -55,12 +56,12 @@ export default function ExamplesNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            to="#"
+            to="/"
             
-            title="Coded by Creative Tim"
+            title="A+ Counseling & Consulting, LLC"
             tag={Link}
           >
-            A+ Counselling & Consulting, LLC
+            A+ Counseling & Consulting, LLC
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -81,14 +82,13 @@ export default function ExamplesNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink to="#" tag={Link}>
+              <NavLink tag={Link} to="/AboutHeader" title="About" >
                 <i className="nc-icon nc-layout-11" /> About
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                href="#"
-                target="_blank"
+                tag={Link} to="/Contact" title="Contact"
               >
                 <i className="nc-icon nc-book-bookmark" /> Contact
               </NavLink>
@@ -135,3 +135,4 @@ export default function ExamplesNavbar() {
 }
 
 
+ 

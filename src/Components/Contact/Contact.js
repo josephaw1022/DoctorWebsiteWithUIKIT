@@ -20,7 +20,7 @@ function ContactUs() {
     window.scrollTo(0, 0);
     document.body.scrollTop = 0;
     return function cleanup() {
-      document.body.classList.remove("contact-page");
+    
     };
   });
   return (
@@ -28,7 +28,7 @@ function ContactUs() {
 
     
     
-      <div className="main">
+      <div className="main contact-page">
       <div className="bg-success" >
         <div className="section reddy">
           <Container>

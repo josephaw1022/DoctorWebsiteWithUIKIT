@@ -8714,7 +8714,7 @@ a.pswp__share--download:hover {
   z-index: 2; }
 
 #register-navbar a {
-  color: #FFF; }
+  color: #000000; }
 
 .register-footer {
   bottom: 20px;
@@ -9014,6 +9014,7 @@ a.pswp__share--download:hover {
       margin-top: 10px; }
 
 .contact-page .navbar {
+  background-color: #000;
   margin-bottom: 0px; }
 
 .contact-page .title {

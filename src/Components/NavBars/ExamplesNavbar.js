@@ -37,7 +37,7 @@ export default function ExamplesNavbar() {
         document.documentElement.scrollTop > 299 ||
         document.body.scrollTop > 299
       ) {
-        setNavbarColor("navbar-dark");
+        setNavbarColor("navbar-transparent");
       } else if (
         document.documentElement.scrollTop < 300 ||
         document.body.scrollTop < 300
@@ -54,7 +54,7 @@ export default function ExamplesNavbar() {
   });
   return (
     <Navbar
-      className={classnames("fixed-top", navbarColor)}
+      className={classnames("fixed-top" + "nav-light")}
       color-on-scroll="300"
       expand="lg"
     >

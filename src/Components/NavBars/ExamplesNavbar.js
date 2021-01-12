@@ -28,7 +28,7 @@ export default function ExamplesNavbar() {
 
   const toggleNavbarCollapse = () => {
     setNavbarCollapse(!navbarCollapse);
-    document.documentElement.classList.toggle("nav-close");
+    document.documentElement.classList.toggle("nav-open");
   };
 
   React.useEffect(() => {

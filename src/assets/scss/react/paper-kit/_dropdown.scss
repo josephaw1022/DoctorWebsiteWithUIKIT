@@ -22,3 +22,20 @@
     }
   }
 }
+.dropdown.show .dropdown-menu .dropdown:not(.show) .dropdown-menu{
+  display: none;
+}
+.dropdown-menu{
+  .dropdown{
+    .dropdown-toggle.dropdown-item {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+    &:last-child{
+      > .dropdown-toggle.dropdown-item {
+        border-bottom-left-radius: 12px !important;
+        border-bottom-right-radius: 12px !important;
+      }
+    }
+  }
+}

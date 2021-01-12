@@ -1,71 +1,130 @@
-.btn-twitter{
-    color: $social-twitter !important;
-
-    &:hover,
-    &:focus,
-    &:active{
-        color: $social-twitter !important;
-    }
+.btn-facebook {
+	@include social-buttons-color($social-facebook);
 }
 
-.btn-facebook{
-    color: $social-facebook !important;
-
-    &:hover,
-    &:focus,
-    &:active{
-        color: $social-facebook !important;
-    }
+.btn-twitter {
+	@include social-buttons-color($social-twitter);
 }
 
-.btn-google{
-    color: $social-google !important;
-
-    &:hover,
-    &:focus,
-    &:active{
-        color: $social-google !important;
-    }
+.btn-pinterest {
+	@include social-buttons-color($social-pinterest);
 }
 
-.btn-linkedin{
-    color: $social-linkedin !important;
+.btn-google {
+	@include social-buttons-color($social-google);
+}
 
-    &:hover,
-    &:focus,
-    &:active{
-        color: $social-linkedin !important;
-    }
+.btn-linkedin {
+	@include social-buttons-color($social-linkedin);
 }
-.btn-twitter-bg{
-    background-color: $social-twitter !important;
-    border-color: $social-twitter !important;
-    &:hover{
-        background-color: darken($social-twitter, 5%) !important;
-        border-color: darken($social-twitter, 5%) !important;
-    }
+
+.btn-dribbble {
+	@include social-buttons-color($social-dribbble);
 }
-.btn-facebook-bg{
-    background-color: $social-facebook !important;
-    border-color: $social-facebook !important;
-    &:hover{
-        background-color: darken($social-facebook, 5%) !important;
-        border-color: darken($social-facebook, 5%) !important;
-    }
+
+.btn-github {
+	@include social-buttons-color($social-github);
 }
-.btn-google-bg{
-    background-color: $social-google !important;
-    border-color: $social-google !important;
-    &:hover{
-        background-color: darken($social-google, 5%) !important;
-        border-color: darken($social-google, 5%) !important;
-    }
+
+.btn-youtube {
+	@include social-buttons-color($social-youtube);
 }
-.btn-github-bg{
-    background-color: #767676 !important;
-    border-color: #767676 !important;
-    &:hover{
-        background-color: darken(#767676, 5%) !important;
-        border-color: darken(#767676, 5%) !important;
-    }
+
+.btn-instagram {
+	@include social-buttons-color($social-instagram);
+}
+
+.btn-reddit {
+	@include social-buttons-color($social-reddit);
+}
+
+.btn-tumblr {
+	@include social-buttons-color($social-tumblr);
+}
+.label-facebook {
+	@include social-label-color($social-facebook);
+}
+
+.label-twitter {
+	@include social-label-color($social-twitter);
+}
+
+.label-pinterest {
+	@include social-label-color($social-pinterest);
+}
+
+.label-google {
+	@include social-label-color($social-google);
+}
+
+.label-linkedin {
+	@include social-label-color($social-linkedin);
+}
+
+.label-dribbble {
+	@include social-label-color($social-dribbble);
+}
+
+.label-github {
+	@include social-label-color($social-github);
+}
+
+.label-youtube {
+	@include social-label-color($social-youtube);
+}
+
+.label-instagram {
+	@include social-label-color($social-instagram);
+}
+
+.label-reddit {
+	@include social-label-color($social-reddit);
+}
+
+.label-tumblr {
+	@include social-label-color($social-tumblr);
+}
+
+.icon-facebook {
+	@include social-icon-color($social-facebook);
+}
+
+.icon-twitter {
+	@include social-icon-color($social-twitter);
+}
+
+.icon-pinterest {
+	@include social-icon-color($social-pinterest);
+}
+
+.icon-google {
+	@include social-icon-color($social-google);
+}
+
+.icon-linkedin {
+	@include social-icon-color($social-linkedin);
+}
+
+.icon-dribbble {
+	@include social-icon-color($social-dribbble);
+}
+
+.icon-github {
+	@include social-icon-color($social-github);
+}
+
+.icon-youtube {
+	@include social-icon-color($social-youtube);
+}
+
+.icon-instagram {
+	@include social-icon-color($social-instagram);
+}
+
+.icon-reddit {
+	@include social-icon-color($social-reddit);
+}
+
+.icon-tumblr {
+	@include social-icon-color($social-tumblr);
 }

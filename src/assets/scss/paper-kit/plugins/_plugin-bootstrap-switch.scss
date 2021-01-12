@@ -80,37 +80,37 @@
  .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
  .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
    color: #fff;
-   background: $primary-color;
+   background: #7A9E9F;
  }
 
  .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-info,
  .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-info {
    color: #fff;
-   background: $info-color;
+   background: #68B3C8;
  }
 
  .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-success,
  .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-success {
    color: #fff;
-   background: $success-color;
+   background: #7AC29A;
  }
 
  .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-warning,
  .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-warning {
-   background: $warning-color;
+   background: #F3BB45;
    color: #fff;
  }
 
  .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-danger,
  .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-danger {
    color: #fff;
-   background: $danger-color;
+   background: #EB5E28;
  }
 
 
  .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default {
    color: #fff;
-   background: $default-color;
+   background: #cfcfca;
  }
 
  .bootstrap-switch .bootstrap-switch-label {
@@ -243,26 +243,26 @@
  }
 
  .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-danger  {
-   background-color: $danger-color;
+   background-color: #EB5E28;
  }
 
  .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-warning  {
-   background-color: $warning-color;
+   background-color: #F3BB45;
  }
 
  .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-success  {
-   background-color: $success-color;
+   background-color: #7AC29A;
  }
 
  .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-primary  {
-   background-color: $primary-color;
+   background-color: #7A9E9F;
  }
 
  .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-info  {
-   background-color: $info-color;
+   background-color: #68B3C8;
  }
  .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-default  {
-   background-color: $default-color;
+   background-color: #66615B;
  }
 
  .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-danger,

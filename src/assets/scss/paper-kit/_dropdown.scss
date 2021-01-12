@@ -8,33 +8,33 @@
       @include box-shadow($dropdown-shadow);
       visibility: hidden;
       position: absolute;
-      
-      &[x-placement="top-start"]{
-          @include transform-translate-y-dropdown(0px);
-
-      }
-      &[x-placement="bottom-start"]{
-          @include transform-translate-y-dropdown(0px);
-      }
+      //
+      // &[x-placement="top-start"]{
+      //     @include transform-translate-y-dropdown(0px);
+      //
+      // }
+      // &[x-placement="bottom-start"]{
+      //     @include transform-translate-y-dropdown(0px);
+      // }
   }
-
-  &.show .dropdown-menu{
-      @include opacity(1);
-      visibility: visible;
-
-      &[x-placement="top-start"]{
-          @include transform-translate-y-dropdown(-50px);
-          top: auto !important;
-          bottom: 0 !important;
-
-      }
-      &[x-placement="bottom-start"]{
-          @include transform-translate-y-dropdown(40px);
-          bottom: auto !important;
-          top: 0 !important;
-      }
-  }
-}
+//
+//   &.show .dropdown-menu{
+//       @include opacity(1);
+//       visibility: visible;
+//
+//       &[x-placement="top-start"]{
+//           @include transform-translate-y-dropdown(-50px);
+//           top: auto !important;
+//           bottom: 0 !important;
+//
+//       }
+//       &[x-placement="bottom-start"]{
+//           @include transform-translate-y-dropdown(40px);
+//           bottom: auto !important;
+//           top: 0 !important;
+//       }
+//   }
+// }
 
 .dropdown-menu{
     background-color: $white-color;

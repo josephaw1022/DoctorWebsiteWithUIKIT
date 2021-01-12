@@ -1,46 +1,30 @@
 import React from "react";
-import {Container,Button } from "reactstrap"
-import "./AboutHeader.css"
-export default function AboutHeader(props) {
-    AboutHeader.displayName = AboutHeader.name; 
 
-   
-    
-      
-    return ( 
-        <>
+// reactstrap components
+import { Container } from "reactstrap";
+
+// core components
+
+function AboutUsHeader() {
+  return (
+    <>
       <div
-        style={{
-          backgroundImage:
-            "url(" + require("assets/img/forest-bg.jpg") + ")",}}
-        className="page-header"
-        data-parallax={true}
-        ref={AboutHeader}
-      >
+        className="page-header page-header-small"
         
-        <div className="filter" />
-        <Container>
-          <div className="motto text-center">
-            <h1>"The good life is a process..." </h1>
-            <h3>- Carl Rogers</h3>
-            <br />
-            <Button
-              href="#"
-              className="btn-round mr-1"
-              color="neutral"
-              outline
-            >
-              <i className="fa fa-play" />
-              Watch video
-            </Button>
-            <Button className="btn-round" color="neutral" type="button" outline>
-              Learn more 
-            </Button>
-          </div>
-        </Container>
-
+      >
+        <div className="filter filter-danger" />
+        <div className="content-center">
+          <Container>
+            <h1>
+              
+              Welcome to Lowcountry Couneseling and & Consulting, LLC
+            </h1>
+            <h3>Let us tell you more about what we do.</h3>
+          </Container>
+        </div>
       </div>
-   
     </>
-    );
-} 
+  );
+}
+
+export default AboutUsHeader;

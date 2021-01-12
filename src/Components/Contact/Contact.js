@@ -1,42 +1,20 @@
 import React from "react";
+// react plugin used to create google maps
 
 // reactstrap components
 import { Button, Form, Input, Container, Row, Col } from "reactstrap";
-import "./Contact.css"
-import { InputGroupAddon, InputGroup, InputGroupText} from 'reactstrap';
+import {
 
+    Card,
+    CardBody,
+    CardFooter,
+    CardTitle
+  } from "reactstrap";
+  
 
-// function Contact() {
-//   let contactheader = React.createRef(); 
-
-//   React.useEffect(() => {
-//     if (window.innerWidth < 991) {
-//       const updateScroll = () => {
-//         let windowScrollTop = window.pageYOffset / 3;
-//         contactheader.current.style.transform =
-//           "translate3d(0," + windowScrollTop + "px,0)";
-//       };
-//       window.addEventListener("scroll", updateScroll);
-//       return function cleanup() {
-//         window.removeEventListener("scroll", updateScroll);
-//       };
-//     }
-//   });
-
-
-//   return (
-//     <>
-    
-      
-
-//     </>
-//   );
-// }
-
-// export default Contact;
 
 function ContactUs() {
-  document.documentElement.classList.remove("nav-open");
+    
   React.useEffect(() => {
     document.body.classList.add("contact-page");
     window.scrollTo(0, 0);
@@ -47,19 +25,17 @@ function ContactUs() {
   });
   return (
     <>
-      {/* <InfoNavbar /> */}
+
+    
+    
       <div className="main">
-        <div className="section section-gray"
-        style={{
-          backgroundImage:
-            "url(" + require("assets/img/daniel-olahh.jpg") + ")",}}
-            >
+      <div className="bg-success" >
+        <div className="section reddy">
           <Container>
-            
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title" style={{color:"white"}}>Get in touch with us</h2>
-                <p style={{color:"white"}}>
+                <h2 className="title">Get in touch with us</h2>
+                <p>
                   Collaboratively administrate empowered markets via
                   plug-and-play networks. Dynamically procrastinate B2C users
                   after installed base benefits. Dramatically visualise customer
@@ -68,61 +44,57 @@ function ContactUs() {
               </Col>
             </Row>
             <Row>
-              {/*  */}
+              <Col className="ml-auto mr-auto text-center" md="6">
+                <h3 className="title">
+                  <small>Find us on social networks</small>
+                </h3>
+                <Button className="btn-just-icon mr-1" color="twitter">
+                  <i className="fa fa-twitter" />
+                </Button>
+                <Button className="btn-just-icon mr-1" color="facebook">
+                  <i className="fa fa-facebook" />
+                </Button>
+                <Button className="btn-just-icon mr-1" color="google">
+                  <i className="fa fa-google" />
+                </Button>
+                <Button className="btn-just-icon mr-1" color="dribbble">
+                  <i className="fa fa-dribbble" />
+                </Button>
+                <Button className="btn-just-icon mr-1" color="instagram">
+                  <i className="fa fa-instagram" />
+                </Button>
+                <Button className="btn-just-icon" color="youtube">
+                  <i className="fa fa-youtube" />
+                </Button>
+              </Col>
             </Row>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="6">
-                <h3 className="title adjust adjust">
-                  <small style={{color:"white"}}>Or drop us a note</small>
+                <h3 className="title">
+                  <small>Or drop us a note</small>
                 </h3>
-                <Form className="contact-form">
+                <Form className="contact">
                   <Row>
-                    <Col >
-                      <label>First name</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-single-02" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Full name" type="text" />
-                      </InputGroup>
-                      </Col> 
-                      <Col> 
-                      <label>Last name</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-single-02" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Full name" type="text" />
-                      </InputGroup>
+                    <Col md="6">
+                      <Input placeholder="First Name" type="text" />
                     </Col>
-                    </Row>
-                    <Row>
-                    <Col >
-                      <label>Email</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-email-85" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Email" type="text" />
-                      </InputGroup>
+                    <Col md="6">
+                      <Input placeholder="Last Name" type="text" />
                     </Col>
                   </Row>
-                  <label>Message</label>
-                  <Input
-                    placeholder="Tell us your thoughts and feelings..."
-                    type="textarea"
-                    rows="4"
-                  />
                   <Row>
-                    <Col className="ml-auto mr-auto" md="4">
-                      <Button className="btn-fill" color="danger" size="lg">
-                        Send Message
+                    <Col md="6">
+                      <Input placeholder="Email" type="text" />
+                    </Col>
+                    <Col md="6">
+                      <Input placeholder="Subject" type="text" />
+                    </Col>
+                  </Row>
+                  <Input placeholder="Message" rows="7" type="textarea" />
+                  <Row>
+                    <Col className="ml-auto mr-auto" md="6">
+                      <Button block className="btn-round" color="primary">
+                        Send
                       </Button>
                     </Col>
                   </Row>
@@ -135,18 +107,262 @@ function ContactUs() {
           </Container>
         </div>
       </div>
-      <div className="big-map" id="contactUsMap">
-        {/* <MapWrapper
-          googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
-          loadingElement={<div style={{ height: `100%` }} />}
-          containerElement={<div style={{ height: `100%` }} />}
-          mapElement={<div style={{ height: `100%` }} />}
-        /> */}
-      </div>
       
+
+        <div className="section">
+          <Container>
+            <h3 className="title-uppercase">We build great products.</h3>
+            <p>
+              Collaboratively administrate empowered markets via plug-and-play
+              networks. Dynamically procrastinate B2C users after installed base
+              benefits. Dramatically visualize customer directed convergence
+              without revolutionary ROI.
+            </p>
+            <p>
+              Efficiently unleash cross-media information without cross-media
+              value. Quickly maximize timely deliverables for real-time schemas.
+              Dramatically maintain clicks-and-mortar solutions without
+              functional solutions.
+            </p>
+            <h3 className="title-uppercase">
+              We
+              <i className="fa fa-heart heart mr-3 ml-1" />
+              what we do.
+            </h3>
+            <p>
+              Completely synergize resource taxing relationships via premier
+              niche markets. Professionally cultivate one-to-one customer
+              service with robust ideas. Dynamically innovate resource-leveling
+              customer service for state of the art customer service.
+            </p>
+            <h2 className="text-center creators">Creators</h2>
+            <Row>
+              <Col md="4">
+                <Card className="card-profile card-plain">
+                  <CardBody>
+                    <div className="card-avatar">
+                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <img
+                          alt="..."
+                          src={require("assets/img/faces/ayo-ogunseinde-2.jpg")}
+                        />
+                        <CardTitle tag="h4">Eric Thomson</CardTitle>
+                      </a>
+                    </div>
+                    <p className="card-description text-center">
+                      A group becomes a team when each member is sure enough of
+                      himself and his contribution to praise the skill of the
+                      others. No one can whistle a symphony. It takes orchestra
+                      to play it.
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button
+                      className="btn-just-icon mr-1"
+                      color="linkedin"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-linkedin" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon mr-1"
+                      color="dribbble"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-dribbble" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon"
+                      color="instagram"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-instagram" />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-profile card-plain">
+                  <CardBody>
+                    <div className="card-avatar">
+                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <img
+                          alt="..."
+                          src={require("assets/img/faces/joe-gardner-2.jpg")}
+                        />
+                        <CardTitle tag="h4">Sophia West</CardTitle>
+                      </a>
+                    </div>
+                    <p className="card-description text-center">
+                      The strength of the team is each individual member. The
+                      strength of each member is the team. If you can laugh
+                      together, you can work together, silence isn’t golden,
+                      it’s deadly.
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button
+                      className="btn-just-icon mr-1"
+                      color="linkedin"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-linkedin" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon mr-1"
+                      color="dribbble"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-dribbble" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon"
+                      color="pinterest"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-pinterest" />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-profile card-plain">
+                  <CardBody>
+                    <div className="card-avatar">
+                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        <img
+                          alt="..."
+                          src={require("assets/img/faces/clem-onojeghuo-2.jpg")}
+                        />
+                        <CardTitle tag="h4">Lucas Andrew</CardTitle>
+                      </a>
+                    </div>
+                    <p className="card-description text-center">
+                      Great teams do not hold back with one another. They are
+                      unafraid to air their dirty laundry. They admit their
+                      mistakes, their weaknesses and their concerns without fear
+                      of reprisal.
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button
+                      className="btn-just-icon mr-1"
+                      color="youtube"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-youtube" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon mr-1"
+                      color="twitter"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-twitter" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon"
+                      color="instagram"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-instagram" />
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+            </Row>
+            <h3 className="more-info">Need more information?</h3>
+            <Row className="coloured-cards">
+              <Col md="4" sm="6">
+                <div className="card-big-shadow">
+                  <Card
+                    className="card-just-text"
+                    data-background="color"
+                    data-color="blue"
+                    data-radius="none"
+                  >
+                    <CardBody>
+                      <h6 className="card-category">Best cards</h6>
+                      <CardTitle tag="h4">
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          Blue Card
+                        </a>
+                      </CardTitle>
+                      <p className="card-description">
+                        What all of these have in common is that they're pulling
+                        information out of the app or the service and making it
+                        relevant to the moment.
+                      </p>
+                    </CardBody>
+                  </Card>
+                  {/* end card */}
+                </div>
+              </Col>
+              <Col md="4" sm="6">
+                <div className="card-big-shadow">
+                  <Card
+                    className="card-just-text"
+                    data-background="color"
+                    data-color="green"
+                    data-radius="none"
+                  >
+                    <CardBody>
+                      <h6 className="card-category">Best cards</h6>
+                      <CardTitle tag="h4">
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          Green Card
+                        </a>
+                      </CardTitle>
+                      <p className="card-description">
+                        What all of these have in common is that they're pulling
+                        information out of the app or the service and making it
+                        relevant to the moment.
+                      </p>
+                    </CardBody>
+                  </Card>
+                  {/* end card */}
+                </div>
+              </Col>
+              <Col md="4" sm="6">
+                <div className="card-big-shadow">
+                  <Card
+                    className="card-just-text"
+                    data-background="color"
+                    data-color="yellow"
+                    data-radius="none"
+                  >
+                    <CardBody>
+                      <h6 className="card-category">Best cards</h6>
+                      <CardTitle tag="h4">
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          Yellow Card
+                        </a>
+                      </CardTitle>
+                      <p className="card-description">
+                        What all of these have in common is that they're pulling
+                        information out of the app or the service and making it
+                        relevant to the moment.
+                      </p>
+                    </CardBody>
+                  </Card>
+                  {/* end card */}
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </div>
+
     </>
   );
 }
 
 export default ContactUs;
-

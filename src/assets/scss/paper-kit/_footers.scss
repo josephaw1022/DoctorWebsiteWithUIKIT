@@ -129,3 +129,133 @@
         color: $default-states-color;
     }
 }
+
+.footer-black,
+.footer-transparent{
+    background-color: $black-footer-bg;
+    color: $medium-gray;
+
+    .links ul{
+        a:not(.btn){
+            color: $brown-font-color;
+            &:hover,
+            &:focus{
+                color: $brown-font-color-hover;
+            }
+        }
+    }
+    .copyright {
+        color: $brown-font-color;
+        ul > li{
+            a:not(.btn){
+                color: $brown-font-color;
+            }
+        }
+    }
+
+    hr{
+        border-color: $font-color;
+    }
+}
+.footer-transparent{
+    background-size: cover;
+    position: relative;
+
+    .container{
+        z-index: 2;
+        position: relative;
+    }
+    hr{
+        border-color: $brown-font-color;
+    }
+    .copyright {
+        color: $brown-font-color;
+        ul > li a:not(.btn){
+                color: $brown-font-color;
+        }
+    }
+
+    &::after{
+        @include black-filter(.5);
+    }
+}
+.footer-gray{
+    background-color: #F3F2EE;
+}
+.footer-big{
+    padding: 30px 0;
+    hr{
+        margin-top: 20px;
+    }
+    .copyright{
+        margin: 10px 0px 20px;
+    }
+    .form-group{
+        margin-top: 15px;
+    }
+}
+
+// pre-footers lines
+.subscribe-line{
+    background-color: $pale-bg;
+    padding: 35px 0;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0;
+
+    .form-group{
+        margin: $none;
+    }
+    .form-control{
+         height: auto;
+         font-size: $font-size-h3;
+         border: $none;
+         padding: $none;
+         font-weight: $font-weight-light;
+         line-height: $line-height-lg;
+         background-color: $transparent-bg;
+    }
+
+    .btn:not(.btn-lg){
+        margin-top: 7px;
+    }
+}
+
+.subscribe-line-black{
+    background-color: $black-footer-bg;
+    .form-control{
+        color: $white-color;
+    }
+}
+
+.subscribe-line-transparent{
+    @extend .footer-transparent;
+    .form-control{
+        color: $white-color;
+    }
+}
+
+.social-line{
+    padding: 30px 0;
+    background-color: $white-color;
+    .title{
+        margin: $none;
+        line-height: $height-base;
+        font-size: $font-size-h4;
+    }
+    .title-with-lg{
+        padding-top: 5px;
+    }
+    .btn{
+        width: 100%;
+    }
+}
+
+.social-line-black{
+    background-color: $black-footer-bg;
+    color: $white-color;
+    .title{
+        color: $white-color;
+    }
+}

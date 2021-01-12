@@ -78,7 +78,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   position: absolute;
-  outline: none;
 }
 .noUi-touch-area {
   height: 100%;
@@ -101,8 +100,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
   width: 15px;
   height: 15px;
   left: -7px;
-  top: -6px;
-  border-radius: 50%;
+  top: 0px;
 }
 .noUi-vertical {
   width: 18px;

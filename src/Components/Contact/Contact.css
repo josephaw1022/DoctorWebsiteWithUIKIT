@@ -1,6 +1,51 @@
-label, p, h1,h2,h3,h4,h5,h6, small{ 
+ p, h1,h2,h3,h4,h5,h6, small{ 
     color:white; 
+    z-index: 1;
+}
+
+.contactbground{ 
+    background-image: url("./sample.png");
 }
 .adjust{ 
-    color:white ; 
+    color:"#ffffff" ; 
 }
+
+.videobground{ 
+    position: absolute;
+    width: 480 ; 
+    height: 272; 
+    
+
+}
+
+.reddy{ 
+    background-color: black;
+}
+
+/* @media (min-aspect-ratio:16/9){
+    .videobground{ 
+        width: 100%;
+        height:auto%; 
+    } 
+
+} */
+/* 
+
+@media (max-aspect-ratio:16/9){
+    .videobground{ 
+        width:100%;
+        height:auto; 
+    } 
+
+} */
+
+
+/* @media (max-width: 767px) {
+    .videobground{
+        display: none;
+    } 
+     body {
+        
+        background-size: cover;
+    }
+} */

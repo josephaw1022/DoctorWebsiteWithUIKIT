@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.35161f28.chunk.css",
-    "main.js": "/static/js/main.7c006235.chunk.js",
-    "main.js.map": "/static/js/main.7c006235.chunk.js.map",
+    "main.css": "/static/css/main.590c12f3.chunk.css",
+    "main.js": "/static/js/main.77b4b4d7.chunk.js",
+    "main.js.map": "/static/js/main.77b4b4d7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f693082c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f693082c.js.map",
-    "static/js/2.289240b2.chunk.js": "/static/js/2.289240b2.chunk.js",
-    "static/js/2.289240b2.chunk.js.map": "/static/js/2.289240b2.chunk.js.map",
+    "static/js/2.289982e4.chunk.js": "/static/js/2.289982e4.chunk.js",
+    "static/js/2.289982e4.chunk.js.map": "/static/js/2.289982e4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.00cfc54a60987815912267e6742d00be.js": "/precache-manifest.00cfc54a60987815912267e6742d00be.js",
+    "precache-manifest.1c62a292c4d30c19217e98a99da52ee0.js": "/precache-manifest.1c62a292c4d30c19217e98a99da52ee0.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.35161f28.chunk.css.map": "/static/css/main.35161f28.chunk.css.map",
-    "static/js/2.289240b2.chunk.js.LICENSE.txt": "/static/js/2.289240b2.chunk.js.LICENSE.txt",
+    "static/css/main.590c12f3.chunk.css.map": "/static/css/main.590c12f3.chunk.css.map",
+    "static/js/2.289982e4.chunk.js.LICENSE.txt": "/static/js/2.289982e4.chunk.js.LICENSE.txt",
+    "static/media/changecolor.css": "/static/media/uriel-soberanes.1095a459.jpg",
+    "static/media/ayo-ogunseinde-2.jpg": "/static/media/ayo-ogunseinde-2.bfc688ca.jpg",
     "static/media/brownprofile.png": "/static/media/brownprofile.1e4967d1.png",
-    "static/media/daniel-olahh.jpg": "/static/media/daniel-olahh.facbbdb7.jpg",
-    "static/media/forest-bg.jpg": "/static/media/forest-bg.c01a822c.jpg"
+    "static/media/clem-onojeghuo-2.jpg": "/static/media/clem-onojeghuo-2.bb4b9ac9.jpg",
+    "static/media/joe-gardner-2.jpg": "/static/media/joe-gardner-2.76ff47ae.jpg",
+    "static/media/paper-kit.scss": "/static/media/nucleo-icons.f32ed5ad.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.f693082c.js",
-    "static/js/2.289240b2.chunk.js",
-    "static/css/main.35161f28.chunk.css",
-    "static/js/main.7c006235.chunk.js"
+    "static/js/2.289982e4.chunk.js",
+    "static/css/main.590c12f3.chunk.css",
+    "static/js/main.77b4b4d7.chunk.js"
   ]
 }

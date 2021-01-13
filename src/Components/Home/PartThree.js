@@ -17,17 +17,6 @@ import {
 
 } from "reactstrap";
  
-import { Link } from "react-router-dom"
-import ContactMe from "./ContactMe"
-// core component
-
-
-
-
-
-
-
-
 export default function PartThree() {
 
     document.documentElement.classList.remove("nav-open");
@@ -39,7 +28,7 @@ export default function PartThree() {
     });
     return (
       <>
-        
+        <div className="section" style={{marginBottom:"250px", height:"100%"}}>
         <Container id="Contact">
         <Row>
         <Col className="ml-auto mr-auto text-center" md="8">
@@ -142,6 +131,7 @@ export default function PartThree() {
         </Col>
         </Row>
         </Container>
+        </div>
         </> 
     ); 
 } 

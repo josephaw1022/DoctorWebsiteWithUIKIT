@@ -8,17 +8,8 @@ import {
   Col
 } from "reactstrap";
 
-import {
-
-  Card,
-  CardFooter,
-  CardBody,
-
-
-} from "reactstrap";
- 
 import { Link } from "react-router-dom"
-import ContactMe from "./ContactMe"
+
 // core component
 
 export default function PartTwo() {

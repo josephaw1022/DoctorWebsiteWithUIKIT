@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { Route, Redirect} from 'react-router-dom'
+import { Route} from 'react-router-dom'
 import {Layout } from "Components/Layout" 
 import HomeIndex from "Components/Home/HomeIndex"
 import AboutHeader from "Components/About/AboutHeader"
 import Contact from "Components/Contact/Contact"
-import NotFoundPage from "Components/Error/NotFoundPage"
+// import NotFoundPage from "Components/Error/NotFoundPage"
 export default class App extends Component {
   static displayName = App.name;
 

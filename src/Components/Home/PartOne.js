@@ -3,9 +3,9 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col, } from "reactstrap";
-import PartTwo from "./PartTwo" 
+// import PartTwo from "./PartTwo" 
 // import PartTwo from "./PartTwo"
-import "./changecolor.css"
+
 // core components
 
  function PartOne() {
@@ -15,8 +15,8 @@ import "./changecolor.css"
     if (window.innerWidth < 991) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
-        // pageHeader.current.style.transform =
-        //   "translate3d(0," + windowScrollTop + "px,0)";
+        pageHeader.current.style.transform =
+          "translate3d(0," + windowScrollTop + "px,0)";
       };
       window.addEventListener("scroll", updateScroll);
       return function cleanup() {
@@ -34,7 +34,7 @@ import "./changecolor.css"
       className="page-header"
       style={{
         backgroundImage:
-          "url(" + require("assets/img/brownprofile.png") + ")",
+          "url(" + require("./img/beach.png") + ")",
       }}
     >
       <div className="filter" />

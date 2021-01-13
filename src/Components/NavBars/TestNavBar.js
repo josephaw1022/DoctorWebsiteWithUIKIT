@@ -69,7 +69,7 @@ function TestNavBar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand id="navbar-brand" to="/" tag={Link}>
-            <img src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"30%",height:"auto"}}/>
+            <img src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"25%",height:"auto"}}/>
               A+ Counseling
             </NavbarBrand>
             
@@ -94,25 +94,7 @@ function TestNavBar() {
           </div>
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle className="mr-2" color="default" caret nav>
-                  Components
-                </DropdownToggle>
-                <DropdownMenu className="dropdown-danger" right>
-                  <DropdownItem to="/" tag={Link}>
-                    All Components
-                  </DropdownItem>
-                  <DropdownItem to="/presentation" tag={Link}>
-                    Presentation
-                  </DropdownItem>
-                  <DropdownItem
-                    href="https://demos.creative-tim.com/paper-kit-pro-react/#/documentation/introduction?ref=pkpr-color-navbar"
-                    target="_blank"
-                  >
-                    Documentation
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+              
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle className="mr-2" color="default" caret nav>
                   Pages
@@ -123,7 +105,7 @@ function TestNavBar() {
                     Home
                   </DropdownItem>
                   <DropdownItem to="/About" tag={Link}>
-                    <i className="nc-icon nc-settings" />
+                    <i className="nc-icon nc-alert-circle-i" />
                     About
                   </DropdownItem>
                   <DropdownItem to="/Contact" tag={Link}>
@@ -139,8 +121,8 @@ function TestNavBar() {
                     Staff 
                   </DropdownItem>
                   <DropdownItem to="/sections#pricing" tag={Link}>
-                    <i className="nc-icon nc-money-coins" />
-                    
+                    <i className="nc-icon nc-laptop" />
+                    Telehealth
                   </DropdownItem>
                   <DropdownItem to="/sections#testimonials" tag={Link}>
                     <i className="nc-icon nc-badge" />

@@ -28,7 +28,7 @@ function ContactUs() {
 
     
     
-      <div className="main contact-page">
+      <div className="main contact-page" id="ContactUs">
       <div className="bg-success" >
         <div className="section reddy">
           <Container>

@@ -1565,7 +1565,7 @@
 }
 
 .section-navbars #menu-dropdown .navbar .navbar-toggler .navbar-toggler-icon {
-  background: #fff;
+  background: transparent;
 }
 
 .note {
@@ -3354,3 +3354,5 @@ pre.prettyprint {
   -webkit-animation-name: Floatingx;
   -moz-animation-name: Floatingx;
 }
+
+/*           My Code                */

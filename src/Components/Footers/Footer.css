@@ -1,0 +1,23 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    text-align: center;
+    opacity: 1; /* Firefox */
+    font:auto; 
+  }
+
+  .form-bord{ 
+    border: 1px solid #ccc !important;
+    border-radius: 20px;
+    margin: 3px;
+  } 
+
+.dasds8{ 
+    text-align:center; 
+} 
+
+@media only screen and (max-width: 1200px) {
+    .form-bord{ 
+        border: 1px solid #ccc !important; 
+    }
+  }
+  

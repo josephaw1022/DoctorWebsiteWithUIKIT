@@ -37,12 +37,12 @@ export default function ExamplesNavbar() {
         document.documentElement.scrollTop > 299 ||
         document.body.scrollTop > 299
       ) {
-        setNavbarColor("navbar-transparent");
+        setNavbarColor("transparent");
       } else if (
         document.documentElement.scrollTop < 300 ||
         document.body.scrollTop < 300
       ) {
-        setNavbarColor("navbar-light");
+        setNavbarColor("transparent");
       }
     };
 
@@ -54,7 +54,7 @@ export default function ExamplesNavbar() {
   });
   return (
     <Navbar
-      className={classnames("fixed-top" + "nav-light")}
+      className={classnames("fixed-top" + "transparent")+ " fsd8a9a"}
       color-on-scroll="300"
       expand="lg"
     >

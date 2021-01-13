@@ -19,9 +19,9 @@
 }
 
 .reddy{ 
-    body{ 
-        background-color: "#000000";
-    }
+    
+    background-color: #000000 !important;
+    
 }
 
 /* @media (min-aspect-ratio:16/9){

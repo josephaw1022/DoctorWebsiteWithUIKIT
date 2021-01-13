@@ -3,6 +3,7 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col, } from "reactstrap";
+import PartTwo from "./PartTwo" 
 // import PartTwo from "./PartTwo"
 import "./changecolor.css"
 // core components
@@ -14,8 +15,8 @@ import "./changecolor.css"
     if (window.innerWidth < 991) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
-        pageHeader.current.style.transform =
-          "translate3d(0," + windowScrollTop + "px,0)";
+        // pageHeader.current.style.transform =
+        //   "translate3d(0," + windowScrollTop + "px,0)";
       };
       window.addEventListener("scroll", updateScroll);
       return function cleanup() {
@@ -25,45 +26,9 @@ import "./changecolor.css"
   });
 
   return (
-    // <>
-    //   <div className="main"> 
-    //   <div
-        
-    //     className="page-header"
-    //     data-parallax={true}
-    //     ref={pageHeader}
-    //   >
-        
-    //     <div className="filter" />
-    //     <Container>
-    //       <div className="motto text-center">
-    //         <h1>"The good life is a process..." </h1>
-    //         <h3>- Carl Rogers</h3>
-    //         <br />
-    //         <Button
-    //           href="#"
-    //           className="btn-round mr-1"
-    //           color="neutral"
-    //           outline
-    //         >
-    //           <i className="fa fa-play" />
-    //           Watch video
-    //         </Button>
-    //         <Button className="btn-round" color="neutral" type="button" outline>
-    //           Learn more 
-    //         </Button>
-    //       </div>
-    //       <p className="scrolldown">
-    //      <a className="smoothscroll" href="#about"><i className="fa fa-down"></i></a>
-    //   </p>
-    //     </Container>
-
-    //   </div>
-    //   <PartTwo/>
-    //   </div>
-    // </>
-
-    <div className="header-2">
+  
+    <>
+    <div className="header-2" id="home">
     
     <div
       className="page-header"
@@ -77,7 +42,7 @@ import "./changecolor.css"
         <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
-              <h1 className="title">Quality Lowcountry Counseling</h1>
+              <h1 className="title" id="navbarstuff">Quality Lowcountry Counseling</h1>
               <h5 className="description">
                 Whatever you want here
               </h5>
@@ -91,6 +56,8 @@ import "./changecolor.css"
       </div>
     </div>
   </div>
+  
+  </>
   );
 }
 

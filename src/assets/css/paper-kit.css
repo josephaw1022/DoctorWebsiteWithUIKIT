@@ -8858,6 +8858,7 @@ a.pswp__share--download:hover {
     color: #FFFFFF; }
 
 .contact-page .section:first-of-type, .discover .section:first-of-type, .search-page .section:first-of-type {
+  background-color: black !important;
   padding-top: 100px; }
 
 .profile-background {
@@ -9371,6 +9372,9 @@ body {
     padding-bottom: 20px; }
   .background-img .error-msg {
     text-align: center; }
+
+
+
 
 .section {
   padding: 70px 0;

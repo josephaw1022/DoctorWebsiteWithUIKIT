@@ -7,3 +7,14 @@
     white-space: nowrap !important;
     background-color: transparent !important;
 }
+
+@media (max-width: 2026px) {
+    img {
+        display: none;
+    }
+}
+
+.imagefixerupper{
+    width:100px !important;
+    height:100px !important;
+}

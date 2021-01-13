@@ -69,15 +69,14 @@ function TestNavBar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand id="navbar-brand" to="/" tag={Link}>
-            <img src={require('./logo.png')}  width="200" height="100" />
-              A+ Counseling & Consulting 
+            <img src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"30%",height:"auto"}}/>
+              A+ Counseling
             </NavbarBrand>
-
-            {/*  We may need to add this code back,but for now leave it out */}
-             <UncontrolledTooltip placement="bottom" target="navbar-brand">
-        
+            
+            <UncontrolledTooltip placement="bottom" target="navbar-brand">
+            
               A+ Counseling & Consulting
-            </UncontrolledTooltip> 
+            </UncontrolledTooltip>
             <button
               className="navbar-toggler"
               id="navigation"

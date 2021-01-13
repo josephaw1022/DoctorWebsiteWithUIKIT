@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.49509d4c.chunk.css",
-    "main.js": "/static/js/main.ca183b9e.chunk.js",
-    "main.js.map": "/static/js/main.ca183b9e.chunk.js.map",
+    "main.js": "/static/js/main.079bd2d6.chunk.js",
+    "main.js.map": "/static/js/main.079bd2d6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f693082c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f693082c.js.map",
-    "static/js/2.44cef8ce.chunk.js": "/static/js/2.44cef8ce.chunk.js",
-    "static/js/2.44cef8ce.chunk.js.map": "/static/js/2.44cef8ce.chunk.js.map",
+    "static/js/2.b46cb2ac.chunk.js": "/static/js/2.b46cb2ac.chunk.js",
+    "static/js/2.b46cb2ac.chunk.js.map": "/static/js/2.b46cb2ac.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6133749f1624b1e749b18c2ce4a2afec.js": "/precache-manifest.6133749f1624b1e749b18c2ce4a2afec.js",
+    "precache-manifest.c883141399d4c822874a79600a53e199.js": "/precache-manifest.c883141399d4c822874a79600a53e199.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.49509d4c.chunk.css.map": "/static/css/main.49509d4c.chunk.css.map",
-    "static/js/2.44cef8ce.chunk.js.LICENSE.txt": "/static/js/2.44cef8ce.chunk.js.LICENSE.txt",
+    "static/js/2.b46cb2ac.chunk.js.LICENSE.txt": "/static/js/2.b46cb2ac.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/static/media/uriel-soberanes.1095a459.jpg",
     "static/media/ayo-ogunseinde-2.jpg": "/static/media/ayo-ogunseinde-2.bfc688ca.jpg",
     "static/media/beach.png": "/static/media/beach.a1c49d83.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f693082c.js",
-    "static/js/2.44cef8ce.chunk.js",
+    "static/js/2.b46cb2ac.chunk.js",
     "static/css/main.49509d4c.chunk.css",
-    "static/js/main.ca183b9e.chunk.js"
+    "static/js/main.079bd2d6.chunk.js"
   ]
 }

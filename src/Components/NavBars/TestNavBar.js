@@ -72,10 +72,12 @@ function TestNavBar() {
             <img src={require('./logo.png')}  width="200" height="100" />
               A+ Counseling & Consulting 
             </NavbarBrand>
-            {/* <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            <img src={require('./logo.png')} style={{backgroundColor:"transparent"}}/>
+
+            {/*  We may need to add this code back,but for now leave it out */}
+             <UncontrolledTooltip placement="bottom" target="navbar-brand">
+        
               A+ Counseling & Consulting
-            </UncontrolledTooltip> */}
+            </UncontrolledTooltip> 
             <button
               className="navbar-toggler"
               id="navigation"

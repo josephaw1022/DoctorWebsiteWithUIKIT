@@ -9,14 +9,14 @@ import { Container, Row, Col, } from "reactstrap";
 // core components
 
  function PartOne() {
-  let pageHeader = React.createRef();
+  // let pageHeader = React.createRef();
 
   React.useEffect(() => {
     if (window.innerWidth < 991) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
-        pageHeader.current.style.transform =
-          "translate3d(0," + windowScrollTop + "px,0)";
+        // pageHeader.current.style.transform =
+        //   "translate3d(0," + windowScrollTop + "px,0)";
       };
       window.addEventListener("scroll", updateScroll);
       return function cleanup() {
@@ -42,7 +42,7 @@ import { Container, Row, Col, } from "reactstrap";
         <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
-              <h1 className="title" id="navbarstuff">Quality Lowcountry Counseling</h1>
+              <h1 className="title" id="navbarstuff">Quality Counseling</h1>
               <h5 className="description">
                 Whatever you want here
               </h5>

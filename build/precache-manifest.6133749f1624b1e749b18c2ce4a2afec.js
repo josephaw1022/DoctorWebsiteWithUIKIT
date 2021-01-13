@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3949861716891bd049489a34962a163",
+    "revision": "cbd787eb0a5e25ab256a7241c4c51e21",
     "url": "/index.html"
   },
   {
-    "revision": "1ec44205db4602041aa1",
+    "revision": "8f1b72a3ab94ce3664df",
     "url": "/static/css/main.49509d4c.chunk.css"
   },
   {
-    "revision": "bdac24c2301818e7a8e1",
-    "url": "/static/js/2.95c85fbf.chunk.js"
+    "revision": "236e4b880e3d015eb66a",
+    "url": "/static/js/2.44cef8ce.chunk.js"
   },
   {
     "revision": "123c36955d3b020d1348e93b9ab88993",
-    "url": "/static/js/2.95c85fbf.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.44cef8ce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ec44205db4602041aa1",
-    "url": "/static/js/main.d329f9e5.chunk.js"
+    "revision": "8f1b72a3ab94ce3664df",
+    "url": "/static/js/main.ca183b9e.chunk.js"
   },
   {
     "revision": "9f3fdab3f86a3b0f2aa6",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "76ff47ae5c64ccda5af18326bb272058",
     "url": "/static/media/joe-gardner-2.76ff47ae.jpg"
+  },
+  {
+    "revision": "ea0a05cf66a2df07b2527cab69893c34",
+    "url": "/static/media/logo.ea0a05cf.png"
   },
   {
     "revision": "48ac036da7c7923266266f63746fc5f1",

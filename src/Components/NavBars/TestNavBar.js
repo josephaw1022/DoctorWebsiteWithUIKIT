@@ -8,7 +8,7 @@ import classnames from "classnames";
 import Headroom from "headroom.js";
 // reactstrap components
 import {
-
+  Button, 
   Collapse,
   DropdownToggle,
   DropdownMenu,
@@ -16,7 +16,8 @@ import {
   UncontrolledDropdown,
   NavbarBrand,
   Navbar,
-
+  NavItem, 
+  NavLink,
   Nav,
   Container,
   UncontrolledTooltip,
@@ -62,7 +63,7 @@ function TestNavBar() {
         />
       ) : null}
       <Navbar
-        className={classnames("fixed-top", navbarColor)}
+        className={classnames("fixed-top ", navbarColor)}
         expand="lg"
         id="navbar-main"
       >
@@ -74,7 +75,6 @@ function TestNavBar() {
             </NavbarBrand>
             
             <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            
               A+ Counseling & Consulting
             </UncontrolledTooltip>
             <button
@@ -92,18 +92,28 @@ function TestNavBar() {
               <span className="navbar-toggler-bar bar3" />
             </button>
           </div>
+          {/* <NavItem>
+            <NavLink tag={Link} to="/"> */}
+            {/* <i className="nc-icon nc-tile-56" /> */}
+            <Button
+                    className="btn-neutral"
+                    color="link"
+                    
+                    onClick={(e) => e.preventDefault()}
+                  >
+                    Home
+                  </Button>
+            {/* </NavLink>
+          </NavItem> */}
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
               
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle className="mr-2" color="default" caret nav>
-                  Pages
+                  More
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-danger" right>
-                  <DropdownItem to="/" tag={Link}>
-                    <i className="nc-icon nc-tile-56" />
-                    Home
-                  </DropdownItem>
+                
                   <DropdownItem to="/About" tag={Link}>
                     <i className="nc-icon nc-alert-circle-i" />
                     About

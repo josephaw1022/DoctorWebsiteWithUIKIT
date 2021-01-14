@@ -4,6 +4,9 @@ import React from "react";
 import PartOne from "./PartOne"
 import PartTwo from "./PartTwo"
 import PartThree from "./PartThree"
+import PartFour from "./PartFour"
+import PartFive from "./PartFive"
+import PartSix from "./PartSix"
 import "./Home.css"
 export default function HomeIndex(){ 
         document.documentElement.classList.remove("nav-open");
@@ -64,7 +67,12 @@ export default function HomeIndex(){
         <PartOne /> 
         <PartTwo /> 
         <PartThree/> 
-        <nav id="cd-vertical-nav">
+        <PartFour/>
+        <PartFive/> 
+        <PartSix/>
+
+
+        <nav id="cd-vertical-nav" style={{marginRight:"35px"}}>
         <ul>
           <li>
             <a
@@ -80,7 +88,7 @@ export default function HomeIndex(){
               }}
             >
               <span className="cd-dot" />
-              <span className="cd-label">Headers</span>
+              <span className="cd-label">Home</span>
             </a>
           </li>
           <li>

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72803b15d89ef88ac61e6ea95ebacb0c",
+    "revision": "8e3d86a6a6968bde28f84fde53841bee",
     "url": "/index.html"
   },
   {
-    "revision": "8263f034b90dab4042dc",
+    "revision": "4a1fe7621d306c906fa6",
     "url": "/static/css/main.49509d4c.chunk.css"
   },
   {
-    "revision": "bb1f9418cfe773bdba99",
-    "url": "/static/js/2.b46cb2ac.chunk.js"
+    "revision": "10b0695ecb1799461ef8",
+    "url": "/static/js/2.fe9ce0d5.chunk.js"
   },
   {
     "revision": "123c36955d3b020d1348e93b9ab88993",
-    "url": "/static/js/2.b46cb2ac.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.fe9ce0d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8263f034b90dab4042dc",
-    "url": "/static/js/main.01a20a5a.chunk.js"
+    "revision": "4a1fe7621d306c906fa6",
+    "url": "/static/js/main.9edd2882.chunk.js"
   },
   {
     "revision": "9f3fdab3f86a3b0f2aa6",
@@ -28,12 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/anders-jilden.7438cd02.jpg"
   },
   {
+    "revision": "38e5c13e6e8811875bd8e80113426037",
+    "url": "/static/media/argon-dashboard-pro-react.38e5c13e.jpg"
+  },
+  {
     "revision": "bfc688ca490f0079051aea5b8ec75cbe",
     "url": "/static/media/ayo-ogunseinde-2.bfc688ca.jpg"
   },
   {
     "revision": "a1c49d83e608bce3482ded175d798c6f",
     "url": "/static/media/beach.a1c49d83.png"
+  },
+  {
+    "revision": "67aa37930c63df2dcfdeaf9e78015380",
+    "url": "/static/media/blk-design-system-pro-react.67aa3793.jpg"
   },
   {
     "revision": "1e4967d1338c19cfc75df1ec64f3a2f6",
@@ -50,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "76ff47ae5c64ccda5af18326bb272058",
     "url": "/static/media/joe-gardner-2.76ff47ae.jpg"
+  },
+  {
+    "revision": "10a8c89dfd1ec616773527238db596a9",
+    "url": "/static/media/john-towner.10a8c89d.jpg"
   },
   {
     "revision": "ea0a05cf66a2df07b2527cab69893c34",
@@ -72,8 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nucleo-icons.f32ed5ad.eot"
   },
   {
+    "revision": "2bd4c59bfcfdf78e0406f2d49e9eb9be",
+    "url": "/static/media/opt_pk_react_thumbnail.2bd4c59b.jpg"
+  },
+  {
     "revision": "d5d011a883bfdec98189a647c3669575",
     "url": "/static/media/sample.d5d011a8.png"
+  },
+  {
+    "revision": "3c62f3949aef3dd7bc8a13239eaefb47",
+    "url": "/static/media/sebastien-gabrieles.3c62f394.jpg"
   },
   {
     "revision": "1095a459ac2d336770174a886fe8a301",

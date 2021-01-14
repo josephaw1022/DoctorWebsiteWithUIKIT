@@ -2,7 +2,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row, Col, } from "reactstrap";
+import { Container, Row, Col} from "reactstrap";
 // import PartTwo from "./PartTwo" 
 // import PartTwo from "./PartTwo"
 

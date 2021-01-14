@@ -1,30 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.49509d4c.chunk.css",
-    "main.js": "/static/js/main.01a20a5a.chunk.js",
-    "main.js.map": "/static/js/main.01a20a5a.chunk.js.map",
+    "main.js": "/static/js/main.9edd2882.chunk.js",
+    "main.js.map": "/static/js/main.9edd2882.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f693082c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f693082c.js.map",
-    "static/js/2.b46cb2ac.chunk.js": "/static/js/2.b46cb2ac.chunk.js",
-    "static/js/2.b46cb2ac.chunk.js.map": "/static/js/2.b46cb2ac.chunk.js.map",
+    "static/js/2.fe9ce0d5.chunk.js": "/static/js/2.fe9ce0d5.chunk.js",
+    "static/js/2.fe9ce0d5.chunk.js.map": "/static/js/2.fe9ce0d5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.59035b0f7aae0035f62898dcc5f3e74b.js": "/precache-manifest.59035b0f7aae0035f62898dcc5f3e74b.js",
+    "precache-manifest.d8f0e0a51ebd910a82c816ac8eb3ff6f.js": "/precache-manifest.d8f0e0a51ebd910a82c816ac8eb3ff6f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.49509d4c.chunk.css.map": "/static/css/main.49509d4c.chunk.css.map",
-    "static/js/2.b46cb2ac.chunk.js.LICENSE.txt": "/static/js/2.b46cb2ac.chunk.js.LICENSE.txt",
+    "static/js/2.fe9ce0d5.chunk.js.LICENSE.txt": "/static/js/2.fe9ce0d5.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/static/media/uriel-soberanes.1095a459.jpg",
+    "static/media/argon-dashboard-pro-react.jpg": "/static/media/argon-dashboard-pro-react.38e5c13e.jpg",
     "static/media/ayo-ogunseinde-2.jpg": "/static/media/ayo-ogunseinde-2.bfc688ca.jpg",
     "static/media/beach.png": "/static/media/beach.a1c49d83.png",
+    "static/media/blk-design-system-pro-react.jpg": "/static/media/blk-design-system-pro-react.67aa3793.jpg",
     "static/media/clem-onojeghuo-2.jpg": "/static/media/clem-onojeghuo-2.bb4b9ac9.jpg",
     "static/media/joe-gardner-2.jpg": "/static/media/joe-gardner-2.76ff47ae.jpg",
+    "static/media/john-towner.jpg": "/static/media/john-towner.10a8c89d.jpg",
     "static/media/logo.png": "/static/media/logo.ea0a05cf.png",
     "static/media/paper-kit.scss": "/static/media/nucleo-icons.f32ed5ad.eot",
-    "static/media/sample.png": "/static/media/sample.d5d011a8.png"
+    "static/media/opt_pk_react_thumbnail.jpg": "/static/media/opt_pk_react_thumbnail.2bd4c59b.jpg",
+    "static/media/sample.png": "/static/media/sample.d5d011a8.png",
+    "static/media/sebastien-gabrieles.jpg": "/static/media/sebastien-gabrieles.3c62f394.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f693082c.js",
-    "static/js/2.b46cb2ac.chunk.js",
+    "static/js/2.fe9ce0d5.chunk.js",
     "static/css/main.49509d4c.chunk.css",
-    "static/js/main.01a20a5a.chunk.js"
+    "static/js/main.9edd2882.chunk.js"
   ]
 }

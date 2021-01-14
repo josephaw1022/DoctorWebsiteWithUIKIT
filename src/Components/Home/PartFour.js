@@ -24,7 +24,7 @@ export default function PartFour(){
                 <Container>
                   <Row>
                     <Col className="ml-auto mr-auto" md="10">
-                      <h2 className="title">Latest Blogposts</h2>
+                      <h2 className="title">Whatever's Convenient</h2>
                       <br />
                       <Card className="card-plain card-blog">
                         <Row>
@@ -33,34 +33,23 @@ export default function PartFour(){
                               <img
                                 alt="..."
                                 className="img"
-                                src={require("assets/img/sections/stephanie-krist.jpg")}
+                                src={require("assets/img/FreeOnes/Photos9.png")}
+                                
                               />
                             </div>
                           </Col>
                           <Col md="7">
                             <CardBody>
-                              <h6 className="card-category text-info">Enterprise</h6>
+                              <h6 className="card-category text-info"> Traditional </h6>
                               <CardTitle tag="h3">
                                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                                  The four waves of augmented reality
+                                In Person Visits
                                 </a>
                               </CardTitle>
                               <p className="card-description">
-                                Sharing processing, display and sensors across
-                                smartphones and tethered smartglasses gives you two
-                                batteries, each powering fewer individual systems. If
-                                they’re connected by a cable, this could give a
-                                healthy bump to battery life — and…{" "}
-                                <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                                  Read More
-                                </a>
-                              </p>
-                              <p className="author">
-                                by{" "}
-                                <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                                  <b>Tim Merel</b>
-                                </a>
-                                , 11 hours ago
+                                If you live in the Bluffton area and would like in person couneseling, then in person counseling
+                                 is a perfect and conveinent option {" "}
+                                
                               </p>
                             </CardBody>
                           </Col>
@@ -76,25 +65,13 @@ export default function PartFour(){
                               </h6>
                               <CardTitle tag="h3">
                                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                                  Okoli connects you with tour guides around the world
+                                  Virtual Meetings
                                 </a>
                               </CardTitle>
                               <p className="card-description">
-                                Okoli is a new service by developer Jack Deneut that
-                                aims to replace those ugly little cards you find in
-                                tourist hotels. The web app, which currently works in
-                                Prague, Budapest, Berlin and Paris, lets you reserve a
-                                nearly private tour with a professional guid — and…{" "}
-                                <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                                  Read More
-                                </a>
-                              </p>
-                              <p className="author">
-                                by{" "}
-                                <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                                  <b>John Biggs</b>
-                                </a>
-                                , 3 seconds ago
+                                If you live in South Carolina and would like to talk to a therapist, then virtual meetings are a perfect choice. 
+                                Calls are conducted via Zoom, Google Meets, and or FaceTime.  {" "}
+                                
                               </p>
                             </CardBody>
                           </Col>
@@ -103,7 +80,7 @@ export default function PartFour(){
                               <img
                                 alt="..."
                                 className="img"
-                                src={require("assets/img/sections/federico-beccari.jpg")}
+                                src={require("assets/img/FreeOnes/Photos7.png")}
                               />
                             </div>
                           </Col>

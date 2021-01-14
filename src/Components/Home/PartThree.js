@@ -47,7 +47,7 @@ export default function PartThree() {
             <Card
             className="c3"
             data-background="image"
-            
+            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos3.png") + ")"}}
             >
             <CardBody>
                 <h6 className="card-category">Design</h6>
@@ -76,6 +76,7 @@ export default function PartThree() {
             <Card
             className="c2"
             data-background="image"
+            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos8.png") + ")"}}
             
             >
             <CardBody>
@@ -105,6 +106,7 @@ export default function PartThree() {
             <Card
             data-background="image"
             className="c1"
+            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos1.png") + ")"}}
             >
             <CardBody>
                 <h6 className="card-category">Development</h6>

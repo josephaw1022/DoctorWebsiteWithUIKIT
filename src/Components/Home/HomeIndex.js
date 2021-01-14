@@ -65,9 +65,10 @@ export default function HomeIndex(){
         <>
         <div className="section-space" />
         <PartOne /> 
-        <PartTwo /> 
-        <PartThree/> 
+        {/* <PartTwo />  */}
+        {/* <PartThree/>  */}
         <PartFour/>
+        <PartThree/>
         <PartFive/> 
         <PartSix/>
 
@@ -91,7 +92,7 @@ export default function HomeIndex(){
               <span className="cd-label">Home</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               data-number="2"
               href="#About"
@@ -106,6 +107,23 @@ export default function HomeIndex(){
             >
               <span className="cd-dot pointercolor" />
               <span className="cd-label">About</span>
+            </a>
+          </li> */}
+          <li>
+            <a
+              data-number="3"
+              href="#Services"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById("Services").scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                  inline: "nearest",
+                });
+              }}
+            >
+              <span className="cd-dot pointercolor" />
+              <span className="cd-label">Services</span>
             </a>
           </li>
           <li>
@@ -125,23 +143,7 @@ export default function HomeIndex(){
               <span className="cd-label">Contact</span>
             </a>
           </li>
-          <li>
-            <a
-              data-number="4"
-              href="#Services"
-              onClick={(e) => {
-                e.preventDefault();
-                document.getElementById("Services").scrollIntoView({
-                  behavior: "smooth",
-                  block: "start",
-                  inline: "nearest",
-                });
-              }}
-            >
-              <span className="cd-dot pointercolor" />
-              <span className="cd-label">Services</span>
-            </a>
-          </li>
+          
           <li>
             <a
               data-number="5"

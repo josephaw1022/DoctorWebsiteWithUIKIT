@@ -43,7 +43,7 @@ export default function PartFour(){
                               <h6 className="card-category text-info"> Traditional </h6>
                               <CardTitle tag="h3">
                                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                                In Person Visits
+                                In-Person Visits
                                 </a>
                               </CardTitle>
                               <p className="card-description">

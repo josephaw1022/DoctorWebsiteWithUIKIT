@@ -123,7 +123,7 @@ export default function HomeIndex(){
               }}
             >
               <span className="cd-dot pointercolor" />
-              <span className="cd-label">Services</span>
+              <span className="cd-label"> Something</span>
             </a>
           </li>
           <li>
@@ -140,7 +140,7 @@ export default function HomeIndex(){
               }}
             >
               <span className="cd-dot pointercolor" />
-              <span className="cd-label">Contact</span>
+              <span className="cd-label">Something</span>
             </a>
           </li>
           
@@ -158,7 +158,7 @@ export default function HomeIndex(){
               }}
             >
               <span className="cd-dot pointercolor" />
-              <span className="cd-label">Our Team</span>
+              <span className="cd-label">Something</span>
             </a>
           </li>
           <li>
@@ -175,7 +175,7 @@ export default function HomeIndex(){
               }}
             >
               <span className="cd-dot pointercolor" />
-              <span className="cd-label">Counseling</span>
+              <span className="cd-label">Something</span>
             </a>
           </li>
           

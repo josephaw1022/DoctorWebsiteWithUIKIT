@@ -32,12 +32,9 @@ export default function PartThree() {
         <Container id="Contact">
         <Row>
         <Col className="ml-auto mr-auto text-center" md="8">
-            <h2 className="title">Is this what you are looking for?</h2>
+            <h2 className="title">Services Offered</h2>
             <h5 className="description">
-            This is the paragraph where you can write more details about
-            your product. Keep you user engaged by providing meaningful
-            information. Remember that by this time, the user is curious,
-            otherwise he wouldn't scroll to get here.
+            
             </h5>
             <br />
         </Col>
@@ -50,13 +47,12 @@ export default function PartThree() {
             style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos3.png") + ")"}}
             >
             <CardBody>
-                <h6 className="card-category">Design</h6>
+                <h6 className="card-category">Individual</h6>
                 <div className="card-icon">
                 <i className="nc-icon nc-world-2" />
                 </div>
                 <p className="card-description">
-                Unlike fashionable design, it lasts many years – even in
-                today’s throwaway society
+                blah blah blah blah 
                 </p>
                 <CardFooter>
                 <Button
@@ -76,17 +72,16 @@ export default function PartThree() {
             <Card
             className="c2"
             data-background="image"
-            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos8.png") + ")"}}
+            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos13.png") + ")"}}
             
             >
             <CardBody>
-                <h6 className="card-category">UI Kits</h6>
+                <h6 className="card-category">Group Therapy</h6>
                 <div className="card-icon">
                 <i className="nc-icon nc-single-copy-04" />
                 </div>
                 <p className="card-description">
-                Imagine if you could go to the profile of a friend and
-                instead of scrolling through...
+                blah blah blah blah
                 </p>
                 <CardFooter>
                 <Button
@@ -109,13 +104,12 @@ export default function PartThree() {
             style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos1.png") + ")"}}
             >
             <CardBody>
-                <h6 className="card-category">Development</h6>
+                <h6 className="card-category">Faith Counseling</h6>
                 <div className="card-icon">
                 <i className="nc-icon nc-time-alarm" />
                 </div>
                 <p className="card-description">
-                For starters, it seemed like a good idea to keep a running
-                list of Vision investments.
+                blah blah blah blah
                 </p>
                 <CardFooter>
                 <Button

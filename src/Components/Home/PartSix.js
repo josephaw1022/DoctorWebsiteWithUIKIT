@@ -1,182 +1,181 @@
-import React from "react"
-import {
+
+  import React from "react";
+
+  // reactstrap components
+  import {
     Button,
     Card,
     CardBody,
     CardFooter,
     CardTitle,
-    NavItem,
-    NavLink,
-    Nav,
-    TabContent,
-    TabPane,
     Container,
     Row,
     Col,
   } from "reactstrap";
-
-
+  
 
 export default function PartSix(){ 
     return(
-        <div className="project-4 section section-dark">
-        <Container>
-        <Row>
-            <Col className="ml-auto mr-auto text-center" md="8">
-            <h2 className="title">Some of Our Awesome Projects - 4</h2>
-            <h5 className="description">
-                This is the paragraph where you can write more details about
-                your projects. Keep you user engaged by providing meaningful
-                information.
-            </h5>
-            </Col>
-        </Row>
-        <div className="space-top" />
-        <Row>
-            <Col className="ml-auto" md="5">
-            <Card
-                data-background="image"
-                style={{
-                backgroundImage:
-                    "url(" +
-                    require("assets/img/sections/sebastien-gabrieles.jpg") +
-                    ")",
-                }}
-            >
-                <div className="card-icon">
-                <i className="nc-icon nc-mobile" />
-                </div>
-            </Card>
-            </Col>
-            <Col className="mr-auto" md="5">
-            <Card className="card-plain">
-                <CardBody>
-                <h6 className="card-category">Technology</h6>
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
+        
+        <div className="blog-4" id="Counseling">
+          <Container>
+            <Row>
+              <Col className="ml-auto mr-auto" md="8">
+                <h2 className="title text-center">Latest Blogposts 4</h2>
+                <br />
+              </Col>
+            </Row>
+            <Row>
+              <Col md="6">
+                <Card className="card-plain card-blog text-center">
+                  <div className="card-image">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        className="img img-raised"
+                        src={require("assets/img/sections/val-vesa.jpg")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <h6 className="card-category text-warning">Travel</h6>
                     <CardTitle tag="h3">
-                    The need of a great product
+                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        Learning different cultures through travel
+                      </a>
                     </CardTitle>
-                </a>
-                <p className="card-description">
-                    Artificial intelligence-focused investment funds are a
-                    dime a dozen these days. Everyone knows there’s money to
-                    be made from AI, but to capture value, good VCs know
-                    they need to back products and not technologies.
-                </p>
-                <CardFooter>
+                    <p className="card-description">
+                      A wonderful serenity has taken possession of my entire
+                      soul, like these sweet mornings of spring which I enjoy
+                      with my whole heart. I am alone, and feel the charm of
+                      existence in this spot.
+                    </p>
+                    <br />
                     <Button
-                    className="btn-neutral mr-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                      className="btn-round"
+                      color="warning"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
                     >
-                    <i className="fa fa-book mr-1" />
-                    Read More
+                      Read More
                     </Button>
-                    <Button
-                    className="btn-just-icon btn-neutral mr-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                    >
-                    <i className="fa fa-apple" />
-                    </Button>
-                    <Button
-                    className="btn-just-icon btn-neutral mr-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                    >
-                    <i className="fa fa-android" />
-                    </Button>
-                    <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                    >
-                    <i className="fa fa-windows" />
-                    </Button>
-                </CardFooter>
-                </CardBody>
-            </Card>
-            </Col>
-        </Row>
-        <br />
-        <hr />
-        <br />
-        <Row>
-            <Col className="ml-auto" md="5">
-            <Card className="card-plain">
-                <CardBody>
-                <h6 className="card-category">Design</h6>
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="6">
+                <Card className="card-plain card-blog text-center">
+                  <div className="card-image">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        className="img img-raised"
+                        src={require("assets/img/sections/rodrigo-ardilha.jpg")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <h6 className="card-category text-info">Travel</h6>
                     <CardTitle tag="h3">
-                    The aesthetic quality of a product
+                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        Kick-Ass ways to disappear like a Ninja!
+                      </a>
                     </CardTitle>
-                </a>
-                <p className="card-description">
-                    Eventually, the data collected from the grant program
-                    could allow the two to play a bit of machine learning
-                    moneyball — valuing machine learning engineers without
-                    traditional metrics (like having a PhD from Stanford)...
-                </p>
-                <CardFooter>
+                    <p className="card-description">
+                      In the end, the judge ruled that Levandowski could be
+                      brought in and examined, but that each question asked to
+                      him would be vetted in advance and should have some basis
+                      in evidence.
+                    </p>
+                    <br />
                     <Button
-                    className="btn-neutral mr-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                      className="btn-round"
+                      color="primary"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
                     >
-                    <i className="fa fa-book mr-1" />
-                    Read More
+                      Read More
                     </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
+            <Row>
+              <Col md="6">
+                <Card className="card-plain card-blog text-center">
+                  <div className="card-image">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        className="img img-raised"
+                        src={require("assets/img/sections/federico-beccari.jpg")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <h6 className="card-category text-danger">Lifestyle</h6>
+                    <CardTitle tag="h3">
+                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        We will breathe clean air and exercise
+                      </a>
+                    </CardTitle>
+                    <p className="card-description">
+                      Don't be scared of the truth because we need to restart
+                      the human foundation in truth And I love you like Kanye
+                      loves Kanye I love Rick Owens’ bed design but the back is
+                      too high for the beams and angle of the ceiling...
+                    </p>
+                    <br />
                     <Button
-                    className="btn-just-icon btn-neutral mr-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                      className="btn-round"
+                      color="danger"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
                     >
-                    <i className="fa fa-apple" />
+                      Read More
                     </Button>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="6">
+                <Card className="card-plain card-blog text-center">
+                  <div className="card-image">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        className="img img-raised"
+                        src={require("assets/img/sections/pedro-lastra.jpg")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <h6 className="card-category text-success">Best Seller</h6>
+                    <CardTitle tag="h3">
+                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                        Readers Pick of The Month
+                      </a>
+                    </CardTitle>
+                    <p className="card-description">
+                      “Raising equity is very expensive” In essence, it lets new
+                      consumer businesses apply to raise funding on its
+                      platform, and gives investors a new way to find and back
+                      those tricks to finance their growing businesses.
+                    </p>
+                    <br />
                     <Button
-                    className="btn-just-icon btn-neutral mr-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                      className="btn-round"
+                      color="success"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
                     >
-                    <i className="fa fa-android" />
+                      Read More
                     </Button>
-                    <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                    >
-                    <i className="fa fa-windows" />
-                    </Button>
-                </CardFooter>
-                </CardBody>
-            </Card>
-            </Col>
-            <Col className="mr-auto" md="5">
-            <Card
-                data-background="image"
-                style={{
-                backgroundImage:
-                    "url(" +
-                    require("assets/img/sections/john-towner.jpg") +
-                    ")",
-                }}
-            >
-                <div className="card-icon">
-                <i className="nc-icon nc-controller-modern" />
-                </div>
-            </Card>
-            </Col>
-        </Row>
-        </Container>
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
         </div>
+        
         
     );
 }

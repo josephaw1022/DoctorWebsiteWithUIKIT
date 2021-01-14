@@ -55,7 +55,7 @@ export default function PartTwo() {
               <div className="info">
                 
                 <div className="icon icon-info">
-                <i className="nc-icon nc-palette" />
+                <i className="nc-icon nc-paper" />
                 </div>
                 <div className="description">
                   <h4 className="info-title">New Ideas</h4>
@@ -70,10 +70,28 @@ export default function PartTwo() {
               </div>
               </Col>
               <Col md="3">
+              <div className="info">
+                
+                <div className="icon icon-info">
+                <i className="nc-icon nc-email-85" />
+                </div>
+                <div className="description">
+                  <h4 className="info-title">New</h4>
+                  <p>
+                    Larger, yet dramatically thinner. More powerful, but
+                    remarkably power efficient.
+                  </p>
+                  <Button className="btn-link" color="info" href="#pablo">
+                    See more
+                  </Button>
+                </div>
+              </div>
+              </Col>
+              <Col md="3">
                 <div className="info">
                 
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-bulb-63" />
+                    <i className="nc-icon nc-alert-circle-i" />
                   </div>
                   <div className="description">
                     <h4 className="info-title">New Ideas</h4>
@@ -90,7 +108,7 @@ export default function PartTwo() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-chart-bar-32" />
+                    <i className="nc-icon nc-cart-simple" />
                   </div>
                   <div className="description">
                     <h4 className="info-title">Statistics</h4>

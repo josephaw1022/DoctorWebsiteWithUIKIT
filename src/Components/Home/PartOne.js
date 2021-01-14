@@ -34,7 +34,7 @@ import { Container, Row, Col} from "reactstrap";
       className="page-header"
       style={{
         backgroundImage:
-          "url(" + require("./img/beach.png") + ")",
+          "url(" + require("./img/free.png") + ")",
       }}
     >
       <div className="filter" />

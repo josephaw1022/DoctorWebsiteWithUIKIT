@@ -21,6 +21,9 @@ import {
   Nav,
   Container,
   UncontrolledTooltip,
+  UncontrolledPopover,
+  PopoverHeader, 
+  PopoverBody 
 } from "reactstrap";
 // core components
 
@@ -102,7 +105,7 @@ function TestNavBar() {
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-danger" right>
                 <DropdownItem to="/" tag={Link}>
-                    <i className="nc-icon nc-mobile" />
+                    <i className="nc-icon nc-world-2" />
                     Home
                   </DropdownItem>
                   <DropdownItem to="/About" tag={Link}>
@@ -135,7 +138,31 @@ function TestNavBar() {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
-             
+
+              <NavItem >
+                <Button
+                  className="btn-round"
+                  color="primary"
+                  target="_blank"
+                  id = "tooltip903164576"
+
+                >
+                   Call 
+                </Button>
+                <UncontrolledPopover
+              trigger="focus"
+              placement="down"
+              target="tooltip903164576"
+            
+            >
+              <PopoverHeader>Phone Number </PopoverHeader>
+              <PopoverBody>
+                ***-***-****
+              </PopoverBody>
+            </UncontrolledPopover>
+              </NavItem>
+              
+                
               
             </Nav>
           </Collapse>

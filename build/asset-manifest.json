@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f782acf.chunk.css",
-    "main.js": "/static/js/main.10b2bdeb.chunk.js",
-    "main.js.map": "/static/js/main.10b2bdeb.chunk.js.map",
+    "main.css": "/static/css/main.cbf1183f.chunk.css",
+    "main.js": "/static/js/main.35a764b2.chunk.js",
+    "main.js.map": "/static/js/main.35a764b2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f693082c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f693082c.js.map",
-    "static/js/2.790215eb.chunk.js": "/static/js/2.790215eb.chunk.js",
-    "static/js/2.790215eb.chunk.js.map": "/static/js/2.790215eb.chunk.js.map",
+    "static/js/2.9d469332.chunk.js": "/static/js/2.9d469332.chunk.js",
+    "static/js/2.9d469332.chunk.js.map": "/static/js/2.9d469332.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c52db35e1573f4d2676779925d369e22.js": "/precache-manifest.c52db35e1573f4d2676779925d369e22.js",
+    "precache-manifest.1b2e4bc62fd1e8efb5e17cab5ff43f48.js": "/precache-manifest.1b2e4bc62fd1e8efb5e17cab5ff43f48.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7f782acf.chunk.css.map": "/static/css/main.7f782acf.chunk.css.map",
-    "static/js/2.790215eb.chunk.js.LICENSE.txt": "/static/js/2.790215eb.chunk.js.LICENSE.txt",
+    "static/css/main.cbf1183f.chunk.css.map": "/static/css/main.cbf1183f.chunk.css.map",
+    "static/js/2.9d469332.chunk.js.LICENSE.txt": "/static/js/2.9d469332.chunk.js.LICENSE.txt",
     "static/media/Photos1.png": "/static/media/Photos1.2797fcfc.png",
     "static/media/Photos13.png": "/static/media/Photos13.418bfb0d.png",
     "static/media/Photos2.png": "/static/media/Photos2.d652c15b.png",
@@ -20,12 +20,11 @@
     "static/media/Photos9.png": "/static/media/Photos9.63039c46.png",
     "static/media/Home.css": "/static/media/uriel-soberanes.1095a459.jpg",
     "static/media/ayo-ogunseinde-2.jpg": "/static/media/ayo-ogunseinde-2.bfc688ca.jpg",
+    "static/media/brownprofile.png": "/static/media/brownprofile.1e4967d1.png",
     "static/media/clem-onojeghuo-2.jpg": "/static/media/clem-onojeghuo-2.bb4b9ac9.jpg",
-    "static/media/clem-onojeghuo-3.jpg": "/static/media/clem-onojeghuo-3.ae11d928.jpg",
     "static/media/federico-beccari.jpg": "/static/media/federico-beccari.86552d30.jpg",
     "static/media/footerpic.png": "/static/media/footerpic.5d7ac609.png",
     "static/media/joe-gardner-2.jpg": "/static/media/joe-gardner-2.76ff47ae.jpg",
-    "static/media/kaci-baum-2.jpg": "/static/media/kaci-baum-2.e06d84cb.jpg",
     "static/media/logo.png": "/static/media/logo.ea0a05cf.png",
     "static/media/paper-kit.scss": "/static/media/nucleo-icons.f32ed5ad.eot",
     "static/media/pedro-lastra.jpg": "/static/media/pedro-lastra.2df395cb.jpg",
@@ -34,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f693082c.js",
-    "static/js/2.790215eb.chunk.js",
-    "static/css/main.7f782acf.chunk.css",
-    "static/js/main.10b2bdeb.chunk.js"
+    "static/js/2.9d469332.chunk.js",
+    "static/css/main.cbf1183f.chunk.css",
+    "static/js/main.35a764b2.chunk.js"
   ]
 }

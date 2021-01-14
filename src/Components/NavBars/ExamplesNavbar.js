@@ -93,9 +93,9 @@ export default function ExamplesNavbar() {
                 <DropdownToggle className="mr-2" color="default" caret nav>
                   More
                 </DropdownToggle>
-                ropdownMenu className="dropdown-danger" right>
+              
                   <DropdownItem to="/sections#headers" tag={Link}>
-                    <i className="nc-icon nc-mobile" />
+                    <i className="nc-icon " />
                     Client Resources
                   </DropdownItem>
                 <DropdownMenu className="dropdown-danger" right>

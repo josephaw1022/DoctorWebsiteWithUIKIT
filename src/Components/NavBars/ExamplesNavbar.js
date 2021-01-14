@@ -88,27 +88,16 @@ export default function ExamplesNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-          <NavItem>
-              <NavLink tag={Link} to="/" title="Home" >
-                <i className="nc-icon nc-layout-11" /> Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={Link} to="/About" title="About" >
-                <i className="nc-icon nc-layout-11" /> About
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                tag={Link} to="/Contact" title="Contact"
-              >
-                <i className="nc-icon nc-book-bookmark" /> Contact
-              </NavLink>
-            </NavItem>
+          
             <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle className="mr-2" color="default" caret nav>
                   More
                 </DropdownToggle>
+                ropdownMenu className="dropdown-danger" right>
+                  <DropdownItem to="/sections#headers" tag={Link}>
+                    <i className="nc-icon nc-mobile" />
+                    Client Resources
+                  </DropdownItem>
                 <DropdownMenu className="dropdown-danger" right>
                   <DropdownItem to="/sections#headers" tag={Link}>
                     <i className="nc-icon nc-tile-56" />

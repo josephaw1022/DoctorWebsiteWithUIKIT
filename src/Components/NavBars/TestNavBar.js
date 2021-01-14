@@ -92,19 +92,7 @@ function TestNavBar() {
               <span className="navbar-toggler-bar bar3" />
             </button>
           </div>
-          {/* <NavItem>
-            <NavLink tag={Link} to="/"> */}
-            {/* <i className="nc-icon nc-tile-56" /> */}
-            <Button
-                    className="btn-neutral"
-                    color="link"
-                    
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    Home
-                  </Button>
-            {/* </NavLink>
-          </NavItem> */}
+          
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
               
@@ -113,7 +101,10 @@ function TestNavBar() {
                   More
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-danger" right>
-                
+                <DropdownItem to="/" tag={Link}>
+                    <i className="nc-icon nc-mobile" />
+                    Home
+                  </DropdownItem>
                   <DropdownItem to="/About" tag={Link}>
                     <i className="nc-icon nc-alert-circle-i" />
                     About

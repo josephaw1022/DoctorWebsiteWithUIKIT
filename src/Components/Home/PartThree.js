@@ -28,7 +28,7 @@ export default function PartThree() {
     });
     return (
       <>
-        <div className="section" style={{marginBottom:"150px", height:"100%"}}>
+        <div className="section" >
         <Container id="Contact">
         <Row>
         <Col className="ml-auto mr-auto text-center" md="8">

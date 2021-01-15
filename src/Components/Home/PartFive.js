@@ -15,7 +15,7 @@ export default function PartFive() {
   return (
     <>
     
-    <div className="team-3" id="OurTeam" style={{marginBottom:"150px", height:"100%"}}>
+    <div className="team-3" id="OurTeam" style={{marginBottom:"20px", height:"100%"}}>
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">

@@ -29,7 +29,7 @@ export default function PartFive() {
             </Row>
             <div className="space-top" />
             <Row>
-              <Col md="6">
+              <Col md="6" >
                 <Card className="card-profile card-plain">
                   <Row>
                     <Col md="5">
@@ -67,21 +67,14 @@ export default function PartFive() {
                           >
                             <i className="fa fa-facebook" />
                           </Button>
-                          <Button
-                            className="btn-just-icon btn-link"
-                            color="google"
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            <i className="fa fa-google-plus" />
-                          </Button>
+                          
                         </CardFooter>
                       </CardBody>
                     </Col>
                   </Row>
                 </Card>
               </Col>
-              <Col md="6">
+              {/* <Col md="6">
                 <Card className="card-profile card-plain">
                   <Row>
                     <Col md="5">
@@ -132,7 +125,7 @@ export default function PartFive() {
                     </Col>
                   </Row>
                 </Card>
-              </Col>
+              </Col> */}
               
               
             </Row>

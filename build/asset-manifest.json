@@ -1,40 +1,40 @@
 {
   "files": {
     "main.css": "/static/css/main.cbf1183f.chunk.css",
-    "main.js": "/static/js/main.35a764b2.chunk.js",
-    "main.js.map": "/static/js/main.35a764b2.chunk.js.map",
+    "main.js": "/static/js/main.c4378fce.chunk.js",
+    "main.js.map": "/static/js/main.c4378fce.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f693082c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f693082c.js.map",
     "static/js/2.9d469332.chunk.js": "/static/js/2.9d469332.chunk.js",
     "static/js/2.9d469332.chunk.js.map": "/static/js/2.9d469332.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1b2e4bc62fd1e8efb5e17cab5ff43f48.js": "/precache-manifest.1b2e4bc62fd1e8efb5e17cab5ff43f48.js",
+    "precache-manifest.782d9a6f0bd06833471f0fd0b4a5a959.js": "/precache-manifest.782d9a6f0bd06833471f0fd0b4a5a959.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.cbf1183f.chunk.css.map": "/static/css/main.cbf1183f.chunk.css.map",
     "static/js/2.9d469332.chunk.js.LICENSE.txt": "/static/js/2.9d469332.chunk.js.LICENSE.txt",
     "static/media/Photos1.png": "/static/media/Photos1.2797fcfc.png",
+    "static/media/Photos10.png": "/static/media/Photos10.a11e8b65.png",
+    "static/media/Photos11.png": "/static/media/Photos11.bd6d4c3b.png",
     "static/media/Photos13.png": "/static/media/Photos13.418bfb0d.png",
-    "static/media/Photos2.png": "/static/media/Photos2.d652c15b.png",
+    "static/media/Photos14.png": "/static/media/Photos14.dd327162.png",
+    "static/media/Photos15.png": "/static/media/Photos15.20ccfa83.png",
     "static/media/Photos3.png": "/static/media/Photos3.3da881a5.png",
     "static/media/Photos7.png": "/static/media/Photos7.03a62d1e.png",
+    "static/media/Photos8.png": "/static/media/Photos8.6ab54f9f.png",
     "static/media/Photos9.png": "/static/media/Photos9.63039c46.png",
     "static/media/Home.css": "/static/media/uriel-soberanes.1095a459.jpg",
     "static/media/ayo-ogunseinde-2.jpg": "/static/media/ayo-ogunseinde-2.bfc688ca.jpg",
     "static/media/brownprofile.png": "/static/media/brownprofile.1e4967d1.png",
     "static/media/clem-onojeghuo-2.jpg": "/static/media/clem-onojeghuo-2.bb4b9ac9.jpg",
-    "static/media/federico-beccari.jpg": "/static/media/federico-beccari.86552d30.jpg",
     "static/media/footerpic.png": "/static/media/footerpic.5d7ac609.png",
     "static/media/joe-gardner-2.jpg": "/static/media/joe-gardner-2.76ff47ae.jpg",
     "static/media/logo.png": "/static/media/logo.ea0a05cf.png",
-    "static/media/paper-kit.scss": "/static/media/nucleo-icons.f32ed5ad.eot",
-    "static/media/pedro-lastra.jpg": "/static/media/pedro-lastra.2df395cb.jpg",
-    "static/media/rodrigo-ardilha.jpg": "/static/media/rodrigo-ardilha.5577a0d8.jpg",
-    "static/media/val-vesa.jpg": "/static/media/val-vesa.04192f44.jpg"
+    "static/media/paper-kit.scss": "/static/media/nucleo-icons.f32ed5ad.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.f693082c.js",
     "static/js/2.9d469332.chunk.js",
     "static/css/main.cbf1183f.chunk.css",
-    "static/js/main.35a764b2.chunk.js"
+    "static/js/main.c4378fce.chunk.js"
   ]
 }

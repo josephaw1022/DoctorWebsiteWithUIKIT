@@ -55,10 +55,10 @@ export default function PartTwo() {
               <div className="info">
                 
                 <div className="icon icon-info">
-                <i className="nc-icon nc-paper" />
+                <i className="nc-icon nc-user-run" />
                 </div>
                 <div className="description">
-                  <h4 className="info-title">New Ideas</h4>
+                  <h4 className="info-title">Getting Started</h4>
                   <p>
                     Larger, yet dramatically thinner. More powerful, but
                     remarkably power efficient.
@@ -73,10 +73,10 @@ export default function PartTwo() {
               <div className="info">
                 
                 <div className="icon icon-info">
-                <i className="nc-icon nc-email-85" />
+                <i className="nc-icon nc-mobile" />
                 </div>
                 <div className="description">
-                  <h4 className="info-title">New</h4>
+                  <h4 className="info-title">Contact Me</h4>
                   <p>
                     Larger, yet dramatically thinner. More powerful, but
                     remarkably power efficient.
@@ -91,10 +91,10 @@ export default function PartTwo() {
                 <div className="info">
                 
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-alert-circle-i" />
+                    <i className="nc-icon nc-laptop" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">New Ideas</h4>
+                    <h4 className="info-title">Telehealth</h4>
                     <p>
                       Larger, yet dramatically thinner. More powerful, but
                       remarkably power efficient.
@@ -108,10 +108,10 @@ export default function PartTwo() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-cart-simple" />
+                    <i className="nc-icon nc-map-big" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Statistics</h4>
+                    <h4 className="info-title">Client Resources</h4>
                     <p>
                       Choose from a veriety of many colors resembling sugar
                       paper pastels.
@@ -122,23 +122,10 @@ export default function PartTwo() {
                   </div>
                 </div>
               </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-sun-fog-29" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">Delightful design</h4>
-                    <p>
-                      Find unique and handmade delightful designs related items
-                      directly from our sellers.
-                    </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      See more
-                    </Button>
-                  </div>
-                </div>
-              </Col>
+            
+              
+              
+              
             </Row>
           </Container>
       </div> 

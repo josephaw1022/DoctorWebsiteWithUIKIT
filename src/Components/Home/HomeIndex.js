@@ -8,8 +8,10 @@ import PartFour from "./PartFour"
 import PartFive from "./PartFive"
 import PartSix from "./PartSix"
 import "./Home.css"
+
 export default function HomeIndex(){ 
         document.documentElement.classList.remove("nav-open");
+        
         React.useEffect(
             () => {
             document.body.classList.add("section-page");
@@ -29,48 +31,51 @@ export default function HomeIndex(){
             }
             // this function is used to make the right bullets list
             // (the bellow <nav id="cd-vertical-nav">)
-            // active when changeing the section on scroll
-            const updateView = () => {
-            var contentSections = document.getElementsByClassName("cd-section");
-            var navigationItems = document
-                .getElementById("cd-vertical-nav")
-                .getElementsByTagName("a");
+            // // active when changeing the section on scroll
+            // const updateView = () => {
+            // var contentSections = document.getElementsByClassName("cd-section");
+            // var navigationItems = document
+            //     .getElementById("cd-vertical-nav")
+            //     .getElementsByTagName("a");
 
-            for (let i = 0; i < contentSections.length; i++) {
-                var activeSection =
-                parseInt(navigationItems[i].getAttribute("data-number"), 10) - 1;
-                if (
-                contentSections[i].offsetTop - window.innerHeight / 2 <
-                    window.pageYOffset &&
-                contentSections[i].offsetTop +
-                    contentSections[i].scrollHeight -
-                    window.innerHeight / 2 >
-                    window.pageYOffset
-                ) {
-                navigationItems[activeSection].classList.add("is-selected");
-                } else {
-                navigationItems[activeSection].classList.remove("is-selected");
-                }
-            }
-            };
+            // for (let i = 0; i < contentSections.length; i++) {
+            //     var activeSection =
+            //     parseInt(navigationItems[i].getAttribute("data-number"), 10) - 1;
+            //     if (
+            //     contentSections[i].offsetTop - window.innerHeight / 2 <
+            //         window.pageYOffset &&
+            //     contentSections[i].offsetTop +
+            //         contentSections[i].scrollHeight -
+            //         window.innerHeight / 2 >
+            //         window.pageYOffset
+            //     ) {
+            //     navigationItems[activeSection].classList.add("is-selected");
+            //     } else {
+            //     navigationItems[activeSection].classList.remove("is-selected");
+            //     }
+            // }
+            // };
 
-            window.addEventListener("scroll", updateView);
-            return function cleanup() {
-            document.body.classList.remove("section-page");
-            window.removeEventListener("scroll", updateView);
-            };
+            // window.addEventListener("scroll", updateView);
+            // return function cleanup() {
+            // document.body.classList.remove("section-page");
+            // window.removeEventListener("scroll", updateView);
+            // };
         }
     );
+
+
     return (
         <>
         <div className="section-space" />
         <PartOne /> 
-        {/* <PartTwo />  */}
+        
         {/* <PartThree/>  */}
         <PartFour/>
         <PartThree/>
         <PartFive/> 
         <PartSix/>
+        <PartTwo/> 
 
 
         <nav id="cd-vertical-nav" style={{marginRight:"35px"}}>
@@ -168,6 +173,23 @@ export default function HomeIndex(){
               onClick={(e) => {
                 e.preventDefault();
                 document.getElementById("Counseling").scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                  inline: "nearest",
+                });
+              }}
+            >
+              <span className="cd-dot pointercolor" />
+              <span className="cd-label">Something</span>
+            </a>
+          </li>
+          <li>
+            <a
+              data-number="6"
+              href="#About"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById("About").scrollIntoView({
                   behavior: "smooth",
                   block: "start",
                   inline: "nearest",

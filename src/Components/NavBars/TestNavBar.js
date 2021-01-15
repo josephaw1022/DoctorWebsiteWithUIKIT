@@ -105,7 +105,7 @@ function TestNavBar() {
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-danger" right>
                 <DropdownItem to="/" tag={Link}>
-                    <i className="nc-icon nc-world-2" />
+                    <i className="nc-icon nc-shop" />
                     Home
                   </DropdownItem>
                   <DropdownItem to="/About" tag={Link}>

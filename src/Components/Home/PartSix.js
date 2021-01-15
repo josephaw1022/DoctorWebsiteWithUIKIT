@@ -21,7 +21,7 @@ export default function PartSix(){
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title text-center">Latest Blogposts 4</h2>
+                <h2 className="title text-center"> Latest Blogposts </h2>
                 <br />
               </Col>
             </Row>
@@ -33,27 +33,25 @@ export default function PartSix(){
                       <img
                         alt="..."
                         className="img img-raised"
-                        src={require("assets/img/sections/val-vesa.jpg")}
+                        src={require("assets/img/FreeOnes/Photos15.png")}
+                        height
                       />
                     </a>
                   </div>
                   <CardBody>
-                    <h6 className="card-category text-warning">Travel</h6>
+                    <h6 className="card-category text-info">Travel</h6>
                     <CardTitle tag="h3">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
                         Learning different cultures through travel
                       </a>
                     </CardTitle>
                     <p className="card-description">
-                      A wonderful serenity has taken possession of my entire
-                      soul, like these sweet mornings of spring which I enjoy
-                      with my whole heart. I am alone, and feel the charm of
-                      existence in this spot.
+                      blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah
                     </p>
                     <br />
                     <Button
                       className="btn-round"
-                      color="warning"
+                      color="info"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -69,7 +67,7 @@ export default function PartSix(){
                       <img
                         alt="..."
                         className="img img-raised"
-                        src={require("assets/img/sections/rodrigo-ardilha.jpg")}
+                        src={require("assets/img/FreeOnes/Photos10.png")}
                       />
                     </a>
                   </div>
@@ -81,15 +79,12 @@ export default function PartSix(){
                       </a>
                     </CardTitle>
                     <p className="card-description">
-                      In the end, the judge ruled that Levandowski could be
-                      brought in and examined, but that each question asked to
-                      him would be vetted in advance and should have some basis
-                      in evidence.
+                    blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah
                     </p>
                     <br />
                     <Button
                       className="btn-round"
-                      color="primary"
+                      color="info"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -107,27 +102,24 @@ export default function PartSix(){
                       <img
                         alt="..."
                         className="img img-raised"
-                        src={require("assets/img/sections/federico-beccari.jpg")}
+                        src={require("assets/img/FreeOnes/Photos14.png")}
                       />
                     </a>
                   </div>
                   <CardBody>
-                    <h6 className="card-category text-danger">Lifestyle</h6>
+                    <h6 className="card-category text-info">Lifestyle</h6>
                     <CardTitle tag="h3">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
                         We will breathe clean air and exercise
                       </a>
                     </CardTitle>
                     <p className="card-description">
-                      Don't be scared of the truth because we need to restart
-                      the human foundation in truth And I love you like Kanye
-                      loves Kanye I love Rick Owens’ bed design but the back is
-                      too high for the beams and angle of the ceiling...
+                    blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah
                     </p>
                     <br />
                     <Button
                       className="btn-round"
-                      color="danger"
+                      color="info"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
@@ -143,27 +135,24 @@ export default function PartSix(){
                       <img
                         alt="..."
                         className="img img-raised"
-                        src={require("assets/img/sections/pedro-lastra.jpg")}
+                        src={require("assets/img/FreeOnes/Photos11.png")}
                       />
                     </a>
                   </div>
                   <CardBody>
-                    <h6 className="card-category text-success">Best Seller</h6>
+                    <h6 className="card-category text-info">Best Seller</h6>
                     <CardTitle tag="h3">
                       <a href="#pablo" onClick={(e) => e.preventDefault()}>
                         Readers Pick of The Month
                       </a>
                     </CardTitle>
                     <p className="card-description">
-                      “Raising equity is very expensive” In essence, it lets new
-                      consumer businesses apply to raise funding on its
-                      platform, and gives investors a new way to find and back
-                      those tricks to finance their growing businesses.
+                    blah blah blah blah blah blah blah blah blahblah blah blah blah blah blah
                     </p>
                     <br />
                     <Button
                       className="btn-round"
-                      color="success"
+                      color="info"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >

@@ -1,22 +1,10 @@
 
 import React from "react";
-import {Parallax} from 'react-parallax'
-// reactstrap components
 import { Container, Row, Col} from "reactstrap";
-// import PartTwo from "./PartTwo" 
-// import PartTwo from "./PartTwo"
 import {Animated} from "react-animated-css";
-
-
-
-// core components
 
  function PartOne() {
   
-
-
-
-
   return (
   
     <>
@@ -24,17 +12,13 @@ import {Animated} from "react-animated-css";
     
     <div
       className="page-header"
-      data-parallax="true"
-      style={{
-        backgroundImage:
-          "url(" + require("assets/img/FreeOnes/Photos8.png") + ")",
-      }}
+      data-parallax="True"
+      style={{ backgroundImage: "url(" + require("assets/img/FreeOnes/Photos8.png") + ")", }}
       
     >
-    
       <div className="filter" />
       <div className="content-center">
-      
+
         <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
@@ -55,7 +39,7 @@ import {Animated} from "react-animated-css";
         </Container>
         
       </div>
-      {/* </Parallax> */}
+
     </div>
   </div>
   

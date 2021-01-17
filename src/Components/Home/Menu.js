@@ -12,7 +12,7 @@ import { Link } from "react-router-dom"
 
 // core component
 
-export default function PartTwo() {
+export default function Menu() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
@@ -82,7 +82,7 @@ export default function PartTwo() {
                     Larger, yet dramatically thinner. More powerful, but
                     remarkably power efficient.
                   </p>
-                  <Button className="btn-link" color="info" href="#pablo">
+                  <Button className="btn-link" color="info" tag={Link} to="/Contact">
                     See more
                   </Button>
                 </div>
@@ -130,10 +130,9 @@ export default function PartTwo() {
                 <i className="nc-icon nc-satisfied" />
                 </div>
                 <div className="description">
-                  <h4 className="info-title">Importance of Mental Health</h4>
+                  <h4 className="info-title">Rates & Insurance</h4>
                   <p>
-                    Larger, yet dramatically thinner. More powerful, but
-                    remarkably power efficient.
+                    Currently not accepting insurance but will be soon! 
                   </p>
                   <Button className="btn-link" color="info" href="#pablo">
                     See more

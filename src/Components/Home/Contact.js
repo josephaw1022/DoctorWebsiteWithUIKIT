@@ -64,9 +64,9 @@ function SectionContactUs() {
                           <div className="description">
                             <h4 className="info-title">Give us a ring</h4>
                             <p>
-                              Michael Jordan <br />
-                              +40 762 321 762 <br />
-                              Mon - Fri, 8:00-22:00
+                            Al Brown <br />
+                            843-476-2895<br />
+                              Mon - Fri, 8:00 am - 5:00 pm 
                             </p>
                           </div>
                         </div>

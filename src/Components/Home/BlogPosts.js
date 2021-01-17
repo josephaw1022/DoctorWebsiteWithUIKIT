@@ -14,7 +14,7 @@
   } from "reactstrap";
   
 
-export default function PartSix(){ 
+export default function BlogPosts(){ 
     return(
         
         <div className="blog-4" id="Counseling">

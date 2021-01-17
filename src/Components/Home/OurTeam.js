@@ -11,7 +11,7 @@ import {
   Col,
 } from "reactstrap";
 
-export default function PartFive() {
+export default function OurTeam() {
   return (
     <>
     

@@ -16,11 +16,6 @@ import {Animated} from "react-animated-css";
 
 
 export default function ClientResources(){ 
-    
-    
-    
-    
-    
     return( 
         <div className="section">
         <Container>

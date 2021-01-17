@@ -12,7 +12,7 @@ import {
   Col,
 } from "reactstrap";
 
-export default function PartFour(){ 
+export default function Convenient(){ 
 
     return(
       

@@ -17,7 +17,7 @@ import {
 
 } from "reactstrap";
  
-export default function PartThree() {
+export default function ServicesOffered() {
 
     document.documentElement.classList.remove("nav-open");
     React.useEffect(() => {

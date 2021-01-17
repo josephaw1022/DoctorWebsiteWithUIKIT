@@ -38,36 +38,28 @@ function TestNavBar() {
   const [collapseOpen, setCollapseOpen] = React.useState(false);
 
 
-  React.useEffect(() => {
-    let headroom = new Headroom(document.getElementById("navbar-main"));
-    // initialise
-    headroom.init();
-    const updateNavbarColor = () => {
-      if (
-        document.documentElement.scrollTop > 499 ||
-        document.body.scrollTop > 499
-        
-      ) {
-        setNavbarColor("invisible");
-        console.log((document.documentElement.scrollTop/(document.documentElement.scrollHeight-400))*100)
-        
-      } else if (
-        document.documentElement.scrollTop < 500 ||
-        document.body.scrollTop < 500
-        
-        
-      ) {
-        setNavbarColor("navbar-transparent");
-        console.log((document.documentElement.scrollTop/(document.documentElement.scrollHeight-400))*100)
+  React.useEffect(
+    () => {
+      let headroom = new Headroom(document.getElementById("navbar-main"));
+      // initialise
+      headroom.init();
+      const updateNavbarColor = () => {
+
+          if ( document.documentElement.scrollTop > 499 || document.body.scrollTop > 499) {
+            setNavbarColor("invisible");
+          } 
+          else if ( document.documentElement.scrollTop < 500 || document.body.scrollTop < 500) {
+            setNavbarColor("navbar-transparent");
+          }
+
+        };
+        window.addEventListener("scroll", updateNavbarColor);
+        return function cleanup() {
+          window.removeEventListener("scroll", updateNavbarColor);
+        };
       }
-    };
+  );
 
-
-    window.addEventListener("scroll", updateNavbarColor);
-    return function cleanup() {
-      window.removeEventListener("scroll", updateNavbarColor);
-    };
-  });
   return (
     <>
       {bodyClick ? (

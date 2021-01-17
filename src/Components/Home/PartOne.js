@@ -27,7 +27,7 @@ import {Animated} from "react-animated-css";
               </Animated>
               <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
               <h5 className="description">
-                Whatever you want here
+                Hollistic Approach 
               </h5>
               </Animated>
               <br />

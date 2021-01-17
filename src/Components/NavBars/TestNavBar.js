@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import classnames from "classnames";
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
+// eslint-disable-next-line 
 import {Row} from "reactstrap"
  
 
@@ -130,6 +131,10 @@ function TestNavBar() {
                     <i className="nc-icon nc-single-02" />
                     Client Resources
                   </DropdownItem>
+                  <DropdownItem to="/Rates" tag={Link}>
+                    <i className="nc-icon nc-credit-card" />
+                    Rates & Insurance 
+                  </DropdownItem>
                   <DropdownItem to="/" tag={Link}>
                     <i className="nc-icon nc-calendar-60" />
                     Staff 
@@ -157,6 +162,7 @@ function TestNavBar() {
                   id = "tooltip903164576"
 
                 >
+                  
                    Call 
                 </Button>
                 <UncontrolledPopover

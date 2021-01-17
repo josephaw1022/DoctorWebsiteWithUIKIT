@@ -31,11 +31,12 @@ export default function Menu() {
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">Let's talk therapy and counseling</h2>
                 <h5 className="description">
-                  This is the paragraph where you can write more details about
-                  your product. Keep you user engaged by providing meaningful
-                  information. Remember that by this time, the user is curious,
-                  otherwise he wouldn't scroll to get here. Add a button if you
-                  want the user to see more.
+                A+ Counseling's mission is to create a space in which those affected
+                by mental health concerns, trauma, or other challenging life circumstances
+                can find safety, hope, peace, and joy.  A+ Counseling model is to promote
+                recovery and healing through a variety of holistic and individualized 
+                therapeutic approaches.
+
                 </h5>
                 <br />
                 <Button
@@ -138,14 +139,14 @@ export default function Menu() {
               <div className="info">
                 
                 <div className="icon icon-info">
-                <i className="nc-icon nc-satisfied" />
+                <i className="nc-icon nc-credit-card" />
                 </div>
                 <div className="description">
                   <h4 className="info-title">Rates & Insurance</h4>
                   <p>
                     Currently not accepting insurance but will be soon! 
                   </p>
-                  <Button className="btn-link" color="info" href="#pablo">
+                  <Button className="btn-link" color="info" tag={Link} to="/Rates">
                     See more
                   </Button>
                 </div>

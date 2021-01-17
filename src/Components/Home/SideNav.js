@@ -51,10 +51,10 @@ class SideNav extends React.Component{
                 <li>
                     <a
                     data-number="3"
-                    href="#Services"
+                    href="#Convenient"
                     onClick={(e) => {
                         e.preventDefault();
-                        document.getElementById("Services").scrollIntoView({
+                        document.getElementById("Convenient").scrollIntoView({
                         behavior: "smooth",
                         block: "start",
                         inline: "nearest",

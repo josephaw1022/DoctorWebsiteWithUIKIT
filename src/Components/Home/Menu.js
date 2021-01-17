@@ -100,7 +100,18 @@ export default function Menu() {
                       Larger, yet dramatically thinner. More powerful, but
                       remarkably power efficient.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button 
+                    className="btn-link" 
+                    color="info" 
+                    href="#Convenient"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document.getElementById("Convenient").scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                      inline: "nearest",
+                      });}}
+                      >
                       See more
                     </Button>
                   </div>

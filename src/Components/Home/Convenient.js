@@ -18,10 +18,10 @@ export default function Convenient(){
       
       
           <>
-            <div className="section secion-blog " id="Services">
+            <div className="section secion-blog " id="Convenient">
               {/* ********* BLOGS 1 ********* */}
               
-              <div className="blog-4" id="Services">
+              <div className="blog-4" >
                 <Container>
                   <Row>
                     <Col className="ml-auto mr-auto" md="10">

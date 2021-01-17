@@ -7,6 +7,7 @@ export class Layout extends Component {
     render () {
       return (
         <>
+        
         <TestNavBar/>
         {this.props.children}
         <DemoFooter/> 

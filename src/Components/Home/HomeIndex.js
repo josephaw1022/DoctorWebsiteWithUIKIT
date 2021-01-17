@@ -7,76 +7,85 @@ import PartThree from "./PartThree"
 import PartFour from "./PartFour"
 import PartFive from "./PartFive"
 import PartSix from "./PartSix"
+import Contact from "./Contact"
+import {Parallax} from 'react-parallax' 
+import Exercise from "./Exercise"
+// import ClientResources from "./ClientResources"
+
 import "./Home.css"
 
 export default function HomeIndex(){ 
-        document.documentElement.classList.remove("nav-open");
+    //     document.documentElement.classList.remove("nav-open");
         
-        React.useEffect(
-            () => {
-            document.body.classList.add("section-page");
-            window.scrollTo(0, 0);
-            document.body.scrollTop = 0;
+    //     React.useEffect(
+    //         () => {
+    //         document.body.classList.add("section-page");
+    //         window.scrollTo(0, 0);
+    //         document.body.scrollTop = 0;
 
-            var href = window.location.href.substring(
-            window.location.href.lastIndexOf("#/") + 2
-            );
-            var hrefId = href.substring(href.lastIndexOf("#") + 1);
-            if (href.lastIndexOf("#") > 0) {
-            document.getElementById(hrefId).scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-                inline: "nearest",
-            });
-            }
-            // this function is used to make the right bullets list
-            // (the bellow <nav id="cd-vertical-nav">)
-            // // active when changeing the section on scroll
-            // const updateView = () => {
-            // var contentSections = document.getElementsByClassName("cd-section");
-            // var navigationItems = document
-            //     .getElementById("cd-vertical-nav")
-            //     .getElementsByTagName("a");
+    //         var href = window.location.href.substring(
+    //         window.location.href.lastIndexOf("#/") + 2
+    //         );
+    //         var hrefId = href.substring(href.lastIndexOf("#") + 1);
+    //         if (href.lastIndexOf("#") > 0) {
+    //         document.getElementById(hrefId).scrollIntoView({
+    //             behavior: "smooth",
+    //             block: "start",
+    //             inline: "nearest",
+    //         });
+    //         }
+    //         // this function is used to make the right bullets list
+    //         // (the bellow <nav id="cd-vertical-nav">)
+    //         // active when changeing the section on scroll
+    //         const updateView = () => {
+    //         var contentSections = document.getElementsByClassName("cd-section");
+    //         var navigationItems = document
+    //             .getElementById("cd-vertical-nav")
+    //             .getElementsByTagName("a");
 
-            // for (let i = 0; i < contentSections.length; i++) {
-            //     var activeSection =
-            //     parseInt(navigationItems[i].getAttribute("data-number"), 10) - 1;
-            //     if (
-            //     contentSections[i].offsetTop - window.innerHeight / 2 <
-            //         window.pageYOffset &&
-            //     contentSections[i].offsetTop +
-            //         contentSections[i].scrollHeight -
-            //         window.innerHeight / 2 >
-            //         window.pageYOffset
-            //     ) {
-            //     navigationItems[activeSection].classList.add("is-selected");
-            //     } else {
-            //     navigationItems[activeSection].classList.remove("is-selected");
-            //     }
-            // }
-            // };
+    //         for (let i = 0; i < contentSections.length; i++) {
+    //             var activeSection =
+    //             parseInt(navigationItems[i].getAttribute("data-number"), 7) - 1;
+    //             if (
+    //             contentSections[i].offsetTop - window.innerHeight / 2 <
+    //                 window.pageYOffset &&
+    //             contentSections[i].offsetTop +
+    //                 contentSections[i].scrollHeight -
+    //                 window.innerHeight / 2 >
+    //                 window.pageYOffset
+    //             ) {
+    //             navigationItems[activeSection].classList.add("is-selected");
+    //             } else {
+    //             navigationItems[activeSection].classList.remove("is-selected");
+    //             }
+    //         }
+    //         };
 
-            // window.addEventListener("scroll", updateView);
-            // return function cleanup() {
-            // document.body.classList.remove("section-page");
-            // window.removeEventListener("scroll", updateView);
-            // };
-        }
-    );
+    //         window.addEventListener("scroll", updateView);
+    //         return function cleanup() {
+    //         document.body.classList.remove("section-page");
+    //         window.removeEventListener("scroll", updateView);
+    //         };
+    //     }
+    // );
 
 
     return (
         <>
         <div className="section-space" />
-        <PartOne /> 
-        
-        {/* <PartThree/>  */}
+        <Parallax>
+        <PartOne />
+        </Parallax> 
+        {/* <ClientResources/>  */}
+        <PartTwo/> 
+      
         <PartFour/>
         <PartThree/>
         <PartFive/> 
         <PartSix/>
-        <PartTwo/> 
-
+        <Exercise/>
+        <Contact/> 
+      
 
         <nav id="cd-vertical-nav" style={{marginRight:"35px"}}>
         <ul>
@@ -97,7 +106,7 @@ export default function HomeIndex(){
               <span className="cd-label">Home</span>
             </a>
           </li>
-          {/* <li>
+          <li>
             <a
               data-number="2"
               href="#About"
@@ -113,7 +122,7 @@ export default function HomeIndex(){
               <span className="cd-dot pointercolor" />
               <span className="cd-label">About</span>
             </a>
-          </li> */}
+          </li>
           <li>
             <a
               data-number="3"
@@ -185,11 +194,11 @@ export default function HomeIndex(){
           </li>
           <li>
             <a
-              data-number="6"
-              href="#About"
+              data-number="3"
+              href="#Exercise"
               onClick={(e) => {
                 e.preventDefault();
-                document.getElementById("About").scrollIntoView({
+                document.getElementById("Exercise").scrollIntoView({
                   behavior: "smooth",
                   block: "start",
                   inline: "nearest",
@@ -197,7 +206,25 @@ export default function HomeIndex(){
               }}
             >
               <span className="cd-dot pointercolor" />
-              <span className="cd-label">Something</span>
+              <span className="cd-label"> Something</span>
+            </a>
+          </li>
+          
+          <li>
+            <a
+              data-number="3"
+              href="#contact-us"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById("contact-us").scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                  inline: "nearest",
+                });
+              }}
+            >
+              <span className="cd-dot pointercolor" />
+              <span className="cd-label"> Something</span>
             </a>
           </li>
           

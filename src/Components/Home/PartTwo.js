@@ -22,8 +22,9 @@ export default function PartTwo() {
   });
   return (
     <>
+    <div class="wrapper">
 
-      <div className="main" id="About">
+      <div className="main" id="About" data-parallex="true">
         <div className="section text-center">
           <Container>
             <Row>
@@ -55,7 +56,7 @@ export default function PartTwo() {
               <div className="info">
                 
                 <div className="icon icon-info">
-                <i className="nc-icon nc-user-run" />
+                <i className="nc-icon nc-spaceship" />
                 </div>
                 <div className="description">
                   <h4 className="info-title">Getting Started</h4>
@@ -63,7 +64,7 @@ export default function PartTwo() {
                     Larger, yet dramatically thinner. More powerful, but
                     remarkably power efficient.
                   </p>
-                  <Button className="btn-link" color="info" href="#pablo">
+                  <Button className="btn-link eights" color="info" href="#pablo">
                     See more
                   </Button>
                 </div>
@@ -122,6 +123,78 @@ export default function PartTwo() {
                   </div>
                 </div>
               </Col>
+              <Col md="3">
+              <div className="info">
+                
+                <div className="icon icon-info">
+                <i className="nc-icon nc-satisfied" />
+                </div>
+                <div className="description">
+                  <h4 className="info-title">Importance of Mental Health</h4>
+                  <p>
+                    Larger, yet dramatically thinner. More powerful, but
+                    remarkably power efficient.
+                  </p>
+                  <Button className="btn-link" color="info" href="#pablo">
+                    See more
+                  </Button>
+                </div>
+              </div>
+              </Col>
+              <Col md="3">
+              <div className="info">
+                
+                <div className="icon icon-info">
+                <i className="nc-icon nc-pin-3" />
+                </div>
+                <div className="description">
+                  <h4 className="info-title">Why Us</h4>
+                  <p>
+                    Larger, yet dramatically thinner. More powerful, but
+                    remarkably power efficient.
+                  </p>
+                  <Button className="btn-link" color="info" href="#pablo">
+                    See more
+                  </Button>
+                </div>
+              </div>
+              </Col>
+              <Col md="3">
+              <div className="info">
+                
+                <div className="icon icon-info">
+                <i className="nc-icon nc-vector" />
+                </div>
+                <div className="description">
+                  <h4 className="info-title">FAQS</h4>
+                  <p>
+                    Larger, yet dramatically thinner. More powerful, but
+                    remarkably power efficient.
+                  </p>
+                  <Button className="btn-link" color="info" href="#pablo">
+                    See more
+                  </Button>
+                </div>
+              </div>
+              </Col>
+              <Col md="3">
+              <div className="info">
+                
+                <div className="icon icon-info">
+                <i className="nc-icon nc-user-run" />
+                </div>
+                <div className="description">
+                  <h4 className="info-title">Exercise & Well Being</h4>
+                  <p>
+                    Larger, yet dramatically thinner. More powerful, but
+                    remarkably power efficient.
+                  </p>
+                  <Button className="btn-link" color="info" href="#pablo">
+                    See more
+                  </Button>
+                </div>
+              </div>
+              </Col>
             
               
               
@@ -129,7 +202,8 @@ export default function PartTwo() {
             </Row>
           </Container>
       </div> 
-      </div> 
+    </div>
+    </div> 
     </>
   );
 }

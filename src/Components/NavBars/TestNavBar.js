@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 import classnames from "classnames";
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
+import {Row} from "reactstrap"
+ 
+
 // reactstrap components
 import {
   Button, 
@@ -17,7 +20,7 @@ import {
   NavbarBrand,
   Navbar,
   NavItem, 
-  NavLink,
+  // NavLink,
   Nav,
   Container,
   UncontrolledTooltip,
@@ -25,12 +28,16 @@ import {
   PopoverHeader, 
   PopoverBody 
 } from "reactstrap";
+// import {Animated} from "react-animated-css";
+
 // core components
 
 function TestNavBar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [bodyClick, setBodyClick] = React.useState(false);
   const [collapseOpen, setCollapseOpen] = React.useState(false);
+
+
   React.useEffect(() => {
     let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
@@ -39,15 +46,23 @@ function TestNavBar() {
       if (
         document.documentElement.scrollTop > 499 ||
         document.body.scrollTop > 499
+        
       ) {
         setNavbarColor("invisible");
+        console.log((document.documentElement.scrollTop/(document.documentElement.scrollHeight-400))*100)
+        
       } else if (
         document.documentElement.scrollTop < 500 ||
         document.body.scrollTop < 500
+        
+        
       ) {
         setNavbarColor("navbar-transparent");
+        console.log((document.documentElement.scrollTop/(document.documentElement.scrollHeight-400))*100)
       }
     };
+
+
     window.addEventListener("scroll", updateNavbarColor);
     return function cleanup() {
       window.removeEventListener("scroll", updateNavbarColor);
@@ -71,17 +86,20 @@ function TestNavBar() {
         id="navbar-main"
       >
         <Container>
+          
           <div className="navbar-translate">
             <NavbarBrand id="navbar-brand" to="/" tag={Link}>
-            <img src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"25%",height:"auto"}}/>
+            
+            <img alt=" "src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"25%",height:"auto"}}/>
+              
               A+ Counseling
             </NavbarBrand>
-            
+  
             <UncontrolledTooltip placement="bottom" target="navbar-brand">
               A+ Counseling & Consulting
             </UncontrolledTooltip>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler bg-info"
               id="navigation"
               type="button"
               onClick={() => {
@@ -103,7 +121,7 @@ function TestNavBar() {
                 <DropdownToggle className="mr-2" color="default" caret nav>
                   More
                 </DropdownToggle>
-                <DropdownMenu className="dropdown-danger" right>
+                <DropdownMenu className="dropdown-info" right>
                 <DropdownItem to="/" tag={Link}>
                     <i className="nc-icon nc-shop" />
                     Home
@@ -162,12 +180,17 @@ function TestNavBar() {
             </UncontrolledPopover>
               </NavItem>
               
-                
               
+  
             </Nav>
           </Collapse>
+          
         </Container>
+        
+      
       </Navbar>
+      
+      
     </>
   );
 }

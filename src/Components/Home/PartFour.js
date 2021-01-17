@@ -2,10 +2,10 @@ import React from "react"
 
 // reactstrap components
 import {
-  Button,
+  // Button,
   Card,
   CardBody,
-  CardFooter,
+  // CardFooter,
   CardTitle,
   Container,
   Row,

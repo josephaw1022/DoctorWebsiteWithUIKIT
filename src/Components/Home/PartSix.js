@@ -6,7 +6,7 @@
     Button,
     Card,
     CardBody,
-    CardFooter,
+    // CardFooter,
     CardTitle,
     Container,
     Row,
@@ -67,7 +67,7 @@ export default function PartSix(){
                       <img
                         alt="..."
                         className="img img-raised"
-                        src={require("assets/img/FreeOnes/Photos10.png")}
+                        src={require("assets/img/FreeOnes/Photos17.png")}
                       />
                     </a>
                   </div>

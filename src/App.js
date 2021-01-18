@@ -5,6 +5,7 @@ import Index from "Components/Home/Index"
 import AboutHeader from "Components/About/AboutHeader"
 import Contact from "Components/Contact/Contact"
 import Rates from "Components/Rates/Rates"
+import FAQs from "Components/FAQs/FAQs"
 // import NotFoundPage from "Components/Error/NotFoundPage"
 export default class App extends Component {
   static displayName = App.name;
@@ -18,6 +19,7 @@ export default class App extends Component {
           <Route path="/About" component={AboutHeader}/> 
           <Route path="/Contact" component={Contact} />
           <Route path="/Rates" component={Rates}/> 
+          <Route path="/FAQs" component={FAQs}/> 
         </Layout>
       </>
     );

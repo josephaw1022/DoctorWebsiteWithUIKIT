@@ -15,23 +15,29 @@ import Exercise from "./Exercise"
 
 import "./Home.css"
 
-export default function Index(){ 
+class Index extends React.Component{ 
+    
+    
 
-    return (
-        <>
-        <div className="section-space" />
-      
-        <PartOne />
-        <Menu/> 
-        <Convenient/>
-        <ServicesOffered/>
-        <OurTeam/> 
-        {/* <BlogPosts/> */}
-        <Exercise/>
-        {/* <Menu2/>  */}
-        <Contact/> 
-        <SideNav/> 
+    render(){
+            
+        return (
+            <>
+            <div className="section-space" />
+        
+            <PartOne />
+            <Menu/> 
+            <Convenient/>
+            <ServicesOffered/>
+            <OurTeam/> 
+            {/* <BlogPosts/> */}
+            <Exercise/>
+            {/* <Menu2/>  */}
+            <Contact/> 
+            <SideNav/> 
 
-        </>
-    ); 
+            </>
+        ); 
+    }
 }
+export default Index ; 

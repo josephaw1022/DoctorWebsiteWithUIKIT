@@ -5,7 +5,7 @@ import {Animated} from "react-animated-css";
 import {
     Card,
     CardBody,
-    CardTitle , 
+    // CardTitle , 
     Container,
     Row,
     Col,
@@ -25,46 +25,13 @@ class Rates extends React.Component {
 
         return(
             <>
-
-                                {/* <div
-                className="page-header"
-                data-parallax="True"
-                style={{ backgroundImage: "url(" + require("assets/img/FreeOnes/Photos8.png") + ")", }}
-                
-                >
-                <div className="filter" />
-                <div className="content-center">
-
-                    <Container>
-                    <Row>
-                        <Col className="ml-auto mr-auto text-center" md="8">
-                        <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
-                        <h1 className="title" id="navbarstuff">Rates & Insurance</h1>
-                        </Animated>
-                        <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
-                        <h5 className="description">
-                            Whatever you want here
-                        </h5>
-                        </Animated>
-                        <br />
-                        </Col>
-                        <Col className="ml-auto mr-auto" md="10">
-                        
-                        </Col>
-                    </Row>
-                    </Container>
-                    
-                </div>
-
-                </div> */}
-
             <div className="section section-black"> 
             <div className="testimonials-3">
             <Container >
               <Row>
                 <Col className="ml-auto mr-auto text-center" md="6">
                 <Animated animationIn="zoomInDown" animationOut="zoomOutDown" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
-                  <h2 className="title title" style={{color:"white",marginTop:"80px"}}>
+                  <h2 className="title title" style={{color:"white",marginTop:"80px", fontWeight:"bold"}}>
                       Rates and Insurance
                  </h2>
                  </Animated> 

@@ -13,6 +13,7 @@ import { Link } from "react-router-dom"
 // core component
 
 export default function Menu() {
+
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
@@ -20,6 +21,7 @@ export default function Menu() {
       document.body.classList.remove("profile-page");
     };
   });
+
   return (
     <>
     <div class="wrapper">
@@ -29,7 +31,7 @@ export default function Menu() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Let's talk therapy and counseling</h2>
+                <h2 className="title add-animation">Let's talk therapy and counseling</h2>
                 <h5 className="description">
                 A+ Counseling's mission is to create a space in which those affected
                 by mental health concerns, trauma, or other challenging life circumstances
@@ -177,7 +179,7 @@ export default function Menu() {
                 <i className="nc-icon nc-vector" />
                 </div>
                 <div className="description">
-                  <h4 className="info-title">FAQS</h4>
+                  <h4 className="info-title">FAQs</h4>
                   <p>
                     Larger, yet dramatically thinner. More powerful, but
                     remarkably power efficient.

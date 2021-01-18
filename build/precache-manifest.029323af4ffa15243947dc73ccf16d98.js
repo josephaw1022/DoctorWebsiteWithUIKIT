@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e653b3cf03c86ea0a4731131e0cb311c",
+    "revision": "62c42cc832d776746bf25d18dd586a1e",
     "url": "/index.html"
   },
   {
-    "revision": "52048f6317618ee9cc3e",
+    "revision": "443fcab4e5121bfc3506",
     "url": "/static/css/main.d27b6b7f.chunk.css"
   },
   {
-    "revision": "1cda3d90ca1a3df6208a",
-    "url": "/static/js/2.4713267c.chunk.js"
+    "revision": "9670d4801952a3d142ea",
+    "url": "/static/js/2.45578802.chunk.js"
   },
   {
     "revision": "a2af8550cd4c85507830ba8fe1f6a9ac",
-    "url": "/static/js/2.4713267c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.45578802.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52048f6317618ee9cc3e",
-    "url": "/static/js/main.fcf59e0a.chunk.js"
+    "revision": "443fcab4e5121bfc3506",
+    "url": "/static/js/main.a869cf75.chunk.js"
   },
   {
     "revision": "9f3fdab3f86a3b0f2aa6",
@@ -60,16 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/anders-jilden.7438cd02.jpg"
   },
   {
-    "revision": "bfc688ca490f0079051aea5b8ec75cbe",
-    "url": "/static/media/ayo-ogunseinde-2.bfc688ca.jpg"
-  },
-  {
     "revision": "1e4967d1338c19cfc75df1ec64f3a2f6",
     "url": "/static/media/brownprofile.1e4967d1.png"
-  },
-  {
-    "revision": "bb4b9ac9fd07e48f86c719495b65341c",
-    "url": "/static/media/clem-onojeghuo-2.bb4b9ac9.jpg"
   },
   {
     "revision": "5d7ac60941b97e80759a02ed89577cc1",
@@ -86,10 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5b68286c088ea85f814f8336e1fed6be",
     "url": "/static/media/jeremy-yap.5b68286c.jpg"
-  },
-  {
-    "revision": "76ff47ae5c64ccda5af18326bb272058",
-    "url": "/static/media/joe-gardner-2.76ff47ae.jpg"
   },
   {
     "revision": "ea0a05cf66a2df07b2527cab69893c34",

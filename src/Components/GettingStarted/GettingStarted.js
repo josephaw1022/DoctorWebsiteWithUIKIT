@@ -47,10 +47,12 @@ class GettingStarted extends React.Component{
                     <h4 className="info-title" style={{color:"#fff",fontSize:"20px"}}>Hippa</h4>
                     <p style={{color:"#fff"}}>
                       
-                    </p>
+                    </p>  
+                    <a href="A+HIPAA.docx" rel="noopener noreferrer"  className="button" download>
                     <Button className="btn-round" color="primary">
                         Download 
                     </Button>
+                    </a> 
                   </div>
                 </div>
                 </Animated>
@@ -67,9 +69,11 @@ class GettingStarted extends React.Component{
                     <p style={{color:"#fff"}}>
                     
                     </p>
+                    <a href="A+Diclosure-informed-consent.docx" rel="noopener noreferrer"  className="button" download>
                     <Button className="btn-round" color="primary">
                         Download 
                     </Button>
+                    </a> 
                   </div>
                 </div>
                 </Animated>
@@ -86,9 +90,11 @@ class GettingStarted extends React.Component{
                     <p style={{color:"#fff"}}>
                       
                     </p>
+                    <a href="A+-Patient-Financial-Responsibility-Form.docx" rel="noopener noreferrer"  className="button" download>
                     <Button className="btn-round" color="primary">
                         Download 
                     </Button>
+                    </a> 
                   </div>
                 </div>
                 </Animated>
@@ -107,10 +113,11 @@ class GettingStarted extends React.Component{
                       
                     </p>
                     </div>
-
+                    <a href="A+-Individual-Intake-2021.docx" rel="noopener noreferrer"  className="button" download>
                   <Button className="btn-round" color="primary">
                         Download 
                     </Button>
+                    </a> 
                 </div>
                 </Animated>
                 </Col>
@@ -122,14 +129,18 @@ class GettingStarted extends React.Component{
                   <i className="nc-icon nc-email-85" />
                   </div>
                   <div className="description">
+                    
                     <h4 className="info-title" style={{color:"#fff",fontSize:"20px"}}>Email Consent</h4>
                     <p style={{color:"#fff"}}> 
                       
                     </p>
                     </div>
+                      
+                    <a href="A+-Email-text-cosent.docx" rel="noopener noreferrer"  className="button" download>
                   <Button className="btn-round" color="primary">
                         Download 
                     </Button>
+                    </a> 
                 </div>
                 </Animated>
                 </Col>

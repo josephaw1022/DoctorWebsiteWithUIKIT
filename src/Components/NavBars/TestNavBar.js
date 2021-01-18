@@ -121,14 +121,7 @@ function TestNavBar() {
                     <i className="nc-icon nc-shop" />
                     Home
                   </DropdownItem>
-                  <DropdownItem to="/About" tag={Link}>
-                    <i className="nc-icon nc-alert-circle-i" />
-                    About
-                  </DropdownItem>
-                  <DropdownItem to="/Contact" tag={Link}>
-                    <i className="nc-icon nc-bullet-list-67" />
-                    Contact
-                  </DropdownItem>
+                  
                   <DropdownItem to="/" tag={Link}>
                     <i className="nc-icon nc-single-02" />
                     Client Resources
@@ -149,7 +142,7 @@ function TestNavBar() {
                     <i className="nc-icon nc-badge" />
                     Testimonials
                   </DropdownItem>
-                  <DropdownItem to="/sections#contact-us" tag={Link}>
+                  <DropdownItem to="/sections#contact-us" tag={Link} to="/Contact">
                     <i className="nc-icon nc-mobile" />
                     Contact Us
                   </DropdownItem>
@@ -175,7 +168,7 @@ function TestNavBar() {
             >
               <PopoverHeader>Phone Number </PopoverHeader>
               <PopoverBody>
-                ***-***-****
+              843-589-1517
               </PopoverBody>
             </UncontrolledPopover>
               </NavItem>

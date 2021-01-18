@@ -36,10 +36,30 @@ function ContactUs() {
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title" style={{color:"#fff"}}>Get in touch with us</h2>
                 <p style={{color:"#fff"}}>
-                  Collaboratively administrate empowered markets via
-                  plug-and-play networks. Dynamically procrastinate B2C users
-                  after installed base benefits. Dramatically visualise customer
-                  directed convergence without revolutionary ROI.
+                Questions? Please contact me for further information at 843-589-1517
+                <br/><br/>
+                PATIENTS ARE ASKED NOT TO SEND MESSAGES TO THIS ADDRESS AS STAFF MAY
+                 NOT SEE THEM IN A TIMELY MANNER. IF YOU ARE EXPERIENCING A PSYCHIATRIC 
+                 (MENTAL HEALTH) CRISIS, PLEASE CALL OUR MOBILE CRISIS/COMMUNITY CRISIS 
+                 RESPONSE AND INTERVENTION TEAM, TOLL-FREE, AT (833) 364-2274. IT IS 
+                 AVAILABLE AT ALL TIMES. AS ALWAYS, IF YOU ARE EXPERIENCING A MEDICAL 
+                EMERGENCY, PLEASE CALL 911.
+                <br/><br/> 
+                PRIVACY NOTICE: THIS COMMUNICATION IS INTENDED ONLY FOR THE USE OF THE 
+                INDIVIDUAL OR ENTITY TO WHICH IT IS ADDRESSED AND MAY CONTAIN SCDMH PATIENT
+                OR OTHER INFORMATION THAT IS PRIVATE AND PROTECTED FROM DISCLOSURE BY
+                APPLICABLE LAW INCLUDING: 45 CFR PART 160 (HIPAA), § 44-22-100, S.C.
+                CODE OF LAWS (SCDMH PATIENT CONFIDENTIALITY), AND WHEN APPLICABLE, 
+                42 CFR PART 2 (ALCOHOL AND DRUG PROGRAM CONFIDENTIALITY.) IF THE 
+                READER OF THIS MESSAGE IS NOT THE INTENDED RECIPIENT OR RESPONSIBLE 
+                FOR DELIVERING THE MESSAGE TO THE INTENDED RECIPIENT, YOU ARE HEREBY 
+                NOTIFIED THAT ANY DISSEMINATION, DISTRIBUTION OR COPYING OF THIS 
+                COMMUNICATION, OR THE INFORMATION CONTAINED WITHIN IT, IS STRICTLY
+                PROHIBITED AND MAY SUBJECT THE VIOLATOR TO CIVIL AND/OR CRIMINAL 
+                PENALTIES. IF YOU HAVE RECEIVED THIS COMMUNICATION IN ERROR, 
+                PLEASE NOTIFY US IMMEDIATELY BY TELEPHONE, REPLY E-MAIL OR FAX USING 
+                THE PHONE NUMBER OR ADDRESS IDENTIFIED IN THIS COMMUNICATION AND DESTROY 
+                OR DELETE ALL COPIES OF THIS COMMUNICATION AND ALL ATTACHMENTS.
                 </p>
               </Col>
             </Row>
@@ -103,259 +123,10 @@ function ContactUs() {
           </Container>
         </div>
       </div>
+      </div> 
       
 
-        <div className="section">
-          <Container>
-            <h3 className="title-uppercase">We build great products.</h3>
-            <p>
-              Collaboratively administrate empowered markets via plug-and-play
-              networks. Dynamically procrastinate B2C users after installed base
-              benefits. Dramatically visualize customer directed convergence
-              without revolutionary ROI.
-            </p>
-            <p>
-              Efficiently unleash cross-media information without cross-media
-              value. Quickly maximize timely deliverables for real-time schemas.
-              Dramatically maintain clicks-and-mortar solutions without
-              functional solutions.
-            </p>
-            <h3 className="title-uppercase">
-              We
-              <i className="fa fa-heart heart mr-3 ml-1" />
-              what we do.
-            </h3>
-            <p>
-              Completely synergize resource taxing relationships via premier
-              niche markets. Professionally cultivate one-to-one customer
-              service with robust ideas. Dynamically innovate resource-leveling
-              customer service for state of the art customer service.
-            </p>
-            <h2 className="text-center creators">Creators</h2>
-            <Row>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <CardBody>
-                    <div className="card-avatar">
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <img
-                          alt="..."
-                          src={require("assets/img/faces/ayo-ogunseinde-2.jpg")}
-                        />
-                        <CardTitle tag="h4">Eric Thomson</CardTitle>
-                      </a>
-                    </div>
-                    <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      others. No one can whistle a symphony. It takes orchestra
-                      to play it.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon mr-1"
-                      color="linkedin"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon mr-1"
-                      color="dribbble"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-dribbble" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon"
-                      color="instagram"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-instagram" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <CardBody>
-                    <div className="card-avatar">
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <img
-                          alt="..."
-                          src={require("assets/img/faces/joe-gardner-2.jpg")}
-                        />
-                        <CardTitle tag="h4">Sophia West</CardTitle>
-                      </a>
-                    </div>
-                    <p className="card-description text-center">
-                      The strength of the team is each individual member. The
-                      strength of each member is the team. If you can laugh
-                      together, you can work together, silence isn’t golden,
-                      it’s deadly.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon mr-1"
-                      color="linkedin"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon mr-1"
-                      color="dribbble"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-dribbble" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon"
-                      color="pinterest"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-pinterest" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <CardBody>
-                    <div className="card-avatar">
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        <img
-                          alt="..."
-                          src={require("assets/img/faces/clem-onojeghuo-2.jpg")}
-                        />
-                        <CardTitle tag="h4">Lucas Andrew</CardTitle>
-                      </a>
-                    </div>
-                    <p className="card-description text-center">
-                      Great teams do not hold back with one another. They are
-                      unafraid to air their dirty laundry. They admit their
-                      mistakes, their weaknesses and their concerns without fear
-                      of reprisal.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon mr-1"
-                      color="youtube"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-youtube" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon mr-1"
-                      color="twitter"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon"
-                      color="instagram"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-instagram" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-            </Row>
-            <h3 className="more-info">Need more information?</h3>
-            <Row className="coloured-cards">
-              <Col md="4" sm="6">
-                <div className="card-big-shadow">
-                  <Card
-                    className="card-just-text"
-                    data-background="color"
-                    data-color="blue"
-                    data-radius="none"
-                  >
-                    <CardBody>
-                      <h6 className="card-category">Best cards</h6>
-                      <CardTitle tag="h4">
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          Blue Card
-                        </a>
-                      </CardTitle>
-                      <p className="card-description">
-                        What all of these have in common is that they're pulling
-                        information out of the app or the service and making it
-                        relevant to the moment.
-                      </p>
-                    </CardBody>
-                  </Card>
-                  {/* end card */}
-                </div>
-              </Col>
-              <Col md="4" sm="6">
-                <div className="card-big-shadow">
-                  <Card
-                    className="card-just-text"
-                    data-background="color"
-                    data-color="green"
-                    data-radius="none"
-                  >
-                    <CardBody>
-                      <h6 className="card-category">Best cards</h6>
-                      <CardTitle tag="h4">
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          Green Card
-                        </a>
-                      </CardTitle>
-                      <p className="card-description">
-                        What all of these have in common is that they're pulling
-                        information out of the app or the service and making it
-                        relevant to the moment.
-                      </p>
-                    </CardBody>
-                  </Card>
-                  {/* end card */}
-                </div>
-              </Col>
-              <Col md="4" sm="6">
-                <div className="card-big-shadow">
-                  <Card
-                    className="card-just-text"
-                    data-background="color"
-                    data-color="yellow"
-                    data-radius="none"
-                  >
-                    <CardBody>
-                      <h6 className="card-category">Best cards</h6>
-                      <CardTitle tag="h4">
-                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          Yellow Card
-                        </a>
-                      </CardTitle>
-                      <p className="card-description">
-                        What all of these have in common is that they're pulling
-                        information out of the app or the service and making it
-                        relevant to the moment.
-                      </p>
-                    </CardBody>
-                  </Card>
-                  {/* end card */}
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </div>
+      
 
     </>
   );

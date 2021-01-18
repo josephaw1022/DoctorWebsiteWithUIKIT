@@ -94,7 +94,7 @@ function TestNavBar() {
               A+ Counseling & Consulting
             </UncontrolledTooltip>
             <button
-              className="navbar-toggler bg-info"
+              className="navbar-toggler "
               id="navigation"
               type="button"
               onClick={() => {

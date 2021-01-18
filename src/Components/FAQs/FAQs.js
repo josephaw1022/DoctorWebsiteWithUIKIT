@@ -87,6 +87,7 @@ class FAQs extends React.Component{
                     </Row>
                   </Card>
                   </Animated>
+                  
                   <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>
                   <Card className="card-plain card-blog">
                     <Row>

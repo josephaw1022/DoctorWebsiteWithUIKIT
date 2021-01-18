@@ -27,15 +27,15 @@ function ContactUs() {
     <>
 
     
-    
+      <div className="section" style={{backgroundColor:"#333"}}/>
       <div className="main contact-page" id="ContactUs">
-      <div className="bg-success" >
-        <div className="section reddy">
+      <div className="bg-success">
+        <div className="section reddy" style={{backgroundColor:"#333"}}>
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">Get in touch with us</h2>
-                <p>
+                <h2 className="title" style={{color:"#fff"}}>Get in touch with us</h2>
+                <p style={{color:"#fff"}}>
                   Collaboratively administrate empowered markets via
                   plug-and-play networks. Dynamically procrastinate B2C users
                   after installed base benefits. Dramatically visualise customer
@@ -57,15 +57,11 @@ function ContactUs() {
                 <Button className="btn-just-icon mr-1" color="google">
                   <i className="fa fa-google" />
                 </Button>
-                <Button className="btn-just-icon mr-1" color="dribbble">
-                  <i className="fa fa-dribbble" />
-                </Button>
+                
                 <Button className="btn-just-icon mr-1" color="instagram">
                   <i className="fa fa-instagram" />
                 </Button>
-                <Button className="btn-just-icon" color="youtube">
-                  <i className="fa fa-youtube" />
-                </Button>
+                
               </Col>
             </Row>
             <Row>

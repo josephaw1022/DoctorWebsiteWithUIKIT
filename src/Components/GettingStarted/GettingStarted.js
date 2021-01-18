@@ -122,7 +122,7 @@ class GettingStarted extends React.Component{
                   <i className="nc-icon nc-email-85" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title" style={{color:"#fff",fontSize:"20px"}}>Email/Text Consent</h4>
+                    <h4 className="info-title" style={{color:"#fff",fontSize:"20px"}}>Email Consent</h4>
                     <p style={{color:"#fff"}}> 
                       
                     </p>

@@ -184,7 +184,7 @@ export default function Menu() {
                     Larger, yet dramatically thinner. More powerful, but
                     remarkably power efficient.
                   </p>
-                  <Button className="btn-link" color="info" href="#pablo">
+                  <Button className="btn-link" color="info" tag={Link} to="/FAQs">
                     See more
                   </Button>
                 </div>

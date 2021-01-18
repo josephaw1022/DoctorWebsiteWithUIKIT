@@ -9,7 +9,7 @@ import {
   } from "reactstrap";
   
 import { Link } from "react-router-dom"
-  
+import {Animated} from "react-animated-css";
 
 class GettingStarted extends React.Component{ 
 
@@ -23,8 +23,9 @@ class GettingStarted extends React.Component{
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="8">
+                <Animated animationIn="headShake" animationOut="fadeOut" isVisible={true }>
                   <h2 className="title add-animation" style={{color:"#fff"}}> Please call me and fill out the following forms</h2>
-
+                  </Animated>
                   
                   <br />
                   
@@ -36,6 +37,7 @@ class GettingStarted extends React.Component{
                 
                 
                 <Col md="4">
+                <Animated animationIn="bounceInDown" isVisible={true }>
                 <div className="info">
                   
                   <div className="icon icon-info">
@@ -51,8 +53,10 @@ class GettingStarted extends React.Component{
                     </Button>
                   </div>
                 </div>
+                </Animated>
                 </Col>
                 <Col md="4">
+                <Animated animationIn="bounceInDown" isVisible={true}>
                 <div className="info">
                   
                   <div className="icon icon-info">
@@ -68,8 +72,10 @@ class GettingStarted extends React.Component{
                     </Button>
                   </div>
                 </div>
+                </Animated>
                 </Col>
                 <Col md="4">
+                <Animated animationIn="bounceInDown" isVisible={true }>
                 <div className="info">
                   
                   <div className="icon icon-info">
@@ -85,9 +91,11 @@ class GettingStarted extends React.Component{
                     </Button>
                   </div>
                 </div>
+                </Animated>
                 </Col>
                 
                 <Col md="4">
+                <Animated animationIn="bounceInDown" isVisible={true }>
                 <div className="info">
                   
                   <div className="icon icon-info">
@@ -99,12 +107,15 @@ class GettingStarted extends React.Component{
                       
                     </p>
                     </div>
+
                   <Button className="btn-round" color="primary">
                         Download 
                     </Button>
                 </div>
+                </Animated>
                 </Col>
                 <Col md="4">
+                <Animated animationIn="bounceInDown" isVisible={true }>
                 <div className="info">
                   
                   <div className="icon icon-info">
@@ -120,6 +131,7 @@ class GettingStarted extends React.Component{
                         Download 
                     </Button>
                 </div>
+                </Animated>
                 </Col>
 
               

@@ -29,7 +29,7 @@ class FAQs extends React.Component{
               <Row>
                 <Col className="ml-auto mr-auto" md="10">
                     <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
-                  <h2 className="title" style={{textAlign:"center", color:"#fff", fontWeight:"bolder"}} >FAQs -</h2>
+                  <h1 className="title" style={{textAlign:"center", color:"#fff", fontWeight:"bolder"}} >FAQs </h1>
                     </Animated> 
                   <br />
                   <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>
@@ -43,10 +43,10 @@ class FAQs extends React.Component{
                       <Col md="8">
                         <CardBody>
                           
-                          <CardTitle tag="h3">
-                            <a href="/FAQs"  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-info">
+                          <CardTitle tag="h4">
+                            <h4  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-info">
                             Why do people consider using therapy?
-                            </a>
+                            </h4>
                           </CardTitle>
                           <p className="card-description " style={{color:"#fff"}}>
                           <br/><br/> - Therapy is a partnership between an individual and a professional trained to help people understand their feelings and help them change their behavior. People often consider therapy under the following circumstances:
@@ -69,10 +69,10 @@ class FAQs extends React.Component{
                       <Col md="8">
                         <CardBody>
                          
-                          <CardTitle tag="h3">
-                            <a  href="/FAQs"  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-danger">
+                          <CardTitle tag="h4">
+                            <h4   onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-danger">
                             How do I schedule an appointment?
-                            </a>
+                            </h4>
                           </CardTitle>
                           <p className="card-description" style={{color:"#fff"}}>
                           <br/><br/> 
@@ -87,9 +87,9 @@ class FAQs extends React.Component{
                       </Col>
                       <Col md="4">
                         <div className="card-image">
-                          <a  href="/FAQs"   onClick={(e) => e.preventDefault()}>
+                          <h4 onClick={(e) => e.preventDefault()}>
                             
-                          </a>
+                          </h4>
                         </div>
                       </Col>
                     </Row>
@@ -101,18 +101,18 @@ class FAQs extends React.Component{
                     <Row>
                       <Col md="4">
                         <div className="card-image">
-                          <a  href="/FAQs"   onClick={(e) => e.preventDefault()}>
+                          <h4  onClick={(e) => e.preventDefault()}>
                             
-                          </a>
+                          </h4>
                         </div>
                       </Col>
                       <Col md="8">
                         <CardBody>
                           
-                          <CardTitle tag="h3">
-                            <a href="/FAQs"   onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-success">
+                          <CardTitle tag="h4">
+                            <h4 onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-success">
                             What is your cancellation policy?
-                            </a>
+                            </h4 >
                           </CardTitle>
                           <p className="card-description" style={{color:"#fff"}}>
                           <br/><br/> 
@@ -133,10 +133,10 @@ class FAQs extends React.Component{
                       <Col md="8">
                         <CardBody>
                          
-                          <CardTitle tag="h3">
-                            <a href="/FAQs"   onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-primary">
+                          <CardTitle tag="h4">
+                            <h4  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-primary">
                             What forms of payment do you accept?
-                            </a>
+                            </h4>
                           </CardTitle>
                           <p className="card-description" style={{color:"#fff"}}>
                           <br/><br/> 
@@ -162,18 +162,18 @@ class FAQs extends React.Component{
                     <Row>
                       <Col md="4">
                         <div className="card-image">
-                          <a href="/FAQs"  onClick={(e) => e.preventDefault()}>
+                          <h4 onClick={(e) => e.preventDefault()}>
                             
-                          </a>
+                          </h4>
                         </div>
                       </Col>
                       <Col md="8">
                         <CardBody>
                           
-                          <CardTitle tag="h3">
-                            <a href="/F" onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-warning">
+                          <CardTitle tag="h4">
+                            <h4 href="/F" onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-warning">
                             How much does counseling cost?
-                            </a>
+                            </h4>
                           </CardTitle>
                           <p className="card-description" style={{color:"#fff"}}>
                           <br/><br/> 
@@ -194,10 +194,10 @@ class FAQs extends React.Component{
                       <Col md="8">
                         <CardBody>
                          
-                          <CardTitle tag="h3">
-                            <a href="/FAQs"  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-neutral">
+                          <CardTitle tag="h4">
+                            <h4 href="/FAQs"  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-neutral">
                             How long is each session? 
-                            </a>
+                            </h4>
                           </CardTitle>
                           <p className="card-description" style={{color:"#fff"}}>
                           <br/><br/> 
@@ -224,10 +224,10 @@ class FAQs extends React.Component{
                       <Col md="8">
                         <CardBody>
                           
-                          <CardTitle tag="h3">
-                            <a href="/FAQs"  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-danger">
+                          <CardTitle tag="h4">
+                            <h4  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-danger">
                             Is Online Therapy Effective?
-                            </a>
+                            </h4>
                           </CardTitle>
                           <p className="card-description" style={{color:"#fff"}}>
                           <br/><br/> 
@@ -244,10 +244,10 @@ class FAQs extends React.Component{
                     <Row>
                       <Col md="8">
                         <CardBody>
-                          <CardTitle tag="h3">
-                            <a href="/FAQs"  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-info">
+                          <CardTitle tag="h4">
+                            <h4 href="/FAQs"  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-info">
                             How many sessions will I need?
-                            </a>
+                            </h4>
                           </CardTitle>
                           <p className="card-description" style={{color:"#fff"}}>
                           <br/><br/> 
@@ -258,9 +258,7 @@ class FAQs extends React.Component{
                       </Col>
                       <Col md="4">
                         <div className="card-image">
-                          <a href="/FAQs"  onClick={(e) => e.preventDefault()}>
-                            
-                          </a>
+                          
                         </div>
                       </Col>
                     </Row>
@@ -279,10 +277,10 @@ class FAQs extends React.Component{
                       <Col md="8">
                         <CardBody>
                           
-                          <CardTitle tag="h3">
-                            <a href="/FAQs"  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-success">
+                          <CardTitle tag="h4">
+                            <h4 href="/FAQs"  onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className="text-success">
                             What about confidentiality?
-                            </a>
+                            </h4>
                           </CardTitle>
                           <p className="card-description" style={{color:"#fff"}}>
                           <br/><br/> 

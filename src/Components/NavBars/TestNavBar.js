@@ -24,10 +24,7 @@ import {
   // NavLink,
   Nav,
   Container,
-  UncontrolledTooltip,
-  UncontrolledPopover,
-  PopoverHeader, 
-  PopoverBody 
+  UncontrolledTooltip
 } from "reactstrap";
 // import {Animated} from "react-animated-css";
 
@@ -111,16 +108,35 @@ function TestNavBar() {
           
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
+            
+              <NavItem >
+                <Button
+                  tag={Link}
+                  to="/"
+                  className="btn-round"
+                  color="info"
+
+                >
+                 Home
+                   
+                </Button>
               
+              </NavItem>
+              
+
+
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle className="mr-2" color="default" caret nav>
-                  More
+              {/* <Button
+                className="btn-round"
+                color="info"
+                style={{height:"inherit"}}>  */}
+
+                <DropdownToggle className="mr-2 float-" color="default" caret nav style={{alignContent:"center"}}>
+                More
                 </DropdownToggle>
+                {/* </Button> */}
                 <DropdownMenu className="dropdown-info" right>
-                <DropdownItem to="/" tag={Link}>
-                    <i className="nc-icon nc-shop" />
-                    Home
-                  </DropdownItem>
+                
                   
                   <DropdownItem to="/" tag={Link}>
                     <i className="nc-icon nc-single-02" />
@@ -146,29 +162,7 @@ function TestNavBar() {
                 </DropdownMenu>
               </UncontrolledDropdown>
 
-              <NavItem >
-                <Button
-                  className="btn-round"
-                  color="primary"
-                  target="_blank"
-                  id = "tooltip903164576"
-
-                >
-                  
-                   Call 
-                </Button>
-                <UncontrolledPopover
-              trigger="focus"
-              placement="down"
-              target="tooltip903164576"
-            
-            >
-              <PopoverHeader>Phone Number </PopoverHeader>
-              <PopoverBody>
-              843-589-1517
-              </PopoverBody>
-            </UncontrolledPopover>
-              </NavItem>
+              
               
               
   

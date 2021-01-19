@@ -1,11 +1,19 @@
-.centerpicture{ 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.togglershow{ 
+    top:50%;
+    
 }
-
-img{ 
+.opfd{
     position: relative;
-    align-content: center;
-    vertical-align: center;
+}
+    
+@media(max-width:500px){ 
+    .togglershow { 
+        display: none;
+    }
+}
+@media(max-width:500px){ 
+    .togglershow { 
+        top:50% ; 
+
+    }
 }

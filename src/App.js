@@ -10,6 +10,7 @@ import GettingStarted from "Components/GettingStarted/GettingStarted"
 import WhyUs from "Components/WhyUs/WhyUs"
 import Future from "Components/Future/Future"
 
+
 // import NotFoundPage from "Components/Error/NotFoundPage"
 export default class App extends Component {
   static displayName = App.name;
@@ -26,6 +27,7 @@ export default class App extends Component {
           <Route path="/GettingStarted" component={GettingStarted}/> 
           <Route path="/WhyUs" component={WhyUs}/> 
           <Route path="/Future" component={Future}/>
+
         </Layout>
       </>
     );

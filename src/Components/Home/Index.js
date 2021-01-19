@@ -10,6 +10,7 @@ import OurTeam from "./OurTeam"
 import Contact from "./Contact"
 import SideNav from "./SideNav"
 import Exercise from "./Exercise"
+import TeleHealth2 from "./TeleHealth2"
 // import Menu2 from "./Menu2"
 // import ClientResources from "./ClientResources"
 
@@ -31,8 +32,9 @@ class Index extends React.Component{
             <ServicesOffered/>
             <OurTeam/> 
             {/* <BlogPosts/> */}
-            <Exercise/>
+            {/* <Exercise/> */}
             {/* <Menu2/>  */}
+            <TeleHealth2/> 
             <Contact/> 
             <SideNav/> 
 

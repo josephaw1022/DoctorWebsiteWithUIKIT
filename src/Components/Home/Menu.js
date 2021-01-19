@@ -35,10 +35,7 @@ export default function Menu() {
                 <h5 className="description">
                 A+ Counseling's mission is to create a space in which those affected
                 by mental health concerns, trauma, or other challenging life circumstances
-                can find safety, hope, peace, and joy.  A+ Counseling model is to promote
-                recovery and healing through a variety of holistic and individualized 
-                therapeutic approaches.
-
+                can find safety, hope, peace, and joy.  
                 </h5>
                 <br />
                 <Button
@@ -106,10 +103,10 @@ export default function Menu() {
                     <Button 
                     className="btn-link" 
                     color="info" 
-                    href="#Convenient"
+                    href="#TeleHealth"
                     onClick={(e) => {
                       e.preventDefault();
-                      document.getElementById("Convenient").scrollIntoView({
+                      document.getElementById("TeleHealth").scrollIntoView({
                       behavior: "smooth",
                       block: "start",
                       inline: "nearest",

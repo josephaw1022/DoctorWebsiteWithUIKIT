@@ -26,9 +26,9 @@ class Future extends React.Component {
                         <div className="card-image">
                           <img
                             alt="..."
-                            className="img"
+                            className="img togglershow"
                             src={require("assets/img/FreeOnes/Photos20.png")}
-                            style={{height:"auto",width:"auto",alignSelf:"center"}}
+                            
                           />
                         </div>
                         </Row> 
@@ -75,22 +75,24 @@ class Future extends React.Component {
                          
                         </CardBody>
                       </Col>
-                      <Col md="4" className="ml-auto mr-auto text-center">
-                        
-                        <Row md={6}>
+                      <Col md="4" className="ml-auto mr-auto">
+                        <Row></Row>
+                        <Row md="4">
                             <div className="card-image" >
                           
                             <img
                               alt="..."
-                              className="img "
+                              className="img togglershow opfd"
                               src={require("assets/img/FreeOnes/Photos19.png")}
-                              style={{width:"100%",height:"auto",alignSelf:"center",top:"50%"}}
+                              style={{top:"50%"}}
+                              
+                             
                               
                               
                             />
                             </div> 
                         </Row> 
-                    
+                        <Row></Row>
                         
     
                       </Col>

@@ -23,14 +23,11 @@ import {
 function SectionContactUs() {
   return (
     <>
-      <div className="section section-contactus cd-section" id="contact-us">
+      <div className="section " id="contact-us"  style={{backgroundColor:"rgb(50,50,50)"}}>
         {/* ********* CONTACT US 1 ********* */}
         <div
-          className="contactus-1 section-image"
-          style={{
-            backgroundImage:
-              "url(" + require("assets/img/FreeOnes/Photos10.png") + ")",
-          }}
+          className="contactus-1"
+          
         >
           <Container>
             <Row>

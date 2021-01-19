@@ -23,7 +23,7 @@ import {
 function SectionContactUs() {
   return (
     <>
-      <div className="section " id="contact-us"  style={{backgroundColor:"rgb(50,50,50)"}}>
+      <div className="section contactbacked" id="contact-us"  style={{backgroundColor:"#333"}}>
         {/* ********* CONTACT US 1 ********* */}
         <div
           className="contactus-1"

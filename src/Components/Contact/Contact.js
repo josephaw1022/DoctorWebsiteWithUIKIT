@@ -3,13 +3,13 @@ import React from "react";
 
 // reactstrap components
 import { Button, Form, Input, Container, Row, Col } from "reactstrap";
-import {
+// import {
 
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle
-  } from "reactstrap";
+//     Card,
+//     CardBody,
+//     CardFooter,
+//     CardTitle
+//   } from "reactstrap";
   
 
 

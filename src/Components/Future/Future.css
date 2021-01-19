@@ -1,0 +1,11 @@
+.centerpicture{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{ 
+    position: relative;
+    align-content: center;
+    vertical-align: center;
+}

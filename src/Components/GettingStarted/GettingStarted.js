@@ -8,7 +8,7 @@ import {
     Col
   } from "reactstrap";
   
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import {Animated} from "react-animated-css";
 
 class GettingStarted extends React.Component{ 

@@ -29,10 +29,10 @@ export default function OurTeam() {
             </Row>
             <div className="space-top" />
             <Row>
-              <Col md="6" >
+              <Col md="6" className="ml-auto mr-auto text-center">
                 <Card className="card-profile card-plain">
-                  <Row>
-                    <Col md="5">
+                  <Row >
+                    <Col md="6">
                       <CardImg top tag="div">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           <img
@@ -43,7 +43,7 @@ export default function OurTeam() {
                         </a>
                       </CardImg>
                     </Col>
-                    <Col md="7">
+                    <Col md="6">
                       <CardBody className="text-left">
                         <CardTitle tag="h4"> Al Brown </CardTitle>
                         <h6 className="card-category">Founder</h6>

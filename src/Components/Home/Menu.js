@@ -123,15 +123,15 @@ export default function Menu() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-map-big" />
+                    <i className="nc-icon nc-time-alarm" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Client Resources</h4>
+                    <h4 className="info-title">What to expect in the future</h4>
                     <p>
                       Choose from a veriety of many colors resembling sugar
                       paper pastels.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
+                    <Button className="btn-link" color="info" tag={Link} to="/Future">
                       See more
                     </Button>
                   </div>
@@ -166,7 +166,7 @@ export default function Menu() {
                     Larger, yet dramatically thinner. More powerful, but
                     remarkably power efficient.
                   </p>
-                  <Button className="btn-link" color="info" href="#pablo">
+                  <Button className="btn-link" color="info" tag={Link} to="/WhyUs">
                     See more
                   </Button>
                 </div>

@@ -49,7 +49,7 @@ export default function ServicesOffered() {
             <CardBody>
                 <h6 className="card-category">Individual</h6>
                 <div className="card-icon">
-                <i className="nc-icon nc-world-2" />
+                <i className="nc-icon nc-chat-33" />
                 </div>
                 <p className="card-description">
                 blah blah blah blah 
@@ -78,7 +78,7 @@ export default function ServicesOffered() {
             <CardBody>
                 <h6 className="card-category">Group Therapy</h6>
                 <div className="card-icon">
-                <i className="nc-icon nc-single-copy-04" />
+                <i className="nc-icon nc-shop" />
                 </div>
                 <p className="card-description">
                 blah blah blah blah
@@ -106,7 +106,7 @@ export default function ServicesOffered() {
             <CardBody>
                 <h6 className="card-category">Faith Counseling</h6>
                 <div className="card-icon">
-                <i className="nc-icon nc-time-alarm" />
+                <i className="nc-icon nc-send" />
                 </div>
                 <p className="card-description">
                 blah blah blah blah

@@ -67,7 +67,7 @@ function TestNavBar() {
     <>
       {bodyClick ? (
         <div
-          id="bodyClick"
+          
           onClick={() => {
             document.documentElement.classList.toggle("nav-open");
             setBodyClick(false);
@@ -142,10 +142,7 @@ function TestNavBar() {
                     <i className="nc-icon nc-badge" />
                     Testimonials
                   </DropdownItem>
-                  <DropdownItem to="/sections#contact-us" tag={Link} to="/Contact">
-                    <i className="nc-icon nc-mobile" />
-                    Contact Us
-                  </DropdownItem>
+                  
                 </DropdownMenu>
               </UncontrolledDropdown>
 

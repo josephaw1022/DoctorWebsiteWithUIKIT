@@ -38,15 +38,7 @@ export default function Menu() {
                 can find safety, hope, peace, and joy.  
                 </h5>
                 <br />
-                <Button
-                  className="btn-round"
-                  color="info"
-                  tag={Link}
-                  to="/About"
-                  
-                >
-                  See Details
-                </Button>
+                
               </Col>
             </Row>
             <br />

@@ -12,7 +12,7 @@ import {Row} from "reactstrap"
 
 // reactstrap components
 import {
-  Button, 
+  // Button, 
   Collapse,
   DropdownToggle,
   DropdownMenu,
@@ -20,11 +20,14 @@ import {
   UncontrolledDropdown,
   NavbarBrand,
   Navbar,
-  NavItem, 
+  // NavItem, 
   // NavLink,
   Nav,
   Container,
-  UncontrolledTooltip
+  UncontrolledTooltip,
+  // UncontrolledPopover,
+  // PopoverHeader, 
+  // PopoverBody 
 } from "reactstrap";
 // import {Animated} from "react-animated-css";
 
@@ -108,35 +111,16 @@ function TestNavBar() {
           
           <Collapse navbar isOpen={collapseOpen}>
             <Nav className="ml-auto" navbar>
-            
-              <NavItem >
-                <Button
-                  tag={Link}
-                  to="/"
-                  className="btn-round"
-                  color="info"
-
-                >
-                 Home
-                   
-                </Button>
               
-              </NavItem>
-              
-
-
               <UncontrolledDropdown nav inNavbar>
-              {/* <Button
-                className="btn-round"
-                color="info"
-                style={{height:"inherit"}}>  */}
-
-                <DropdownToggle className="mr-2 float-" color="default" caret nav style={{alignContent:"center"}}>
-                More
+                <DropdownToggle className="mr-2" color="default" caret nav>
+                  More
                 </DropdownToggle>
-                {/* </Button> */}
                 <DropdownMenu className="dropdown-info" right>
-                
+                <DropdownItem to="/" tag={Link}>
+                    <i className="nc-icon nc-shop" />
+                    Home
+                  </DropdownItem>
                   
                   <DropdownItem to="/" tag={Link}>
                     <i className="nc-icon nc-single-02" />

@@ -12,14 +12,9 @@ import {Animated} from "react-animated-css";
   return (
   
     <>
-    <div className="" id="home">
+    <div className="" id="home" data-parallax="true">
     
-    <div
-      className="page-header"
-      data-parallax="True"
-      style={{ backgroundImage: "url(" + require("assets/img/FreeOnes/Photos8.png") + ")", }}
-      
-    >
+    <div className="page-header" data-parallax="true" style={{ backgroundImage: "url(" + require("assets/img/FreeOnes/Photos8.png") + ")", }}  >
 
       <div className="filter" />
       <div className="content-center">
@@ -28,11 +23,11 @@ import {Animated} from "react-animated-css";
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
             <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
-              <h1 className="title" id="navbarstuff">Quality Counseling</h1>
+              <h1 className="title" id="navbarstuff">"We know what we are but not what we may be." </h1>
               </Animated>
               <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
               <h5 className="description">
-                Hollistic Approach 
+              — Ophelia in Hamlet
               </h5>
               </Animated>
               <br />
@@ -42,12 +37,9 @@ import {Animated} from "react-animated-css";
             </Col>
           </Row>
         </Container>
-        
       </div>
-
     </div>
   </div>
-  
   </>
   );
   } 

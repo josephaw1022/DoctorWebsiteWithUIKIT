@@ -6,18 +6,30 @@ import {Animated} from "react-animated-css";
 
 class FAQs extends React.Component{ 
     
-
-    
-
-    
-
-    componentDidMount(){ 
-       
-    
+  constructor(props){ 
+    super(props); 
+    this.state= {
+      Question:[], 
+      valueChanged:false 
     }
+  }
+
+  updateQuestion(){ 
+    let x = require("./faqInfo.json");
+    this.setState({Question:x.FAQ.Question, valueChanged:true}) ; 
+
+  }
+
+  componentWillMount(){ 
+    this.updateQuestion()
+  }
 
 
     render(){ 
+      // if(this.state.valueChanged){
+      //   var sayings = this.state.Question
+      // }
+      
       
         window.scrollTo(0, 0); 
         return( 
@@ -29,7 +41,7 @@ class FAQs extends React.Component{
               <Row>
                 <Col className="ml-auto mr-auto" md="10">
                     <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
-                  <h1 className="title" style={{textAlign:"center", color:"#fff", fontWeight:"bolder"}} >FAQs </h1>
+                  <h1 className="title" style={{textAlign:"center", color:"#fff", fontWeight:"bolder"}} >FAQs  </h1>
                     </Animated> 
                   <br />
                   <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>

@@ -15,7 +15,7 @@ class TeleHealth2 extends React.Component {
         }
       }
     }
-    
+
     componentWillMount(){ 
       this.setState(
         {
@@ -48,9 +48,7 @@ class TeleHealth2 extends React.Component {
                   <Card className="card-plain card-blog">
                     <Row>
                       <Col md="4">
-                        <div className="card-image">
-                          
-                        </div>
+                        
                       </Col>
                       <Col md="12">
                           <div className="text-center">

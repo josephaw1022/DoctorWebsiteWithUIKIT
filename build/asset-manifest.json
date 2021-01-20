@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.6428b841.chunk.css",
-    "main.js": "/static/js/main.9370391d.chunk.js",
-    "main.js.map": "/static/js/main.9370391d.chunk.js.map",
+    "main.js": "/static/js/main.c351d9eb.chunk.js",
+    "main.js.map": "/static/js/main.c351d9eb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f693082c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f693082c.js.map",
-    "static/js/2.3df28b32.chunk.js": "/static/js/2.3df28b32.chunk.js",
-    "static/js/2.3df28b32.chunk.js.map": "/static/js/2.3df28b32.chunk.js.map",
+    "static/js/2.8435068a.chunk.js": "/static/js/2.8435068a.chunk.js",
+    "static/js/2.8435068a.chunk.js.map": "/static/js/2.8435068a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a0b0dce77f1b75c15ab394ebb552a808.js": "/precache-manifest.a0b0dce77f1b75c15ab394ebb552a808.js",
+    "precache-manifest.a65860c2acc841cbc54331a72b436a25.js": "/precache-manifest.a65860c2acc841cbc54331a72b436a25.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.6428b841.chunk.css.map": "/static/css/main.6428b841.chunk.css.map",
-    "static/js/2.3df28b32.chunk.js.LICENSE.txt": "/static/js/2.3df28b32.chunk.js.LICENSE.txt",
+    "static/js/2.8435068a.chunk.js.LICENSE.txt": "/static/js/2.8435068a.chunk.js.LICENSE.txt",
     "static/media/Photos1.png": "/static/media/Photos1.2797fcfc.png",
     "static/media/Home.css": "/static/media/uriel-soberanes.1095a459.jpg",
     "static/media/Photos13.png": "/static/media/Photos13.418bfb0d.png",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f693082c.js",
-    "static/js/2.3df28b32.chunk.js",
+    "static/js/2.8435068a.chunk.js",
     "static/css/main.6428b841.chunk.css",
-    "static/js/main.9370391d.chunk.js"
+    "static/js/main.c351d9eb.chunk.js"
   ]
 }

@@ -23,10 +23,10 @@ class SideNav extends React.Component{
             var list = this.state.values.map(  (index)=> { 
                 const temp = String(index.Name); 
                 return ( 
-                    <li key={temp}>
+                <li key={temp}>
                     <a href={"#"+index.Name} >
-                    <span className="cd-dot pointercolor" />
-                    <span className="cd-label">{index.Name}</span>
+                        <span className="cd-dot pointercolor" />
+                        <span className="cd-label">{index.Name}</span>
                     </a>
                 </li>
                 )

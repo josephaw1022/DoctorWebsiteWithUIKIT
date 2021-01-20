@@ -34,7 +34,7 @@ class FAQs extends React.Component{
           (piece)=> {
             console.log("piece = ", piece.Name)
 
-            if (piece.Weird == "true"){ 
+            if (piece.Weird === true){ 
               
               piece.Answer = <p>- Therapy is a partnership between an individual and a professional trained to help people understand their feelings and help them change their behavior. People often consider therapy under the following circumstances:<br/><br/>- They feel an overwhelming and prolonged sense of sadness and helplessness in their futures.<br/><br/>- Their emotional difficulties make it hard for them to function from day to day.<br/><br/>- Their actions are harmful to themselves or others.<br/><br/>- They are troubled by emotional problems facing family members or close friends.</p>
             }
@@ -72,11 +72,11 @@ class FAQs extends React.Component{
                     <CardBody>
                       
                       <CardTitle tag="h4">
-                        <h4 onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className={piece.Color2}>
+                        <h4 onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold", textAlign:"right"}} className={piece.Color2}>
                         {piece.Question2}
                         </h4 >
                       </CardTitle>
-                      <p className="card-description" style={{color:"#fff"}}>
+                      <p className="card-description" style={{color:"#fff", textAlign:"right"}}>
                       <br/><br/> 
                       {piece.Answer2}  
                       </p>

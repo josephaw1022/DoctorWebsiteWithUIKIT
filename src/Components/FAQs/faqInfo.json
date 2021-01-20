@@ -9,7 +9,7 @@
                 "Answer": "- Therapy is a partnership between an individual and a professional trained to help people understand their feelings and help them change their behavior. People often consider therapy under the following circumstances:<br/>- They feel an overwhelming and prolonged sense of sadness and helplessness in their futures.<br/>- Their emotional difficulties make it hard for them to function from day to day.<br/>- Their actions are harmful to themselves or others.<br/>- They are troubled by emotional problems facing family members or close friends." ,
                 "Before":"<Col md={4}></Col>",
                 "After":"",
-                "Weird": "true", 
+                "Weird": true, 
                 "Color":"text-info", 
                 "Question2":"How do I schedule an appointment?",
                 "Answer2":"You may schedule an appointment by calling our office Monday-Friday from 8am - 8pm using this number: 843-589-1517. ", 

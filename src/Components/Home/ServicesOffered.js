@@ -29,7 +29,7 @@ class ServicesOffered extends React.Component{
     } 
 
     render(){  
-
+        // eslint-disable-next-line
         let cards = this.state.ServicesOffered.Services.map(
             (index)=>{
                     return (

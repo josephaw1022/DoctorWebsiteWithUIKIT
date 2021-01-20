@@ -50,7 +50,6 @@ export default function Convenient(){
                               <p className="card-description">
                                 If you live in the Bluffton area and would like in person couneseling, then in person counseling
                                  is a perfect and conveinent option {" "}
-                                
                               </p>
                             </CardBody>
                           </Col>

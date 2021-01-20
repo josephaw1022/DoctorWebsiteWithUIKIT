@@ -18,6 +18,16 @@
         "Description" :"Telehealth therapy is counseling and psychological services using live video interaction. It allows the therapist to continue to provide counseling in the event of illness or when in-office visits are not available. A+ Counseling and Consulting, LLC offers Telehealth on our HIPPA secured platform where clinicians deliver professional counseling on the forum. Patients can access the platform on most devices, including smartphones, tablets, and laptops. If you are interested in making an appointment for telehealth sessions, please contact us. Note that we are licensed to see clients who live in the state of South Carolina.", 
         "Color":"text-info"
     } , 
+
+    "OurTeam": { 
+        "Title":"Our Team", 
+        "Description": "This is the paragraph where you can write more details about your team. Keep you user engaged by providing meaningful information.", 
+        "Name": "Aldric Brown", 
+        "Position":"Founder", 
+        "Bio": "blah blah blah "
+
+    }, 
+
     "ServicesOffered":{ 
         "Services":[
             { 

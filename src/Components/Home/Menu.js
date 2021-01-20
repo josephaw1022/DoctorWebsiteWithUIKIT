@@ -12,200 +12,84 @@ import { Link } from "react-router-dom"
 
 // core component
 
-export default function Menu() {
+class Menu extends React.Component {
 
-  document.documentElement.classList.remove("nav-open");
-  React.useEffect(() => {
-    document.body.classList.add("profile-page");
-    return function cleanup() {
-      document.body.classList.remove("profile-page");
-    };
-  });
+  constructor(props){ 
+    super(props); 
+    this.state={
+      Menu:{}
+    }; 
+    
+  }
 
-  return (
-    <>
-    <div class="wrapper">
+  componentWillMount(){ 
+    this.setState({Menu:this.props.data})
+  }
 
-      <div className="main" id="About" data-parallex="true">
-        <div className="section text-center">
-          <Container>
-            <Row>
-              <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title add-animation">Let's talk therapy and counseling</h2>
-                <h5 className="description">
-                A+ Counseling's mission is to create a space in which those affected
-                by mental health concerns, trauma, or other challenging life circumstances
-                can find safety, hope, peace, and joy.  
-                </h5>
-                <br />
-                
-              </Col>
-            </Row>
-            <br />
-            <br />
-            <Row>
-              <Col md="3">
-              <div className="info">
-                
-                <div className="icon icon-info">
-                <i className="nc-icon nc-spaceship" />
-                </div>
-                <div className="description">
-                  <h4 className="info-title">Getting Started</h4>
-                  <p>
-                    Larger, yet dramatically thinner. More powerful, but
-                    remarkably power efficient.
-                  </p>
-                  <Button className="btn-link eights" color="info" tag={Link} to="/GettingStarted">
-                    See more
-                  </Button>
-                </div>
-              </div>
-              </Col>
-              <Col md="3">
-              <div className="info">
-                
-                <div className="icon icon-info">
-                <i className="nc-icon nc-mobile" />
-                </div>
-                <div className="description">
-                  <h4 className="info-title">Contact Me</h4>
-                  <p>
-                    Larger, yet dramatically thinner. More powerful, but
-                    remarkably power efficient.
-                  </p>
-                  <Button className="btn-link" color="info" tag={Link} to="/Contact">
-                    See more
-                  </Button>
-                </div>
-              </div>
-              </Col>
+  render(){ 
+
+    let menuOptions = this.state.Menu.Options.map(
+      
+      (value) => { 
+
+        let hreflink = null ; 
+        let templink = null; 
+
+        if (!value.Dont){ 
+          templink = value.Link
+        }
+        
+        
+          return( 
+
               <Col md="3">
                 <div className="info">
-                
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-laptop" />
+                    <i className={"nc-icon "+value.Icon} />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Telehealth</h4>
-                    <p>
-                      Larger, yet dramatically thinner. More powerful, but
-                      remarkably power efficient.
+                    <h4 className="info-title" style={{color:"#fff"}}>{value.Name}</h4>
+                    <p style={{color:"#fff"}}>
+                      {value.Description}
                     </p>
-                    <Button 
-                    className="btn-link" 
-                    color="info" 
-                    href="#TeleHealth"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      document.getElementById("TeleHealth").scrollIntoView({
-                      behavior: "smooth",
-                      block: "start",
-                      inline: "nearest",
-                      });}}
-                      >
+                    <Button className="btn-link eights" color="info" tag={Link} to={templink}>
                       See more
                     </Button>
                   </div>
                 </div>
-              </Col>
-              <Col md="3">
-                <div className="info">
-                  <div className="icon icon-info">
-                    <i className="nc-icon nc-time-alarm" />
-                  </div>
-                  <div className="description">
-                    <h4 className="info-title">What to expect in the future</h4>
-                    <p>
-                      Choose from a veriety of many colors resembling sugar
-                      paper pastels.
-                    </p>
-                    <Button className="btn-link" color="info" tag={Link} to="/Future">
-                      See more
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col md="3">
-              <div className="info">
-                
-                <div className="icon icon-info">
-                <i className="nc-icon nc-credit-card" />
-                </div>
-                <div className="description">
-                  <h4 className="info-title">Rates & Insurance</h4>
-                  <p>
-                    Currently not accepting insurance but will be soon! 
-                  </p>
-                  <Button className="btn-link" color="info" tag={Link} to="/Rates">
-                    See more
-                  </Button>
-                </div>
-              </div>
-              </Col>
-              <Col md="3">
-              <div className="info">
-                
-                <div className="icon icon-info">
-                <i className="nc-icon nc-pin-3" />
-                </div>
-                <div className="description">
-                  <h4 className="info-title">Why Us</h4>
-                  <p>
-                    Larger, yet dramatically thinner. More powerful, but
-                    remarkably power efficient.
-                  </p>
-                  <Button className="btn-link" color="info" tag={Link} to="/WhyUs">
-                    See more
-                  </Button>
-                </div>
-              </div>
-              </Col>
-              <Col md="3">
-              <div className="info">
-                
-                <div className="icon icon-info">
-                <i className="nc-icon nc-vector" />
-                </div>
-                <div className="description">
-                  <h4 className="info-title">FAQs</h4>
-                  <p>
-                    Larger, yet dramatically thinner. More powerful, but
-                    remarkably power efficient.
-                  </p>
-                  <Button className="btn-link" color="info" tag={Link} to="/FAQs">
-                    See more
-                  </Button>
-                </div>
-              </div>
-              </Col>
-              <Col md="3">
-              <div className="info">
-                
-                <div className="icon icon-info">
-                <i className="nc-icon nc-user-run" />
-                </div>
-                <div className="description">
-                  <h4 className="info-title">Exercise & Well Being</h4>
-                  <p>
-                    Larger, yet dramatically thinner. More powerful, but
-                    remarkably power efficient.
-                  </p>
-                  <Button className="btn-link" color="info" href="#pablo">
-                    See more
-                  </Button>
-                </div>
-              </div>
-              </Col>
-            
-              
-              
-              
-            </Row>
-          </Container>
+              </Col> 
+
+          ); 
+      }
+    )
+
+    return (
+      <>
+      <div class="wrapper">
+
+        <div className="main" data-parallex="true">
+          <div className="section text-center menubg" style={{backgroundcolor:"#333"}}>
+            <Container>
+              <Row>
+                <Col className="ml-auto mr-auto" md="8">
+                  <h2 className="title add-animation" style={{color:"#fff"}}>{this.state.Menu.Title} </h2>
+                  <h5 className="description" id="Menu" style={{color:"#fff"}}>
+                  {this.state.Menu.Description}
+                  </h5>
+                  <br />
+                </Col>
+              </Row>
+              <br />
+              <br />
+              <Row>
+                {menuOptions}
+              </Row>
+            </Container>
+        </div> 
+      </div>
       </div> 
-    </div>
-    </div> 
-    </>
-  );
+      </>
+      );
+  }
 }
+export default Menu 

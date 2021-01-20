@@ -23,8 +23,8 @@ import {
 function SectionContactUs() {
   return (
     <>
-      <div className="section contactbacked" id="contact-us"  style={{backgroundColor:"#333"}}>
-        {/* ********* CONTACT US 1 ********* */}
+      <div className="section " id="Contact"  style={{backgroundImage:'url(' + require('assets/img/FreeOnes/Photos3.png') +  ')' }}> 
+        
         <div
           className="contactus-1"
           
@@ -41,28 +41,21 @@ function SectionContactUs() {
                       <CardBody>
                         <div className="info info-horizontal">
                           <div className="icon icon-info">
-                            <i className="nc-icon nc-pin-3" />
+                            {/* <i className="nc-icon nc-pin-3" /> */}
                           </div>
                           <div className="description">
-                            <h4 className="info-title">
-                              Find us at the office
-                            </h4>
-                            <p>
-                              Bld Mihail Kogalniceanu, nr. 8, <br />
-                              7652 Bucharest, <br />
-                              Romania
-                            </p>
+                            
                           </div>
                         </div>
                         <div className="info info-horizontal">
-                          <div className="icon icon-danger">
+                          <div className="icon icon-info">
                             <i className="nc-icon nc-badge" />
                           </div>
                           <div className="description">
-                            <h4 className="info-title">Give us a ring</h4>
+                            <h4 className="info-title">Give me a ring</h4>
                             <p>
                             Al Brown <br />
-                            843-476-2895<br />
+                            843-589-1517 <br />
                               Mon - Fri, 8:00 am - 5:00 pm 
                             </p>
                           </div>

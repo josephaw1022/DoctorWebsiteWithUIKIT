@@ -29,7 +29,7 @@ export default function ServicesOffered() {
     return (
       <>
         <div className="section" >
-        <Container id="Contact">
+        <Container id="Services">
         <Row>
         <Col className="ml-auto mr-auto text-center" md="8">
             <h2 className="title">Services Offered</h2>

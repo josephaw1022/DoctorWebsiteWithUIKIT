@@ -26,7 +26,7 @@ export default function Menu() {
     <>
     <div class="wrapper">
 
-      <div className="main" id="About" data-parallex="true">
+      <div className="main" id="Menu" data-parallex="true">
         <div className="section text-center">
           <Container>
             <Row>

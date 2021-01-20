@@ -1,0 +1,14 @@
+{ 
+    "Nav":[
+
+        {"Name":"PartOne"}, 
+        {"Name":"Menu"},
+        {"Name":"Services"}, 
+        {"Name":"OurTeam"}, 
+        {"Name":"TeleHealth"}, 
+        {"Name":"Contact"}
+        
+    ]
+
+
+}

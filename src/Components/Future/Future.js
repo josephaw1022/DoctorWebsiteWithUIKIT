@@ -55,7 +55,7 @@ class Future extends React.Component {
                       </Col>
                     </Row>
                   </Card>
-                  <Card className="card-plain card-blog" >
+                  <Card className="card-plain card-blog padheight" >
                     <Row>
                       <Col md="8">
                         <CardBody>

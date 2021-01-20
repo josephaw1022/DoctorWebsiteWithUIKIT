@@ -12,7 +12,7 @@ import {Animated} from "react-animated-css";
   return (
   
     <>
-    <div className="" id="home" data-parallax="true">
+    <div className="" id="PartOne" data-parallax="true">
     
     <div className="page-header" data-parallax="true" style={{ backgroundImage: "url(" + require("assets/img/FreeOnes/Photos8.png") + ")", }}  >
 

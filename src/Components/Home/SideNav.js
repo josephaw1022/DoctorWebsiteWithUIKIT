@@ -20,20 +20,20 @@ class SideNav extends React.Component{
     render(){ 
 
         if(this.state.change){ 
-            var list = this.state.values.map(  (items)=> { 
-                const temp = String(items.Name); 
+            var list = this.state.values.map(  (index)=> { 
+                const temp = String(index.Name); 
                 return ( 
                     <li key={temp}>
-                    <a href={"#"+items.Name} >
+                    <a href={"#"+index.Name} >
                     <span className="cd-dot pointercolor" />
-                    <span className="cd-label">{items.Name}</span>
+                    <span className="cd-label">{index.Name}</span>
                     </a>
                 </li>
                 )
             }
             )
         }
-
+        
         return(
             <nav id="cd-vertical-nav" style={{marginRight:"35px"}}>
                 <ul>

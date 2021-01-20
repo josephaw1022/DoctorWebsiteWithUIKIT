@@ -18,23 +18,43 @@ import "./Home.css"
 
 class Index extends React.Component{ 
     
+    constructor(props){ 
+        super(props); 
+        this.state={ 
+            PartOne:{},
+            Menu:{},
+            TeleHealth:{},
+            ServicesOffered:{}
+            
+        } 
+    }
     
 
+    componentWillMount(){
+        let file = require("./navjs.json")
+        this.setState(
+            {
+            PartOne:file.PageHeader,
+            Menu:file.Menu,
+            TeleHealth:file.TeleHealth,
+            ServicesOffered:file.ServicesOffered
+            }
+        )
+    } 
+
+
     render(){
+        
             
         return (
             <>
             <div className="section-space" />
-        
-            <PartOne />
-            <Menu/> 
+            <PartOne data={this.state.PartOne}/>
+            <Menu data={this.state.Menu}/> 
             <Convenient/>
-            <ServicesOffered/>
+            <ServicesOffered data={this.state.ServicesOffered}/>
             <OurTeam/> 
-            {/* <BlogPosts/> */}
-            {/* <Exercise/> */}
-            {/* <Menu2/>  */}
-            <TeleHealth2/> 
+            <TeleHealth2 data={this.state.TeleHealth}/> 
             <Contact/> 
             <SideNav/> 
 

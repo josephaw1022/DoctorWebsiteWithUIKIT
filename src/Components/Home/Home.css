@@ -57,3 +57,13 @@
 .contactbacked{ 
     background-color: #333;   
 }
+
+.photo1{ 
+    background-image: url("./img/Photos3.png") !important;
+}
+.photo2{ 
+    background-image: url("./img/Photos13.png") !important;
+}
+.photo3{ 
+    background-image: url("./img/Photos1.png") !important;
+}

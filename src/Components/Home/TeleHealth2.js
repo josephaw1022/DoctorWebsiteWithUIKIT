@@ -35,13 +35,14 @@ class TeleHealth2 extends React.Component {
         window.scrollTo(0, 0); 
         return(
             <>
-            <div className="section section-grey fill" style={{backgroundColor:"#333333"}}> 
+
+            <div className="section section-grey fill" style={{backgroundColor:"#333"}}> 
             <div className="" id="TeleHealth">
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="10">
                     <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
-                  <h2 className="title" style={{textAlign:"center", color:"#fff", fontWeight:"bolder"}} >Telehealth</h2>
+                  <h2 className="title" style={{textAlign:"center", color:"#3", fontWeight:"bolder", color:"#fff"}} >Telehealth</h2>
                     </Animated> 
                   <br />
                   <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>

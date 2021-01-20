@@ -68,11 +68,11 @@ class ServicesOffered extends React.Component{
 
     return (
       <>
-        <div className="section" >
+        <div className="section menubg" >
         <Container id="Services">
         <Row>
         <Col className="ml-auto mr-auto text-center" md="8">
-            <h2 className="title">Services Offered</h2>
+            <h2 className="title textc" >Services Offered</h2>
             <h5 className="description">
             
             </h5>

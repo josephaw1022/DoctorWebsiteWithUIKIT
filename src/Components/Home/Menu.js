@@ -37,8 +37,8 @@ class Menu extends React.Component {
                 <i className={"nc-icon "+value.Icon} />
                 </div>
                 <div className="description">
-                  <h4 className="info-title">{value.Name}</h4>
-                  <p>
+                  <h4 className="info-title" style={{color:"#fff"}}>{value.Name}</h4>
+                  <p style={{color:"#fff"}}>
                     {value.Description}
                   </p>
                   <Button className="btn-link eights" color="info" tag={Link} to={value.Link}>
@@ -56,12 +56,12 @@ class Menu extends React.Component {
       <div class="wrapper">
 
         <div className="main" data-parallex="true">
-          <div className="section text-center">
+          <div className="section text-center menubg" style={{backgroundcolor:"#333"}}>
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="8">
-                  <h2 className="title add-animation">{this.state.Menu.Title} </h2>
-                  <h5 className="description" id="Menu">
+                  <h2 className="title add-animation" style={{color:"#fff"}}>{this.state.Menu.Title} </h2>
+                  <h5 className="description" id="Menu" style={{color:"#fff"}}>
                   {this.state.Menu.Description}
                   </h5>
                   <br />

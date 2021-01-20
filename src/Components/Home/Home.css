@@ -67,3 +67,11 @@
 .photo3{ 
     background-image: url("./img/Photos1.png") !important;
 }
+
+.menubg{ 
+    background-color:#333 !important ; 
+}
+
+.textc{ 
+    color:#fff !important; 
+}

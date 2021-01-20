@@ -18,14 +18,14 @@ export default function Convenient(){
       
       
           <>
-            <div className="section secion-blog " id="Convenient">
+            <div className="section secion-blog " id="Convenience">
               {/* ********* BLOGS 1 ********* */}
               
               <div className="blog-4" >
                 <Container>
                   <Row>
                     <Col className="ml-auto mr-auto" md="10">
-                      <h2 className="title">Whatever's Convenient</h2>
+                      <h2 className="title" >Whatever's Convenient</h2>
                       <br />
                       <Card className="card-plain card-blog">
                         <Row>
@@ -41,13 +41,13 @@ export default function Convenient(){
                           </Col>
                           <Col md="7">
                             <CardBody>
-                              <h6 className="card-category text-info"> Traditional </h6>
+                              <h6 className="card-category text-info" > Traditional </h6>
                               <CardTitle tag="h3">
-                                <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                                <a href="#pablo" onClick={(e) => e.preventDefault()} >
                                 In-Person Visits
                                 </a>
                               </CardTitle>
-                              <p className="card-description">
+                              <p className="card-description"  >
                                 If you live in the Bluffton area and would like in person couneseling, then in person counseling
                                  is a perfect and conveinent option {" "}
                               </p>
@@ -64,11 +64,11 @@ export default function Convenient(){
                                 Trending
                               </h6>
                               <CardTitle tag="h3">
-                                <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                                <a href="#pablo" onClick={(e) => e.preventDefault()} >
                                   Virtual Meetings
                                 </a>
                               </CardTitle>
-                              <p className="card-description">
+                              <p className="card-description" >
                                 If you live in South Carolina and would like to talk to a therapist, then virtual meetings are a perfect choice. 
                                 Calls are conducted via Zoom, Google Meets, and or FaceTime.  {" "}
                                 

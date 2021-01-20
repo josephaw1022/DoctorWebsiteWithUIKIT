@@ -42,7 +42,7 @@ class Future extends React.Component {
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="10">
-                  <h2 className="title" style={{textAlign:"center", color:"#fff"}}>{this.state.Header} </h2>
+                  <h2 className="title" style={{textAlign:"center", color:"#fff", fontWeight:"bolder"}}>{this.state.Header} </h2>
                   <br />
                   <Card className="card-plain card-blog">
                     <Row>

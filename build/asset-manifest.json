@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a2ef9d1.chunk.css",
-    "main.js": "/static/js/main.fa39bf95.chunk.js",
-    "main.js.map": "/static/js/main.fa39bf95.chunk.js.map",
+    "main.css": "/static/css/main.95114633.chunk.css",
+    "main.js": "/static/js/main.821bd44a.chunk.js",
+    "main.js.map": "/static/js/main.821bd44a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f693082c.js",
     "runtime-main.js.map": "/static/js/runtime-main.f693082c.js.map",
     "static/js/2.65c0e03a.chunk.js": "/static/js/2.65c0e03a.chunk.js",
     "static/js/2.65c0e03a.chunk.js.map": "/static/js/2.65c0e03a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2497340c73670961a37eec983e20073a.js": "/precache-manifest.2497340c73670961a37eec983e20073a.js",
+    "precache-manifest.2f0854eb7fc0856ce836c54dbf3b5aae.js": "/precache-manifest.2f0854eb7fc0856ce836c54dbf3b5aae.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3a2ef9d1.chunk.css.map": "/static/css/main.3a2ef9d1.chunk.css.map",
+    "static/css/main.95114633.chunk.css.map": "/static/css/main.95114633.chunk.css.map",
     "static/js/2.65c0e03a.chunk.js.LICENSE.txt": "/static/js/2.65c0e03a.chunk.js.LICENSE.txt",
     "static/media/Photos1.png": "/static/media/Photos1.2797fcfc.png",
     "static/media/Home.css": "/static/media/uriel-soberanes.1095a459.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.f693082c.js",
     "static/js/2.65c0e03a.chunk.js",
-    "static/css/main.3a2ef9d1.chunk.css",
-    "static/js/main.fa39bf95.chunk.js"
+    "static/css/main.95114633.chunk.css",
+    "static/js/main.821bd44a.chunk.js"
   ]
 }

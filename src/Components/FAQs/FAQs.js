@@ -93,13 +93,13 @@ class FAQs extends React.Component{
         return( 
             <>
             <div className="section" style={{backgroundColor:"#333333"}}/> 
-            <div className="section section-grey" style={{backgroundColor:"#333333"}}> 
+            <div className="section " style={{backgroundColor:"#333333"}}> 
             <div className="blog-3" id="Exercise">
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="10">
-                    <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
-                  <h1 className="title" style={{textAlign:"center", color:"#fff", fontWeight:"bolder"}} >FAQs  </h1>
+                    <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>
+                  <h1 className="title" style={{textAlign:"center", color:"#fff", fontWeight:"bolder"}} >Frequently Asked Questions  </h1>
                     </Animated> 
                   <br />
                   {ComponentPieces} 

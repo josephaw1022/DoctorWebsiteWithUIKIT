@@ -43,6 +43,7 @@ class OurTeam extends React.Component{
     
       return (
         <>
+        <div className="section phonechange" style={{backgroundColor:"#fff"}} /> 
         <div className="team-3" id="OurTeam" style={{marginBottom:"20px", height:"100%"}}>
               <Container>
                 <Row>
@@ -103,6 +104,7 @@ class OurTeam extends React.Component{
                 </Row>
               </Container>
             </div>
+            <div className="section phonechange" style={{backgroundColor:"#fff"}} /> 
           
           </>
         );

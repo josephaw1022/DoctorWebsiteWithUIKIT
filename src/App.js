@@ -9,7 +9,8 @@ import FAQs from "Components/FAQs/FAQs"
 import GettingStarted from "Components/GettingStarted/GettingStarted"
 import WhyUs from "Components/WhyUs/WhyUs"
 import Future from "Components/Future/Future"
-
+// import TeleHealth2 from 'Components/Home/TeleHealth2'
+import TeleHealth from "Components/TeleHealth/TeleHealth" ; 
 
 // import NotFoundPage from "Components/Error/NotFoundPage"
 export default class App extends Component {
@@ -27,7 +28,7 @@ export default class App extends Component {
           <Route path="/GettingStarted" component={GettingStarted}/> 
           <Route path="/WhyUs" component={WhyUs}/> 
           <Route path="/Future" component={Future}/>
-
+          <Route path="/TeleHealth" component={TeleHealth}/>
         </Layout>
       </>
     );

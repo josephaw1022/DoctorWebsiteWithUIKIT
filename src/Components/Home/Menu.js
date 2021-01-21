@@ -29,24 +29,36 @@ class Menu extends React.Component {
   render(){ 
 
     let menuOptions = this.state.Menu.Options.map(
+      
       (value) => { 
+
+        let hreflink = null ; 
+        let templink = null; 
+
+        if (!value.Dont){ 
+          templink = value.Link
+        }
+        
+        
           return( 
+
               <Col md="3">
-              <div className="info">
-                <div className="icon icon-info">
-                <i className={"nc-icon "+value.Icon} />
+                <div className="info">
+                  <div className="icon icon-info">
+                    <i className={"nc-icon "+value.Icon} />
+                  </div>
+                  <div className="description">
+                    <h4 className="info-title" style={{color:"#fff"}}>{value.Name}</h4>
+                    <p style={{color:"#fff"}}>
+                      {value.Description}
+                    </p>
+                    <Button className="btn-link eights" color="info" tag={Link} to={templink}>
+                      See more
+                    </Button>
+                  </div>
                 </div>
-                <div className="description">
-                  <h4 className="info-title" style={{color:"#fff"}}>{value.Name}</h4>
-                  <p style={{color:"#fff"}}>
-                    {value.Description}
-                  </p>
-                  <Button className="btn-link eights" color="info" tag={Link} to={value.Link}>
-                    See more
-                  </Button>
-                </div>
-              </div>
               </Col> 
+
           ); 
       }
     )

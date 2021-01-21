@@ -92,7 +92,7 @@ class ServicesOffered extends React.Component{
                 <i className="nc-icon nc-chat-33" />
                 </div>
                 <p className="card-description">
-                blah blah blah blah 
+                
                 </p>
                 <CardFooter>
                 <Button
@@ -112,7 +112,7 @@ class ServicesOffered extends React.Component{
             <Card
             className="c2"
             data-background="image"
-            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos13.png") + ")"}}
+            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos21.png") + ")"}}
             
             >
             <CardBody>
@@ -121,7 +121,7 @@ class ServicesOffered extends React.Component{
                 <i className="nc-icon nc-shop" />
                 </div>
                 <p className="card-description">
-                blah blah blah blah
+                
                 </p>
                 <CardFooter>
                 <Button
@@ -149,7 +149,7 @@ class ServicesOffered extends React.Component{
                 <i className="nc-icon nc-send" />
                 </div>
                 <p className="card-description">
-                blah blah blah blah
+                
                 </p>
                 <CardFooter>
                 <Button

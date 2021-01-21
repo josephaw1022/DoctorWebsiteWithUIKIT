@@ -5,7 +5,7 @@
         {"Name":"Convenience"}, 
         {"Name":"Services"}, 
         {"Name":"OurTeam"}, 
-        {"Name":"TeleHealth"}, 
+        {"Name":"TeleHealth" }, 
         {"Name":"Contact"}
     ], 
 
@@ -80,7 +80,8 @@
                 "Name": "Telehealth" , 
                 "Description":"Larger, yet dramatically thinner. More powerful, but remarkably power efficient.",
                 "Icon": "nc-laptop" , 
-                "Link": "#TeleHealth"
+                "Link": "/TeleHealth"
+                
 
             },
             {

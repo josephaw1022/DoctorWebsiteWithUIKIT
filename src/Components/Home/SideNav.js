@@ -22,6 +22,7 @@ class SideNav extends React.Component{
         if(this.state.change){ 
             var list = this.state.values.map(  (index)=> { 
                 const temp = String(index.Name); 
+                
                 return ( 
                 <li key={temp}>
                     <a href={"#"+index.Name} >

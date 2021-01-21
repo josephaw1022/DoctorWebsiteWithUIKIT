@@ -30,7 +30,7 @@ import {Animated} from "react-animated-css";
   
     <>
     <div className="" id="Home" data-parallax="true">
-    <div className="page-header" data-parallax="true" style={{ backgroundImage: "url(" + require("assets/img/FreeOnes/Photos21.png") + ")", }}  >
+    <div className="page-header" data-parallax="true" style={{ backgroundImage: "url(" + require("assets/img/FreeOnes/Photos17.png") + ")", }}  >
       <div className="filter" />
       <div className="content-center">
         <Container>

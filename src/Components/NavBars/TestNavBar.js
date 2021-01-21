@@ -134,7 +134,7 @@ function TestNavBar() {
                     <i className="nc-icon nc-calendar-60" />
                     Staff 
                   </DropdownItem>
-                  <DropdownItem to="/sections#pricing" tag={Link}>
+                  <DropdownItem to="/TeleHealth" tag={Link}>
                     <i className="nc-icon nc-laptop" />
                     Telehealth
                   </DropdownItem>

@@ -32,7 +32,7 @@ class Menu extends React.Component {
       
       (value) => { 
 
-        let hreflink = null ; 
+
         let templink = null; 
 
         if (!value.Dont){ 

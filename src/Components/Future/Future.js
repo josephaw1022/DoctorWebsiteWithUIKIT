@@ -1,6 +1,6 @@
 import React  from 'react'
 import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
-
+import {Animated} from "react-animated-css";
 import "./Future.css"
 
 class Future extends React.Component { 
@@ -49,6 +49,7 @@ class Future extends React.Component {
                       <Col md="4">
                           <Row></Row>
                         <Row> 
+                        <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
                         <div className="card-image">
                           <img
                             alt="..."
@@ -56,12 +57,15 @@ class Future extends React.Component {
                             src={require("assets/img/FreeOnes/Photos20.png")}
                           />
                         </div>
+                        </Animated>
+
                         </Row> 
                         <Row></Row>
                       </Col>
                       <Col md="8">
                           <Row></Row>
                           <Row style={{marginLeft:"10px"}}>
+                        <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>
                         <CardBody>
                           <h6 className="card-category text-info">{this.state.Title1}</h6>
                           <CardTitle tag="h3">
@@ -71,6 +75,7 @@ class Future extends React.Component {
                           {this.state.Content1}
                           </p>
                         </CardBody>
+                        </Animated>
                         </Row>
                         <Row></Row>
                       </Col>
@@ -79,6 +84,7 @@ class Future extends React.Component {
                   <Card className="card-plain card-blog padheight" >
                     <Row>
                       <Col md="8">
+                      <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
                         <CardBody>
                           <h6 className="card-category text-success">
                             {this.state.Title2}
@@ -89,11 +95,17 @@ class Future extends React.Component {
                           {this.state.Content2}
                           </p>
                         </CardBody>
+                        </Animated>
                       </Col>
+                      
                       <Col md="4" className="ml-auto mr-auto">
                         <Row></Row>
+                        <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true } >
                         <Row md="4">
-                            <div className="card-image" >
+                      
+                      
+                            <div className="card-image" style={{top:"50%"}}>
+                              
                             <img
                               alt="..."
                               className="img togglershow opfd"
@@ -101,7 +113,10 @@ class Future extends React.Component {
                               style={{top:"50%"}}
                               />
                             </div> 
+
+                            
                         </Row> 
+                        </Animated>
                         <Row></Row>
                       </Col>
                     </Row>

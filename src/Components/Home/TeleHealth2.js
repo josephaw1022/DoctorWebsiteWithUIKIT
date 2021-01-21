@@ -41,8 +41,8 @@ class TeleHealth2 extends React.Component {
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="10">
-                    <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
-                  <h2 className="title" style={{textAlign:"center", color:"#3", fontWeight:"bolder", color:"#fff"}} >Telehealth</h2>
+                    <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+                  <h2 className="title" style={{textAlign:"center", fontWeight:"bolder", color:"#fff"}} > Telehealth</h2>
                     </Animated> 
                   <br />
                   <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>

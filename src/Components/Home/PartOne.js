@@ -15,11 +15,15 @@ import {Animated} from "react-animated-css";
   }
   
   componentWillMount(){ 
-    this.setState({Quote: this.props.data.Quote, QuoteBy: this.props.data.QuoteBy, Change: true}) 
+    this.setState({
+      Quote: this.props.data.Quote, 
+      QuoteBy: this.props.data.QuoteBy, 
+      Change: true}) 
   }
 
 
   render(){
+    
     if(this.state.Change){ 
       var Quote = this.state.Quote ; 
       var QuoteBy = this.state.QuoteBy ; 
@@ -30,7 +34,8 @@ import {Animated} from "react-animated-css";
   
     <>
     <div className="" id="Home" data-parallax="true">
-    <div className="page-header" data-parallax="true" style={{ backgroundImage: "url(" + require("assets/img/FreeOnes/Photos17.png") + ")", }}  >
+    <div className="page-header" data-parallax="true" 
+    style={{ backgroundImage: "url(" + require("assets/img/FreeOnes/Email1.png") + ")", }}  >
       <div className="filter" />
       <div className="content-center">
         <Container>

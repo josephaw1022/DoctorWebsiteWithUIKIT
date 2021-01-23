@@ -49,6 +49,7 @@ class ContactUs extends React.Component{
         ) ; 
       }
     )
+    
 
     const Forms = this.state.Form.map(
       (index)=> { 

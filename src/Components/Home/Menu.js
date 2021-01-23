@@ -31,17 +31,12 @@ class Menu extends React.Component {
     let menuOptions = this.state.Menu.Options.map(
       
       (value) => { 
-
-
         let templink = null; 
-
         if (!value.Dont){ 
           templink = value.Link
         }
         
-        
           return( 
-
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">

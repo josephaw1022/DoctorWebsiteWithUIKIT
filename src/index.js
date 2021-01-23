@@ -12,9 +12,4 @@ import "assets/scss/paper-kit.scss";
 import "assets/demo/demo.css";
 import "assets/demo/react-demo.css";
 
-ReactDOM.render(
-<BrowserRouter> 
-    <App />
-</BrowserRouter>, 
-  document.getElementById('root')
-);
+ReactDOM.render( <BrowserRouter>  <App /> </BrowserRouter>, document.getElementById('root') );

@@ -11,7 +11,7 @@ import WhyUs from "Components/WhyUs/WhyUs"
 import Future from "Components/Future/Future"
 // import TeleHealth2 from 'Components/Home/TeleHealth2'
 import TeleHealth from "Components/TeleHealth/TeleHealth" ; 
-
+import Bio from "Components/Bio/Bio"
 // import NotFoundPage from "Components/Error/NotFoundPage"
 export default class App extends Component {
   static displayName = App.name;
@@ -29,6 +29,8 @@ export default class App extends Component {
           <Route path="/WhyUs" component={WhyUs}/> 
           <Route path="/Future" component={Future}/>
           <Route path="/TeleHealth" component={TeleHealth}/>
+          <Route path="/Bio" component={Bio}/> 
+
         </Layout>
       </>
     );

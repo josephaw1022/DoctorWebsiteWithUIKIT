@@ -11,6 +11,8 @@ import {
   Col,
 } from "reactstrap";
 
+import  { Link} from "react-router-dom"; 
+
 class OurTeam extends React.Component{
   constructor(props){ 
     super(props); 
@@ -57,17 +59,17 @@ class OurTeam extends React.Component{
                 <div className="space-top" />
                 <Row>
                   <Col md="6" className="ml-auto mr-auto text-center">
-                    <Card className="card-profile card-plain">
+                    <Card className="card-profile card-plain" tag={Link} to="/Bio">
                       <Row >
                         <Col md="6">
                           <CardImg top tag="div">
-                            <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                            
                               <img
                                 alt="..."
                                 className="img"
                                 src={require("assets/img/brownprofile.png")}
                               />
-                            </a>
+                      
                           </CardImg>
                         </Col>
                         <Col md="6">

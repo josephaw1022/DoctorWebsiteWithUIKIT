@@ -18,21 +18,17 @@ class FAQs extends React.Component{
     updateQuestion(){ 
       let file = require("./faqInfo.json");
       this.setState({FAQ:file.FAQ, update:true})
-
     }
 
     componentWillMount(){ 
       this.updateQuestion()
     }
 
-
     render(){ 
         let ComponentPieces = this.state.FAQ.Questions.map(
           
           (index)=> {
-          
             if (index.Weird === true){ 
-              
               index.Answer = <p>- Therapy is a partnership between an individual and a professional trained to help people understand their feelings and help them change their behavior. People often consider therapy under the following circumstances:<br/><br/>- They feel an overwhelming and prolonged sense of sadness and helplessness in their futures.<br/><br/>- Their emotional difficulties make it hard for them to function from day to day.<br/><br/>- Their actions are harmful to themselves or others.<br/><br/>- They are troubled by emotional problems facing family members or close friends.</p>
             }
             return(
@@ -46,7 +42,7 @@ class FAQs extends React.Component{
                         <h4   onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className={index.Color}>
                           {index.Question}
                         </h4>
-                      </CardTitle>
+                      </CardTitle> 
                       <p style={{color:"#fff"}}>
                         <br/>
                         <br/>
@@ -59,15 +55,13 @@ class FAQs extends React.Component{
                 </Row>
               </Card>
               </Animated>
-              
               <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>
               <Card className="card-plain card-blog">
                 <Row>
                   <Col md="4">
                   </Col>
                   <Col md="8">
-                    <CardBody>
-                      
+                    <CardBody> 
                       <CardTitle tag="h4">
                         <h4 onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold", textAlign:"right"}} className={index.Color2}>
                         {index.Question2}
@@ -96,13 +90,14 @@ class FAQs extends React.Component{
               <Row>
                 <Col className="ml-auto mr-auto" md="10">
                     <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>
-                  <h1 className="title" style={{textAlign:"center", color:"#fff", fontWeight:"bolder"}} >Frequently Asked Questions  </h1>
+                  <h1 className="title" style={{textAlign:"center", color:"#fff", fontWeight:"bolder"}} >
+                    Frequently Asked Questions
+                  </h1>
                     </Animated> 
                   <br />
                   {ComponentPieces} 
                 </Col>
               </Row>
-              
             </Container>
           </div>
           </div> 

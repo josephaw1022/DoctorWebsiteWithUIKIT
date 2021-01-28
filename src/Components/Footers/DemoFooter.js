@@ -8,15 +8,15 @@ export default function DemoFooter() {
   return (
     <>
     
-    <div className="subscribe-line subscribe-line-black" style={{ backgroundImage: "url(" + require("./footerpic.png") + ")",}} >
+    <div className="subscribe-line subscribe-line-transparent" style={{ backgroundImage: "url(" + require("./footerpic.png") + ")"}} >
       <Container>
         <Row>
           <Col lg="9" md="8" sm="8">
-            <Form className="form-bord ">
+            <Form className="" style={{paddingBottom:"10px", paddingTop:"10px"}}>
               <FormGroup>
                 <Input
                   defaultValue=""
-                  placeholder="Enter your email..."
+                  placeholder="Enter your email here..."
                   type="text"
                   className="dasds8"
                 />
@@ -24,7 +24,7 @@ export default function DemoFooter() {
             </Form>
           </Col>
           <Col md="3" sm="4">
-            <Button block className="btn-round" color="info" type="button">
+            <Button block className="btn-round" color="info" type="button" style={{yapaddingBottom:"10px", paddingTop:"10px"}}>
               Subscribe Now!
             </Button>
           </Col>

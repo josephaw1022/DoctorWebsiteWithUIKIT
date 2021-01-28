@@ -48,11 +48,9 @@ function TestNavBar() {
 
           if ( document.documentElement.scrollTop > 499 || document.body.scrollTop > 499) {
             setNavbarColor("invisible");
-            // console.log(document.documentElement.scrollTop) 
           } 
           else if ( document.documentElement.scrollTop < 500 || document.body.scrollTop < 500) {
             setNavbarColor("navbar-transparent");
-            // console.log(document.documentElement.scrollTop) 
           }
 
         };

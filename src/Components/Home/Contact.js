@@ -8,7 +8,7 @@ import {
   // CardHeader,
   CardBody,
   CardTitle,
-  Label,
+  // Label,
   FormGroup,
   Form,
   Input,
@@ -116,11 +116,7 @@ function SectionContactUs() {
                           <Row>
                             <Col md="6">
                               <FormGroup check>
-                                <Label check>
-                                  <Input defaultValue="" type="checkbox" />
-                                  I'm not a robot !{" "}
-                                  <span className="form-check-sign" />
-                                </Label>
+                              
                               </FormGroup>
                             </Col>
                             <Col md="6">

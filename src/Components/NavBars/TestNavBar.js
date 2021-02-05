@@ -13,7 +13,7 @@ import {
   Collapse,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
+  // DropdownItem,
   UncontrolledDropdown,
   NavbarBrand,
   Navbar,
@@ -22,7 +22,7 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
-
+import NestedNav from "./NestedNav"  
 
 
 export default function TestNavBar() {
@@ -109,39 +109,10 @@ export default function TestNavBar() {
                   More
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-info" right>
-                <DropdownItem to="/" tag={Link}>
-                    <i className="nc-icon nc-shop" />
-                    Home
-                  </DropdownItem>
-                  
-                  <DropdownItem to="/" tag={Link}>
-                    <i className="nc-icon nc-single-02" />
-                    Client Resources
-                  </DropdownItem>
-                  <DropdownItem to="/Rates" tag={Link}>
-                    <i className="nc-icon nc-credit-card" />
-                    Rates & Insurance 
-                  </DropdownItem>
-                  <DropdownItem to="/" tag={Link}>
-                    <i className="nc-icon nc-calendar-60" />
-                    Staff 
-                  </DropdownItem>
-                  <DropdownItem to="/TeleHealth" tag={Link}>
-                    <i className="nc-icon nc-laptop" />
-                    Telehealth
-                  </DropdownItem>
-                  <DropdownItem to="/sections#testimonials" tag={Link}>
-                    <i className="nc-icon nc-badge" />
-                    Testimonials
-                  </DropdownItem>
-                  
+                <NestedNav/> 
                 </DropdownMenu>
               </UncontrolledDropdown>
 
-              
-              
-              
-  
             </Nav>
           </Collapse>
           

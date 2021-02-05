@@ -7,10 +7,7 @@ import classnames from "classnames";
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
 // eslint-disable-next-line 
-import {Row} from "reactstrap"
- 
 
-// reactstrap components
 import {
   // Button, 
   Collapse,
@@ -20,20 +17,17 @@ import {
   UncontrolledDropdown,
   NavbarBrand,
   Navbar,
-  // NavItem, 
-  // NavLink,
   Nav,
   Container,
-  UncontrolledTooltip,
-  // UncontrolledPopover,
-  // PopoverHeader, 
-  // PopoverBody 
+  UncontrolledTooltip
 } from "reactstrap";
-// import {Animated} from "react-animated-css";
 
-// core components
 
-function TestNavBar() {
+
+
+export default function TestNavBar() {
+
+
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [bodyClick, setBodyClick] = React.useState(false);
   const [collapseOpen, setCollapseOpen] = React.useState(false);
@@ -72,7 +66,7 @@ function TestNavBar() {
             setCollapseOpen(false);
           }}
         />
-      ) : null}
+      ) : null} 
       <Navbar
         className={classnames("fixed-top ", navbarColor)}
         expand="lg"
@@ -85,11 +79,11 @@ function TestNavBar() {
             
             <img alt=" "src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"25%",height:"auto"}}/>
               
-              A+ Counseling
+              A+ Counseling & Consultin, LLC
             </NavbarBrand>
   
             <UncontrolledTooltip placement="bottom" target="navbar-brand">
-              A+ Counseling & Consulting
+              A+ Counseling & Consulting , LLC
             </UncontrolledTooltip>
             <button
               className="navbar-toggler "
@@ -161,4 +155,4 @@ function TestNavBar() {
   );
 }
 
-export default TestNavBar;
+

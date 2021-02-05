@@ -1,0 +1,40 @@
+{ 
+    "DropdownItems":[
+        {
+            "Name":"Home",
+            "Link":"/",
+            "Icon":"nc-shop"
+        }, 
+        {
+            "Name":"Contact",
+            "Link":"/Contact",
+            "Icon":"nc-chat-33"
+        }, 
+        {
+            "Name":"Client Resources",
+            "Link":"#",
+            "Icon":"nc-box"
+        }, 
+        {
+            "Name":"Rates & Insurance",
+            "Link":"Rates",
+            "Icon":"nc-paper"
+        }, 
+        {
+            "Name":"FAQS",
+            "Link":"FAQs",
+            "Icon":"nc-alert-info-i"
+        }, 
+        {
+            "Name":"Why Us",
+            "Link":"WhyUs",
+            "Icon":"nc-favourite-28"
+        },
+        {
+            "Name":"About Me",
+            "Link":"/Bio",
+            "Icon":"nc-single-02"
+        } 
+    ]
+
+}

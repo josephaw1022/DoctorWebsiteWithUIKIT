@@ -50,7 +50,7 @@ export default function NavBarIndex() {
       }
   );
 
-  const Title = "A+ Counselling & Consulting"
+  const Title = "A+ Counselling & Consulting, LLC"
 
   return (
     <>

@@ -42,16 +42,23 @@ function LandingPageHeader(props) {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
+
+
+            
               <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
-                <h1 className="title" id="navbarstuff">
+            
+                <h1 className="title" id="navbarstuff" >
                   "{props.Quote}"
                 </h1>
-                </Animated>
-                <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
+              
+              </Animated>
+              <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
                 <h5 className="description">
                 - {props.QuoteBy}
                 </h5>
-                </Animated>
+              </Animated>
+        
+
                 <br />
               </Col>
               <Col className="ml-auto mr-auto" md="10">

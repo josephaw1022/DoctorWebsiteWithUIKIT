@@ -50,6 +50,8 @@ export default function NavBarIndex() {
       }
   );
 
+  const Title = "A+ Counselling & Consulting"
+
   return (
     <>
       {bodyClick ? (
@@ -74,11 +76,14 @@ export default function NavBarIndex() {
             
             <img alt=" "src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"25%",height:"auto"}}/>
               
-              A+ Counseling & Consulting, LLC
+              {Title}
+              
             </NavbarBrand>
   
             <UncontrolledTooltip placement="bottom" target="navbar-brand">
-              A+ Counseling & Consulting , LLC
+            
+              {Title}
+
             </UncontrolledTooltip>
             <button
               className="navbar-toggler "
@@ -97,11 +102,8 @@ export default function NavBarIndex() {
           </div>
           
           <Collapse navbar isOpen={collapseOpen}>
-
                 <DropDown/> 
-
           </Collapse>
-          
         </Container>
         
       

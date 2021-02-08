@@ -1,12 +1,12 @@
 import React from 'react'
 import './WhyUs.css'
-import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
+import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap"
 
   
 class WhyUs extends React.Component{ 
 
     render(){
-        window.scrollTo(0, 0); 
+        window.scrollTo(0, 0) 
 
         return(
             <>
@@ -16,7 +16,7 @@ class WhyUs extends React.Component{
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="10">
-                  <h2 className="title" style={{textAlign:"center", color:"#fff"}}> Why Us? f</h2>
+                  <h2 className="title" style={{textAlign:"center", color:"#fff"}}> Why Us? </h2>
                   <br />
                   <Card className="card-plain card-blog">
                     <Row>
@@ -122,7 +122,7 @@ class WhyUs extends React.Component{
           </div> 
           </> 
 
-        ) ; 
+        )  
     }
 }
-export default WhyUs ; 
+export default WhyUs  

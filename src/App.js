@@ -30,7 +30,6 @@ export default class App extends Component {
           <Route path="/Future" component={Future}/>
           <Route path="/TeleHealth" component={TeleHealth}/>
           <Route path="/Bio" component={Bio}/> 
-
         </Layout>
       </>
     );

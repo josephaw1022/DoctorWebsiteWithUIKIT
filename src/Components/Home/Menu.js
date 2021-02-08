@@ -14,6 +14,7 @@ import { Link } from "react-router-dom"
 
 class Menu extends React.Component {
 
+
   constructor(props){ 
     super(props); 
     this.state={
@@ -27,7 +28,7 @@ class Menu extends React.Component {
   }
 
   render(){ 
-
+    
     let menuOptions = this.state.Menu.Options.map(
       
       (value) => { 
@@ -38,7 +39,7 @@ class Menu extends React.Component {
         
           return( 
               <Col md="3">
-                <div className="info">
+                <div className="info ">
                   <div className="icon icon-info">
                     <i className={"nc-icon "+value.Icon} />
                   </div>
@@ -58,9 +59,13 @@ class Menu extends React.Component {
       }
     )
 
+    
+
     return (
+      
       <>
-      <div class="wrapper">
+    
+      <div className="wrapper">
 
         <div className="main" data-parallex="true">
           <div className="section text-center menubg" style={{backgroundcolor:"#333"}}>
@@ -82,7 +87,8 @@ class Menu extends React.Component {
             </Container>
         </div> 
       </div>
-      </div> 
+      </div>
+ 
       </>
       );
   }

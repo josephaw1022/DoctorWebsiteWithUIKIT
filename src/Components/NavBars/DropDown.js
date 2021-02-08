@@ -4,10 +4,19 @@ import "./NavBar.css"
 import { Link } from "react-router-dom" 
 import {DropdownItem} from "reactstrap" 
 
-class NestedNav extends React.Component{ 
+import {
+    DropdownToggle,
+    DropdownMenu,
+    UncontrolledDropdown,
+    Nav,
+
+  } from "reactstrap";
+  
+
+class DropDown extends React.Component{ 
 
     constructor(props){ 
-        super(props) ; 
+        super(props) 
         this.state={ 
             menu: {}  
         }
@@ -19,7 +28,7 @@ class NestedNav extends React.Component{
     } 
 
     componentWillMount(){ 
-        this.OpenJsonFile() ; 
+        this.OpenJsonFile() 
     }
 
     render(){ 
@@ -33,17 +42,31 @@ class NestedNav extends React.Component{
                             {index.Name}
                         </DropdownItem>
                     </> 
-                ); 
+                )
             }
         )
 
         return(
             <>
-            {MenuPieces}
+            
+            <Nav className="ml-auto" navbar>
+              
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle className="mr-2" color="default" caret nav>
+                  More
+                </DropdownToggle>
+                <DropdownMenu className="dropdown-info" right>
+                {MenuPieces} 
+                </DropdownMenu>
+              </UncontrolledDropdown>
+
+            </Nav>
+         
+          
             </> 
-        ) ; 
+        ) 
 
     }
 }
 
-export default NestedNav ; 
+export default DropDown 

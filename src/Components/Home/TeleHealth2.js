@@ -29,11 +29,13 @@ class TeleHealth2 extends React.Component {
 
     render(){
 
+      
       let Title = this.state.Title ; 
       let Description = this.state.Description ; 
       let Color = this.state.Color ; 
 
-        window.scrollTo(0, 0); 
+      window.scrollTo(0, 0); 
+
         return(
             <>
             <div className="section phonechange" style={{backgroundColor:"#333"}} /> 

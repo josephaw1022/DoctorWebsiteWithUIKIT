@@ -1,5 +1,5 @@
 
-// export default TestNavBar;
+// export default NavBarIndex;
 import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
@@ -11,21 +11,16 @@ import Headroom from "headroom.js";
 import {
   // Button, 
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  // DropdownItem,
-  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
-  Nav,
   Container,
   UncontrolledTooltip
 } from "reactstrap";
 
-import NestedNav from "./NestedNav"  
+import DropDown from "./DropDown"  
 
 
-export default function TestNavBar() {
+export default function NavBarIndex() {
 
 
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -79,7 +74,7 @@ export default function TestNavBar() {
             
             <img alt=" "src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"25%",height:"auto"}}/>
               
-              A+ Counseling & Consultin, LLC
+              A+ Counseling & Consulting, LLC
             </NavbarBrand>
   
             <UncontrolledTooltip placement="bottom" target="navbar-brand">
@@ -102,18 +97,9 @@ export default function TestNavBar() {
           </div>
           
           <Collapse navbar isOpen={collapseOpen}>
-            <Nav className="ml-auto" navbar>
-              
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle className="mr-2" color="default" caret nav>
-                  More
-                </DropdownToggle>
-                <DropdownMenu className="dropdown-info" right>
-                <NestedNav/> 
-                </DropdownMenu>
-              </UncontrolledDropdown>
 
-            </Nav>
+                <DropDown/> 
+
           </Collapse>
           
         </Container>

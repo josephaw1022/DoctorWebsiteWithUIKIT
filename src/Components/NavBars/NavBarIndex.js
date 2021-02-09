@@ -14,7 +14,8 @@ import {
   NavbarBrand,
   Navbar,
   Container,
-  UncontrolledTooltip
+  UncontrolledTooltip, 
+  Button 
 } from "reactstrap";
 
 import DropDown from "./DropDown"  
@@ -64,6 +65,8 @@ export default function NavBarIndex() {
           }}
         />
       ) : null} 
+
+
       <Navbar
         className={classnames("fixed-top ", navbarColor)}
         expand="lg"
@@ -95,15 +98,27 @@ export default function NavBarIndex() {
                 setCollapseOpen(true);
               }}
             >
+
               <span className="navbar-toggler-bar bar1" />
               <span className="navbar-toggler-bar bar2" />
               <span className="navbar-toggler-bar bar3" />
             </button>
           </div>
           
+          
           <Collapse navbar isOpen={collapseOpen}>
                 <DropDown/> 
           </Collapse>
+          <Button
+                  className="btn-round"
+                  color="info"
+                  tag = {Link}
+                  to ="/"
+                  
+                >
+                  <i className="nc-icon nc-shop" /> Home 
+          </Button>
+
         </Container>
         
       

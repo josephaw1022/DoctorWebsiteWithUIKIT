@@ -24,7 +24,7 @@ function SectionContactUs() {
   return (
     <>
       <div className="section " id="Contact"  
-      style={{backgroundImage:'url(' + require('assets/img/FreeOnes/Photos3.png') +  ')' , height:"110%"}}> 
+      style={{backgroundColor:"#333" , height:"110%"}}> 
         
         <div
           className="contactus-1"

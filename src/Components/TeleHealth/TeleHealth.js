@@ -24,6 +24,9 @@ class TeleHealth extends React.Component {
         })
     }
 
+
+
+
     render(){ 
         let Title = this.state.Title ; 
         let Description = this.state.Description ; 
@@ -33,7 +36,7 @@ class TeleHealth extends React.Component {
 
         return(
             <>
-            <div className="section " style={{backgroundColor:"transparent"}}/>
+            <div className="section " style={{backgroundColor:"#333"}}/>
             <div className="section section-grey fill" style={{backgroundColor:"#333"}}> 
                 <div className="" id="TeleHealth">
                 <Container>

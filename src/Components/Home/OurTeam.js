@@ -46,7 +46,7 @@ class OurTeam extends React.Component{
       return (
         <>
         <div className="section phonechange" style={{backgroundColor:"#fff"}} /> 
-        <div className="team-3" id="OurTeam" style={{marginBottom:"20px", height:"100%"}}>
+        <div className="team-3" id="OurTeam" style={{ height:"100%"}}>
               <Container>
                 <Row>
                   <Col className="ml-auto mr-auto text-center" md="8">

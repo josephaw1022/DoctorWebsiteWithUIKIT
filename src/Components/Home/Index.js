@@ -10,7 +10,7 @@ import OurTeam from "./OurTeam"
 import Contact from "./Contact"
 import SideNav from "./SideNav"
 // import Exercise from "./Exercise"
-import TeleHealth from "./TeleHealth2"
+import TeleHealth from "./TeleHealth"
 // import Menu2 from "./Menu2"
 // import ClientResources from "./ClientResources"
 
@@ -39,12 +39,14 @@ class Index extends React.Component{
             TeleHealth:file.TeleHealth,
             ServicesOffered:file.ServicesOffered,
             OurTeam:file.OurTeam 
-            }
+            } 
         )
     } 
 
 
     render(){
+        
+        
         
             
         return (

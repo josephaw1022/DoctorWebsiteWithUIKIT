@@ -2,7 +2,7 @@ import React from 'react'
 // import './TeleHealth.css'
 import {Row, Col , Card, CardBody, CardTitle, Container} from "reactstrap"; 
 import {Animated} from "react-animated-css";
-
+import "./Home.css"
 class TeleHealth extends React.Component { 
 
     constructor(props){ 
@@ -26,23 +26,27 @@ class TeleHealth extends React.Component {
           Color: this.props.data.Color 
         }
       )
+
+      console.log(this.state.Description)
     }
     
 
     render(){
 
       
-      let Title = this.state.Title ; 
-      let Description = this.state.Description ; 
-      let Color = this.state.Color ; 
+      
 
-      window.scrollTo(0, 0); 
+    
 
         return(
             <>
           
           
-            <div className="section section-grey fill parallax" style={{  backgroundImage: "url(" + require("assets/img/FreeOnes/Photos18.png") + ")"}}
+            <div className="section parallax" 
+            style={{
+              backgroundImage: "url(" + require("assets/img/FreeOnes/Photos18.png") + ")",
+              height:"110%"
+                }}
               data-parallax="true"
               ref={this.myRef}
               > 
@@ -53,8 +57,8 @@ class TeleHealth extends React.Component {
                     <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
                   <h2 className="title" style={{textAlign:"center", fontWeight:"bolder", color:"#fff"}} > Telehealth</h2>
                     </Animated> 
-                  <br />
-                  <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>
+
+                  <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
                   <Card className="card-plain card-blog">
                     <Row>
                       <Col md="4">
@@ -64,12 +68,13 @@ class TeleHealth extends React.Component {
                           <div className="text-center">
                         <CardBody>
                           <CardTitle tag="h3">
-                            <h3 onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className={Color+" fixh3"}>
-                            {Title}
+                            
+                            <h3 onClick={(e) => e.preventDefault()} style={{color:"bg-secondary", fontWeight:"bold", textAlign:"center"}} className={this.props.data.Color+" fixh3 text-center"}>
+                            {this.props.data.Title} + " Hello "
                             </h3>
                           </CardTitle>
-                          <p className="fixp" style={{color:"#fff", fontSize:"15px"}}>
-                          {Description}
+                          <p className="fixp" style={{color:"#fff"}} >
+                          {this.state.Description}
                           </p>
                         </CardBody>
                         </div> 
@@ -81,6 +86,7 @@ class TeleHealth extends React.Component {
               </Row>
             </Container>
           </div>
+          <div className="section" style={{backgroundColor:"transparent", margin:"30px"}} /> 
           </div> 
           
             </> 

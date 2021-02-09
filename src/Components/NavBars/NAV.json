@@ -1,11 +1,7 @@
 { 
     "menu":{
         "list":[
-            {
-                "Name":"Home",
-                "Link":"/",
-                "Icon":"nc-shop"
-            }, 
+            
             {
                 "Name":"Contact",
                 "Link":"/Contact",

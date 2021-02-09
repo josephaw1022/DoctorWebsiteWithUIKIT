@@ -10,13 +10,13 @@ import {Animated} from "react-animated-css";
 
 function LandingPageHeader(props) {
 
-  let pageHeader = React.createRef();
+  let pageHeader1 = React.createRef();
 
   React.useEffect(() => {
     if (window.innerWidth < 991) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
-        pageHeader.current.style.transform =
+        pageHeader1.current.style.transform =
           "translate3d(0," + windowScrollTop + "px,0)";
       };
       window.addEventListener("scroll", updateScroll);
@@ -30,11 +30,12 @@ function LandingPageHeader(props) {
     <>
       <div
         style={{
-          backgroundImage: "url(" + require("assets/img/FreeOnes/Photos22.png") + ")"
+          backgroundImage: "url(" + require("assets/img/FreeOnes/Email1.png") + ")"
         }}
         className="page-header parallax"
         data-parallax="true"
-        ref={pageHeader}
+        ref={pageHeader1}
+        
       >
 
         <div className="filter" />
@@ -43,11 +44,9 @@ function LandingPageHeader(props) {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
 
-
-            
               <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
             
-                <h1 className="title" id="navbarstuff" >
+                <h1 className="title text-center" id="navbarstuff" >
                   "{props.Quote}"
                 </h1>
               

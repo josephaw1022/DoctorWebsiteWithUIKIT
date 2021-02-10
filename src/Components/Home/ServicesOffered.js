@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 // reactstrap components
 import {
@@ -28,46 +29,33 @@ class ServicesOffered extends React.Component{
         this.setState({ServicesOffered:this.props.data},()=> {})
     } 
 
-    render(){  
-        // eslint-disable-next-line
-        let cards = this.state.ServicesOffered.Services.map(
-            (index)=>{
-                    return (
-                        <Col md="4">
-                                <Card
-                                className="c3"
-                                data-background="image"
-                                style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos3.png") + ")"}}
-                                >
-                                <CardBody>
-                                    <h6 className="card-category">Individual</h6>
-                                    <div className="card-icon">
-                                    <i className="nc-icon nc-chat-33" />
-                                    </div>
-                                    <p className="card-description">
-                                    blah blah blah blah 
-                                    </p>
-                                    <CardFooter>
-                                    <Button
-                                        className="btn-neutral"
-                                        color="link"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fa fa-book mr-1" />
-                                        Show more
-                                    </Button>
-                                    </CardFooter>
-                                </CardBody>
-                                </Card>
-                            </Col>
+    animateCSS = (element, animation, prefix = 'animate__') =>
+        // We create a Promise and return it
+        new Promise((resolve, reject) => {
+            const animationName = `${prefix}${animation}`;
+            const node = document.querySelector(element);
 
-                    ) ; 
-                }
-        )
+            node.classList.add(`${prefix}animated`, animationName);
 
+            // When the animation ends, we clean the classes and resolve the Promise
+            function handleAnimationEnd(event) {
+            event.stopPropagation();
+            node.classList.remove(`${prefix}animated`, animationName);
+            resolve('Animation ended');
+            }
+
+            node.addEventListener('animationend', handleAnimationEnd, {once: true});
+        });
+
+    
+
+    render(){ 
+        
+        
+        
     return (
       <>
+        
         <div className="section menubg" >
         <Container id="Services">
         <Row>
@@ -79,10 +67,12 @@ class ServicesOffered extends React.Component{
             <br />
         </Col>
         </Row>
+        
         <Row>
         <Col md="4">
+        <ScrollAnimation animateOnce={true} animateIn="slideInLeft" duration={1} >
             <Card
-            className="c3"
+            className="c3 add-animation info-img"
             data-background="image"
             style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos3.png") + ")"}}
             >
@@ -107,8 +97,12 @@ class ServicesOffered extends React.Component{
                 </CardFooter>
             </CardBody>
             </Card>
+            </ScrollAnimation> 
+            
         </Col>
         <Col md="4">
+            
+        <ScrollAnimation animateOnce={true} animateIn="slideInLeft" duration={.9} >
             <Card
             className="c2"
             data-background="image"
@@ -135,9 +129,12 @@ class ServicesOffered extends React.Component{
                 </Button>
                 </CardFooter>
             </CardBody>
+            
             </Card>
+            </ScrollAnimation> 
         </Col>
         <Col md="4">
+        <ScrollAnimation animateOnce={true} animateIn="slideInLeft" duration={.5} >
             <Card
             data-background="image"
             className="c1"
@@ -164,106 +161,15 @@ class ServicesOffered extends React.Component{
                 </CardFooter>
             </CardBody>
             </Card>
+            </ScrollAnimation> 
         </Col>
         </Row>
+    
         </Container>
         </div>
+
         </> 
     );
     }  
 } 
 export default ServicesOffered ; 
-
-// import React from "react";
-
-// // reactstrap components
-// import {
-//   Button,
-//   Container,
-//   Row,
-//   Col
-// } from "reactstrap";
-
-// import {
-
-//   Card,
-//   CardFooter,
-//   CardBody,
-
-
-// } from "reactstrap";
- 
-// class ServicesOffered extends React.Component{
-//     constructor(props){
-//         super(props); 
-//         this.state={ 
-//             ServicesOffered:{}
-//         }
-//     }
-//     componentWillMount(){ 
-//         this.setState({ServicesOffered:this.props.data},()=> {})
-//     } 
-
-//     render(){  
-
-//         let cards = this.state.ServicesOffered.Services.map(
-//             (index)=>{
-//                 var address = index.Photo
-//                     return (
-//                             <Col md="4">
-//                                 <Card
-//                                 className={"c3"+index.Class}
-//                                 data-background="image"
-//                                 style={{backgroundImage:'url(' + require(address) + ')'}}
-                                
-//                                 >
-//                                 <CardBody>
-//                                     <h6 className="card-category">{index.Type} </h6>
-//                                     <div className="card-icon">
-//                                     <i className="nc-icon nc-chat-33" />
-//                                     </div>
-//                                     <p className="card-description">
-//                                     {index.Description}
-//                                     </p>
-//                                     <CardFooter>
-//                                     <Button
-//                                         className="btn-neutral"
-//                                         color="link"
-//                                         href="#pablo"
-//                                         onClick={(e) => e.preventDefault()}
-//                                     >
-//                                         <i className="fa fa-book mr-1" />
-//                                         Show more
-//                                     </Button>
-//                                     </CardFooter>
-//                                 </CardBody>
-//                                 </Card>
-//                             </Col>
-
-//                     ) ; 
-//                 }
-//         )
-
-//     return (
-//       <>
-//         <div className="section" >
-//         <Container id="Services">
-//         <Row>
-//         <Col className="ml-auto mr-auto text-center" md="8">
-//             <h2 className="title">Services Offered</h2>
-//             <h5 className="description">
-            
-//             </h5>
-//             <br />
-//         </Col>
-//         </Row>
-//         <Row>
-//             {cards}
-//         </Row>
-//         </Container>
-//         </div>
-//         </> 
-//     );
-//     }  
-// } 
-// export default ServicesOffered ; 

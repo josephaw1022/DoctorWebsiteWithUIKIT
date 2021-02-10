@@ -26,8 +26,6 @@ class TeleHealth extends React.Component {
           Color: this.props.data.Color 
         }
       )
-
-      console.log(this.state.Description)
     }
     
 
@@ -44,22 +42,27 @@ class TeleHealth extends React.Component {
           
             <div className="section parallax" 
             style={{
-              backgroundImage: "url(" + require("assets/img/FreeOnes/Photos18.png") + ")",
+              backgroundImage: "url(" + require("assets/img/FreeOnes/Photos3.png") + ")",
               height:"110%"
                 }}
               data-parallax="true"
               ref={this.myRef}
               > 
+
             <div className="" id="TeleHealth">
-            <Container>
+            <div className="section" style={{backgroundColor:"transparent"}} /> 
+            <Container style={{top:"50%"}}>
               <Row>
                 <Col className="ml-auto mr-auto" md="10">
-                    <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
-                  <h2 className="title" style={{textAlign:"center", fontWeight:"bolder", color:"#fff"}} > Telehealth</h2>
-                    </Animated> 
+                    
 
-                  <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true}>
-                  <Card className="card-plain card-blog">
+                    
+
+                
+                <Card className="card-contact">
+                  <CardTitle className="text-center" tag="h3" style={{color:"#f5593d"}}>
+                  {this.state.Title} <hr/> 
+                  </CardTitle>
                     <Row>
                       <Col md="4">
                         
@@ -67,26 +70,22 @@ class TeleHealth extends React.Component {
                       <Col md="12">
                           <div className="text-center">
                         <CardBody>
-                          <CardTitle tag="h3">
-                            
-                            <h3 onClick={(e) => e.preventDefault()} style={{color:"bg-secondary", fontWeight:"bold", textAlign:"center"}} className={this.props.data.Color+" fixh3 text-center"}>
-                            {this.props.data.Title} + " Hello "
-                            </h3>
-                          </CardTitle>
-                          <p className="fixp" style={{color:"#fff"}} >
+                          
+                          <h5 className="fixp" style={{color:"#333"}} >
                           {this.state.Description}
-                          </p>
+                          </h5>
                         </CardBody>
                         </div> 
                       </Col>
                     </Row>
                   </Card>
-                  </Animated> 
+              
                 </Col>
               </Row>
             </Container>
+            <div className="section" style={{backgroundColor:"transparent"}} /> 
           </div>
-          <div className="section" style={{backgroundColor:"transparent", margin:"30px"}} /> 
+        
           </div> 
           
             </> 

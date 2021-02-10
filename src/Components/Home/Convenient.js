@@ -1,5 +1,5 @@
 import React from "react" 
-
+import ScrollAnimation from 'react-animate-on-scroll';
 // reactstrap components
 import {
   // Button,
@@ -27,17 +27,21 @@ export default function Convenient(){
                     <Col className="ml-auto mr-auto" md="10">
                       <h2 className="title" >Whatever's Convenient</h2>
                       <br />
+                      <ScrollAnimation animateIn="slideInRight"  animateOnce={true} animationOut="zoomOut"  duration={.5}>
                       <Card className="card-plain card-blog">
                         <Row>
                           <Col md="5">
+                          
                             <div className="card-image">
                               <img
+                                style={{zIndex:"-1"}}
                                 alt="..."
                                 className="img"
                                 src={require("assets/img/FreeOnes/Photos9.png")}
                                 
                               />
                             </div>
+                          
                           </Col>
                           <Col md="7">
                             <CardBody>
@@ -55,6 +59,8 @@ export default function Convenient(){
                           </Col>
                         </Row>
                       </Card>
+                      </ScrollAnimation>
+                      <ScrollAnimation animateIn="slideInLeft"  animateOnce={true} animationOut="zoomOut"  duration={.5}>
                       <Card className="card-plain card-blog">
                         <Row>
                           <Col md="7">
@@ -86,6 +92,7 @@ export default function Convenient(){
                           </Col>
                         </Row>
                       </Card>
+                      </ScrollAnimation>
                     </Col>
                   </Row>
                 </Container>

@@ -37,7 +37,7 @@ class DropDown extends React.Component{
             (index) => { 
                 return( 
                     <>
-                        <DropdownItem to={index.Link} tag={Link}>
+                        <DropdownItem to={index.Link} tag={Link} className="btn-magnify ">
                             <i className={"nc-icon "+ index.Icon} />
                             {index.Name}
                         </DropdownItem>

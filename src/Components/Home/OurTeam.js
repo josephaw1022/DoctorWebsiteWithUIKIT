@@ -61,19 +61,18 @@ class OurTeam extends React.Component{
                 <div className="space-top" />
                 <Row>
                   <Col md="6" className="ml-auto mr-auto text-center">
-                    <Card className="card-profile card-plain" tag={Link} to="/Bio">
+                    <Card className="card-profile card-plain" tag={Link} to="/Bio" >
                       <Row >
                         <Col md="6">
-                        <Card
-            className="c2"
-            data-background="image"
-            style={{backgroundImage:{photo1}}}
-            
-            >
-                            
-                      
-                          </Card>
-
+                        <div className="card-image">
+                              <img
+                                style={{display:"initial"}}
+                                alt="..."
+                                className="image"
+                                src={require("assets/img/brownprofile.png")}
+                                
+                              />
+                            </div>
                         </Col>
                         <Col md="6">
                           <CardBody className="text-left">

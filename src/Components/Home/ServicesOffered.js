@@ -70,11 +70,11 @@ class ServicesOffered extends React.Component{
         
         <Row>
         <Col md="4">
-        <ScrollAnimation animateOnce={true} animateIn="slideInLeft" duration={1} >
+
             <Card
-            className="c3 add-animation info-img"
+            className="c3 add-animation parallax info-img  photo1"
             data-background="image"
-            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos3.png") + ")"}}
+            style={{height:"initial"}}
             >
             <CardBody>
                 <h6 className="card-category">Individual</h6>
@@ -97,16 +97,17 @@ class ServicesOffered extends React.Component{
                 </CardFooter>
             </CardBody>
             </Card>
-            </ScrollAnimation> 
+         
             
         </Col>
         <Col md="4">
             
-        <ScrollAnimation animateOnce={true} animateIn="slideInLeft" duration={.9} >
+        
             <Card
-            className="c2"
+            className="c2 parallax photo2"
             data-background="image"
-            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos21.png") + ")"}}
+            
+            style={{height:"initial"}}
             
             >
             <CardBody>
@@ -131,14 +132,14 @@ class ServicesOffered extends React.Component{
             </CardBody>
             
             </Card>
-            </ScrollAnimation> 
+             
         </Col>
         <Col md="4">
-        <ScrollAnimation animateOnce={true} animateIn="slideInLeft" duration={.5} >
+        
             <Card
             data-background="image"
-            className="c1"
-            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos22.png") + ")"}}
+            className="c1 parallax photo3"
+            style={{ height:"initial" , backgroundPosition:"20% 50% " }}
             >
             <CardBody>
                 <h6 className="card-category">Faith Counseling</h6>
@@ -161,7 +162,7 @@ class ServicesOffered extends React.Component{
                 </CardFooter>
             </CardBody>
             </Card>
-            </ScrollAnimation> 
+            
         </Col>
         </Row>
     

@@ -1,4 +1,19 @@
+/*!
 
+ =========================================================
+ * Paper Kit PRO React v1.2.0 based on Paper Kit 2 Pro - v2.3.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/paper-kit-2-pro
+ * Copyright 2020 Creative Tim (http://www.creative-tim.com)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
 
 @import 'paper-kit/variables';
 @import 'paper-kit/mixins';
@@ -58,9 +73,9 @@
 @import "paper-kit/cards/card-signup";
 @import "paper-kit/cards/card-testimonials";
 
-// For gallery, using PhotoSwipe
+// // For gallery, using PhotoSwipe
 @import "paper-kit/plugins/photo-swipe/main.scss";
-// @import "paper-kit/plugins/photo-swipe/default-skin.scss";
+@import "paper-kit/plugins/photo-swipe/default-skin.scss";
 @import "paper-kit/plugins/photo-swipe/gallery.scss";
 @import "paper-kit/plugins/photo-swipe/main.scss";
 

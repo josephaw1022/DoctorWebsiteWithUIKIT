@@ -27,16 +27,16 @@ export default function Convenient(){
                     <Col className="ml-auto mr-auto" md="10">
                       <h2 className="title" >Whatever's Convenient</h2>
                       <br />
-                      <ScrollAnimation animateIn="slideInRight"  animateOnce={true} animationOut="zoomOut"  duration={.5}>
+                      
                       <Card className="card-plain card-blog">
                         <Row>
                           <Col md="5">
                           
                             <div className="card-image">
                               <img
-                                style={{zIndex:"-1"}}
+                                style={{display:"initial"}}
                                 alt="..."
-                                className="img"
+                                className="image"
                                 src={require("assets/img/FreeOnes/Photos9.png")}
                                 
                               />
@@ -44,6 +44,7 @@ export default function Convenient(){
                           
                           </Col>
                           <Col md="7">
+                          <ScrollAnimation animateIn="slideInRight"  animateOnce={true} animationOut="zoomOut"  duration={.5}>
                             <CardBody>
                               <h6 className="card-category text-info" > Traditional </h6>
                               <CardTitle tag="h3">
@@ -56,14 +57,16 @@ export default function Convenient(){
                                  is a perfect and conveinent option {" "}
                               </p>
                             </CardBody>
+                            </ScrollAnimation>
                           </Col>
                         </Row>
                       </Card>
-                      </ScrollAnimation>
-                      <ScrollAnimation animateIn="slideInLeft"  animateOnce={true} animationOut="zoomOut"  duration={.5}>
+                      
+                      
                       <Card className="card-plain card-blog">
                         <Row>
                           <Col md="7">
+                          <ScrollAnimation animateIn="slideInLeft"  animateOnce={true} animationOut="zoomOut"  duration={.5}>
                             <CardBody>
                               <h6 className="card-category text-danger">
                                 <i className="fa fa-free-code-camp mr-1" />
@@ -80,6 +83,7 @@ export default function Convenient(){
                                 
                               </p>
                             </CardBody>
+                            </ScrollAnimation>
                           </Col>
                           <Col md="5">
                             <div className="card-image">
@@ -92,7 +96,7 @@ export default function Convenient(){
                           </Col>
                         </Row>
                       </Card>
-                      </ScrollAnimation>
+
                     </Col>
                   </Row>
                 </Container>

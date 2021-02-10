@@ -46,14 +46,14 @@ function LandingPageHeader(props) {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
 
-              <Animated animationIn="bounceInLeft" isVisible={true}>
-              <ScrollAnimation animateIn="zoomIn" animateOnce={true} animationOut="fadeOut"  duration={2}>
+              
+              <ScrollAnimation animateIn="zoomIn"  animateOnce={true} animationOut="fadeOut"  duration={2}>
                 <h1 className="title text-center" id="navbarstuff" style={{position:"sticky"}} >
                   "{props.Quote}"
                 </h1>
                 </ScrollAnimation>
               
-              </Animated>
+            
               <Animated animationIn="bounceInRight"  animationOut="fadeOut" isVisible={true}>
               <ScrollAnimation animateIn="zoomIn" animateOnce={true} animationOut="zoomOut" >
                 <h5 className="description">

@@ -54,13 +54,13 @@ function LandingPageHeader(props) {
                 </ScrollAnimation>
               
             
-              <Animated animationIn="bounceInRight"  animationOut="fadeOut" isVisible={true}>
+              
               <ScrollAnimation animateIn="zoomIn" animateOnce={true} animationOut="zoomOut" >
                 <h5 className="description">
                 - {props.QuoteBy}
                 </h5>
-                </ScrollAnimation>
-              </Animated>
+              </ScrollAnimation>
+          
         
 
                 <br />

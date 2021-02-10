@@ -39,7 +39,9 @@ class Menu extends React.Component {
           templink = value.Link
         }
 
+
         let  speed = 1 ; 
+        
         if(value.Spot==="In"){ 
            speed = .6
         }
@@ -60,7 +62,7 @@ class Menu extends React.Component {
                   <div className="description">
                     <h3 className="info-title" style={{color:"#fff"}}>{value.Name}</h3>
                     <br/> 
-                    <p style={{color:"#fff", textTransform:"lowercase"}}>
+                    <p style={{color:"#fff", textTransform:"initial"}}>
                       {value.Description}
                     </p>
                     <Button className="btn-link eights" color="info" tag={Link} to={templink}>

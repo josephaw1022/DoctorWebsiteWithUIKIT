@@ -138,7 +138,7 @@ class ServicesOffered extends React.Component{
             <Card
             data-background="image"
             className="c1"
-            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos1.png") + ")"}}
+            style={{backgroundImage:"url(" + require("assets/img/FreeOnes/Photos22.png") + ")"}}
             >
             <CardBody>
                 <h6 className="card-category">Faith Counseling</h6>

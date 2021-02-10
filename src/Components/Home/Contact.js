@@ -1,6 +1,6 @@
 import React from "react";
 // react plugin used to create google maps
-
+import ScrollAnimation from 'react-animate-on-scroll';
 // reactstrap components
 import {
   Button,
@@ -16,6 +16,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
+
 
 // core components
 
@@ -33,7 +34,8 @@ function SectionContactUs() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="10">
-                <Card className="card-contact no-transition">
+              <ScrollAnimation animateIn="fadeIn"  animateOnce={true}  duration={1.2}>
+                <Card className="card-contact">
                   <CardTitle className="text-center" tag="h3">
                     Contact Us
                   </CardTitle>
@@ -135,6 +137,7 @@ function SectionContactUs() {
                     </Col>
                   </Row>
                 </Card>
+                </ScrollAnimation>
               </Col>
             </Row>
           </Container>

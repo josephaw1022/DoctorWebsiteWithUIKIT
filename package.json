@@ -16,6 +16,7 @@
     "nouislider": "14.5.0",
     "particles-bg": "^2.5.0",
     "react": "16.13.1",
+    "react-animate-on-scroll": "^2.1.5",
     "react-animated-css": "^1.2.1",
     "react-bootstrap-switch": "15.5.3",
     "react-datetime": "2.16.3",

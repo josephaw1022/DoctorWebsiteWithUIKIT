@@ -66,21 +66,27 @@
                 "Name": "Getting Started" , 
                 "Description":"Paperwork to preferably fill out before our first meeting.",
                 "Icon": "nc-spaceship" , 
-                "Link": "/GettingStarted"
+                "Link": "/GettingStarted",
+                "Direction":"Left",
+                "Spot":"Out"
 
             },
             {
                 "Name": "Contact Me" , 
                 "Description":"Simply shoot me a phone call or send me an email by filling out the contact form.",
                 "Icon": "nc-mobile" , 
-                "Link": "/Contact"
+                "Link": "/Contact",
+                "Direction":"Left",
+                "Spot":"In"
 
             } , 
             {
                 "Name": "Telehealth" , 
                 "Description":"About this new form of therapy and on how effective it is",
                 "Icon": "nc-laptop" , 
-                "Link": "/TeleHealth"
+                "Link": "/TeleHealth",
+                "Direction":"Right",
+                "Spot":"In"
                 
 
             },
@@ -88,32 +94,42 @@
                 "Name": "What To Expect" , 
                 "Description":"New methods and events to expect later in the future",
                 "Icon": "nc-time-alarm" , 
-                "Link": "/Future"
+                "Link": "/Future",
+                "Direction":"Right",
+                "Spot":"Out"
 
             }, 
             {
                 "Name": "Rates & Insurance" , 
                 "Description":"Currently not accepting insurance, but will be soon in the future.",
                 "Icon": "nc-icon nc-credit-card" , 
-                "Link": "/Rates"
+                "Link": "/Rates",
+                "Direction":"Left",
+                "Spot":"Out"
             },
             {
                 "Name": "Why Us" , 
                 "Description":"Why you should choose us for your next appointment.",
                 "Icon": "nc-icon nc-pin-3" , 
-                "Link": "/WhyUs"
+                "Link": "/WhyUs",
+                "Direction":"Left",
+                "Spot":"In"
             },
             {
                 "Name": "FAQs" , 
                 "Description":"Some commonly asked questions that may help you through this process",
                 "Icon": "nc-icon nc-vector" , 
-                "Link": "/FAQs"
+                "Link": "/FAQs",
+                "Direction":"Right",
+                "Spot":"In"
             },
             {
                 "Name": "Exercise " , 
                 "Description":"Why exercise and overall well-being is an integral part to mental health.",
                 "Icon": "nc-icon nc-user-run" , 
-                "Link": "/"
+                "Link": "/",
+                "Direction":"Right",
+                "Spot":"Out"
             }
 
         ]

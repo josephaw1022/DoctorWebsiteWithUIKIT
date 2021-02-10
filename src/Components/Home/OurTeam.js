@@ -12,6 +12,8 @@ import {
 } from "reactstrap";
 
 import  { Link} from "react-router-dom"; 
+import photo1 from "assets/img/brownprofile.png"  
+
 
 class OurTeam extends React.Component{
   constructor(props){ 
@@ -45,7 +47,7 @@ class OurTeam extends React.Component{
     
       return (
         <>
-        <div className="section phonechange" style={{backgroundColor:"#fff"}} /> 
+      
         <div className="team-3" id="OurTeam" style={{ height:"100%"}}>
               <Container>
                 <Row>
@@ -62,15 +64,16 @@ class OurTeam extends React.Component{
                     <Card className="card-profile card-plain" tag={Link} to="/Bio">
                       <Row >
                         <Col md="6">
-                          <CardImg top tag="div">
+                        <Card
+            className="c2"
+            data-background="image"
+            style={{backgroundImage:{photo1}}}
+            
+            >
                             
-                              <img
-                                alt="..."
-                                className="img"
-                                src={require("assets/img/brownprofile.png")}
-                              />
                       
-                          </CardImg>
+                          </Card>
+
                         </Col>
                         <Col md="6">
                           <CardBody className="text-left">
@@ -83,7 +86,7 @@ class OurTeam extends React.Component{
                               <Button
                                 className="btn-just-icon btn-link mr-1"
                                 color="twitter"
-                                href="#pablo"
+                                
                                 onClick={(e) => e.preventDefault()}
                               >
                                 <i className="fa fa-twitter" />

@@ -7,6 +7,7 @@ import classnames from "classnames";
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
 // eslint-disable-next-line 
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import {
   // Button, 
@@ -15,7 +16,8 @@ import {
   Navbar,
   Container,
   UncontrolledTooltip, 
-  Button 
+  Button ,
+  NavItem 
 } from "reactstrap";
 
 import DropDown from "./DropDown"  
@@ -75,6 +77,7 @@ export default function NavBarIndex() {
         <Container>
           
           <div className="navbar-translate">
+            
             <NavbarBrand id="navbar-brand" to="/" tag={Link}>
             
             <img alt=" "src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"25%",height:"auto"}}/>
@@ -100,24 +103,31 @@ export default function NavBarIndex() {
             >
 
               <span className="navbar-toggler-bar bar1" />
+              
               <span className="navbar-toggler-bar bar2" />
               <span className="navbar-toggler-bar bar3" />
             </button>
           </div>
           
           
+          
           <Collapse navbar isOpen={collapseOpen}>
                 <DropDown/> 
           </Collapse>
+          <NavItem>
+            
           <Button
-                  className="btn-round"
+                  className="btn-round btn-magnify "
                   color="info"
                   tag = {Link}
                   to ="/"
                   
                 >
-                  <i className="nc-icon nc-shop" /> Home 
+                  <i className="nc-icon nc-shop " /> Home 
           </Button>
+          
+        </NavItem>
+
 
         </Container>
         

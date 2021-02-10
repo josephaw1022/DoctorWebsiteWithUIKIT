@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 // reactstrap components
 import {
@@ -33,19 +34,33 @@ class Menu extends React.Component {
       
       (value) => { 
         let templink = null; 
+        
         if (!value.Dont){ 
           templink = value.Link
+        }
+
+        let  speed = 1 ; 
+        if(value.Spot==="In"){ 
+           speed = .6
+        }
+        else{ 
+           speed = .9
         }
         
           return( 
               <Col md="3">
-                <div className="info ">
-                  <div className="icon icon-info">
-                    <i className={"nc-icon "+value.Icon} />
+                <ScrollAnimation animateIn={"slideIn"+value.Direction} animationOut="zoomOut"  animateOnce={true} duration={speed}>
+                  <Button style={{backgroundColor:"transparent", borderColor:"transparent"}} tag={Link} to={templink}>
+                <div className="info btn-magnify" >
+                  <div className="icon icon-info " >
+                  
+                    <i className={"nc-icon "+value.Icon}/>
+                
                   </div>
                   <div className="description">
-                    <h4 className="info-title" style={{color:"#fff"}}>{value.Name}</h4>
-                    <p style={{color:"#fff"}}>
+                    <h3 className="info-title" style={{color:"#fff"}}>{value.Name}</h3>
+                    <br/> 
+                    <p style={{color:"#fff", textTransform:"lowercase"}}>
                       {value.Description}
                     </p>
                     <Button className="btn-link eights" color="info" tag={Link} to={templink}>
@@ -53,6 +68,8 @@ class Menu extends React.Component {
                     </Button>
                   </div>
                 </div>
+                </Button> 
+              </ScrollAnimation>
               </Col> 
 
           ); 
@@ -72,10 +89,12 @@ class Menu extends React.Component {
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="8">
+                <ScrollAnimation animateIn="bounceInDown" animateOnce={true} animationOut="zoomOut"  duration={.6}>
                   <h2 className="title add-animation" style={{color:"#fff"}}>{this.state.Menu.Title} </h2>
                   <h5 className="description" id="Menu" style={{color:"#fff"}}>
                   {this.state.Menu.Description}
                   </h5>
+                  </ScrollAnimation>
                   <br />
                 </Col>
               </Row>

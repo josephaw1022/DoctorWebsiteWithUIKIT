@@ -1,9 +1,9 @@
-import React  from 'react'
-import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
+import React , {Component}  from 'react'
+import { Card, CardBody, CardTitle, Container, Row, Col , CardImg} from "reactstrap";
 import {Animated} from "react-animated-css";
 import "./Future.css"
 
-class Future extends React.Component { 
+class Future extends Component { 
     constructor(props){ 
       super(props);
       this.state={ 
@@ -36,6 +36,7 @@ class Future extends React.Component {
 
         return(
             <>
+            <div id="fadeInAnim">
             <div className="section" style={{backgroundColor:"#333"}}/> 
             <div className="section section-grey" style={{backgroundColor:"#333"}}> 
             <div className="blog-3" id="Exercise">
@@ -50,13 +51,14 @@ class Future extends React.Component {
                           <Row></Row>
                         <Row> 
                         <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
-                        <div className="card-image">
-                          <img
+                        <Card className="bg-dark text-white" >
+                          <CardImg
                             alt="..."
-                            className="img togglershow"
+                            className="img togglershow info-img add-animation"
                             src={require("assets/img/FreeOnes/Photos20.png")}
-                          />
-                        </div>
+                          >
+                          </CardImg>
+                        </Card>
                         </Animated>
 
                         </Row> 
@@ -125,6 +127,7 @@ class Future extends React.Component {
               </Row>
             </Container>
           </div>
+          </div> 
           </div> 
           </> 
         );

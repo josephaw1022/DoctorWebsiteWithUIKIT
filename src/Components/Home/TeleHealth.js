@@ -3,6 +3,8 @@ import React from 'react'
 import {Row, Col , Card, CardBody, CardTitle, Container} from "reactstrap"; 
 // import {Animated} from "react-animated-css";
 import "./Home.css"
+import $ from 'jquery'
+
 class TeleHealth extends React.Component { 
 
     constructor(props){ 
@@ -40,12 +42,12 @@ class TeleHealth extends React.Component {
             <>
           
           
-            <div className="section parallax" 
+            <div className= {$(window).width()<500? "section" : "section parallax"}
             style={{
-              backgroundImage: "url(" + require("assets/img/FreeOnes/Photos3.png") + ")",
+              backgroundImage: "url(" + require("assets/img/FreeOnes/Photos4.png") + ")",
               height:"110%"
                 }}
-              data-parallax="true"
+              
               ref={this.myRef}
               > 
 

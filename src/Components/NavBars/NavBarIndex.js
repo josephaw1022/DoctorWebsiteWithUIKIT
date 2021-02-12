@@ -23,6 +23,7 @@ import {
 
 import DropDown from "./DropDown"  
 
+import $ from 'jquery'
 
 
 
@@ -92,6 +93,13 @@ export default function NavBarIndex() {
   );
 
   const Title = "A+ Counselling & Consulting, LLC"
+  
+  function sizing(){ 
+    if ( $(window).width() < 400) { 
+      return "block"
+    }
+    return " "
+  }
 
   return (
     <>
@@ -119,7 +127,7 @@ export default function NavBarIndex() {
             
             <NavbarBrand id="navbar-brand" to="/" tag={Link} style={{fontSize:"80%"}}>
             
-            <img alt=" " src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"25%",height:"auto", display:"initial"}}/>
+            <img alt=" " src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"100%",height:"auto",display:sizing()}}/>
               
               {Title}
               

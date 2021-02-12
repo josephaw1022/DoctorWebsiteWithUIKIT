@@ -42,10 +42,7 @@ class Menu extends React.Component {
         if (!value.Dont){ 
           templink = value.Link
         }
-
-
         let  speed = 1 ; 
-        
         if(value.Spot==="In"){ 
            speed = .6
         }

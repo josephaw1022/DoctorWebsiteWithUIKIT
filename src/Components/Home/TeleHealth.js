@@ -1,7 +1,7 @@
 import React from 'react'
 // import './TeleHealth.css'
 import {Row, Col , Card, CardBody, CardTitle, Container} from "reactstrap"; 
-import {Animated} from "react-animated-css";
+// import {Animated} from "react-animated-css";
 import "./Home.css"
 class TeleHealth extends React.Component { 
 

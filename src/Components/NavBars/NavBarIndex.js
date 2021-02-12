@@ -7,11 +7,11 @@ import classnames from "classnames";
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
 // eslint-disable-next-line 
-import ScrollAnimation from 'react-animate-on-scroll';
-import { Progress } from "reactstrap";
+// import ScrollAnimation from 'react-animate-on-scroll';
+// import { Progress } from "reactstrap";
 import {
   // Button,
-  Row,  
+  // Row,  
   Collapse,
   NavbarBrand,
   Navbar,
@@ -108,17 +108,18 @@ export default function NavBarIndex() {
 
 
       <Navbar
-        className={classnames("fixed-top ", navbarColor)}
+        className={classnames("fixed-top headroom", navbarColor)}
         expand="lg"
         id="navbar-main"
+        style={{}}
       >
         <Container>
           
           <div className="navbar-translate">
             
-            <NavbarBrand id="navbar-brand" to="/" tag={Link}>
+            <NavbarBrand id="navbar-brand" to="/" tag={Link} style={{fontSize:"80%"}}>
             
-            <img alt=" "src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"25%",height:"auto"}}/>
+            <img alt=" " src={require('./logo.png')} className="imagefixerupper" style={{maxWidth:"25%",height:"auto", display:"initial"}}/>
               
               {Title}
               
@@ -130,9 +131,10 @@ export default function NavBarIndex() {
 
             </UncontrolledTooltip>
             <button
-              className="navbar-toggler "
+              className="navbar-toggler"
               id="navigation"
               type="button"
+
               onClick={() => {
                 document.documentElement.classList.toggle("nav-open");
                 setBodyClick(true);
@@ -140,10 +142,9 @@ export default function NavBarIndex() {
               }}
             >
 
-              <span className="navbar-toggler-bar bar1" />
-              
-              <span className="navbar-toggler-bar bar2" />
-              <span className="navbar-toggler-bar bar3" />
+              <span className="navbar-toggler-bar bar1 bg-info" />
+              <span className="navbar-toggler-bar bar2 bg-info" />
+              <span className="navbar-toggler-bar bar3 bg-info" />
             </button>
           </div>
           
@@ -152,28 +153,13 @@ export default function NavBarIndex() {
           <Collapse navbar isOpen={collapseOpen}>
                 <DropDown/> 
           </Collapse>
-          <NavItem>
-            
-          <Button
-                  className="btn-round btn-magnify "
-                  color="info"
-                  tag = {Link}
-                  to ="/"
-                  
-                >
-                  <i className="nc-icon nc-shop " /> Home 
-          </Button>
         
-        </NavItem>
               
-      
-
-
         </Container>
         
         
       </Navbar>
-      <ReadingProgress target={target} /> 
+      
       
       
       

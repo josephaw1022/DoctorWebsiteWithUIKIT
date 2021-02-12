@@ -12,11 +12,14 @@ import Future from "Components/Future/Future"
 // import TeleHealth2 from 'Components/Home/TeleHealth2'
 import TeleHealth from "Components/TeleHealth/TeleHealth" ; 
 import Bio from "Components/Bio/Bio"
+import "./App.css"
+import $ from "jquery"
 // import NotFoundPage from "Components/Error/NotFoundPage"
 export default class App extends Component {
   static displayName = App.name;
 
   render () {
+    console.log(  $(window).width())
     return (
       <>
         

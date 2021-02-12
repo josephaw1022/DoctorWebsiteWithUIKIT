@@ -1,5 +1,8 @@
 import React , {Component}  from 'react'
-import { Card, CardBody, CardTitle, Container, Row, Col , CardImg} from "reactstrap";
+import { Card, CardBody, CardTitle, Container, Row, Col ,
+  //  CardImg
+}
+    from "reactstrap";
 import {Animated} from "react-animated-css";
 import "./Future.css"
 
@@ -15,7 +18,7 @@ class Future extends Component {
 
       }
     }
-
+    
     componentWillMount(){
       const file = require("./Future.json")
       this.setState({
@@ -51,16 +54,16 @@ class Future extends Component {
                           <Row></Row>
                         <Row> 
                         <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
-                        <Card className="bg-dark text-white" >
-                          <CardImg
-                            alt="..."
-                            className="img togglershow info-img add-animation"
-                            src={require("assets/img/FreeOnes/Photos20.png")}
-                          >
-                          </CardImg>
-                        </Card>
+                            <div className="card-image" style={{top:"50%"}}>
+                              
+                            <img
+                              alt="..."
+                              className="img togglershow opfd"
+                              src={require("assets/img/FreeOnes/Photos20.png")}
+                              style={{top:"50%"}}
+                              />
+                            </div> 
                         </Animated>
-
                         </Row> 
                         <Row></Row>
                       </Col>
@@ -110,13 +113,12 @@ class Future extends Component {
                               
                             <img
                               alt="..."
+        
                               className="img togglershow opfd"
                               src={require("assets/img/FreeOnes/Photos19.png")}
                               style={{top:"50%"}}
                               />
                             </div> 
-
-                            
                         </Row> 
                         </Animated>
                         <Row></Row>

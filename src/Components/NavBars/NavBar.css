@@ -5,14 +5,24 @@
     background-color: transparent !important;
 }
 
-@media (max-width: 2026px) {
-    img {
-        display: none;
+@media (max-width: 500 px) {
+    .imagefixerupper{ 
+        img{ display: block;}
+    }
+
+    NavbarBrand{ 
+        width: 50% !important  ;
+        overflow: -moz-hidden-unscrollable;
+    }
+
+    
+    #root{ 
+        overflow: hidden;
     }
 }
 
 .imagefixerupper{
-    width:100px !important;
+    width:200px !important;
     height:100px !important;
 }
 

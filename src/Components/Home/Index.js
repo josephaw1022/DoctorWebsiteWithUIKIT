@@ -11,6 +11,7 @@ import Contact from "./Contact"
 import SideNav from "./SideNav"
 // import Exercise from "./Exercise"
 import TeleHealth from "./TeleHealth"
+
 // import Menu2 from "./Menu2"
 // import ClientResources from "./ClientResources"
 
@@ -41,14 +42,16 @@ class Index extends React.Component{
             OurTeam:file.OurTeam 
             } 
         )
+
+        
     } 
+
+
 
 
     render(){
         
-        
-        
-            
+
         return (
             <>
             <div className="section-space" />
@@ -60,7 +63,6 @@ class Index extends React.Component{
             <TeleHealth data={this.state.TeleHealth}/> 
             <Contact/> 
             <SideNav/> 
-
             </>
         ); 
     }

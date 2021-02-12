@@ -7,18 +7,15 @@
 
 @media (max-width: 500 px) {
     .imagefixerupper{ 
-        img{ display: block;}
+        width: "140%" !important ; 
     }
 
     NavbarBrand{ 
         width: 50% !important  ;
         overflow: -moz-hidden-unscrollable;
     }
-
     
-    #root{ 
-        overflow: hidden;
-    }
+
 }
 
 .imagefixerupper{

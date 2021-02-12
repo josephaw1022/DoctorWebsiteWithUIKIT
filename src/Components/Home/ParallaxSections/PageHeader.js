@@ -26,12 +26,6 @@ function LandingPageHeader(props) {
     }
   });
 
-  function size () { 
-    if($(window).width() >300){ 
-      return " parallax"
-    } 
-      return null 
-  }
 
 
 

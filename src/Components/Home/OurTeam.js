@@ -8,7 +8,6 @@ import {
 
 import Bio from "./Modals/Bio/Bio" ; 
 
-
 class OurTeam extends React.Component{
   constructor(props){ 
     super(props); 

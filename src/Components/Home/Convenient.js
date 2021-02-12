@@ -11,7 +11,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
-
+import $ from "jquery"
 export default function Convenient(){ 
 
     return(
@@ -44,7 +44,7 @@ export default function Convenient(){
                           
                           </Col>
                           <Col md="7">
-                          <ScrollAnimation animateIn="slideInRight"  animateOnce={true} animationOut="zoomOut"  duration={.5}>
+                          <ScrollAnimation animateIn={$(window).width() < 400?  "slideInLeft" :"slideInRight"}   animateOnce={true} animationOut="zoomOut"  duration={.5}>
                             <CardBody>
                               <h6 className="card-category text-info" > Traditional </h6>
                               <CardTitle tag="h3">

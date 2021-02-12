@@ -3,18 +3,6 @@
 }
 
 
-.c1{ 
-    background-image: url("img/uriel-soberanes.jpg");
-}
-
-.c2{ 
-    background-image: url("img/anders-jilden.jpg");
-}
-
-.c3{ 
-    background-image: url("img/jan-sendereks.jpg");
-}
-
 .pointercolor{ 
     color: #52cace !important ; 
     background-color: #52cace !important;
@@ -90,5 +78,12 @@
 }
 
 .img{ 
-    display: initial;
+    display: initial!important;
 }
+
+.nav-item::marker{ 
+    display: block; 
+}
+
+
+

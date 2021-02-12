@@ -9,6 +9,8 @@ import {
   Col
 } from "reactstrap";
 
+import $ from "jquery"
+
 import { Link } from "react-router-dom"
 
 // core component
@@ -33,6 +35,8 @@ class Menu extends React.Component {
     let menuOptions = this.state.Menu.Options.map(
       
       (value) => { 
+
+
         let templink = null; 
         
         if (!value.Dont){ 
@@ -51,7 +55,7 @@ class Menu extends React.Component {
         
           return( 
               <Col md="3">
-                <ScrollAnimation animateIn={"slideIn"+value.Direction} animationOut="zoomOut"  animateOnce={true} duration={speed}>
+                <ScrollAnimation animateIn={$(window).width()>400? "slideIn"+value.Direction : "slideInLeft"} animationOut="zoomOut"  animateOnce={true} duration={speed}>
                   <Button style={{backgroundColor:"transparent", borderColor:"transparent"}} tag={Link} to={templink}>
                 <div className="info btn-magnify" >
                   <div className="icon icon-info " >
@@ -91,7 +95,7 @@ class Menu extends React.Component {
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="8">
-                <ScrollAnimation animateIn="bounceInDown" animateOnce={true} animationOut="zoomOut"  duration={.6}>
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true} animationOut="zoomOut"  duration={.6}>
                   <h2 className="title add-animation" style={{color:"#fff"}}>{this.state.Menu.Title} </h2>
                   <h5 className="description" id="Menu" style={{color:"#fff"}}>
                   {this.state.Menu.Description}

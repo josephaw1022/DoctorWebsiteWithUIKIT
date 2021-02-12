@@ -1,18 +1,12 @@
 import React from "react"
 import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardImg,
-  CardTitle,
+
   Container,
   Row,
   Col,
 } from "reactstrap";
 
-import  { Link} from "react-router-dom"; 
-import photo1 from "assets/img/brownprofile.png"  
+import Bio from "./Modals/Bio/Bio" ; 
 
 
 class OurTeam extends React.Component{
@@ -23,9 +17,8 @@ class OurTeam extends React.Component{
       Description:"",
       Name:"" , 
       Position:"",
-      Bio:""
-
-
+      Bio:"", 
+      ForModal:""
     }
   }
 
@@ -36,7 +29,8 @@ class OurTeam extends React.Component{
         Description:this.props.data.Description, 
         Name:this.props.data.Name, 
         Position:this.props.data.Position,
-        Bio:this.props.data.Bio
+        Bio:this.props.data.Bio, 
+        ForModal:this.props.data.ModalBody 
         
       } 
     )
@@ -61,49 +55,10 @@ class OurTeam extends React.Component{
                 <div className="space-top" />
                 <Row>
                   <Col md="6" className="ml-auto mr-auto text-center">
-                    <Card className="card-profile card-plain" tag={Link} to="/Bio" >
-                      <Row >
-                        <Col md="6">
-                        <div className="card-image">
-                              <img
-                                style={{display:"initial"}}
-                                alt="..."
-                                className="image"
-                                src={require("assets/img/brownprofile.png")}
-                                
-                              />
-                            </div>
-                        </Col>
-                        <Col md="6">
-                          <CardBody className="text-left">
-                            <CardTitle tag="h4"> {this.state.Name} </CardTitle>
-                            <h6 className="card-category">{this.state.Position}</h6>
-                            <p className="card-description">
-                              {this.state.Bio}
-                            </p>
-                            <CardFooter className="pull-left">
-                              <Button
-                                className="btn-just-icon btn-link mr-1"
-                                color="twitter"
-                                
-                                onClick={(e) => e.preventDefault()}
-                              >
-                                <i className="fa fa-twitter" />
-                              </Button>
-                              <Button
-                                className="btn-just-icon btn-link mr-1"
-                                color="facebook"
-                                href="#pablo"
-                                onClick={(e) => e.preventDefault()}
-                              >
-                                <i className="fa fa-facebook" />
-                              </Button>
-                              
-                            </CardFooter>
-                          </CardBody>
-                        </Col>
-                      </Row>
-                    </Card>
+                    
+                    {/* The modal component  */}
+                    <Bio Name={this.state.Name} Bio={this.state.Bio} AboutMe={this.state.ForModal} /> 
+
                   </Col>
                 </Row>
               </Container>

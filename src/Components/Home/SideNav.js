@@ -20,6 +20,8 @@ class SideNav extends React.Component{
     render(){ 
 
         if(this.state.change){ 
+
+            //  Map the side nav values out 
             var list = this.state.values.map(  (index)=> { 
                 const temp = String(index.Name); 
                 
@@ -33,6 +35,7 @@ class SideNav extends React.Component{
                 )
             }
             )
+
         }
         
         return(

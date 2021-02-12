@@ -1,9 +1,9 @@
 
 import React from "react";
 import { Container, Row, Col} from "reactstrap";
-import {Animated} from "react-animated-css";
+// import {Animated} from "react-animated-css";
 import ScrollAnimation from 'react-animate-on-scroll';
-
+import $ from 'jquery' 
 // reactstrap components
 
 // core components
@@ -26,16 +26,27 @@ function LandingPageHeader(props) {
     }
   });
 
+  function size () { 
+    if($(window).width() >300){ 
+      return " parallax"
+    } 
+      return null 
+  }
+
+
+
+
+
   return (
     <>
-      <div
+    
+      <div 
         style={{
           backgroundImage: "url(" + require("assets/img/FreeOnes/Email1.png") + ")"
         }}
-        className="page-header parallax"
-        // data-parallax="true"
+        className={$(window).width() > 500? "parallax page-header" : "page-header" } 
+        data-parallax= {$(window).width() < 400 ? true: false}
         ref={pageHeader1}
-
         id="Home"
         
       >
@@ -46,22 +57,29 @@ function LandingPageHeader(props) {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
 
-              
+              { $(window).width() < 300 ? 
               <ScrollAnimation animateIn="zoomIn"  animateOnce={true} animationOut="fadeOut"  duration={2}>
                 <h1 className="title text-center" id="navbarstuff" style={{position:"sticky"}} >
                   "{props.Quote}"
                 </h1>
                 </ScrollAnimation>
+                : 
+                <h1 className="title text-center" id="navbarstuff" style={{position:"sticky"}} >
+                "{props.Quote}"
+              </h1>
+              } 
               
             
-              
-              <ScrollAnimation animateIn="zoomIn" animateOnce={true} animationOut="zoomOut" >
-                <h5 className="description">
+                { $(window).width() < 300 ? 
+                  <ScrollAnimation animateIn="zoomIn"  animateOnce={true} animationOut="fadeOut"  duration={2}>
+                  <h5 className="description">
+                  - {props.QuoteBy}
+                  </h5>
+                  </ScrollAnimation> 
+                  : 
+                 <h5 className="description">
                 - {props.QuoteBy}
-                </h5>
-              </ScrollAnimation>
-          
-        
+                </h5> }
 
                 <br />
               </Col>

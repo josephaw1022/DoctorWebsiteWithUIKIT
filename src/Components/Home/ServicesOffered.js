@@ -1,5 +1,5 @@
 import React from "react";
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 // reactstrap components
 import {
@@ -17,8 +17,11 @@ import {
 
 
 } from "reactstrap";
- 
-class ServicesOffered extends React.Component{
+
+import $ from "jquery"
+
+
+export default class ServicesOffered extends React.Component{
     constructor(props){
         super(props); 
         this.state={ 
@@ -27,25 +30,8 @@ class ServicesOffered extends React.Component{
     }
     componentWillMount(){ 
         this.setState({ServicesOffered:this.props.data},()=> {})
+        
     } 
-
-    animateCSS = (element, animation, prefix = 'animate__') =>
-        // We create a Promise and return it
-        new Promise((resolve, reject) => {
-            const animationName = `${prefix}${animation}`;
-            const node = document.querySelector(element);
-
-            node.classList.add(`${prefix}animated`, animationName);
-
-            // When the animation ends, we clean the classes and resolve the Promise
-            function handleAnimationEnd(event) {
-            event.stopPropagation();
-            node.classList.remove(`${prefix}animated`, animationName);
-            resolve('Animation ended');
-            }
-
-            node.addEventListener('animationend', handleAnimationEnd, {once: true});
-        });
 
     
 
@@ -72,7 +58,7 @@ class ServicesOffered extends React.Component{
         <Col md="4">
 
             <Card
-            className="c3 add-animation parallax info-img  photo1"
+            className={$(window).width<100? " photo1" :"c3 add-animation info-img parallax photo1"} 
             data-background="image"
             style={{height:"initial"}}
             >
@@ -88,7 +74,7 @@ class ServicesOffered extends React.Component{
                 <Button
                     className="btn-neutral"
                     color="link"
-                    href="#pablo"
+                    
                     onClick={(e) => e.preventDefault()}
                 >
                     <i className="fa fa-book mr-1" />
@@ -106,7 +92,6 @@ class ServicesOffered extends React.Component{
             <Card
             className="c2 parallax photo2"
             data-background="image"
-            
             style={{height:"initial"}}
             
             >
@@ -122,7 +107,7 @@ class ServicesOffered extends React.Component{
                 <Button
                     className="btn-neutral"
                     color="link"
-                    href="#pablo"
+                    
                     onClick={(e) => e.preventDefault()}
                 >
                     <i className="fa fa-book mr-1" />
@@ -139,7 +124,7 @@ class ServicesOffered extends React.Component{
             <Card
             data-background="image"
             className="c1 parallax photo3"
-            style={{ height:"initial" , backgroundPosition:"20% 50% " }}
+            style={{ height:"initial" }}
             >
             <CardBody>
                 <h6 className="card-category">Faith Counseling</h6>
@@ -153,7 +138,7 @@ class ServicesOffered extends React.Component{
                 <Button
                     className="btn-neutral"
                     color="link"
-                    href="#pablo"
+                    
                     onClick={(e) => e.preventDefault()}
                 >
                     <i className="fa fa-book mr-1" />
@@ -173,4 +158,4 @@ class ServicesOffered extends React.Component{
     );
     }  
 } 
-export default ServicesOffered ; 
+

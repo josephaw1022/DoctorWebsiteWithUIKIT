@@ -38,8 +38,8 @@ function LandingPageHeader(props) {
         style={{
           backgroundImage: "url(" + require("assets/img/FreeOnes/Email1.png") + ")"
         }}
-        className={$(window).width() > 500? "parallax page-header" : "page-header" } 
-        data-parallax= {$(window).width() < 400 ? true: false}
+        className={$(window).width() > 900? "parallax page-header" : "page-header" } 
+        data-parallax= {$(window).width() < 900 ? true: false}
         ref={pageHeader1}
         id="Home"
         
@@ -51,8 +51,8 @@ function LandingPageHeader(props) {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
 
-              { $(window).width() < 300 ? 
-              <ScrollAnimation animateIn="zoomIn"  animateOnce={true} animationOut="fadeOut"  duration={2}>
+              { $(window).width() > 900 ? 
+              <ScrollAnimation animateIn="fadeIn"  animateOnce={true} animationOut="fadeOut"  initiallyVisible={true} duration={2}>
                 <h1 className="title text-center" id="navbarstuff" style={{position:"sticky"}} >
                   "{props.Quote}"
                 </h1>
@@ -64,8 +64,8 @@ function LandingPageHeader(props) {
               } 
               
             
-                { $(window).width() < 300 ? 
-                  <ScrollAnimation animateIn="zoomIn"  animateOnce={true} animationOut="fadeOut"  duration={2}>
+                { $(window).width() > 900 ? 
+                  <ScrollAnimation animateIn="fadeIn"  animateOnce={true} animationOut="fadeOut"  duration={2}>
                   <h5 className="description">
                   - {props.QuoteBy}
                   </h5>

@@ -33,6 +33,13 @@ export default class ServicesOffered extends React.Component{
         
     } 
 
+    screensize(){ 
+        if ($(window).width() < 900){ 
+            return null 
+        }
+        return " parallax" ; 
+    }
+
     
 
     render(){ 
@@ -58,7 +65,7 @@ export default class ServicesOffered extends React.Component{
         <Col md="4">
 
             <Card
-            className={$(window).width<100? " photo1" :"c3 add-animation info-img parallax photo1"} 
+            className={"photo1 "+this.screensize()} 
             data-background="image"
             style={{height:"initial"}}
             >
@@ -90,7 +97,7 @@ export default class ServicesOffered extends React.Component{
             
         
             <Card
-            className="c2 parallax photo2"
+            className={"photo2 "+this.screensize()} 
             data-background="image"
             style={{height:"initial"}}
             
@@ -123,7 +130,7 @@ export default class ServicesOffered extends React.Component{
         
             <Card
             data-background="image"
-            className="c1 parallax photo3"
+            className={"photo3 "+this.screensize()} 
             style={{ height:"initial" }}
             >
             <CardBody>

@@ -31,6 +31,7 @@ class Menu extends React.Component {
   }
 
   render(){ 
+    console.log($(window).width())
     
     let menuOptions = this.state.Menu.Options.map(
       
@@ -42,17 +43,11 @@ class Menu extends React.Component {
         if (!value.Dont){ 
           templink = value.Link
         }
-        let  speed = 1 ; 
-        if(value.Spot==="In"){ 
-           speed = .6
-        }
-        else{ 
-           speed = .9
-        }
+        const speed = 1; 
         
           return( 
               <Col md="3">
-                <ScrollAnimation animateIn={$(window).width()>400? "slideIn"+value.Direction : "slideInLeft"} animationOut="zoomOut"  animateOnce={true} duration={speed}>
+                <ScrollAnimation animateIn={$(window).width()>1400? "slideInLeft" : "slideInLeft"} animationOut="zoomOut"  animateOnce={true} duration={speed}>
                   <Button style={{backgroundColor:"transparent", borderColor:"transparent"}} tag={Link} to={templink}>
                 <div className="info btn-magnify" >
                   <div className="icon icon-info " >

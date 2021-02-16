@@ -19,6 +19,7 @@ class GettingStarted extends React.Component{
 
             <>
             <div className="section" style={{backgroundColor:"#333"}}/> 
+            <div className="section" style={{backgroundColor:"#333"}}/> 
             <div className="section text-center" style={{backgroundColor:"#333"}}>
             <Container>
               <Row>

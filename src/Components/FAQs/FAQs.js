@@ -3,7 +3,8 @@ import "./FAQs.css" ;
 import React from 'react'; 
 import {Row, Col , Card, CardBody, CardTitle, Container} from "reactstrap"; 
 import {Animated} from "react-animated-css";
-// import $ from 'jquery';
+import $ from 'jquery'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class FAQs extends React.Component{ 
     
@@ -29,53 +30,67 @@ class FAQs extends React.Component{
           
           (index)=> {
             if (index.Weird === true){ 
-              index.Answer = <p>- Therapy is a partnership between an individual and a professional trained to help people understand their feelings and help them change their behavior. People often consider therapy under the following circumstances:<br/><br/>- They feel an overwhelming and prolonged sense of sadness and helplessness in their futures.<br/><br/>- Their emotional difficulties make it hard for them to function from day to day.<br/><br/>- Their actions are harmful to themselves or others.<br/><br/>- They are troubled by emotional problems facing family members or close friends.</p>
+              index.Answer = <p style={{color:"#333", fontWeight:"bolder"}}>- Therapy is a partnership between an individual and a professional trained to help people understand their feelings and help them change their behavior. People often consider therapy under the following circumstances:<br/><br/>- They feel an overwhelming and prolonged sense of sadness and helplessness in their futures.<br/><br/>- Their emotional difficulties make it hard for them to function from day to day.<br/><br/>- Their actions are harmful to themselves or others.<br/><br/>- They are troubled by emotional problems facing family members or close friends.</p>
             }
             return(
               <>
-              <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true }>
-              <Card className="card-plain card-blog">
+              <Row>
+              <Col md="6">
+              <ScrollAnimation animateIn="slideInLeft"animationOut="zoomOut" animatePreScroll={true}  duration={.5}  animateOnce={true} >
+              <Card className="card-contact" style={{}}>
                 <Row>
-                  <Col md="8">
+                  <Col md="12">
                     <CardBody>
                       <CardTitle tag="h4">
-                        <h4   onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold"}} className={index.Color}>
+                        <h4   onClick={(e) => e.preventDefault()} style={{color:"#333", fontWeight:"bold", textAlign:"center"}} className={index.Color}>
                           {index.Question}
                         </h4>
                       </CardTitle> 
-                      <p style={{color:"#fff"}}>
+                      <hr/> 
+                      <p style={{color:"#333", fontWeight:"bolder"}}>
                         <br/>
-                        <br/>
+                    
                       {index.Answer}
                       </p>
                     </CardBody>
                   </Col>
-                  <Col md="4">
-                  </Col>
+                  
                 </Row>
               </Card>
-              </Animated>
-              <Animated animationIn="bounceInRight" animationOut="fadeOut" isVisible={true }>
-              <Card className="card-plain card-blog">
+              </ScrollAnimation> 
+              </Col> 
+              </Row>
+              <br/> 
+              <br/> 
+
+              <Row>
+              <Col md={6}>
+              </Col>
+              <Col md="6">
+              <ScrollAnimation animateIn={$(window).width()<900? "slideInLeft": "slideInRight"} animationOut="zoomOut" animatePreScroll={true} duration={.5} animateOnce={true} >
+              <Card className="card-blog" style={{textAlign:"center"}}>
                 <Row>
-                  <Col md="4">
-                  </Col>
-                  <Col md="8">
+                  
+                  <Col md="12">
                     <CardBody> 
                       <CardTitle tag="h4">
-                        <h4 onClick={(e) => e.preventDefault()} style={{color:"#fff", fontWeight:"bold", textAlign:"right"}} className={index.Color2}>
+                        <h4 onClick={(e) => e.preventDefault()} style={{color:"#333", fontWeight:"bold", textAlign:"center"}} className={index.Color2}>
                         {index.Question2}
                         </h4 >
                       </CardTitle>
-                      <p className="card-description" style={{color:"#fff", textAlign:"right"}}>
-                      <br/><br/> 
+                      <hr style={{overflow:"auto"}}/>
+                      <p style={{color:"#333", fontWeight:"bolder"}}>
+                      <br/>
                       {index.Answer2}  
                       </p>
                     </CardBody>
                   </Col>
                 </Row>
                 </Card> 
-                </Animated>
+                </ScrollAnimation>
+                </Col> 
+                </Row> 
+                
                 </>
           ); 
         })

@@ -4,7 +4,7 @@ import {Row, Col , Card, CardBody, CardTitle, Container} from "reactstrap";
 // import {Animated} from "react-animated-css";
 import "./Home.css"
 import $ from 'jquery'
-
+import ScrollAnimation from 'react-animate-on-scroll';
 class TeleHealth extends React.Component { 
 
     constructor(props){ 
@@ -54,7 +54,7 @@ class TeleHealth extends React.Component {
 
                     
 
-                
+                <ScrollAnimation animateIn="slideInLeft" animationOut="zoomOut" animatePreScroll={true}  animateOnce={true} >
                 <Card className="card-contact">
                   <CardTitle className="text-center" tag="h3" style={{color:"#f5593d"}}>
                   {this.state.Title} <hr/> 
@@ -75,7 +75,7 @@ class TeleHealth extends React.Component {
                       </Col>
                     </Row>
                   </Card>
-              
+                  </ScrollAnimation>
                 </Col>
               </Row>
             </Container>

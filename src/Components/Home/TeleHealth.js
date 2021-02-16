@@ -21,8 +21,7 @@ class TeleHealth extends React.Component {
     }
 
     componentWillMount(){ 
-      this.setState(
-        {
+      this.setState( {
           Title:this.props.data.Title,
           Description:this.props.data.Description, 
           Color: this.props.data.Color 
@@ -42,13 +41,13 @@ class TeleHealth extends React.Component {
             <>
           
           
-            <div className= {$(window).width()<500? "section" : "section parallax"}
+            <div className= {$(window).width()<900? "section" : "section parallax"}
             style={{
               backgroundImage: "url(" + require("assets/img/FreeOnes/Photos4.png") + ")",
               height:"110%"
                 }}
               
-              ref={this.myRef}
+              ref={$(window).width()<900? null : this.myRef}
               > 
 
             <div className="" id="TeleHealth">

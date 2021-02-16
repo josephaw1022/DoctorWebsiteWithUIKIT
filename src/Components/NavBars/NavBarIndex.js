@@ -1,6 +1,6 @@
 
 // export default NavBarIndex;
-import React , { useState , useEffect} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
@@ -17,8 +17,8 @@ import {
   Navbar,
   Container,
   UncontrolledTooltip, 
-  Button ,
-  NavItem 
+  // Button ,
+  // NavItem 
 } from "reactstrap";
 
 import DropDown from "./DropDown"  
@@ -29,40 +29,9 @@ import $ from 'jquery'
 
 export default function NavBarIndex() {
 
-  const target = React.createRef();
+  // const target = React.createRef();
 
-  const ReadingProgress = ({ target }) => {
-    const [readingProgress, setReadingProgress] = useState(0);
-    const scrollListener = () => {
-      if (!target.current) {
-        return;
-      }
   
-      const element         = target.current;
-      const totalHeight     = element.clientHeight - element.offsetTop - window.innerHeight;
-      const windowScrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-  
-      if (windowScrollTop === 0) {
-        return setReadingProgress(0);
-      }
-  
-      if (windowScrollTop > totalHeight) {
-        return setReadingProgress(100);
-      }
-      
-      console.log(windowScrollTop);
-  
-      setReadingProgress((windowScrollTop / totalHeight) * 100);
-    };
-    
-    useEffect(() => {
-      window.addEventListener("scroll", scrollListener);
-      return () => window.removeEventListener("scroll", scrollListener);
-    });
-  
-    return <div className={`reading-progress-bar`} style={{width: `${readingProgress}%`}} />;
-  };
-
 
 
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");

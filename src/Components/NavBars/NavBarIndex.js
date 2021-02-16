@@ -25,7 +25,7 @@ import DropDown from "./DropDown"
 
 import $ from 'jquery'
 
-
+// import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function NavBarIndex() {
 
@@ -85,7 +85,7 @@ export default function NavBarIndex() {
 
 
       <Navbar
-        className={classnames("fixed-top headroom", navbarColor)}
+        className={classnames("fixed-top ", navbarColor)}
         expand="lg"
         id="navbar-main"
         style={{}}

@@ -43,9 +43,10 @@ class Menu extends React.Component {
         if (!value.Dont){ 
           templink = value.Link
         }
-        const speed = 1; 
+        const speed = .5; 
         
           return( 
+            <>
               <Col md="3">
                 <ScrollAnimation animateIn={$(window).width()>900? "slideInLeft" : "slideInLeft"} animationOut="zoomOut" animatePreScroll={true}  animateOnce={true} duration={speed}>
                   <Button style={{backgroundColor:"transparent", borderColor:"transparent"}} tag={Link} to={templink}>
@@ -69,7 +70,7 @@ class Menu extends React.Component {
                 </Button> 
               </ScrollAnimation>
               </Col> 
-
+            </>
           ); 
       }
     )
@@ -87,7 +88,7 @@ class Menu extends React.Component {
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="8">
-                <ScrollAnimation animateIn="fadeIn" animateOnce={true} animationOut="zoomOut"  duration={.6}>
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true} animationOut="zoomOut"  duration={.3}>
                   <h2 className="title add-animation" style={{color:"#fff"}}>{this.state.Menu.Title} </h2>
                   <h5 className="description" id="Menu" style={{color:"#fff"}}>
                   {this.state.Menu.Description}

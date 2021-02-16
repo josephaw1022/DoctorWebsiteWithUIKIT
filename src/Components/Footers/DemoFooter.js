@@ -8,7 +8,7 @@ export default function DemoFooter() {
   return (
     <>
     
-    <div className="subscribe-line subscribe-line-transparent" style={{ backgroundImage: "url(" + require("./footerpic.png") + ")"}} >
+    <div className="subscribe-line subscribe-line-transparent" style={{ backgroundImage: "url(" + require("./footerpic.png") + ")",paddingTop:"10px"}} >
       <Container>
         <Row>
           <Col lg="9" md="8" sm="8">

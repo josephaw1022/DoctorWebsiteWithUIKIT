@@ -32,11 +32,6 @@ class TeleHealth extends React.Component {
 
     render(){
 
-      
-      
-
-    
-
         return(
             <>
           

@@ -61,6 +61,9 @@
     background-size: cover !important; /* Resize the background image to cover the entire container */
     
 }
+.photo4{ 
+    background-image: url("./img/Photos221.png") !important;
+}
 
 .menubg{ 
     background-color:#333 !important ; 

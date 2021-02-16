@@ -128,6 +128,8 @@ export default class ServicesOffered extends React.Component{
         </Col>
         <Col md="4">
         
+
+        {$(window).width()>900? 
             <Card
             data-background="image"
             className={"photo3 "+this.screensize()} 
@@ -154,6 +156,37 @@ export default class ServicesOffered extends React.Component{
                 </CardFooter>
             </CardBody>
             </Card>
+            :
+            <Card
+            data-background="image"
+            className={"photo4 "+this.screensize()} 
+            style={{ height:"initial" }}
+            >
+            <CardBody>
+                <h6 className="card-category">Faith Counseling</h6>
+                <div className="card-icon">
+                <i className="nc-icon nc-send" />
+                </div>
+                <p className="card-description">
+                
+                </p>
+                <CardFooter>
+                <Button
+                    className="btn-neutral"
+                    color="link"
+                    
+                    onClick={(e) => e.preventDefault()}
+                >
+                    <i className="fa fa-book mr-1" />
+                    Show more
+                </Button>
+                </CardFooter>
+            </CardBody>
+            </Card>
+    } 
+
+
+
             
         </Col>
         </Row>

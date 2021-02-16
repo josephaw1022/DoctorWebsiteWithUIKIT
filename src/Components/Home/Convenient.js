@@ -44,7 +44,7 @@ export default function Convenient(){
                           
                           </Col>
                           <Col md="7">
-                          <ScrollAnimation animateIn={$(window).width() < 1400?  "slideInLeft" :"slideInRight"}   animateOnce={true} animationOut="zoomOut"  duration={.5}>
+                          <ScrollAnimation animateIn={$(window).width() < 1400?  "slideInLeft" :"slideInRight"} animatePreScroll={true}  animateOnce={true} animationOut="zoomOut"  duration={.5}>
                             <CardBody>
                               <h6 className="card-category text-info" > Traditional </h6>
                               <CardTitle tag="h3">

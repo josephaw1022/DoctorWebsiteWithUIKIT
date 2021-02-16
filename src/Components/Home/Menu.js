@@ -47,7 +47,7 @@ class Menu extends React.Component {
         
           return( 
               <Col md="3">
-                <ScrollAnimation animateIn={$(window).width()>1400? "slideInLeft" : "slideInLeft"} animationOut="zoomOut"  animateOnce={true} duration={speed}>
+                <ScrollAnimation animateIn={$(window).width()>900? "slideInLeft" : "slideInLeft"} animationOut="zoomOut" animatePreScroll={true}  animateOnce={true} duration={speed}>
                   <Button style={{backgroundColor:"transparent", borderColor:"transparent"}} tag={Link} to={templink}>
                 <div className="info btn-magnify" >
                   <div className="icon icon-info " >

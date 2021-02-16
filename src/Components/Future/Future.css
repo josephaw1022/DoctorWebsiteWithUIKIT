@@ -6,9 +6,9 @@
     position: relative !important;
 }
     
-@media(max-width:500px){ 
+@media(max-width:900px){ 
     .togglershow { 
-        display: none;
+        display: none !important ;
     }
 
     .padheight{ 

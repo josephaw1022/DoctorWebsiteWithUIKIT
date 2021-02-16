@@ -30,19 +30,19 @@ class FAQs extends React.Component{
           
           (index)=> {
             if (index.Weird === true){ 
-              index.Answer = <p style={{color:"#333", fontWeight:"bolder"}}>- Therapy is a partnership between an individual and a professional trained to help people understand their feelings and help them change their behavior. People often consider therapy under the following circumstances:<br/><br/>- They feel an overwhelming and prolonged sense of sadness and helplessness in their futures.<br/><br/>- Their emotional difficulties make it hard for them to function from day to day.<br/><br/>- Their actions are harmful to themselves or others.<br/><br/>- They are troubled by emotional problems facing family members or close friends.</p>
+              index.Answer = <p style={{color:"#333"}}> - Therapy is a partnership between an individual and a professional trained to help people understand their feelings and help them change their behavior. People often consider therapy under the following circumstances:<br/><br/>- They feel an overwhelming and prolonged sense of sadness and helplessness in their futures.<br/><br/>- Their emotional difficulties make it hard for them to function from day to day.<br/><br/>- Their actions are harmful to themselves or others.<br/><br/>- They are troubled by emotional problems facing family members or close friends.</p>
             }
             return(
               <>
               <Row>
               <Col md="6">
               <ScrollAnimation animateIn="slideInLeft"animationOut="zoomOut" animatePreScroll={true}  duration={.5}  animateOnce={true} >
-              <Card className="card-contact" style={{}}>
+              <Card className="card-contact" style={{marginTop:"20px"}}>
                 <Row>
                   <Col md="12">
                     <CardBody>
                       <CardTitle tag="h4">
-                        <h4   onClick={(e) => e.preventDefault()} style={{color:"#333", fontWeight:"bold", textAlign:"center"}} className={index.Color}>
+                        <h4   onClick={(e) => e.preventDefault()} style={{color:"#333", fontWeight:"bold", textAlign:"center", padding:"40px"}} className={index.Color}>
                           {index.Question}
                         </h4>
                       </CardTitle> 

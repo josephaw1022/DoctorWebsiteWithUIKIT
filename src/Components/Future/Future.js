@@ -116,7 +116,7 @@ class Future extends Component {
         
                               className="img togglershow opfd"
                               src={require("assets/img/FreeOnes/Photos19.png")}
-                              style={{top:"50%"}}
+                              
                               />
                             </div> 
                         </Row> 
@@ -130,7 +130,9 @@ class Future extends Component {
             </Container>
           </div>
           </div> 
-          </div> 
+          <div className="section" style={{backgroundColor:"#333"}}/> 
+          </div>
+
           </> 
         );
 

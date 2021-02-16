@@ -17,7 +17,7 @@ function Bio(props) {
                       <Row >
                         <Col md="6">
                         < Button style={{backgroundColor:"transparent", borderColor:"transparent"}} onClick={() => setScrollingLongContent(true)}> 
-                        < Card className="card-profile card-contact"   >
+                        < Card className="card-profile card-contact" style={{borderRadius:"25px"}} >
                         <div className="card-image">
                               <img
                                 style={{display:"initial", borderRadius:"25px"}}

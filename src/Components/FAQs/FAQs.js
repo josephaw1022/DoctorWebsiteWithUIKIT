@@ -5,6 +5,7 @@ import {Row, Col , Card, CardBody, CardTitle, Container} from "reactstrap";
 import {Animated} from "react-animated-css";
 import $ from 'jquery'
 import ScrollAnimation from 'react-animate-on-scroll';
+import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 class FAQs extends React.Component{ 
     
@@ -36,8 +37,12 @@ class FAQs extends React.Component{
               <>
               <Row>
               <Col md="6">
+              
               <ScrollAnimation animateIn="slideInLeft"animationOut="zoomOut" animatePreScroll={true}  duration={.5}  animateOnce={true} >
+              <Flippy  > 
+              
               <Card className="card-contact" style={{marginTop:"20px"}}>
+              <FrontSide>
                 <Row>
                   <Col md="12">
                     <CardBody>
@@ -46,18 +51,29 @@ class FAQs extends React.Component{
                           {index.Question}
                         </h4>
                       </CardTitle> 
-                      <hr/> 
+                    
+                    </CardBody>
+                  </Col>
+                  
+                </Row>
+                </FrontSide> 
+                <BackSide> 
+                <CardBody>
                       <p style={{color:"#333", fontWeight:"bolder"}}>
                         <br/>
                     
                       {index.Answer}
                       </p>
                     </CardBody>
-                  </Col>
-                  
-                </Row>
+              
+              </BackSide>
               </Card>
+              
+              
+
+              </Flippy>
               </ScrollAnimation> 
+              
               </Col> 
               </Row>
               <br/> 
@@ -68,7 +84,9 @@ class FAQs extends React.Component{
               </Col>
               <Col md="6">
               <ScrollAnimation animateIn={$(window).width()<900? "slideInLeft": "slideInRight"} animationOut="zoomOut" animatePreScroll={true} duration={.5} animateOnce={true} >
+              <Flippy  > 
               <Card className="card-blog" style={{textAlign:"center"}}>
+              <FrontSide>
                 <Row>
                   
                   <Col md="12">
@@ -78,15 +96,24 @@ class FAQs extends React.Component{
                         {index.Question2}
                         </h4 >
                       </CardTitle>
-                      <hr style={{overflow:"auto"}}/>
-                      <p style={{color:"#333", fontWeight:"bolder"}}>
-                      <br/>
-                      {index.Answer2}  
-                      </p>
+                      
                     </CardBody>
                   </Col>
                 </Row>
+                </FrontSide>
+                <BackSide>
+                <CardBody> 
+                    
+                    
+                      <p style={{color:"#333", fontWeight:"bolder"}}>
+          
+                      {index.Answer2}  
+                      </p>
+                    </CardBody>
+
+                </BackSide>
                 </Card> 
+                </Flippy>
                 </ScrollAnimation>
                 </Col> 
                 </Row> 

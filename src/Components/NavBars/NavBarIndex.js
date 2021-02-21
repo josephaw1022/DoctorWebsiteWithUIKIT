@@ -4,21 +4,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
+
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
-// eslint-disable-next-line 
-// import ScrollAnimation from 'react-animate-on-scroll';
-// import { Progress } from "reactstrap";
+
 import {
-  // Button,
-  // Row,  
   Collapse,
   NavbarBrand,
   Navbar,
   Container,
   UncontrolledTooltip, 
-  // Button ,
-  // NavItem 
 } from "reactstrap";
 
 import DropDown from "./DropDown"  
@@ -39,6 +34,7 @@ export default function NavBarIndex() {
   const [collapseOpen, setCollapseOpen] = React.useState(false);
 
 
+
   React.useEffect(
     () => {
       let headroom = new Headroom(document.getElementById("navbar-main"));
@@ -48,9 +44,12 @@ export default function NavBarIndex() {
 
           if ( document.documentElement.scrollTop > 499 || document.body.scrollTop > 499) {
             setNavbarColor("invisible");
+    
+            
           } 
-          else if ( document.documentElement.scrollTop < 500 || document.body.scrollTop < 500) {
+          else if ( document.documentElement.scrollTop < 200 || document.body.scrollTop < 200) {
             setNavbarColor("navbar-transparent");
+            
           }
 
         };
@@ -70,29 +69,31 @@ export default function NavBarIndex() {
     return " "
   }
 
+
+
   return (
     <>
       {bodyClick ? (
-        <div
+          <div
           
           onClick={() => {
-            document.documentElement.classList.toggle("nav-open");
-            setBodyClick(false);
-            setCollapseOpen(false);
-          }}
-        />
-      ) : null} 
-
+          document.documentElement.classList.toggle("nav-open");
+          setBodyClick(true);
+          setCollapseOpen(true);
+        }}
+         />
+       ) : null
+      } 
 
       <Navbar
-        className={classnames("fixed-top ", navbarColor)}
+        className= {classnames("fixed-top headroom", navbarColor)}
         expand="lg"
         id="navbar-main"
-        style={{}}
+
       >
         <Container>
           
-          <div className="navbar-translate">
+          <div className="navbarColor">
             
             <NavbarBrand id="navbar-brand" to="/" tag={Link} style={{fontSize:"80%"}}>
             

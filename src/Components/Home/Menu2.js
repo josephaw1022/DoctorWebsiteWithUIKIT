@@ -11,7 +11,6 @@ import {
   Container,
   Row,
   Col,
-
 } from "reactstrap";
 
 // core components
@@ -27,7 +26,7 @@ export default function Menu2() {
           <h4 className="title">Blog cards</h4>
           <Row>
             <Col md="4" sm="6">
-            <Card
+              <Card
                 data-background="image"
                 style={{
                   backgroundImage:
@@ -129,8 +128,7 @@ export default function Menu2() {
               </Card>
             </Col>
             <Col md="4" sm="6">
-
-            <Card
+              <Card
                 data-background="image"
                 style={{
                   backgroundImage:
@@ -199,7 +197,6 @@ export default function Menu2() {
               </Card>
             </Col>
             <Col md="4" sm="6">
-
               <Card data-color="orange">
                 <CardBody>
                   <div className="author">

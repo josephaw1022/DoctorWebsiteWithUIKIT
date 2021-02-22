@@ -3,7 +3,7 @@ import React from "react";
 // reactstrap components
 import { Card, CardBody, Container, Row, Col } from "reactstrap";
 // import thevideo from "./sample.mp4"
-import "./Error.css"
+import "./Error.css";
 
 function NotFoundPage() {
   document.documentElement.classList.remove("nav-open");
@@ -17,10 +17,7 @@ function NotFoundPage() {
   });
   return (
     <>
-
-      <div
-        className="background-img hsd87sa"
-      >
+      <div className="background-img hsd87sa">
         <div className="filter " />
         <Container>
           <Row>

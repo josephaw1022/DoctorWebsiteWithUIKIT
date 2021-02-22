@@ -1,93 +1,84 @@
-.tob{ 
-    color:black ; 
+.tob {
+  color: black;
 }
 
-
-.pointercolor{ 
-    color: #52cace !important ; 
-    background-color: #52cace !important;
+.pointercolor {
+  color: #52cace !important ;
+  background-color: #52cace !important;
 }
 
 .my-element {
-    display: inline-block;
-    margin: 0 0.5rem;
-  
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.ppbgf {
+  background-image: url("./img/Photos12.png") !important;
+}
+
+.important {
+  background-color: transparent;
+}
+
+@media (max-width: 700px) {
+  .fixp {
+    font-size: 15px !important ;
+  }
+  .fixh3 {
+    font-size: 20px !important;
+  }
+  .fill {
+    width: 100% !important;
   }
 
-  .ppbgf{ 
-      background-image: url("./img/Photos12.png") !important;
+  .phonechange {
+    display: none;
   }
-
-  .important{ 
-      background-color: transparent;
-  }
-
-  @media(max-width:700px){ 
-    .fixp{
-        font-size: 15px !important ; 
-
-    }
-    .fixh3{ 
-        font-size: 20px !important;
-    }
-    .fill{ 
-        width:100% !important;
-    }
-
-    .phonechange{ 
-        display: none;
-    }
 }
 
-.fill { 
-    width:100% !important;
-    background-color:#333;
+.fill {
+  width: 100% !important;
+  background-color: #333;
 }
 
-.contactbacked{ 
-    background-color: #333;   
+.contactbacked {
+  background-color: #333;
 }
 
-.photo2{ 
-    background-image: url("./img/Photos21.png") !important;
-    background-position: center right;
+.photo2 {
+  background-image: url("./img/Photos21.png") !important;
+  background-position: center right;
 }
-.photo3{ 
-    background-image: url("./img/Photos221.png") !important;
-    background-position: left center ; 
-    background-attachment: fixed !important;
-    background-size: cover !important; /* Resize the background image to cover the entire container */
-    
+.photo3 {
+  background-image: url("./img/Photos221.png") !important;
+  background-position: left center;
+  background-attachment: fixed !important;
+  background-size: cover !important; /* Resize the background image to cover the entire container */
 }
-.photo4{ 
-    background-image: url("./img/Photos221.png") !important;
-}
-
-.menubg{ 
-    background-color:#333 !important ; 
+.photo4 {
+  background-image: url("./img/Photos221.png") !important;
 }
 
-.textc{ 
-    color:#fff !important; 
+.menubg {
+  background-color: #333 !important ;
 }
 
-.photo1 { 
-    background-image: url("./img/Photos3.png");
-    background-position: center right;
-
-
+.textc {
+  color: #fff !important;
 }
 
-.img{ 
-    display: initial!important;
+.photo1 {
+  background-image: url("./img/Photos3.png");
+  background-position: center right;
 }
 
-.nav-item::marker{ 
-    display: block; 
+.img {
+  display: initial !important;
 }
 
-
-
-
+.nav-item::marker {
+  display: block;
+}

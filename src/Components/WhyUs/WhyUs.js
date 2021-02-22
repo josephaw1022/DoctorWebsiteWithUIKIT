@@ -1,22 +1,29 @@
-import React from 'react'
-import './WhyUs.css'
-import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap"
+import React from "react";
+import "./WhyUs.css";
+import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
 
-  
-class WhyUs extends React.Component{ 
+class WhyUs extends React.Component {
+  render() {
+    window.scrollTo(0, 0);
 
-    render(){
-        window.scrollTo(0, 0) 
-
-        return(
-            <>
-            <div className="section" style={{backgroundColor:"#333"}}/> 
-            <div className="section section-grey" style={{backgroundColor:"#333"}}> 
-            <div className="blog-3" id="Exercise">
+    return (
+      <>
+        <div className="section" style={{ backgroundColor: "#333" }} />
+        <div
+          className="section section-grey"
+          style={{ backgroundColor: "#333" }}
+        >
+          <div className="blog-3" id="Exercise">
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto" md="10">
-                  <h2 className="title" style={{textAlign:"center", color:"#fff"}}> Why Us? </h2>
+                  <h2
+                    className="title"
+                    style={{ textAlign: "center", color: "#fff" }}
+                  >
+                    {" "}
+                    Why Us?{" "}
+                  </h2>
                   <br />
                   <Card className="card-plain card-blog">
                     <Row>
@@ -33,15 +40,16 @@ class WhyUs extends React.Component{
                         <CardBody>
                           <h6 className="card-category text-info">Mental</h6>
                           <CardTitle tag="h3">
-                            <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                            Title 1 
+                            <a
+                              href="#pablo"
+                              onClick={(e) => e.preventDefault()}
+                            >
+                              Title 1
                             </a>
                           </CardTitle>
                           <p className="card-description">
-                            blah blah blah blah 
-                            
+                            blah blah blah blah
                           </p>
-                          
                         </CardBody>
                       </Col>
                     </Row>
@@ -55,18 +63,16 @@ class WhyUs extends React.Component{
                             Spiritual
                           </h6>
                           <CardTitle tag="h3">
-                            <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                             Title 2 
+                            <a
+                              href="#pablo"
+                              onClick={(e) => e.preventDefault()}
+                            >
+                              Title 2
                             </a>
                           </CardTitle>
                           <p className="card-description">
-                          blah blah 
-                          blah blah 
-                          blah blah 
-                            
-                            
+                            blah blah blah blah blah blah
                           </p>
-                         
                         </CardBody>
                       </Col>
                       <Col md="4">
@@ -97,9 +103,14 @@ class WhyUs extends React.Component{
                       </Col>
                       <Col md="8">
                         <CardBody>
-                          <h6 className="card-category text-success">Physical</h6>
+                          <h6 className="card-category text-success">
+                            Physical
+                          </h6>
                           <CardTitle tag="h3">
-                            <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                            <a
+                              href="#pablo"
+                              onClick={(e) => e.preventDefault()}
+                            >
                               Title 3
                             </a>
                           </CardTitle>
@@ -108,9 +119,7 @@ class WhyUs extends React.Component{
                             year’s Emmy nominations – another indicator of the
                             shift in how today’s consumers are watching TV. HBO,
                             which has been available.{" "}
-                            
                           </p>
-                          
                         </CardBody>
                       </Col>
                     </Row>
@@ -119,10 +128,9 @@ class WhyUs extends React.Component{
               </Row>
             </Container>
           </div>
-          </div> 
-          </> 
-
-        )  
-    }
+        </div>
+      </>
+    );
+  }
 }
-export default WhyUs  
+export default WhyUs;

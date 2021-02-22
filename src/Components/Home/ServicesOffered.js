@@ -2,200 +2,149 @@ import React from "react";
 // import ScrollAnimation from 'react-animate-on-scroll';
 
 // reactstrap components
-import {
-  Button,
-  Container,
-  Row,
-  Col
-} from "reactstrap";
+import { Button, Container, Row, Col } from "reactstrap";
 
-import {
+import { Card, CardFooter, CardBody } from "reactstrap";
 
-  Card,
-  CardFooter,
-  CardBody,
+import $ from "jquery";
 
+export default class ServicesOffered extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      ServicesOffered: {},
+    };
+  }
+  componentWillMount() {
+    this.setState({ ServicesOffered: this.props.data }, () => {});
+  }
 
-} from "reactstrap";
-
-import $ from "jquery"
-
-
-export default class ServicesOffered extends React.Component{
-    constructor(props){
-        super(props); 
-        this.state={ 
-            ServicesOffered:{}
-        }
+  screensize() {
+    if ($(window).width() < 900) {
+      return null;
     }
-    componentWillMount(){ 
-        this.setState({ServicesOffered:this.props.data},()=> {})
-        
-    } 
+    return " parallax";
+  }
 
-    screensize(){ 
-        if ($(window).width() < 900){ 
-            return null 
-        }
-        return " parallax" ; 
-    }
-
-    
-
-    render(){ 
-        
-        
-        
+  render() {
     return (
       <>
-        
-        <div className="section menubg" >
-        <Container id="Services">
-        <Row>
-        <Col className="ml-auto mr-auto text-center" md="8">
-            <h2 className="title textc" >Services Offered</h2>
-            <h5 className="description">
-            
-            </h5>
-            <br />
-        </Col>
-        </Row>
-        
-        <Row>
-        <Col md="4">
+        <div className="section menubg">
+          <Container id="Services">
+            <Row>
+              <Col className="ml-auto mr-auto text-center" md="8">
+                <h2 className="title textc">Services Offered</h2>
+                <h5 className="description"></h5>
+                <br />
+              </Col>
+            </Row>
 
-            <Card
-            className={"photo1 "+this.screensize()} 
-            data-background="image"
-            style={{height:"initial"}}
-            >
-            <CardBody>
-                <h6 className="card-category">Individual</h6>
-                <div className="card-icon">
-                <i className="nc-icon nc-chat-33" />
-                </div>
-                <p className="card-description">
-                
-                </p>
-                <CardFooter>
-                <Button
-                    className="btn-neutral"
-                    color="link"
-                    
-                    onClick={(e) => e.preventDefault()}
+            <Row>
+              <Col md="4">
+                <Card
+                  className={"photo1 " + this.screensize()}
+                  data-background="image"
+                  style={{ height: "initial" }}
                 >
-                    <i className="fa fa-book mr-1" />
-                    Show more
-                </Button>
-                </CardFooter>
-            </CardBody>
-            </Card>
-         
-            
-        </Col>
-        <Col md="4">
-            
-        
-            <Card
-            className={"photo2 "+this.screensize()} 
-            data-background="image"
-            style={{height:"initial"}}
-            
-            >
-            <CardBody>
-                <h6 className="card-category">Group Therapy</h6>
-                <div className="card-icon">
-                <i className="nc-icon nc-shop" />
-                </div>
-                <p className="card-description">
-                
-                </p>
-                <CardFooter>
-                <Button
-                    className="btn-neutral"
-                    color="link"
-                    
-                    onClick={(e) => e.preventDefault()}
+                  <CardBody>
+                    <h6 className="card-category">Individual</h6>
+                    <div className="card-icon">
+                      <i className="nc-icon nc-chat-33" />
+                    </div>
+                    <p className="card-description"></p>
+                    <CardFooter>
+                      <Button
+                        className="btn-neutral"
+                        color="link"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <i className="fa fa-book mr-1" />
+                        Show more
+                      </Button>
+                    </CardFooter>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card
+                  className={"photo2 " + this.screensize()}
+                  data-background="image"
+                  style={{ height: "initial" }}
                 >
-                    <i className="fa fa-book mr-1" />
-                    Show more
-                </Button>
-                </CardFooter>
-            </CardBody>
-            
-            </Card>
-             
-        </Col>
-        <Col md="4">
-        
-
-        {$(window).width()>900? 
-            <Card
-            data-background="image"
-            className={"photo3 "+this.screensize()} 
-            style={{ height:"initial" }}
-            >
-            <CardBody>
-                <h6 className="card-category">Faith Counseling</h6>
-                <div className="card-icon">
-                <i className="nc-icon nc-send" />
-                </div>
-                <p className="card-description">
-                
-                </p>
-                <CardFooter>
-                <Button
-                    className="btn-neutral"
-                    color="link"
-                    
-                    onClick={(e) => e.preventDefault()}
-                >
-                    <i className="fa fa-book mr-1" />
-                    Show more
-                </Button>
-                </CardFooter>
-            </CardBody>
-            </Card>
-            :
-            <Card
-            data-background="image"
-            className={"photo4 "+this.screensize()} 
-            style={{ height:"initial" }}
-            >
-            <CardBody>
-                <h6 className="card-category">Faith Counseling</h6>
-                <div className="card-icon">
-                <i className="nc-icon nc-send" />
-                </div>
-                <p className="card-description">
-                
-                </p>
-                <CardFooter>
-                <Button
-                    className="btn-neutral"
-                    color="link"
-                    
-                    onClick={(e) => e.preventDefault()}
-                >
-                    <i className="fa fa-book mr-1" />
-                    Show more
-                </Button>
-                </CardFooter>
-            </CardBody>
-            </Card>
-    } 
-
-
-
-            
-        </Col>
-        </Row>
-    
-        </Container>
+                  <CardBody>
+                    <h6 className="card-category">Group Therapy</h6>
+                    <div className="card-icon">
+                      <i className="nc-icon nc-shop" />
+                    </div>
+                    <p className="card-description"></p>
+                    <CardFooter>
+                      <Button
+                        className="btn-neutral"
+                        color="link"
+                        onClick={(e) => e.preventDefault()}
+                      >
+                        <i className="fa fa-book mr-1" />
+                        Show more
+                      </Button>
+                    </CardFooter>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4">
+                {$(window).width() > 900 ? (
+                  <Card
+                    data-background="image"
+                    className={"photo3 " + this.screensize()}
+                    style={{ height: "initial" }}
+                  >
+                    <CardBody>
+                      <h6 className="card-category">Faith Counseling</h6>
+                      <div className="card-icon">
+                        <i className="nc-icon nc-send" />
+                      </div>
+                      <p className="card-description"></p>
+                      <CardFooter>
+                        <Button
+                          className="btn-neutral"
+                          color="link"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fa fa-book mr-1" />
+                          Show more
+                        </Button>
+                      </CardFooter>
+                    </CardBody>
+                  </Card>
+                ) : (
+                  <Card
+                    data-background="image"
+                    className={"photo4 " + this.screensize()}
+                    style={{ height: "initial" }}
+                  >
+                    <CardBody>
+                      <h6 className="card-category">Faith Counseling</h6>
+                      <div className="card-icon">
+                        <i className="nc-icon nc-send" />
+                      </div>
+                      <p className="card-description"></p>
+                      <CardFooter>
+                        <Button
+                          className="btn-neutral"
+                          color="link"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          <i className="fa fa-book mr-1" />
+                          Show more
+                        </Button>
+                      </CardFooter>
+                    </CardBody>
+                  </Card>
+                )}
+              </Col>
+            </Row>
+          </Container>
         </div>
-
-        </> 
+      </>
     );
-    }  
-} 
-
+  }
+}

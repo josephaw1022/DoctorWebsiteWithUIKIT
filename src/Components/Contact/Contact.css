@@ -1,27 +1,30 @@
- p, h1,h2,h3,h4,h5,h6, small{ 
-    color:white; 
-    z-index: 1;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+  color: white;
+  z-index: 1;
 }
 
-.contactbground{ 
-    background-image: url("./sample.png");
+.contactbground {
+  background-image: url("./sample.png");
 }
-.adjust{ 
-    color:"#333" ; 
-}
-
-.videobground{ 
-    position: absolute;
-    width: 480 ; 
-    height: 272; 
-    
-
+.adjust {
+  color: "#333";
 }
 
-.reddy{ 
-    
-    background-color: #333 !important;
-    
+.videobground {
+  position: absolute;
+  width: 480;
+  height: 272;
+}
+
+.reddy {
+  background-color: #333 !important;
 }
 
 /* @media (min-aspect-ratio:16/9){
@@ -40,7 +43,6 @@
     } 
 
 } */
-
 
 /* @media (max-width: 767px) {
     .videobground{

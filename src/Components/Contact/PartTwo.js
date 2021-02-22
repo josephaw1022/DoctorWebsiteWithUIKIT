@@ -12,23 +12,22 @@ import {
   Col,
 } from "reactstrap";
 
-
 export default function PartTwo() {
-    <div className="main">
+  <div className="main">
     <div className="section">
       <Container>
         <h3 className="title-uppercase">We build great products.</h3>
         <p>
           Collaboratively administrate empowered markets via plug-and-play
           networks. Dynamically procrastinate B2C users after installed base
-          benefits. Dramatically visualize customer directed convergence
-          without revolutionary ROI.
+          benefits. Dramatically visualize customer directed convergence without
+          revolutionary ROI.
         </p>
         <p>
-          Efficiently unleash cross-media information without cross-media
-          value. Quickly maximize timely deliverables for real-time schemas.
-          Dramatically maintain clicks-and-mortar solutions without
-          functional solutions.
+          Efficiently unleash cross-media information without cross-media value.
+          Quickly maximize timely deliverables for real-time schemas.
+          Dramatically maintain clicks-and-mortar solutions without functional
+          solutions.
         </p>
         <h3 className="title-uppercase">
           We
@@ -36,10 +35,10 @@ export default function PartTwo() {
           what we do.
         </h3>
         <p>
-          Completely synergize resource taxing relationships via premier
-          niche markets. Professionally cultivate one-to-one customer
-          service with robust ideas. Dynamically innovate resource-leveling
-          customer service for state of the art customer service.
+          Completely synergize resource taxing relationships via premier niche
+          markets. Professionally cultivate one-to-one customer service with
+          robust ideas. Dynamically innovate resource-leveling customer service
+          for state of the art customer service.
         </p>
         <h2 className="text-center creators">Creators</h2>
         <Row>
@@ -58,8 +57,8 @@ export default function PartTwo() {
                 <p className="card-description text-center">
                   A group becomes a team when each member is sure enough of
                   himself and his contribution to praise the skill of the
-                  others. No one can whistle a symphony. It takes orchestra
-                  to play it.
+                  others. No one can whistle a symphony. It takes orchestra to
+                  play it.
                 </p>
               </CardBody>
               <CardFooter className="text-center">
@@ -105,8 +104,8 @@ export default function PartTwo() {
                 <p className="card-description text-center">
                   The strength of the team is each individual member. The
                   strength of each member is the team. If you can laugh
-                  together, you can work together, silence isn’t golden,
-                  it’s deadly.
+                  together, you can work together, silence isn’t golden, it’s
+                  deadly.
                 </p>
               </CardBody>
               <CardFooter className="text-center">
@@ -152,8 +151,8 @@ export default function PartTwo() {
                 <p className="card-description text-center">
                   Great teams do not hold back with one another. They are
                   unafraid to air their dirty laundry. They admit their
-                  mistakes, their weaknesses and their concerns without fear
-                  of reprisal.
+                  mistakes, their weaknesses and their concerns without fear of
+                  reprisal.
                 </p>
               </CardBody>
               <CardFooter className="text-center">
@@ -265,5 +264,5 @@ export default function PartTwo() {
         </Row>
       </Container>
     </div>
-  </div>
-} 
+  </div>;
+}

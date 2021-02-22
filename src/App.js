@@ -12,6 +12,7 @@ import Future from "Components/Future/Future"
 // import TeleHealth2 from 'Components/Home/TeleHealth2'
 import TeleHealth from "Components/TeleHealth/TeleHealth" ; 
 import Bio from "Components/Bio/Bio"
+import Schedule from "Components/Schedule/Schedule"
 import "./App.css"
 // import $ from "jquery"
 // import NotFoundPage from "Components/Error/NotFoundPage"
@@ -33,6 +34,7 @@ export default class App extends Component {
           <Route path="/Future" component={Future}/>
           <Route path="/TeleHealth" component={TeleHealth}/>
           <Route path="/Bio" component={Bio}/> 
+          <Route path ="/Schedule" component={Schedule}/> 
         </Layout>
       </>
     );

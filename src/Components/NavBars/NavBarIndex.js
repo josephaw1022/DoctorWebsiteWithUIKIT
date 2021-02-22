@@ -87,7 +87,7 @@ export default function NavBarIndex() {
 
       <Navbar
         className= {classnames("fixed-top headroom", navbarColor)}
-        expand="lg"
+        expand="md"
         id="navbar-main"
 
       >
@@ -112,6 +112,7 @@ export default function NavBarIndex() {
               className="navbar-toggler"
               id="navigation"
               type="button"
+              style={{backgroundColor:"transparent"}}
 
               onClick={() => {
                 document.documentElement.classList.toggle("nav-open");
@@ -121,6 +122,7 @@ export default function NavBarIndex() {
             >
 
               <span className="navbar-toggler-bar bar1 bg-info" />
+              <span className="navbar-toggler-bar bar1 bg-info" />
               <span className="navbar-toggler-bar bar2 bg-info" />
               <span className="navbar-toggler-bar bar3 bg-info" />
             </button>
@@ -128,7 +130,9 @@ export default function NavBarIndex() {
           
           
           
-          <Collapse navbar isOpen={collapseOpen}>
+          <Collapse navbar isOpen={collapseOpen} style={{backgroundColor:"transparent"}}>
+          
+          
                 <DropDown/> 
           </Collapse>
         

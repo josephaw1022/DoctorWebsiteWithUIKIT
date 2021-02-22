@@ -26,7 +26,7 @@
                 "Color":"text-success",
             
                 "Question2":"What forms of payment do you accept?",
-                "Answer2":"YWe accept Cash, Check, Credit Card, Paypal, Cashapp, or Venmo. If using a credit card, a processing fee may apply. Payment is due at the time of service.", 
+                "Answer2":"We accept Cash, Check, Credit Card, Paypal, Cashapp, or Venmo. If using a credit card, a processing fee may apply. Payment is due at the time of service.", 
             
                 "Animation2":"bounceInLeft", 
                 "Before2": "",
@@ -43,7 +43,7 @@
                 "Color": "text-warning", 
                 "Question2":"How long is each session?", 
                 "Answer2": "Each Session is close to 50 minutes.",
-                "Color2": "text-purple"
+                "Color2": "text-success"
             },
             { 
                 "Question":" Is Online Therapy Effective?",

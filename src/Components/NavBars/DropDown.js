@@ -18,7 +18,8 @@ class DropDown extends React.Component{
     constructor(props){ 
         super(props) 
         this.state={ 
-            menu: {}  
+            menu: {}  , 
+            collapse:false 
         }
     }
 
@@ -37,7 +38,7 @@ class DropDown extends React.Component{
             (index) => { 
                 return( 
                     <>
-                        <DropdownItem to={index.Link} tag={Link} className="btn-magnify ">
+                        <DropdownItem to={index.Link} tag={Link}  className="btn-magnify ">
                             <i className={"nc-icon "+ index.Icon} />
                             {index.Name}
                         </DropdownItem>

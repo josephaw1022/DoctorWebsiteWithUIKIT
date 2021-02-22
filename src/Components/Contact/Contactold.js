@@ -5,9 +5,8 @@
 // import "./Contact.css"
 // import { InputGroupAddon, InputGroup, InputGroupText} from 'reactstrap';
 
-
 // // function Contact() {
-// //   let contactheader = React.createRef(); 
+// //   let contactheader = React.createRef();
 
 // //   React.useEffect(() => {
 // //     if (window.innerWidth < 991) {
@@ -23,11 +22,8 @@
 // //     }
 // //   });
 
-
 // //   return (
 // //     <>
-    
-      
 
 // //     </>
 // //   );
@@ -50,10 +46,10 @@
 //       {/* <InfoNavbar /> */}
 //       <div className="main">
 //         <div className="section contactbground"
-      
+
 //             >
 //           <Container>
-            
+
 //             <Row>
 //               <Col className="ml-auto mr-auto text-center" md="8">
 //                 <h2 className="title" style={{color:"white"}}>Get in touch with us</h2>
@@ -63,7 +59,7 @@
 //                   after installed base benefits. Dramatically visualise customer
 //                   directed convergence without revolutionary ROI.</small>
 //                 </h3>
-                
+
 //               </Col>
 //             </Row>
 //             <Row>
@@ -86,8 +82,8 @@
 //                         </InputGroupAddon>
 //                         <Input placeholder="Full name" type="text" />
 //                       </InputGroup>
-//                       </Col> 
-//                       <Col> 
+//                       </Col>
+//                       <Col>
 //                       <label>Last name</label>
 //                       <InputGroup>
 //                         <InputGroupAddon addonType="prepend">
@@ -142,10 +138,9 @@
 //           mapElement={<div style={{ height: `100%` }} />}
 //         /> */}
 //       </div>
-      
+
 //     </>
 //   );
 // }
 
 // export default ContactUs;
-

@@ -1,35 +1,27 @@
-
-
-.fsd8a9a{ 
-    white-space: nowrap !important;
-    background-color: transparent !important;
+.fsd8a9a {
+  white-space: nowrap !important;
+  background-color: transparent !important;
 }
 
 @media (max-width: 500 px) {
-    .imagefixerupper{ 
-        width: "140%" !important ; 
-    }
+  .imagefixerupper {
+    width: "140%" !important ;
+  }
 
-    NavbarBrand{ 
-        width: 50% !important  ;
-        overflow: -moz-hidden-unscrollable;
-    }
-    
-
+  NavbarBrand {
+    width: 50% !important  ;
+    overflow: -moz-hidden-unscrollable;
+  }
 }
 
-.imagefixerupper{
-    width:200px !important;
-    height:100px !important;
+.imagefixerupper {
+  width: 200px !important;
+  height: 100px !important;
 }
 
-
-.fixnavbar{ 
-    position: static!important;
-    top:50% !important; 
-    vertical-align: center !important;
-    justify-content: center !important;
+.fixnavbar {
+  position: static !important;
+  top: 50% !important;
+  vertical-align: center !important;
+  justify-content: center !important;
 }
-
-
-    

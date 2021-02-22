@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-import "./NavBar.css"
+import "./NavBar.css";
 
 // reactstrap components
 import {
@@ -14,15 +14,14 @@ import {
   NavLink,
   Nav,
   Container,
-  DropdownMenu, 
-  DropdownToggle, 
-  UncontrolledDropdown, 
-  DropdownItem 
-
+  DropdownMenu,
+  DropdownToggle,
+  UncontrolledDropdown,
+  DropdownItem,
 } from "reactstrap";
 
 export default function ExamplesNavbar() {
-  ExamplesNavbar.displayName = ExamplesNavbar.name ; 
+  ExamplesNavbar.displayName = ExamplesNavbar.name;
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(true);
 
@@ -54,7 +53,7 @@ export default function ExamplesNavbar() {
   });
   return (
     <Navbar
-      className={classnames("fixed-top" + "transparent")+ " fsd8a9a"}
+      className={classnames("fixed-top" + "transparent") + " fsd8a9a"}
       color-on-scroll="300"
       expand="lg"
     >
@@ -63,10 +62,9 @@ export default function ExamplesNavbar() {
           <NavbarBrand
             data-placement="bottom"
             to="/"
-            
             title="A+ Counseling & Consulting, LLC"
             tag={Link}
-            className ="items"
+            className="items"
           >
             A+ Counseling & Consulting, LLC
           </NavbarBrand>
@@ -88,45 +86,43 @@ export default function ExamplesNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-          
             <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle className="mr-2" color="default" caret nav>
-                  More
-                </DropdownToggle>
-              
-                  <DropdownItem to="/sections#headers" tag={Link}>
-                    <i className="nc-icon " />
-                    Client Resources
-                  </DropdownItem>
-                <DropdownMenu className="dropdown-danger" right>
-                  <DropdownItem to="/sections#headers" tag={Link}>
-                    <i className="nc-icon nc-tile-56" />
-                    Client Resources
-                  </DropdownItem>
-                  <DropdownItem to="/sections#features" tag={Link}>
+              <DropdownToggle className="mr-2" color="default" caret nav>
+                More
+              </DropdownToggle>
+
+              <DropdownItem to="/sections#headers" tag={Link}>
+                <i className="nc-icon " />
+                Client Resources
+              </DropdownItem>
+              <DropdownMenu className="dropdown-danger" right>
+                <DropdownItem to="/sections#headers" tag={Link}>
+                  <i className="nc-icon nc-tile-56" />
+                  Client Resources
+                </DropdownItem>
+                <DropdownItem to="/sections#features" tag={Link}>
                   <i className="nc-icon nc-settings" />
-                    Services
-                  </DropdownItem>
-                  <DropdownItem to="/sections#blogs" tag={Link}>
-                    <i className="nc-icon nc-bullet-list-67" />
+                  Services
+                </DropdownItem>
+                <DropdownItem to="/sections#blogs" tag={Link}>
+                  <i className="nc-icon nc-bullet-list-67" />
                   Our Counselors
-                  </DropdownItem>
-                
-                  
-                  <DropdownItem to="/sections#pricing" tag={Link}>
-                    <i className="nc-icon nc-money-coins" />
-                    Rates & Insurance
-                  </DropdownItem>
-                  <DropdownItem to="/sections#testimonials" tag={Link}>
-                    <i className="nc-icon nc-badge" />
-                    Testimonials
-                  </DropdownItem>
-                  <DropdownItem to="/sections#contact-us" tag={Link}>
-                    <i className="nc-icon nc-mobile" />
-                    Contact Us
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+                </DropdownItem>
+
+                <DropdownItem to="/sections#pricing" tag={Link}>
+                  <i className="nc-icon nc-money-coins" />
+                  Rates & Insurance
+                </DropdownItem>
+                <DropdownItem to="/sections#testimonials" tag={Link}>
+                  <i className="nc-icon nc-badge" />
+                  Testimonials
+                </DropdownItem>
+                <DropdownItem to="/sections#contact-us" tag={Link}>
+                  <i className="nc-icon nc-mobile" />
+                  Contact Us
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -160,13 +156,9 @@ export default function ExamplesNavbar() {
                 <p className="d-lg-none">Instagram</p>
               </NavLink>
             </NavItem>
-           
           </Nav>
         </Collapse>
       </Container>
     </Navbar>
   );
 }
-
-
- 

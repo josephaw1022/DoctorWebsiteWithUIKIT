@@ -54,13 +54,6 @@ export default function NavBarIndex() {
 
   const Title = "A+ Counselling & Consulting, LLC";
 
-  function sizing() {
-    if ($(window).width() < 400) {
-      return "block";
-    }
-    return " ";
-  }
-
   return (
     <>
       {bodyClick ? (
@@ -90,7 +83,6 @@ export default function NavBarIndex() {
                 alt=" "
                 src={require("./logo.png")}
                 className="imagefixerupper"
-                style={{ maxWidth: "100%", height: "auto", display: sizing() }}
               />
 
               {Title}

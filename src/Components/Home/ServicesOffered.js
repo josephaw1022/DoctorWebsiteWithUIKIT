@@ -34,7 +34,7 @@ export default class ServicesOffered extends React.Component {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
                 <h2 className="title textc">Services Offered</h2>
-                <h5 className="description"></h5>
+
                 <br />
               </Col>
             </Row>

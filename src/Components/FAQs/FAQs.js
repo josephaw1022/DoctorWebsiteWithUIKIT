@@ -29,11 +29,19 @@ class FAQs extends React.Component {
   render() {
     let ComponentPieces = this.state.FAQ.Questions.map((index) => {
       let cardSize = "";
-
+      let marginBottom = "";
       if (index.Weird === true) {
         cardSize = "auto";
+
         index.Answer = (
-          <p style={{ color: "#fff" }}>
+          <p
+            style={{
+              color: "#fff",
+              overflow: "hidden",
+              fontSize: "small",
+              marginBottom: "auto",
+            }}
+          >
             {" "}
             - Therapy is a partnership between an individual and a professional
             trained to help people understand their feelings and help them
@@ -66,7 +74,7 @@ class FAQs extends React.Component {
                 animateOnce={true}
               >
                 <Flippy className=" card card-contact">
-                  <FrontSide>
+                  <FrontSide style={{ height: cardSize }}>
                     <Row>
                       <Col md="12">
                         <CardBody>
@@ -88,7 +96,13 @@ class FAQs extends React.Component {
                       </Col>
                     </Row>
                   </FrontSide>
-                  <BackSide style={{ height: cardSize }}>
+                  <BackSide
+                    style={{
+                      height: cardSize,
+                      zIndex: "1",
+                      overflow: "hidden",
+                    }}
+                  >
                     <CardBody style={{ backgroundColor: "#333" }}>
                       <p style={{ color: "#fff", fontWeight: "bolder" }}>
                         {index.Answer}
@@ -115,8 +129,8 @@ class FAQs extends React.Component {
                 duration={0.5}
                 animateOnce={true}
               >
-                <Flippy>
-                  <FrontSide>
+                <Flippy style={{ zIndex: "-1" }}>
+                  <FrontSide style={{ height: cardSize }}>
                     <Row>
                       <Col md="12">
                         <CardBody>
@@ -137,7 +151,7 @@ class FAQs extends React.Component {
                       </Col>
                     </Row>
                   </FrontSide>
-                  <BackSide>
+                  <BackSide style={{ height: cardSize, zIndex: "1" }}>
                     <CardBody>
                       <p style={{ color: "#fff", fontWeight: "bolder" }}>
                         {index.Answer2}

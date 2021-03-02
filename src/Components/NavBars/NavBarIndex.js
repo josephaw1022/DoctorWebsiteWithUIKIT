@@ -113,19 +113,6 @@ export default function NavBarIndex() {
             </button>
           </div>
 
-          {$(window).width() < 400 ? (
-            <Button
-              size="md"
-              style={{ marginRight: "auto" }}
-              onClick={() => {
-                document.documentElement.classList.toggle("nav-open");
-                setBodyClick(false);
-                setCollapseOpen(false);
-              }}
-            >
-              Navbar
-            </Button>
-          ) : null}
           <Collapse
             navbar
             isOpen={collapseOpen}

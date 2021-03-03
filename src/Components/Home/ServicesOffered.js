@@ -3,20 +3,29 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
-
 import { Card, CardFooter, CardBody } from "reactstrap";
-
 import $ from "jquery";
+import Hollistic from "./Modals/ServicesOffered/Hollistic";
 
 export default class ServicesOffered extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       ServicesOffered: {},
+      modalData: {},
     };
   }
-  componentWillMount() {
-    this.setState({ ServicesOffered: this.props.data }, () => {});
+  componentDidMount() {
+    this.setState({
+      ServicesOffered: this.props.data,
+      modalData: this.props.data2,
+    });
+  }
+
+  showModal(input) {
+    if (input === "Hollistic") {
+      this.setState({ modalToggle: true });
+    }
   }
 
   screensize() {
@@ -47,20 +56,13 @@ export default class ServicesOffered extends React.Component {
                   style={{ height: "initial" }}
                 >
                   <CardBody>
-                    <h6 className="card-category">Individual</h6>
+                    <h6 className="card-category">Hollistic</h6>
                     <div className="card-icon">
                       <i className="nc-icon nc-chat-33" />
                     </div>
                     <p className="card-description"></p>
                     <CardFooter>
-                      <Button
-                        className="btn-neutral"
-                        color="link"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fa fa-book mr-1" />
-                        Show more
-                      </Button>
+                      <Hollistic theData={this.state.modalData} />
                     </CardFooter>
                   </CardBody>
                 </Card>

@@ -24,7 +24,9 @@ class Index extends React.Component {
       Menu: {},
       TeleHealth: {},
       ServicesOffered: {},
+      modalServicesOffered: {},
       OurTeam: {},
+      ServiceModals: {},
     };
   }
 
@@ -36,6 +38,7 @@ class Index extends React.Component {
       TeleHealth: file.TeleHealth,
       ServicesOffered: file.ServicesOffered,
       OurTeam: file.OurTeam,
+      ServiceModals: file.ServiceModals,
     });
   }
 
@@ -46,7 +49,10 @@ class Index extends React.Component {
         <PartOne data={this.state.PartOne} />
         <Menu data={this.state.Menu} />
         <Convenient />
-        <ServicesOffered data={this.state.ServicesOffered} />
+        <ServicesOffered
+          data={this.state.ServicesOffered}
+          data2={this.state.ServiceModals}
+        />
         <OurTeam data={this.state.OurTeam} />
         <TeleHealth data={this.state.TeleHealth} />
         <Contact />

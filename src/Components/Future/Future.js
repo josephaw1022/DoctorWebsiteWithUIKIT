@@ -1,13 +1,5 @@
 import React, { Component } from "react";
-import {
-  Card,
-  CardBody,
-  CardTitle,
-  Container,
-  Row,
-  Col,
-  //  CardImg
-} from "reactstrap";
+import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
 import { Animated } from "react-animated-css";
 import "./Future.css";
 

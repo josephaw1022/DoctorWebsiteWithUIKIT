@@ -2,7 +2,7 @@ import React from "react";
 
 // reactstrap components
 import { Card, CardBody, Container, Row, Col } from "reactstrap";
-// import thevideo from "./sample.mp4"
+
 import "./Error.css";
 
 function NotFoundPage() {

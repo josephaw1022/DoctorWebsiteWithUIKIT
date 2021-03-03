@@ -1,6 +1,5 @@
 import "./Bio.css";
 import React from "react";
-// import { Container, Card } from "reactstrap"
 
 class Bio extends React.Component {
   constructor(props) {

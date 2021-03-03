@@ -1,8 +1,8 @@
 import "./FAQs.css";
 import React from "react";
-// eslint-disable-next-line
-import { Row, Col, Card, CardBody, CardTitle, Container } from "reactstrap";
-// import {Animated} from "react-animated-css";
+
+import { Row, Col, CardBody, CardTitle, Container } from "reactstrap";
+
 import $ from "jquery";
 import ScrollAnimation from "react-animate-on-scroll";
 import Flippy, { FrontSide, BackSide } from "react-flippy";

@@ -6,7 +6,8 @@ import { Button, Container, Row, Col } from "reactstrap";
 import { Card, CardFooter, CardBody } from "reactstrap";
 import $ from "jquery";
 import Hollistic from "./Modals/ServicesOffered/Hollistic";
-
+import Individual from "./Modals/ServicesOffered/Individual";
+import Faith from "./Modals/ServicesOffered/Faith";
 export default class ServicesOffered extends React.Component {
   constructor(props) {
     super(props);
@@ -62,7 +63,7 @@ export default class ServicesOffered extends React.Component {
                     </div>
                     <p className="card-description"></p>
                     <CardFooter>
-                      <Hollistic theData={this.state.modalData} />
+                      <Hollistic />
                     </CardFooter>
                   </CardBody>
                 </Card>
@@ -74,20 +75,13 @@ export default class ServicesOffered extends React.Component {
                   style={{ height: "initial" }}
                 >
                   <CardBody>
-                    <h6 className="card-category">Group Therapy</h6>
+                    <h6 className="card-category">Individual</h6>
                     <div className="card-icon">
                       <i className="nc-icon nc-shop" />
                     </div>
                     <p className="card-description"></p>
                     <CardFooter>
-                      <Button
-                        className="btn-neutral"
-                        color="link"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className="fa fa-book mr-1" />
-                        Show more
-                      </Button>
+                      <Individual />
                     </CardFooter>
                   </CardBody>
                 </Card>
@@ -106,14 +100,7 @@ export default class ServicesOffered extends React.Component {
                       </div>
                       <p className="card-description"></p>
                       <CardFooter>
-                        <Button
-                          className="btn-neutral"
-                          color="link"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          <i className="fa fa-book mr-1" />
-                          Show more
-                        </Button>
+                        <Faith />
                       </CardFooter>
                     </CardBody>
                   </Card>

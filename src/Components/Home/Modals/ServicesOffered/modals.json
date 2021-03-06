@@ -1,0 +1,19 @@
+{ 
+
+    "Type": { 
+        "Faith": { 
+            "Name":"Faith" ,
+            "Text":"A+ offers spiritual-based counseling, which implements biblical and spiritual principles and parables to stories and situations that they find themselves in. Through this internal processing, blocks are removed from our awareness, revealing a deeper understanding and connection in our life."
+        },
+        "Individual": { 
+            "Name":"Individual" ,
+            "Text":"A+ Individual therapy provides the opportunity to build a healthy rapport and apply an evidence-based therapeutic approach to the client in order to reach the emotional health and wholeness they desire. Whether a person is dealing with recent stress or a lifelong struggle, our holistic approach will provide an environment where individuals can share and work through their burdens, develop skills to cope with difficult situations, and find hope amid the pain."
+        },
+        "Hollistic": { 
+            "Name":"Hollistic" ,
+            "Text":"A+ offers a holistic counseling approach to help clients find the power to transform, heal, and grow. Our mission is to support you in creating a healthy, more balanced lifestyle. Whether you find yourself navigating a life transition, dealing with issues you can’t ignore, or you’re simply ready to grow and achieve a more abundant life, we can assist you on your journ"
+        }
+    }
+
+
+}

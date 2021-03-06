@@ -1,9 +1,9 @@
 import React from "react";
 import { Button, Modal } from "reactstrap";
-import { useState } from "react";
 
-export default function Hollistic(props) {
-  const [scrollingLongContent, setScrollingLongContent] = useState(false);
+export default function Hollistic() {
+  const [scrollingLongContent, setScrollingLongContent] = React.useState(false);
+  const content = require("./modals.json");
 
   return (
     <>
@@ -22,7 +22,7 @@ export default function Hollistic(props) {
       >
         <div className="modal-header">
           <h5 className="modal-title" id="exampleModalLongTitle">
-            {/* {props.theData.Hollistic.Name} */}
+            {content.Type.Hollistic.Name}
           </h5>
           <button
             aria-label="Close"
@@ -34,7 +34,7 @@ export default function Hollistic(props) {
             <span aria-hidden={true}>×</span>
           </button>
         </div>
-        <div className="modal-body"></div>
+        <div className="modal-body">{content.Type.Hollistic.Text}</div>
       </Modal>
     </>
   );

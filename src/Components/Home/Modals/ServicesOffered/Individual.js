@@ -1,8 +1,9 @@
 import React from "react";
 import { Button, Modal } from "reactstrap";
 
-export default function Group(props) {
+export default function Individual() {
   const [scrollingLongContent, setScrollingLongContent] = React.useState(false);
+  const content = require("./modals.json");
 
   return (
     <>
@@ -20,7 +21,9 @@ export default function Group(props) {
         toggle={() => setScrollingLongContent(false)}
       >
         <div className="modal-header">
-          <h5 className="modal-title" id="exampleModalLongTitle"></h5>
+          <h5 className="modal-title" id="exampleModalLongTitle">
+            {content.Type.Individual.Name}
+          </h5>
           <button
             aria-label="Close"
             className="close"
@@ -31,7 +34,7 @@ export default function Group(props) {
             <span aria-hidden={true}>×</span>
           </button>
         </div>
-        <div className="modal-body">{}</div>
+        <div className="modal-body">{content.Type.Individual.Text}</div>
       </Modal>
     </>
   );

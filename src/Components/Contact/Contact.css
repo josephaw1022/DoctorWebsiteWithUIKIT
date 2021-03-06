@@ -6,25 +6,25 @@ h4,
 h5,
 h6,
 small {
-  color: white;
-  z-index: 1;
+    color: white;
+    z-index: 1;
 }
 
 .contactbground {
-  background-image: url("./sample.png");
+    background-image: url('./sample.png');
 }
 .adjust {
-  color: "#333";
+    color: '#333';
 }
 
 .videobground {
-  position: absolute;
-  width: 480;
-  height: 272;
+    position: absolute;
+    width: 480;
+    height: 272;
 }
 
 .reddy {
-  background-color: #333 !important;
+    background-color: #333 !important;
 }
 
 /* @media (min-aspect-ratio:16/9){

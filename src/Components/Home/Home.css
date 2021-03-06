@@ -1,84 +1,84 @@
 .tob {
-  color: black;
+    color: black;
 }
 
 .pointercolor {
-  color: #52cace !important ;
-  background-color: #52cace !important;
+    color: #52cace !important ;
+    background-color: #52cace !important;
 }
 
 .my-element {
-  display: inline-block;
-  margin: 0 0.5rem;
+    display: inline-block;
+    margin: 0 0.5rem;
 
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .ppbgf {
-  background-image: url("./img/Photos12.png") !important;
+    background-image: url('./img/Photos12.png') !important;
 }
 
 .important {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 @media (max-width: 700px) {
-  .fixp {
-    font-size: 15px !important ;
-  }
-  .fixh3 {
-    font-size: 20px !important;
-  }
-  .fill {
-    width: 100% !important;
-  }
+    .fixp {
+        font-size: 15px !important ;
+    }
+    .fixh3 {
+        font-size: 20px !important;
+    }
+    .fill {
+        width: 100% !important;
+    }
 
-  .phonechange {
-    display: none;
-  }
+    .phonechange {
+        display: none;
+    }
 }
 
 .fill {
-  width: 100% !important;
-  background-color: #333;
+    width: 100% !important;
+    background-color: #333;
 }
 
 .contactbacked {
-  background-color: #333;
+    background-color: #333;
 }
 
 .photo2 {
-  background-image: url("./img/Photos21.png") !important;
-  background-position: center right;
+    background-image: url('./img/Photos21.png') !important;
+    background-position: center right;
 }
 .photo3 {
-  background-image: url("./img/Photos221.png") !important;
-  background-position: left center;
-  background-attachment: fixed !important;
-  background-size: cover !important; /* Resize the background image to cover the entire container */
+    background-image: url('./img/Photos221.png') !important;
+    background-position: left center;
+    background-attachment: fixed !important;
+    background-size: cover !important; /* Resize the background image to cover the entire container */
 }
 .photo4 {
-  background-image: url("./img/Photos221.png") !important;
+    background-image: url('./img/Photos221.png') !important;
 }
 
 .menubg {
-  background-color: #333 !important ;
+    background-color: #333 !important ;
 }
 
 .textc {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 .photo1 {
-  background-image: url("./img/Photos3.png");
-  background-position: center right;
+    background-image: url('./img/Photos3.png');
+    background-position: center right;
 }
 
 .img {
-  display: initial !important;
+    display: initial !important;
 }
 
 .nav-item::marker {
-  display: block;
+    display: block;
 }

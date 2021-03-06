@@ -1,6 +1,5 @@
 import React from "react";
 
-// reactstrap components
 import {
   Badge,
   Button,
@@ -12,8 +11,6 @@ import {
   Row,
   Col,
 } from "reactstrap";
-
-// core components
 
 export default function Menu2() {
   return (

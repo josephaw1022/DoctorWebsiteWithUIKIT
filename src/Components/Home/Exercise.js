@@ -1,8 +1,5 @@
 import React from "react";
 
-// reactstrap components
-
-// eslint-disable-next-line
 import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
 
 export default function Exercise() {

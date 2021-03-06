@@ -1,17 +1,7 @@
 import React from "react";
 import "./Home.css";
 
-import {
-  Card,
-  CardBody,
-  // CardHeader,
-  // CardFooter,
-  CardTitle,
-  Container,
-  // Row,
-  // Col,
-  // Button
-} from "reactstrap";
+import { Card, CardBody, CardTitle, Container } from "reactstrap";
 import { Animated } from "react-animated-css";
 
 export default function ClientResources() {

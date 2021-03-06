@@ -1,14 +1,10 @@
-// export default NavBarIndex;
 import React from "react";
 import { Link } from "react-router-dom";
-// nodejs library that concatenates strings
 import classnames from "classnames";
 
-// JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
 
 import {
-  Button,
   Collapse,
   NavbarBrand,
   Navbar,

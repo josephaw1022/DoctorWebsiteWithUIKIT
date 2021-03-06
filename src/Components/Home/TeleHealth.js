@@ -1,7 +1,5 @@
 import React from "react";
-// import './TeleHealth.css'
 import { Row, Col, Card, CardBody, CardTitle, Container } from "reactstrap";
-// import {Animated} from "react-animated-css";
 import "./Home.css";
 import $ from "jquery";
 import ScrollAnimation from "react-animate-on-scroll";

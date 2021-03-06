@@ -1,14 +1,12 @@
 import React from "react";
-// react plugin used to create google maps
+
 import ScrollAnimation from "react-animate-on-scroll";
-// reactstrap components
+
 import {
   Button,
   Card,
-  // CardHeader,
   CardBody,
   CardTitle,
-  // Label,
   FormGroup,
   Form,
   Input,

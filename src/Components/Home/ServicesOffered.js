@@ -1,13 +1,11 @@
 import React from "react";
-// import ScrollAnimation from 'react-animate-on-scroll';
-
-// reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 import { Card, CardFooter, CardBody } from "reactstrap";
 import $ from "jquery";
 import Hollistic from "./Modals/ServicesOffered/Hollistic";
 import Individual from "./Modals/ServicesOffered/Individual";
 import Faith from "./Modals/ServicesOffered/Faith";
+
 export default class ServicesOffered extends React.Component {
   constructor(props) {
     super(props);

@@ -2,14 +2,7 @@ import React from "react";
 import "./Rates.css";
 import { Animated } from "react-animated-css";
 // reactstrap components
-import {
-  Card,
-  CardBody,
-  // CardTitle ,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
+import { Card, CardBody, Container, Row, Col } from "reactstrap";
 
 class Rates extends React.Component {
   constructor(props) {

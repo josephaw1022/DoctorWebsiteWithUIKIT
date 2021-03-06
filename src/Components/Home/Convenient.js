@@ -1,16 +1,6 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-// reactstrap components
-import {
-  // Button,
-  Card,
-  CardBody,
-  // CardFooter,
-  CardTitle,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
+import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
 import $ from "jquery";
 export default function Convenient() {
   return (

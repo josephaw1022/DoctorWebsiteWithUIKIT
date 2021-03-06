@@ -10,3 +10,4 @@ yarn.lock
 .vscode
 headroom
 .DS_Store
+.eslintcache

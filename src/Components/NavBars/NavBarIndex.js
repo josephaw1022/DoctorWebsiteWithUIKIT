@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import classnames from 'classnames'
-
 import Headroom from 'headroom.js'
-
 import {
     Collapse,
     NavbarBrand,
@@ -11,15 +9,11 @@ import {
     Container,
     UncontrolledTooltip,
 } from 'reactstrap'
-
 import DropDown from './DropDown'
-
 import $ from 'jquery'
 
-// import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function NavBarIndex() {
-    // const target = React.createRef();
 
     const [navbarColor, setNavbarColor] = React.useState('navbar-transparent')
     const [bodyClick, setBodyClick] = React.useState(false)
@@ -47,7 +41,7 @@ export default function NavBarIndex() {
             window.removeEventListener('scroll', updateNavbarColor)
         }
     })
-
+    
     const Title = 'A+ Counselling & Consulting, LLC'
 
     return (

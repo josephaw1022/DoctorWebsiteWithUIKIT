@@ -1,12 +1,12 @@
-import React from 'react'
-import PageHeader from './ParallaxSections/PageHeader'
+import React from "react"
+import PageHeader from "./ParallaxSections/PageHeader"
 
 class PartOne extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            Quote: '',
-            QuoteBy: '',
+            Quote: "",
+            QuoteBy: "",
             Change: false,
         }
     }

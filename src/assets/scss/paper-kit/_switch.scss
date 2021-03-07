@@ -22,9 +22,9 @@
     user-select: none;
 
     /*   this code is for fixing safari bug with hidden overflow for border-radius   */
-    -webkit-mask: url('../img/mask.png') 0 0 no-repeat;
+    -webkit-mask: url("../img/mask.png") 0 0 no-repeat;
     -webkit-mask-size: 61px 28px;
-    mask: url('../img/mask.png') 0 0 no-repeat;
+    mask: url("../img/mask.png") 0 0 no-repeat;
     mask-size: 61px 28px;
 }
 .has-switch.deactivate {
@@ -58,7 +58,7 @@
     box-shadow: 0 1px 1px #ffffff inset, 0 1px 1px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
-.has-switch input[type='checkbox'] {
+.has-switch input[type="checkbox"] {
     display: none;
 }
 .has-switch span {

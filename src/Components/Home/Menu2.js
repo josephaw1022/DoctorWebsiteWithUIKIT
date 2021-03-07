@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 import {
     Badge,
@@ -10,7 +10,7 @@ import {
     Container,
     Row,
     Col,
-} from 'reactstrap'
+} from "reactstrap"
 
 export default function Menu2() {
     return (
@@ -27,9 +27,9 @@ export default function Menu2() {
                                 data-background="image"
                                 style={{
                                     backgroundImage:
-                                        'url(' +
-                                        require('assets/img/sections/rawpixel-com.jpg') +
-                                        ')',
+                                        "url(" +
+                                        require("assets/img/sections/rawpixel-com.jpg") +
+                                        ")",
                                 }}
                             >
                                 <CardBody>
@@ -38,14 +38,14 @@ export default function Menu2() {
                                         onClick={(e) => e.preventDefault()}
                                     >
                                         <CardTitle tag="h3">
-                                            Ten Principles of {'“Good Design”'}
+                                            Ten Principles of {"“Good Design”"}
                                         </CardTitle>
                                     </a>
                                     <p className="card-description">
                                         Don't be scared of the truth because we
                                         need to restart the human foundation in
                                         truth And I love you like Kanye loves
-                                        Kanye I love Rick Owens{'’ '}bed design
+                                        Kanye I love Rick Owens{"’ "}bed design
                                         but the back is...
                                     </p>
                                     <CardFooter>
@@ -66,9 +66,9 @@ export default function Menu2() {
                                 data-background="image"
                                 style={{
                                     backgroundImage:
-                                        'url(' +
-                                        require('assets/img/sections/rawpixel-com.jpg') +
-                                        ')',
+                                        "url(" +
+                                        require("assets/img/sections/rawpixel-com.jpg") +
+                                        ")",
                                 }}
                             >
                                 <CardBody>
@@ -77,14 +77,14 @@ export default function Menu2() {
                                         onClick={(e) => e.preventDefault()}
                                     >
                                         <CardTitle tag="h3">
-                                            Ten Principles of {'“Good Design”'}
+                                            Ten Principles of {"“Good Design”"}
                                         </CardTitle>
                                     </a>
                                     <p className="card-description">
                                         Don't be scared of the truth because we
                                         need to restart the human foundation in
                                         truth And I love you like Kanye loves
-                                        Kanye I love Rick Owens{'’ '}bed design
+                                        Kanye I love Rick Owens{"’ "}bed design
                                         but the back is...
                                     </p>
                                     <CardFooter>
@@ -104,9 +104,9 @@ export default function Menu2() {
                                 data-background="image"
                                 style={{
                                     backgroundImage:
-                                        'url(' +
-                                        require('assets/img/sections/rawpixel-com.jpg') +
-                                        ')',
+                                        "url(" +
+                                        require("assets/img/sections/rawpixel-com.jpg") +
+                                        ")",
                                 }}
                             >
                                 <CardBody>
@@ -115,14 +115,14 @@ export default function Menu2() {
                                         onClick={(e) => e.preventDefault()}
                                     >
                                         <CardTitle tag="h3">
-                                            Ten Principles of {'“Good Design”'}
+                                            Ten Principles of {"“Good Design”"}
                                         </CardTitle>
                                     </a>
                                     <p className="card-description">
                                         Don't be scared of the truth because we
                                         need to restart the human foundation in
                                         truth And I love you like Kanye loves
-                                        Kanye I love Rick Owens{'’ '}bed design
+                                        Kanye I love Rick Owens{"’ "}bed design
                                         but the back is...
                                     </p>
                                     <CardFooter>
@@ -144,9 +144,9 @@ export default function Menu2() {
                                 data-background="image"
                                 style={{
                                     backgroundImage:
-                                        'url(' +
-                                        require('assets/img/sections/rawpixel-com.jpg') +
-                                        ')',
+                                        "url(" +
+                                        require("assets/img/sections/rawpixel-com.jpg") +
+                                        ")",
                                 }}
                             >
                                 <CardBody>
@@ -155,14 +155,14 @@ export default function Menu2() {
                                         onClick={(e) => e.preventDefault()}
                                     >
                                         <CardTitle tag="h3">
-                                            Ten Principles of {'“Good Design”'}
+                                            Ten Principles of {"“Good Design”"}
                                         </CardTitle>
                                     </a>
                                     <p className="card-description">
                                         Don't be scared of the truth because we
                                         need to restart the human foundation in
                                         truth And I love you like Kanye loves
-                                        Kanye I love Rick Owens{'’ '}bed design
+                                        Kanye I love Rick Owens{"’ "}bed design
                                         but the back is...
                                     </p>
                                     <CardFooter>
@@ -183,9 +183,9 @@ export default function Menu2() {
                                 data-background="image"
                                 style={{
                                     backgroundImage:
-                                        'url(' +
-                                        require('assets/img/sections/rawpixel-com.jpg') +
-                                        ')',
+                                        "url(" +
+                                        require("assets/img/sections/rawpixel-com.jpg") +
+                                        ")",
                                 }}
                             >
                                 <CardBody>
@@ -194,14 +194,14 @@ export default function Menu2() {
                                         onClick={(e) => e.preventDefault()}
                                     >
                                         <CardTitle tag="h3">
-                                            Ten Principles of {'“Good Design”'}
+                                            Ten Principles of {"“Good Design”"}
                                         </CardTitle>
                                     </a>
                                     <p className="card-description">
                                         Don't be scared of the truth because we
                                         need to restart the human foundation in
                                         truth And I love you like Kanye loves
-                                        Kanye I love Rick Owens{'’ '}bed design
+                                        Kanye I love Rick Owens{"’ "}bed design
                                         but the back is...
                                     </p>
                                     <CardFooter>
@@ -229,7 +229,7 @@ export default function Menu2() {
                                             <img
                                                 alt="..."
                                                 className="avatar img-raised mr-2"
-                                                src={require('assets/img/faces/erik-lucatero-2.jpg')}
+                                                src={require("assets/img/faces/erik-lucatero-2.jpg")}
                                             />
                                             <span>Erik Johnson</span>
                                         </a>
@@ -263,7 +263,7 @@ export default function Menu2() {
                                             <img
                                                 alt="..."
                                                 className="avatar-big img-raised border-gray"
-                                                src={require('assets/img/faces/kaci-baum-2.jpg')}
+                                                src={require("assets/img/faces/kaci-baum-2.jpg")}
                                             />
                                         </a>
                                         <CardTitle tag="h5">
@@ -299,7 +299,7 @@ export default function Menu2() {
                                         <img
                                             alt="..."
                                             className="img"
-                                            src={require('assets/img/sections/david-marcu.jpg')}
+                                            src={require("assets/img/sections/david-marcu.jpg")}
                                         />
                                     </a>
                                 </div>
@@ -323,7 +323,7 @@ export default function Menu2() {
                                                 <img
                                                     alt="..."
                                                     className="avatar img-raised mr-2"
-                                                    src={require('assets/img/FreeOnes/Photos1.png')}
+                                                    src={require("assets/img/FreeOnes/Photos1.png")}
                                                 />
                                                 <span>Lord Alex</span>
                                             </a>

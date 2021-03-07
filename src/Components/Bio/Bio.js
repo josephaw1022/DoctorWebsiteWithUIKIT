@@ -1,5 +1,5 @@
-import './Bio.css'
-import React from 'react'
+import "./Bio.css"
+import React from "react"
 
 class Bio extends React.Component {
     constructor(props) {
@@ -10,10 +10,10 @@ class Bio extends React.Component {
     render() {
         return (
             <>
-                <div className="section" style={{ backgroundColor: '#333' }} />
+                <div className="section" style={{ backgroundColor: "#333" }} />
                 <div
                     className="section "
-                    style={{ backgroundColor: '#333' }}
+                    style={{ backgroundColor: "#333" }}
                 ></div>
             </>
         )

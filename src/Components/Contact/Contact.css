@@ -11,10 +11,10 @@ small {
 }
 
 .contactbground {
-    background-image: url('./sample.png');
+    background-image: url("./sample.png");
 }
 .adjust {
-    color: '#333';
+    color: "#333";
 }
 
 .videobground {

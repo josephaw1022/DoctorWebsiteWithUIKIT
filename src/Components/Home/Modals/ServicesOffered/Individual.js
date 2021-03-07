@@ -1,11 +1,11 @@
-import React from 'react'
-import { Button, Modal } from 'reactstrap'
+import React from "react"
+import { Button, Modal } from "reactstrap"
 
 export default function Individual() {
     const [scrollingLongContent, setScrollingLongContent] = React.useState(
         false
     )
-    const content = require('./modals.json')
+    const content = require("./modals.json")
 
     return (
         <>

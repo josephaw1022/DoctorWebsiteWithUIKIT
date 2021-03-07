@@ -1,17 +1,17 @@
-import React from 'react'
-import { Row, Col, Card, CardBody, CardTitle, Container } from 'reactstrap'
-import './Home.css'
-import $ from 'jquery'
-import ScrollAnimation from 'react-animate-on-scroll'
+import React from "react"
+import { Row, Col, Card, CardBody, CardTitle, Container } from "reactstrap"
+import "./Home.css"
+import $ from "jquery"
+import ScrollAnimation from "react-animate-on-scroll"
 class TeleHealth extends React.Component {
     constructor(props) {
         super(props)
 
         this.state = {
             TeleHealth: {
-                Title: '',
-                Description: '',
-                Color: '',
+                Title: "",
+                Description: "",
+                Color: "",
             },
         }
 
@@ -31,23 +31,23 @@ class TeleHealth extends React.Component {
             <>
                 <div
                     className={
-                        $(window).width() < 900 ? 'section' : 'section parallax'
+                        $(window).width() < 900 ? "section" : "section parallax"
                     }
                     style={{
                         backgroundImage:
-                            'url(' +
-                            require('assets/img/FreeOnes/Photos4.png') +
-                            ')',
-                        height: '110%',
+                            "url(" +
+                            require("assets/img/FreeOnes/Photos4.png") +
+                            ")",
+                        height: "110%",
                     }}
                     ref={$(window).width() < 900 ? null : this.myRef}
                 >
                     <div className="" id="TeleHealth">
                         <div
                             className="section"
-                            style={{ backgroundColor: 'transparent' }}
+                            style={{ backgroundColor: "transparent" }}
                         />
-                        <Container style={{ top: '50%' }}>
+                        <Container style={{ top: "50%" }}>
                             <Row>
                                 <Col className="ml-auto mr-auto" md="10">
                                     <ScrollAnimation
@@ -60,7 +60,7 @@ class TeleHealth extends React.Component {
                                             <CardTitle
                                                 className="text-center"
                                                 tag="h3"
-                                                style={{ color: '#f5593d' }}
+                                                style={{ color: "#f5593d" }}
                                             >
                                                 {this.state.Title} <hr />
                                             </CardTitle>
@@ -73,7 +73,7 @@ class TeleHealth extends React.Component {
                                                                 className="fixp"
                                                                 style={{
                                                                     color:
-                                                                        '#333',
+                                                                        "#333",
                                                                 }}
                                                             >
                                                                 {
@@ -92,7 +92,7 @@ class TeleHealth extends React.Component {
                         </Container>
                         <div
                             className="section"
-                            style={{ backgroundColor: 'transparent' }}
+                            style={{ backgroundColor: "transparent" }}
                         />
                     </div>
                 </div>

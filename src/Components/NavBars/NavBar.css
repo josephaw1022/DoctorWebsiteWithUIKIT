@@ -5,7 +5,7 @@
 
 @media (max-width: 500 px) {
     .imagefixerupper {
-        width: '140%' !important ;
+        width: "140%" !important ;
     }
 
     NavbarBrand {

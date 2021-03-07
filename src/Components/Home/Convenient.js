@@ -1,7 +1,7 @@
-import React from 'react'
-import ScrollAnimation from 'react-animate-on-scroll'
-import { Card, CardBody, CardTitle, Container, Row, Col } from 'reactstrap'
-import $ from 'jquery'
+import React from "react"
+import ScrollAnimation from "react-animate-on-scroll"
+import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap"
+import $ from "jquery"
 export default function Convenient() {
     return (
         <>
@@ -21,11 +21,11 @@ export default function Convenient() {
                                             <div className="card-image">
                                                 <img
                                                     style={{
-                                                        display: 'initial',
+                                                        display: "initial",
                                                     }}
                                                     alt="..."
                                                     className="image"
-                                                    src={require('assets/img/FreeOnes/Photos9.png')}
+                                                    src={require("assets/img/FreeOnes/Photos9.png")}
                                                 />
                                             </div>
                                         </Col>
@@ -33,8 +33,8 @@ export default function Convenient() {
                                             <ScrollAnimation
                                                 animateIn={
                                                     $(window).width() < 1400
-                                                        ? 'slideInLeft'
-                                                        : 'slideInRight'
+                                                        ? "slideInLeft"
+                                                        : "slideInRight"
                                                 }
                                                 animatePreScroll={true}
                                                 animateOnce={true}
@@ -43,8 +43,8 @@ export default function Convenient() {
                                             >
                                                 <CardBody>
                                                     <h6 className="card-category text-info">
-                                                        {' '}
-                                                        Traditional{' '}
+                                                        {" "}
+                                                        Traditional{" "}
                                                     </h6>
                                                     <CardTitle tag="h3">
                                                         <a
@@ -63,7 +63,7 @@ export default function Convenient() {
                                                         couneseling, then in
                                                         person counseling is a
                                                         perfect and conveinent
-                                                        option{' '}
+                                                        option{" "}
                                                     </p>
                                                 </CardBody>
                                             </ScrollAnimation>
@@ -103,7 +103,7 @@ export default function Convenient() {
                                                         are a perfect choice.
                                                         Calls are conducted via
                                                         Zoom, Google Meets, and
-                                                        or FaceTime.{' '}
+                                                        or FaceTime.{" "}
                                                     </p>
                                                 </CardBody>
                                             </ScrollAnimation>
@@ -113,7 +113,7 @@ export default function Convenient() {
                                                 <img
                                                     alt="..."
                                                     className="img"
-                                                    src={require('assets/img/FreeOnes/Photos7.png')}
+                                                    src={require("assets/img/FreeOnes/Photos7.png")}
                                                 />
                                             </div>
                                         </Col>

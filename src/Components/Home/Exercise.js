@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-import { Card, CardBody, CardTitle, Container, Row, Col } from 'reactstrap'
+import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap"
 
 export default function Exercise() {
     return (
@@ -8,7 +8,7 @@ export default function Exercise() {
             <Container>
                 <Row>
                     <Col className="ml-auto mr-auto" md="10">
-                        <h2 className="title" style={{ textAlign: 'center' }}>
+                        <h2 className="title" style={{ textAlign: "center" }}>
                             Importance of Exercise
                         </h2>
                         <br />
@@ -19,7 +19,7 @@ export default function Exercise() {
                                         <img
                                             alt="..."
                                             className="img"
-                                            src={require('assets/img/sections/jeff-sheldon.jpg')}
+                                            src={require("assets/img/sections/jeff-sheldon.jpg")}
                                         />
                                     </div>
                                 </Col>
@@ -77,7 +77,7 @@ export default function Exercise() {
                                             <img
                                                 alt="..."
                                                 className="img"
-                                                src={require('assets/img/sections/rawpixel-comm.jpg')}
+                                                src={require("assets/img/sections/rawpixel-comm.jpg")}
                                             />
                                         </a>
                                     </div>
@@ -95,7 +95,7 @@ export default function Exercise() {
                                             <img
                                                 alt="..."
                                                 className="img"
-                                                src={require('assets/img/sections/jeremy-yap.jpg')}
+                                                src={require("assets/img/sections/jeremy-yap.jpg")}
                                             />
                                         </a>
                                     </div>
@@ -121,7 +121,7 @@ export default function Exercise() {
                                             nominations – another indicator of
                                             the shift in how today’s consumers
                                             are watching TV. HBO, which has been
-                                            available.{' '}
+                                            available.{" "}
                                         </p>
                                     </CardBody>
                                 </Col>

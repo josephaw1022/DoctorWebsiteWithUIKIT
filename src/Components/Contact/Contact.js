@@ -1,25 +1,25 @@
-import React from 'react'
-import { Button, Form, Input, Container, Row, Col } from 'reactstrap'
+import React from "react"
+import { Button, Form, Input, Container, Row, Col } from "reactstrap"
 
 class ContactUs extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            Header: '',
-            SubHeader: '',
-            Content1: '',
-            Content2: '',
-            Social: '',
-            Note: '',
-            Send: '',
-            Visit: '',
+            Header: "",
+            SubHeader: "",
+            Content1: "",
+            Content2: "",
+            Social: "",
+            Note: "",
+            Send: "",
+            Visit: "",
             Form: [],
             SocialNetworks: [],
         }
     }
 
     componentWillMount() {
-        const file = require('./Contact.json')
+        const file = require("./Contact.json")
         this.setState({
             Header: file.Contact.Header,
             SubHeader: file.Contact.SubHeader,
@@ -40,20 +40,20 @@ class ContactUs extends React.Component {
         const SocialNetworks = this.state.SocialNetworks.map((index) => {
             return (
                 <Button className="btn-just-icon mr-1" color={index.Name}>
-                    <i className={'fa fa-' + index.Name} />
+                    <i className={"fa fa-" + index.Name} />
                 </Button>
             )
         })
 
         const Forms = this.state.Form.map((index) => {
-            let md = '6'
-            if (String(index.Type) === 'textarea') {
-                md = '12'
+            let md = "6"
+            if (String(index.Type) === "textarea") {
+                md = "12"
             }
             return (
                 <Col md={md}>
-                    <label style={{ color: '#fff' }} htmlFor={index.Name}>
-                        {' '}
+                    <label style={{ color: "#fff" }} htmlFor={index.Name}>
+                        {" "}
                         {index.Name}
                     </label>
                     <Input
@@ -67,12 +67,12 @@ class ContactUs extends React.Component {
 
         return (
             <>
-                <div className="section" style={{ backgroundColor: '#333' }} />
+                <div className="section" style={{ backgroundColor: "#333" }} />
                 <div className="main contact-page" id="ContactUs">
                     <div className="bg-success">
                         <div
                             className="section reddy"
-                            style={{ backgroundColor: '#333' }}
+                            style={{ backgroundColor: "#333" }}
                         >
                             <Container>
                                 <Row>
@@ -82,11 +82,11 @@ class ContactUs extends React.Component {
                                     >
                                         <h2
                                             className="title"
-                                            style={{ color: '#fff' }}
+                                            style={{ color: "#fff" }}
                                         >
                                             {this.state.Header}
                                         </h2>
-                                        <p style={{ color: '#fff' }}>
+                                        <p style={{ color: "#fff" }}>
                                             {this.state.SubHeader}
                                             <br />
                                             <br />

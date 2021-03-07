@@ -1,15 +1,15 @@
-import React from 'react'
-import './NAV.json'
-import './NavBar.css'
-import { Link } from 'react-router-dom'
-import { DropdownItem } from 'reactstrap'
+import React from "react"
+import "./NAV.json"
+import "./NavBar.css"
+import { Link } from "react-router-dom"
+import { DropdownItem } from "reactstrap"
 
 import {
     DropdownToggle,
     DropdownMenu,
     UncontrolledDropdown,
     Nav,
-} from 'reactstrap'
+} from "reactstrap"
 
 class DropDown extends React.Component {
     constructor(props) {
@@ -21,7 +21,7 @@ class DropDown extends React.Component {
     }
 
     OpenJsonFile() {
-        const file = require('./NAV.json')
+        const file = require("./NAV.json")
         this.setState({ menu: file.menu.list })
     }
 
@@ -38,7 +38,7 @@ class DropDown extends React.Component {
                         tag={Link}
                         className="btn-magnify "
                     >
-                        <i className={'nc-icon ' + index.Icon} />
+                        <i className={"nc-icon " + index.Icon} />
                         {index.Name}
                     </DropdownItem>
                 </>

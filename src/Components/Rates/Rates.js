@@ -1,8 +1,8 @@
-import React from 'react'
-import './Rates.css'
-import { Animated } from 'react-animated-css'
+import React from "react"
+import "./Rates.css"
+import { Animated } from "react-animated-css"
 // reactstrap components
-import { Card, CardBody, Container, Row, Col } from 'reactstrap'
+import { Card, CardBody, Container, Row, Col } from "reactstrap"
 
 class Rates extends React.Component {
     constructor(props) {
@@ -32,9 +32,9 @@ class Rates extends React.Component {
                                         <h2
                                             className="title title"
                                             style={{
-                                                color: 'white',
-                                                marginTop: '80px',
-                                                fontWeight: 'bold',
+                                                color: "white",
+                                                marginTop: "80px",
+                                                fontWeight: "bold",
                                             }}
                                         >
                                             Rates and Insurance
@@ -68,9 +68,9 @@ class Rates extends React.Component {
                                                             className="softblack"
                                                             style={{
                                                                 fontWeight:
-                                                                    'bold',
+                                                                    "bold",
                                                                 fontSize:
-                                                                    '20px',
+                                                                    "20px",
                                                             }}
                                                         >
                                                             Rates
@@ -82,13 +82,13 @@ class Rates extends React.Component {
                                                 <div className="clearfix" />
                                                 <p
                                                     className="card-description"
-                                                    style={{ color: '#333333' }}
+                                                    style={{ color: "#333333" }}
                                                 >
                                                     Adult Individual Counseling
                                                     - $100/50 minutes <br />
                                                     <br />
                                                     Adolescent Individual
-                                                    Counseling - $80/50 minutes{' '}
+                                                    Counseling - $80/50 minutes{" "}
                                                     <br />
                                                     <br />
                                                     Family Counseling - $120/50
@@ -124,9 +124,9 @@ class Rates extends React.Component {
                                                             className="softblack"
                                                             style={{
                                                                 fontWeight:
-                                                                    'bold',
+                                                                    "bold",
                                                                 fontSize:
-                                                                    '20px',
+                                                                    "20px",
                                                             }}
                                                         >
                                                             Insurance
@@ -138,7 +138,7 @@ class Rates extends React.Component {
                                                 <div className="clearfix" />
                                                 <p
                                                     className="card-description"
-                                                    style={{ color: '#333333' }}
+                                                    style={{ color: "#333333" }}
                                                 >
                                                     Sorry for the inconvenience;
                                                     we are in the process of
@@ -176,9 +176,9 @@ class Rates extends React.Component {
                                                             className="softblack"
                                                             style={{
                                                                 fontWeight:
-                                                                    'bold',
+                                                                    "bold",
                                                                 fontSize:
-                                                                    '20px',
+                                                                    "20px",
                                                             }}
                                                         >
                                                             Payment Methods
@@ -190,7 +190,7 @@ class Rates extends React.Component {
                                                 <div className="clearfix" />
                                                 <p
                                                     className="card-description"
-                                                    style={{ color: '#333333' }}
+                                                    style={{ color: "#333333" }}
                                                 >
                                                     Cash, check, or debit
                                                     (service fees apply)
@@ -226,9 +226,9 @@ class Rates extends React.Component {
                                                             className="softblack"
                                                             style={{
                                                                 fontWeight:
-                                                                    'bold',
+                                                                    "bold",
                                                                 fontSize:
-                                                                    '20px',
+                                                                    "20px",
                                                             }}
                                                         >
                                                             Cancellation Policy
@@ -240,7 +240,7 @@ class Rates extends React.Component {
                                                 <div className="clearfix" />
                                                 <p
                                                     className="card-description"
-                                                    style={{ color: '#333333' }}
+                                                    style={{ color: "#333333" }}
                                                 >
                                                     If you do not show up for
                                                     your scheduled therapy
@@ -279,9 +279,9 @@ class Rates extends React.Component {
                                                             className="softblack"
                                                             style={{
                                                                 fontWeight:
-                                                                    'bold',
+                                                                    "bold",
                                                                 fontSize:
-                                                                    '20px',
+                                                                    "20px",
                                                             }}
                                                         >
                                                             General Insurance
@@ -294,7 +294,7 @@ class Rates extends React.Component {
                                                 <div className="clearfix" />
                                                 <p
                                                     className="card-description"
-                                                    style={{ color: '#333333' }}
+                                                    style={{ color: "#333333" }}
                                                 >
                                                     Services may be covered in
                                                     full or in part by your

@@ -57,7 +57,7 @@
     }
 
     .codrops-links::after {
-        content: '';
+        content: "";
         position: absolute;
         top: 50%;
         left: 50%;
@@ -86,7 +86,7 @@
         font-weight: normal;
         font-style: normal;
         font-variant: normal;
-        font-family: 'codropsicons';
+        font-family: "codropsicons";
         line-height: 1;
 
         speak: none;
@@ -94,12 +94,12 @@
     }
 
     .codrops-icon--drop::before {
-        content: '\e001';
+        content: "\e001";
         color: #0099cc;
     }
 
     .codrops-icon--prev::before {
-        content: '\e004';
+        content: "\e004";
     }
 
     /* Demo links */
@@ -154,7 +154,7 @@
         color: #fff;
         position: relative;
         z-index: 1000;
-        font-family: 'Playfair Display', serif;
+        font-family: "Playfair Display", serif;
     }
 
     .section__heading em {
@@ -250,7 +250,7 @@
     }
 
     .pater::before {
-        content: '';
+        content: "";
         position: absolute;
         // background: url("../img/ink.png") no-repeat top left;
         width: 491px;
@@ -273,7 +273,7 @@
     }
 
     .pater__title::before {
-        content: 'Sponsored by';
+        content: "Sponsored by";
         position: absolute;
         bottom: 93%;
         left: 27%;
@@ -457,7 +457,7 @@
 
     /* Shadow effect */
     .isolayer--shadow .grid__link::before {
-        content: '';
+        content: "";
         position: absolute;
         z-index: -1;
         top: 5px;
@@ -603,7 +603,7 @@
     /* Shadow effect */
 
     .isolayer--shadow .grid__link::before {
-        content: '';
+        content: "";
 
         position: absolute;
 

@@ -1,11 +1,11 @@
-import './FAQs.css'
-import React from 'react'
+import "./FAQs.css"
+import React from "react"
 
-import { Row, Col, CardBody, CardTitle, Container } from 'reactstrap'
+import { Row, Col, CardBody, CardTitle, Container } from "reactstrap"
 
-import $ from 'jquery'
-import ScrollAnimation from 'react-animate-on-scroll'
-import Flippy, { FrontSide, BackSide } from 'react-flippy'
+import $ from "jquery"
+import ScrollAnimation from "react-animate-on-scroll"
+import Flippy, { FrontSide, BackSide } from "react-flippy"
 
 class FAQs extends React.Component {
     constructor(props) {
@@ -13,12 +13,12 @@ class FAQs extends React.Component {
         this.state = {
             FAQ: {},
             update: false,
-            cardBack: '',
+            cardBack: "",
         }
     }
 
     updateQuestion() {
-        let file = require('./faqInfo.json')
+        let file = require("./faqInfo.json")
         this.setState({ FAQ: file.FAQ, update: true })
     }
 
@@ -28,21 +28,20 @@ class FAQs extends React.Component {
 
     render() {
         let ComponentPieces = this.state.FAQ.Questions.map((index) => {
-            let cardSize = ''
-            let marginBottom = ''
+            let cardSize = ""
             if (index.Weird === true) {
-                cardSize = 'auto'
+                cardSize = "auto"
 
                 index.Answer = (
                     <p
                         style={{
-                            color: '#fff',
-                            overflow: 'hidden',
-                            fontSize: 'small',
-                            marginBottom: 'auto',
+                            color: "#fff",
+                            overflow: "hidden",
+                            fontSize: "small",
+                            marginBottom: "auto",
                         }}
                     >
-                        {' '}
+                        {" "}
                         - Therapy is a partnership between an individual and a
                         professional trained to help people understand their
                         feelings and help them change their behavior. People
@@ -86,12 +85,12 @@ class FAQs extends React.Component {
                                                                 e.preventDefault()
                                                             }
                                                             style={{
-                                                                color: '#333',
+                                                                color: "#333",
                                                                 fontWeight:
-                                                                    'bold',
+                                                                    "bold",
                                                                 textAlign:
-                                                                    'center',
-                                                                padding: '40px',
+                                                                    "center",
+                                                                padding: "40px",
                                                             }}
                                                             className={
                                                                 index.Color
@@ -107,17 +106,17 @@ class FAQs extends React.Component {
                                     <BackSide
                                         style={{
                                             height: cardSize,
-                                            zIndex: '1',
-                                            overflow: 'hidden',
+                                            zIndex: "1",
+                                            overflow: "hidden",
                                         }}
                                     >
                                         <CardBody
-                                            style={{ backgroundColor: '#333' }}
+                                            style={{ backgroundColor: "#333" }}
                                         >
                                             <p
                                                 style={{
-                                                    color: '#fff',
-                                                    fontWeight: 'bolder',
+                                                    color: "#fff",
+                                                    fontWeight: "bolder",
                                                 }}
                                             >
                                                 {index.Answer}
@@ -138,15 +137,15 @@ class FAQs extends React.Component {
                             <ScrollAnimation
                                 animateIn={
                                     $(window).width() < 900
-                                        ? 'slideInLeft'
-                                        : 'slideInRight'
+                                        ? "slideInLeft"
+                                        : "slideInRight"
                                 }
                                 animationOut="zoomOut"
                                 animatePreScroll={true}
                                 duration={0.5}
                                 animateOnce={true}
                             >
-                                <Flippy style={{ zIndex: '-1' }}>
+                                <Flippy style={{ zIndex: "-1" }}>
                                     <FrontSide style={{ height: cardSize }}>
                                         <Row>
                                             <Col md="12">
@@ -157,11 +156,11 @@ class FAQs extends React.Component {
                                                                 e.preventDefault()
                                                             }
                                                             style={{
-                                                                color: '#333',
+                                                                color: "#333",
                                                                 fontWeight:
-                                                                    'bold',
+                                                                    "bold",
                                                                 textAlign:
-                                                                    'center',
+                                                                    "center",
                                                             }}
                                                             className={
                                                                 index.Color2
@@ -177,14 +176,14 @@ class FAQs extends React.Component {
                                     <BackSide
                                         style={{
                                             height: cardSize,
-                                            zIndex: '1',
+                                            zIndex: "1",
                                         }}
                                     >
                                         <CardBody>
                                             <p
                                                 style={{
-                                                    color: '#fff',
-                                                    fontWeight: 'bolder',
+                                                    color: "#fff",
+                                                    fontWeight: "bolder",
                                                 }}
                                             >
                                                 {index.Answer2}
@@ -204,11 +203,11 @@ class FAQs extends React.Component {
             <>
                 <div
                     className="section"
-                    style={{ backgroundColor: '#333333' }}
+                    style={{ backgroundColor: "#333333" }}
                 />
                 <div
                     className="section "
-                    style={{ backgroundColor: '#333333' }}
+                    style={{ backgroundColor: "#333333" }}
                 >
                     <div className="blog-3" id="Exercise">
                         <Container>
@@ -217,10 +216,10 @@ class FAQs extends React.Component {
                                     <h1
                                         className="title"
                                         style={{
-                                            textAlign: 'center',
-                                            color: '#fff',
-                                            fontWeight: 'bolder',
-                                            marginBottom: '70px',
+                                            textAlign: "center",
+                                            color: "#fff",
+                                            fontWeight: "bolder",
+                                            marginBottom: "70px",
                                         }}
                                     >
                                         Frequently Asked Questions
@@ -235,7 +234,7 @@ class FAQs extends React.Component {
                 </div>
                 <div
                     className="section"
-                    style={{ backgroundColor: '#333333' }}
+                    style={{ backgroundColor: "#333333" }}
                 />
             </>
         )

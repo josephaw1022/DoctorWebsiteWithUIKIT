@@ -1,8 +1,8 @@
-import React from 'react'
-import './Home.css'
+import React from "react"
+import "./Home.css"
 
-import { Card, CardBody, CardTitle, Container } from 'reactstrap'
-import { Animated } from 'react-animated-css'
+import { Card, CardBody, CardTitle, Container } from "reactstrap"
+import { Animated } from "react-animated-css"
 
 export default function ClientResources() {
     return (
@@ -15,7 +15,7 @@ export default function ClientResources() {
                 >
                     <Card
                         className="my-element"
-                        style={{ backgroundColor: '#50bcdb' }}
+                        style={{ backgroundColor: "#50bcdb" }}
                     >
                         <CardTitle>Hello</CardTitle>
                         <CardBody>Hello Again</CardBody>

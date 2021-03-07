@@ -1,8 +1,8 @@
-import React from 'react'
-import { Container, Row, Col } from 'reactstrap'
+import React from "react"
+import { Container, Row, Col } from "reactstrap"
 // import {Animated} from "react-animated-css";
-import ScrollAnimation from 'react-animate-on-scroll'
-import $ from 'jquery'
+import ScrollAnimation from "react-animate-on-scroll"
+import $ from "jquery"
 // reactstrap components
 
 // core components
@@ -15,11 +15,11 @@ function LandingPageHeader(props) {
             const updateScroll = () => {
                 let windowScrollTop = window.pageYOffset / 3
                 pageHeader1.current.style.transform =
-                    'translate3d(0,' + windowScrollTop + 'px,0)'
+                    "translate3d(0," + windowScrollTop + "px,0)"
             }
-            window.addEventListener('scroll', updateScroll)
+            window.addEventListener("scroll", updateScroll)
             return function cleanup() {
-                window.removeEventListener('scroll', updateScroll)
+                window.removeEventListener("scroll", updateScroll)
             }
         }
     })
@@ -29,14 +29,14 @@ function LandingPageHeader(props) {
             <div
                 style={{
                     backgroundImage:
-                        'url(' +
-                        require('assets/img/FreeOnes/Email1.png') +
-                        ')',
+                        "url(" +
+                        require("assets/img/FreeOnes/Email1.png") +
+                        ")",
                 }}
                 className={
                     $(window).width() > 900
-                        ? 'parallax page-header'
-                        : 'page-header'
+                        ? "parallax page-header"
+                        : "page-header"
                 }
                 data-parallax={$(window).width() < 900 ? true : false}
                 ref={pageHeader1}
@@ -57,7 +57,7 @@ function LandingPageHeader(props) {
                                         <h1
                                             className="title text-center"
                                             id="navbarstuff"
-                                            style={{ position: 'sticky' }}
+                                            style={{ position: "sticky" }}
                                         >
                                             "{props.Quote}"
                                         </h1>
@@ -66,7 +66,7 @@ function LandingPageHeader(props) {
                                     <h1
                                         className="title text-center"
                                         id="navbarstuff"
-                                        style={{ position: 'sticky' }}
+                                        style={{ position: "sticky" }}
                                     >
                                         "{props.Quote}"
                                     </h1>

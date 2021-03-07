@@ -1,21 +1,21 @@
-import './GettingStarted.css'
-import React from 'react'
+import "./GettingStarted.css"
+import React from "react"
 // reactstrap components
-import { Button, Container, Row, Col } from 'reactstrap'
+import { Button, Container, Row, Col } from "reactstrap"
 
 // import { Link } from "react-router-dom"
-import { Animated } from 'react-animated-css'
+import { Animated } from "react-animated-css"
 
 class GettingStarted extends React.Component {
     render() {
         window.scrollTo(0, 0)
         return (
             <>
-                <div className="section" style={{ backgroundColor: '#333' }} />
-                <div className="section" style={{ backgroundColor: '#333' }} />
+                <div className="section" style={{ backgroundColor: "#333" }} />
+                <div className="section" style={{ backgroundColor: "#333" }} />
                 <div
                     className="section text-center"
-                    style={{ backgroundColor: '#333' }}
+                    style={{ backgroundColor: "#333" }}
                 >
                     <Container>
                         <Row>
@@ -27,9 +27,9 @@ class GettingStarted extends React.Component {
                                 >
                                     <h2
                                         className="title add-animation"
-                                        style={{ color: '#fff' }}
+                                        style={{ color: "#fff" }}
                                     >
-                                        {' '}
+                                        {" "}
                                         Please call me and fill out the
                                         following forms
                                     </h2>
@@ -54,13 +54,13 @@ class GettingStarted extends React.Component {
                                             <h4
                                                 className="info-title"
                                                 style={{
-                                                    color: '#fff',
-                                                    fontSize: '20px',
+                                                    color: "#fff",
+                                                    fontSize: "20px",
                                                 }}
                                             >
                                                 Hippa
                                             </h4>
-                                            <p style={{ color: '#fff' }}></p>
+                                            <p style={{ color: "#fff" }}></p>
                                             <a
                                                 href="A+HIPAA.docx"
                                                 rel="noopener noreferrer"
@@ -91,13 +91,13 @@ class GettingStarted extends React.Component {
                                             <h4
                                                 className="info-title"
                                                 style={{
-                                                    color: '#fff',
-                                                    fontSize: '20px',
+                                                    color: "#fff",
+                                                    fontSize: "20px",
                                                 }}
                                             >
                                                 Individual Consent
                                             </h4>
-                                            <p style={{ color: '#fff' }}></p>
+                                            <p style={{ color: "#fff" }}></p>
                                             <a
                                                 href="A+Diclosure-informed-consent.docx"
                                                 rel="noopener noreferrer"
@@ -128,13 +128,13 @@ class GettingStarted extends React.Component {
                                             <h4
                                                 className="info-title"
                                                 style={{
-                                                    color: '#fff',
-                                                    fontSize: '20px',
+                                                    color: "#fff",
+                                                    fontSize: "20px",
                                                 }}
                                             >
                                                 Financial Responsibility
                                             </h4>
-                                            <p style={{ color: '#fff' }}></p>
+                                            <p style={{ color: "#fff" }}></p>
                                             <a
                                                 href="A+-Patient-Financial-Responsibility-Form.docx"
                                                 rel="noopener noreferrer"
@@ -166,13 +166,13 @@ class GettingStarted extends React.Component {
                                             <h4
                                                 className="info-title"
                                                 style={{
-                                                    color: '#fff',
-                                                    fontSize: '20px',
+                                                    color: "#fff",
+                                                    fontSize: "20px",
                                                 }}
                                             >
                                                 Individual Intake
                                             </h4>
-                                            <p style={{ color: '#fff' }}></p>
+                                            <p style={{ color: "#fff" }}></p>
                                         </div>
                                         <a
                                             href="A+-Individual-Intake-2021.docx"
@@ -203,13 +203,13 @@ class GettingStarted extends React.Component {
                                             <h4
                                                 className="info-title"
                                                 style={{
-                                                    color: '#fff',
-                                                    fontSize: '20px',
+                                                    color: "#fff",
+                                                    fontSize: "20px",
                                                 }}
                                             >
                                                 Email Consent
                                             </h4>
-                                            <p style={{ color: '#fff' }}></p>
+                                            <p style={{ color: "#fff" }}></p>
                                         </div>
 
                                         <a

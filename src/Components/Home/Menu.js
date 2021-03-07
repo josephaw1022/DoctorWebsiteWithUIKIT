@@ -1,12 +1,12 @@
-import React from 'react'
-import ScrollAnimation from 'react-animate-on-scroll'
+import React from "react"
+import ScrollAnimation from "react-animate-on-scroll"
 
 // reactstrap components
-import { Button, Container, Row, Col } from 'reactstrap'
+import { Button, Container, Row, Col } from "reactstrap"
 
-import $ from 'jquery'
+import $ from "jquery"
 
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom"
 
 // core component
 
@@ -39,8 +39,8 @@ class Menu extends React.Component {
                         <ScrollAnimation
                             animateIn={
                                 $(window).width() > 900
-                                    ? 'slideInLeft'
-                                    : 'slideInLeft'
+                                    ? "slideInLeft"
+                                    : "slideInLeft"
                             }
                             animationOut="zoomOut"
                             animatePreScroll={true}
@@ -49,8 +49,8 @@ class Menu extends React.Component {
                         >
                             <Button
                                 style={{
-                                    backgroundColor: 'transparent',
-                                    borderColor: 'transparent',
+                                    backgroundColor: "transparent",
+                                    borderColor: "transparent",
                                 }}
                                 tag={Link}
                                 to={templink}
@@ -58,21 +58,21 @@ class Menu extends React.Component {
                                 <div className="info btn-magnify">
                                     <div className="icon icon-info ">
                                         <i
-                                            className={'nc-icon ' + value.Icon}
+                                            className={"nc-icon " + value.Icon}
                                         />
                                     </div>
                                     <div className="description">
                                         <h3
                                             className="info-title"
-                                            style={{ color: '#fff' }}
+                                            style={{ color: "#fff" }}
                                         >
                                             {value.Name}
                                         </h3>
                                         <br />
                                         <p
                                             style={{
-                                                color: '#fff',
-                                                textTransform: 'initial',
+                                                color: "#fff",
+                                                textTransform: "initial",
                                             }}
                                         >
                                             {value.Description}
@@ -100,7 +100,7 @@ class Menu extends React.Component {
                     <div className="main" data-parallex="true">
                         <div
                             className="section text-center menubg"
-                            style={{ backgroundcolor: '#333' }}
+                            style={{ backgroundcolor: "#333" }}
                         >
                             <Container>
                                 <Row>
@@ -113,14 +113,14 @@ class Menu extends React.Component {
                                         >
                                             <h2
                                                 className="title add-animation"
-                                                style={{ color: '#fff' }}
+                                                style={{ color: "#fff" }}
                                             >
-                                                {this.state.Menu.Title}{' '}
+                                                {this.state.Menu.Title}{" "}
                                             </h2>
                                             <h5
                                                 className="description"
                                                 id="Menu"
-                                                style={{ color: '#fff' }}
+                                                style={{ color: "#fff" }}
                                             >
                                                 {this.state.Menu.Description}
                                             </h5>

@@ -1,5 +1,5 @@
-import React from 'react'
-import './Home.css'
+import React from "react"
+import "./Home.css"
 
 class SideNav extends React.Component {
     constructor(props) {
@@ -7,12 +7,12 @@ class SideNav extends React.Component {
         this.state = {
             values: [],
             change: false,
-            current: '',
+            current: "",
         }
     }
 
     componentWillMount() {
-        let file = require('./navjs.json')
+        let file = require("./navjs.json")
         this.setState({ values: file.Nav, change: true })
     }
 
@@ -24,7 +24,7 @@ class SideNav extends React.Component {
 
                 return (
                     <li key={temp}>
-                        <a href={'#' + index.Name}>
+                        <a href={"#" + index.Name}>
                             <span className="cd-dot pointercolor" />
                             <span className="cd-label">{index.Name}</span>
                         </a>
@@ -34,7 +34,7 @@ class SideNav extends React.Component {
         }
 
         return (
-            <nav id="cd-vertical-nav" style={{ marginRight: '35px' }}>
+            <nav id="cd-vertical-nav" style={{ marginRight: "35px" }}>
                 <ul>{list}</ul>
             </nav>
         )

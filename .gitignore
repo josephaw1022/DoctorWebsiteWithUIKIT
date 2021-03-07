@@ -1,12 +1,1 @@
 node_modules
-.prettierignore 
-.prettierrc.json
-gulpfile.js
-jsconfig.json 
-package.json 
-yarn.lock 
-.env 
-.env.local
-.vscode
-headroom 
-

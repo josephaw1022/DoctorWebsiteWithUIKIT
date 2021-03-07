@@ -1,11 +1,11 @@
-import React from 'react'
-import { Button, Container, Row, Col } from 'reactstrap'
-import { Card, CardFooter, CardBody } from 'reactstrap'
-import $ from 'jquery'
+import React from "react"
+import { Button, Container, Row, Col } from "reactstrap"
+import { Card, CardFooter, CardBody } from "reactstrap"
+import $ from "jquery"
 
-import Hollistic from './Modals/ServicesOffered/Hollistic'
-import Individual from './Modals/ServicesOffered/Individual'
-import Faith from './Modals/ServicesOffered/Faith'
+import Hollistic from "./Modals/ServicesOffered/Hollistic"
+import Individual from "./Modals/ServicesOffered/Individual"
+import Faith from "./Modals/ServicesOffered/Faith"
 
 export default class ServicesOffered extends React.Component {
     constructor(props) {
@@ -23,12 +23,11 @@ export default class ServicesOffered extends React.Component {
         })
     }
 
-
     screensize() {
         if ($(window).width() < 900) {
             return null
         }
-        return ' parallax'
+        return " parallax"
     }
 
     render() {
@@ -49,9 +48,9 @@ export default class ServicesOffered extends React.Component {
                         <Row>
                             <Col md="4">
                                 <Card
-                                    className={'photo1 ' + this.screensize()}
+                                    className={"photo1 " + this.screensize()}
                                     data-background="image"
-                                    style={{ height: 'initial' }}
+                                    style={{ height: "initial" }}
                                 >
                                     <CardBody>
                                         <h6 className="card-category">
@@ -69,9 +68,9 @@ export default class ServicesOffered extends React.Component {
                             </Col>
                             <Col md="4">
                                 <Card
-                                    className={'photo2 ' + this.screensize()}
+                                    className={"photo2 " + this.screensize()}
                                     data-background="image"
-                                    style={{ height: 'initial' }}
+                                    style={{ height: "initial" }}
                                 >
                                     <CardBody>
                                         <h6 className="card-category">
@@ -92,9 +91,9 @@ export default class ServicesOffered extends React.Component {
                                     <Card
                                         data-background="image"
                                         className={
-                                            'photo3 ' + this.screensize()
+                                            "photo3 " + this.screensize()
                                         }
-                                        style={{ height: 'initial' }}
+                                        style={{ height: "initial" }}
                                     >
                                         <CardBody>
                                             <h6 className="card-category">
@@ -113,9 +112,9 @@ export default class ServicesOffered extends React.Component {
                                     <Card
                                         data-background="image"
                                         className={
-                                            'photo4 ' + this.screensize()
+                                            "photo4 " + this.screensize()
                                         }
-                                        style={{ height: 'initial' }}
+                                        style={{ height: "initial" }}
                                     >
                                         <CardBody>
                                             <h6 className="card-category">

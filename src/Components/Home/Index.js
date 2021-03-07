@@ -1,14 +1,14 @@
-import React from 'react'
-import PartOne from './PartOne'
-import Menu from './Menu'
-import ServicesOffered from './ServicesOffered'
-import Convenient from './Convenient'
-import OurTeam from './OurTeam'
-import Contact from './Contact'
-import SideNav from './SideNav'
-import TeleHealth from './TeleHealth'
+import React from "react"
+import PartOne from "./PartOne"
+import Menu from "./Menu"
+import ServicesOffered from "./ServicesOffered"
+import Convenient from "./Convenient"
+import OurTeam from "./OurTeam"
+import Contact from "./Contact"
+import SideNav from "./SideNav"
+import TeleHealth from "./TeleHealth"
 
-import './Home.css'
+import "./Home.css"
 
 class Index extends React.Component {
     constructor(props) {
@@ -25,7 +25,7 @@ class Index extends React.Component {
     }
 
     componentWillMount() {
-        let file = require('./navjs.json')
+        let file = require("./navjs.json")
         this.setState({
             PartOne: file.PageHeader,
             Menu: file.Menu,

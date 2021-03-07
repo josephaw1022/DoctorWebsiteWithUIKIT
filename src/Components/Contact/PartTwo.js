@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 // reactstrap components
 import {
@@ -10,7 +10,7 @@ import {
     Container,
     Row,
     Col,
-} from 'reactstrap'
+} from "reactstrap"
 
 export default function PartTwo() {
     ;<div className="main">
@@ -53,7 +53,7 @@ export default function PartTwo() {
                                     >
                                         <img
                                             alt="..."
-                                            src={require('assets/img/faces/ayo-ogunseinde-2.jpg')}
+                                            src={require("assets/img/faces/ayo-ogunseinde-2.jpg")}
                                         />
                                         <CardTitle tag="h4">
                                             Eric Thomson
@@ -106,7 +106,7 @@ export default function PartTwo() {
                                     >
                                         <img
                                             alt="..."
-                                            src={require('assets/img/faces/joe-gardner-2.jpg')}
+                                            src={require("assets/img/faces/joe-gardner-2.jpg")}
                                         />
                                         <CardTitle tag="h4">
                                             Sophia West
@@ -159,7 +159,7 @@ export default function PartTwo() {
                                     >
                                         <img
                                             alt="..."
-                                            src={require('assets/img/faces/clem-onojeghuo-2.jpg')}
+                                            src={require("assets/img/faces/clem-onojeghuo-2.jpg")}
                                         />
                                         <CardTitle tag="h4">
                                             Lucas Andrew

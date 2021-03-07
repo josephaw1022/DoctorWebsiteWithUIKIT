@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-import ScrollAnimation from 'react-animate-on-scroll'
+import ScrollAnimation from "react-animate-on-scroll"
 
 import {
     Button,
@@ -13,7 +13,7 @@ import {
     Container,
     Row,
     Col,
-} from 'reactstrap'
+} from "reactstrap"
 
 // core components
 
@@ -23,7 +23,7 @@ function SectionContactUs() {
             <div
                 className="section "
                 id="Contact"
-                style={{ backgroundColor: '#333', height: '110%' }}
+                style={{ backgroundColor: "#333", height: "110%" }}
             >
                 <div className="contactus-1">
                     <Container>
@@ -60,7 +60,7 @@ function SectionContactUs() {
                                                             </h4>
                                                             <p>
                                                                 Al Brown <br />
-                                                                843-589-1517{' '}
+                                                                843-589-1517{" "}
                                                                 <br />
                                                                 Mon - Fri, 8:00
                                                                 am - 5:00 pm

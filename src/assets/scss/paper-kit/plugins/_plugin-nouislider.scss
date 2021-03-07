@@ -48,7 +48,7 @@
 }
 /* Offset direction
  */
-html:not([dir='rtl']) .noUi-horizontal .noUi-origin {
+html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
     left: auto;
     right: 0;
 }
@@ -96,7 +96,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-origin {
     left: -6px;
     top: -17px;
 }
-html:not([dir='rtl']) .noUi-horizontal .noUi-handle {
+html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     right: -15px;
     left: auto;
     outline: none;

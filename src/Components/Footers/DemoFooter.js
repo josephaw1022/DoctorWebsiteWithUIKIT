@@ -1,7 +1,7 @@
-import React from 'react'
-import './Footer.css'
+import React from "react"
+import "./Footer.css"
 // reactstrap components
-import { Row, Container, Col, Form, FormGroup, Button, Input } from 'reactstrap'
+import { Row, Container, Col, Form, FormGroup, Button, Input } from "reactstrap"
 
 export default function DemoFooter() {
     return (
@@ -9,8 +9,8 @@ export default function DemoFooter() {
             <div
                 className="subscribe-line subscribe-line-transparent"
                 style={{
-                    backgroundImage: 'url(' + require('./footerpic.png') + ')',
-                    paddingTop: '10px',
+                    backgroundImage: "url(" + require("./footerpic.png") + ")",
+                    paddingTop: "10px",
                 }}
             >
                 <Container>
@@ -19,8 +19,8 @@ export default function DemoFooter() {
                             <Form
                                 className=""
                                 style={{
-                                    paddingBottom: '10px',
-                                    paddingTop: '10px',
+                                    paddingBottom: "10px",
+                                    paddingTop: "10px",
                                 }}
                             >
                                 <FormGroup>
@@ -40,8 +40,8 @@ export default function DemoFooter() {
                                 color="info"
                                 type="button"
                                 style={{
-                                    yapaddingBottom: '10px',
-                                    paddingTop: '10px',
+                                    yapaddingBottom: "10px",
+                                    paddingTop: "10px",
                                 }}
                             >
                                 Subscribe Now!

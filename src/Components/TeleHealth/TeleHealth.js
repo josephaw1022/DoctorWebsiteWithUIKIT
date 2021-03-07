@@ -1,20 +1,20 @@
-import './TeleHealth.css'
-import React from 'react'
-import { Row, Col, Card, CardBody, CardTitle, Container } from 'reactstrap'
-import { Animated } from 'react-animated-css'
+import "./TeleHealth.css"
+import React from "react"
+import { Row, Col, Card, CardBody, CardTitle, Container } from "reactstrap"
+import { Animated } from "react-animated-css"
 
 class TeleHealth extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            Title: '',
-            Description: '',
-            Color: '',
+            Title: "",
+            Description: "",
+            Color: "",
         }
     }
 
     componentWillMount() {
-        const file = require('./TeleHealth.json')
+        const file = require("./TeleHealth.json")
         this.setState({
             Title: file.TeleHealth.Title,
             Description: file.TeleHealth.Description,
@@ -31,10 +31,10 @@ class TeleHealth extends React.Component {
 
         return (
             <>
-                <div className="section " style={{ backgroundColor: '#333' }} />
+                <div className="section " style={{ backgroundColor: "#333" }} />
                 <div
                     className="section section-grey fill"
-                    style={{ backgroundColor: '#333' }}
+                    style={{ backgroundColor: "#333" }}
                 >
                     <div className="" id="TeleHealth">
                         <Container>
@@ -48,9 +48,9 @@ class TeleHealth extends React.Component {
                                         <h2
                                             className="title"
                                             style={{
-                                                textAlign: 'center',
-                                                fontWeight: 'bolder',
-                                                color: '#fff',
+                                                textAlign: "center",
+                                                fontWeight: "bolder",
+                                                color: "#fff",
                                             }}
                                         >
                                             Telehealth
@@ -77,13 +77,13 @@ class TeleHealth extends React.Component {
                                                                     }
                                                                     style={{
                                                                         color:
-                                                                            '#fff',
+                                                                            "#fff",
                                                                         fontWeight:
-                                                                            'bold',
+                                                                            "bold",
                                                                     }}
                                                                     className={
                                                                         Color +
-                                                                        ' fixh3'
+                                                                        " fixh3"
                                                                     }
                                                                 >
                                                                     {Title}
@@ -93,9 +93,9 @@ class TeleHealth extends React.Component {
                                                                 className="card-description fixp"
                                                                 style={{
                                                                     color:
-                                                                        '#fff',
+                                                                        "#fff",
                                                                     fontSize:
-                                                                        '20px',
+                                                                        "20px",
                                                                 }}
                                                             >
                                                                 {Description}
@@ -111,7 +111,7 @@ class TeleHealth extends React.Component {
                         </Container>
                     </div>
                 </div>
-                <div className="section " style={{ backgroundColor: '#333' }} />
+                <div className="section " style={{ backgroundColor: "#333" }} />
             </>
         )
     }

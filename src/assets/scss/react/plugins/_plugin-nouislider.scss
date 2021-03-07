@@ -61,7 +61,7 @@ This file was modified by Creative-Tim
 }
 /* Offset direction
  */
-html:not([dir='rtl']) .noUi-horizontal .noUi-origin {
+html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
     left: auto;
     right: 0;
 }
@@ -111,7 +111,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-origin {
     left: 0px;
     top: -7px;
 }
-html:not([dir='rtl']) .noUi-horizontal .noUi-handle {
+html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     right: -7px;
     left: auto;
 }

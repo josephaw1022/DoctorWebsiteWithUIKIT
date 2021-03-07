@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 // reactstrap components
 import {
     Button,
@@ -11,7 +11,7 @@ import {
     CardTitle,
     CardFooter,
     //  CardImg
-} from 'reactstrap'
+} from "reactstrap"
 
 function Bio(props) {
     const [scrollingLongContent, setScrollingLongContent] = React.useState(
@@ -25,24 +25,24 @@ function Bio(props) {
                     <Col md="6">
                         <Button
                             style={{
-                                backgroundColor: 'transparent',
-                                borderColor: 'transparent',
+                                backgroundColor: "transparent",
+                                borderColor: "transparent",
                             }}
                             onClick={() => setScrollingLongContent(true)}
                         >
                             <Card
                                 className="card-profile card-contact"
-                                style={{ borderRadius: '25px' }}
+                                style={{ borderRadius: "25px" }}
                             >
                                 <div className="card-image">
                                     <img
                                         style={{
-                                            display: 'initial',
-                                            borderRadius: '25px',
+                                            display: "initial",
+                                            borderRadius: "25px",
                                         }}
                                         alt="..."
                                         className="image"
-                                        src={require('assets/img/brownprofile.png')}
+                                        src={require("assets/img/brownprofile.png")}
                                     />
                                 </div>
                             </Card>

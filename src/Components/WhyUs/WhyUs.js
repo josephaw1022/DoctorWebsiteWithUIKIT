@@ -1,6 +1,6 @@
-import React from 'react'
-import './WhyUs.css'
-import { Card, CardBody, CardTitle, Container, Row, Col } from 'reactstrap'
+import React from "react"
+import "./WhyUs.css"
+import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap"
 
 class WhyUs extends React.Component {
     render() {
@@ -8,10 +8,10 @@ class WhyUs extends React.Component {
 
         return (
             <>
-                <div className="section" style={{ backgroundColor: '#333' }} />
+                <div className="section" style={{ backgroundColor: "#333" }} />
                 <div
                     className="section section-grey"
-                    style={{ backgroundColor: '#333' }}
+                    style={{ backgroundColor: "#333" }}
                 >
                     <div className="blog-3" id="Exercise">
                         <Container>
@@ -20,12 +20,12 @@ class WhyUs extends React.Component {
                                     <h2
                                         className="title"
                                         style={{
-                                            textAlign: 'center',
-                                            color: '#fff',
+                                            textAlign: "center",
+                                            color: "#fff",
                                         }}
                                     >
-                                        {' '}
-                                        Why Us?{' '}
+                                        {" "}
+                                        Why Us?{" "}
                                     </h2>
                                     <br />
                                     <Card className="card-plain card-blog">
@@ -35,7 +35,7 @@ class WhyUs extends React.Component {
                                                     <img
                                                         alt="..."
                                                         className="img"
-                                                        src={require('assets/img/sections/jeff-sheldon.jpg')}
+                                                        src={require("assets/img/sections/jeff-sheldon.jpg")}
                                                     />
                                                 </div>
                                             </Col>
@@ -96,7 +96,7 @@ class WhyUs extends React.Component {
                                                         <img
                                                             alt="..."
                                                             className="img"
-                                                            src={require('assets/img/sections/rawpixel-comm.jpg')}
+                                                            src={require("assets/img/sections/rawpixel-comm.jpg")}
                                                         />
                                                     </a>
                                                 </div>
@@ -116,7 +116,7 @@ class WhyUs extends React.Component {
                                                         <img
                                                             alt="..."
                                                             className="img"
-                                                            src={require('assets/img/sections/jeremy-yap.jpg')}
+                                                            src={require("assets/img/sections/jeremy-yap.jpg")}
                                                         />
                                                     </a>
                                                 </div>
@@ -145,7 +145,7 @@ class WhyUs extends React.Component {
                                                         in how today’s consumers
                                                         are watching TV. HBO,
                                                         which has been
-                                                        available.{' '}
+                                                        available.{" "}
                                                     </p>
                                                 </CardBody>
                                             </Col>

@@ -1,18 +1,18 @@
-import React from 'react'
-import { Container, Row, Col } from 'reactstrap'
+import React from "react"
+import { Container, Row, Col } from "reactstrap"
 
-import Bio from './Modals/Bio/Bio'
+import Bio from "./Modals/Bio/Bio"
 
 class OurTeam extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            Title: '',
-            Description: '',
-            Name: '',
-            Position: '',
-            Bio: '',
-            ForModal: '',
+            Title: "",
+            Description: "",
+            Name: "",
+            Position: "",
+            Bio: "",
+            ForModal: "",
         }
     }
 
@@ -30,7 +30,7 @@ class OurTeam extends React.Component {
     render() {
         return (
             <>
-                <div className="team-3" id="OurTeam" style={{ height: '100%' }}>
+                <div className="team-3" id="OurTeam" style={{ height: "100%" }}>
                     <Container>
                         <Row>
                             <Col className="ml-auto mr-auto text-center" md="8">
@@ -55,7 +55,7 @@ class OurTeam extends React.Component {
                 </div>
                 <div
                     className="section phonechange"
-                    style={{ backgroundColor: '#fff' }}
+                    style={{ backgroundColor: "#fff" }}
                 />
             </>
         )

@@ -1,22 +1,22 @@
-import React, { Component } from 'react'
-import { Card, CardBody, CardTitle, Container, Row, Col } from 'reactstrap'
-import { Animated } from 'react-animated-css'
-import './Future.css'
+import React, { Component } from "react"
+import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap"
+import { Animated } from "react-animated-css"
+import "./Future.css"
 
 class Future extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            Title1: '',
-            Title2: '',
-            Content1: '',
-            Content2: '',
-            Header: '',
+            Title1: "",
+            Title2: "",
+            Content1: "",
+            Content2: "",
+            Header: "",
         }
     }
 
     componentWillMount() {
-        const file = require('./Future.json')
+        const file = require("./Future.json")
         this.setState({
             Title1: file.Future.Articles.Title,
             Title2: file.Future.Articles.Title2,
@@ -34,11 +34,11 @@ class Future extends Component {
                 <div id="fadeInAnim">
                     <div
                         className="section"
-                        style={{ backgroundColor: '#333' }}
+                        style={{ backgroundColor: "#333" }}
                     />
                     <div
                         className="section section-grey"
-                        style={{ backgroundColor: '#333' }}
+                        style={{ backgroundColor: "#333" }}
                     >
                         <div className="blog-3" id="Exercise">
                             <Container>
@@ -47,12 +47,12 @@ class Future extends Component {
                                         <h2
                                             className="title"
                                             style={{
-                                                textAlign: 'center',
-                                                color: '#fff',
-                                                fontWeight: 'bolder',
+                                                textAlign: "center",
+                                                color: "#fff",
+                                                fontWeight: "bolder",
                                             }}
                                         >
-                                            {this.state.Header}{' '}
+                                            {this.state.Header}{" "}
                                         </h2>
                                         <br />
                                         <Card className="card-plain card-blog">
@@ -68,16 +68,16 @@ class Future extends Component {
                                                             <div
                                                                 className="card-image"
                                                                 style={{
-                                                                    top: '50%',
+                                                                    top: "50%",
                                                                 }}
                                                             >
                                                                 <img
                                                                     alt="..."
                                                                     className="img togglershow opfd"
-                                                                    src={require('assets/img/FreeOnes/Photos20.png')}
+                                                                    src={require("assets/img/FreeOnes/Photos20.png")}
                                                                     style={{
                                                                         top:
-                                                                            '50%',
+                                                                            "50%",
                                                                     }}
                                                                 />
                                                             </div>
@@ -89,7 +89,7 @@ class Future extends Component {
                                                     <Row></Row>
                                                     <Row
                                                         style={{
-                                                            marginLeft: '10px',
+                                                            marginLeft: "10px",
                                                         }}
                                                     >
                                                         <Animated
@@ -110,7 +110,7 @@ class Future extends Component {
                                                                     className="card-description"
                                                                     style={{
                                                                         color:
-                                                                            '#fff',
+                                                                            "#fff",
                                                                     }}
                                                                 >
                                                                     {
@@ -146,7 +146,7 @@ class Future extends Component {
                                                                 className="card-description"
                                                                 style={{
                                                                     color:
-                                                                        '#fff',
+                                                                        "#fff",
                                                                 }}
                                                             >
                                                                 {
@@ -172,13 +172,13 @@ class Future extends Component {
                                                             <div
                                                                 className="card-image"
                                                                 style={{
-                                                                    top: '50%',
+                                                                    top: "50%",
                                                                 }}
                                                             >
                                                                 <img
                                                                     alt="..."
                                                                     className="img togglershow opfd"
-                                                                    src={require('assets/img/FreeOnes/Photos19.png')}
+                                                                    src={require("assets/img/FreeOnes/Photos19.png")}
                                                                 />
                                                             </div>
                                                         </Row>
@@ -194,7 +194,7 @@ class Future extends Component {
                     </div>
                     <div
                         className="section"
-                        style={{ backgroundColor: '#333' }}
+                        style={{ backgroundColor: "#333" }}
                     />
                 </div>
             </>

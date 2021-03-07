@@ -1621,7 +1621,7 @@
 }
 
 .separator {
-    content: 'Separator';
+    content: "Separator";
     color: #ffffff;
     display: block;
     width: 100%;
@@ -1813,7 +1813,7 @@ pre.prettyprint {
     position: absolute;
     background-color: #ccc;
     width: 1px;
-    content: '';
+    content: "";
     right: -7px;
     top: 0;
 }
@@ -2072,7 +2072,7 @@ pre.prettyprint {
 
 .wrapper .demo-header .filter::after {
     background-color: rgba(0, 0, 0, 0.5);
-    content: '';
+    content: "";
     display: block;
     height: 600px;
     left: 0;
@@ -2127,7 +2127,7 @@ pre.prettyprint {
     left: 0;
     background: black;
     opacity: 0.66;
-    content: '';
+    content: "";
 }
 
 .presentation-page .section-header {
@@ -2163,7 +2163,7 @@ pre.prettyprint {
     padding: 180px 0;
 }
 
-.presentation-page .section-icons [class*='col-']:nth-child(2) {
+.presentation-page .section-icons [class*="col-"]:nth-child(2) {
     padding: 0 70px;
 }
 
@@ -2938,7 +2938,7 @@ pre.prettyprint {
 /* Shadow effect */
 
 .isolayer--shadow .grid__link::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 5px;
@@ -3178,7 +3178,7 @@ pre.prettyprint {
 
 .demo-icons ul::after {
     clear: both;
-    content: '';
+    content: "";
     display: table;
 }
 
@@ -3236,11 +3236,11 @@ pre.prettyprint {
 }
 
 .demo-icons ul em::before {
-    content: '[';
+    content: "[";
 }
 
 .demo-icons ul em::after {
-    content: ']';
+    content: "]";
 }
 
 .demo-icons ul input {

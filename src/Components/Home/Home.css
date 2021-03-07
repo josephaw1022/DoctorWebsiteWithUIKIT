@@ -16,7 +16,7 @@
 }
 
 .ppbgf {
-    background-image: url('./img/Photos12.png') !important;
+    background-image: url("./img/Photos12.png") !important;
 }
 
 .important {
@@ -49,17 +49,17 @@
 }
 
 .photo2 {
-    background-image: url('./img/Photos21.png') !important;
+    background-image: url("./img/Photos21.png") !important;
     background-position: center right;
 }
 .photo3 {
-    background-image: url('./img/Photos221.png') !important;
+    background-image: url("./img/Photos221.png") !important;
     background-position: left center;
     background-attachment: fixed !important;
     background-size: cover !important; /* Resize the background image to cover the entire container */
 }
 .photo4 {
-    background-image: url('./img/Photos221.png') !important;
+    background-image: url("./img/Photos221.png") !important;
 }
 
 .menubg {
@@ -71,7 +71,7 @@
 }
 
 .photo1 {
-    background-image: url('./img/Photos3.png');
+    background-image: url("./img/Photos3.png");
     background-position: center right;
 }
 

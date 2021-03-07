@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 // reactstrap components
 import {
@@ -9,7 +9,7 @@ import {
     Container,
     Row,
     Col,
-} from 'reactstrap'
+} from "reactstrap"
 
 export default function BlogPosts() {
     return (
@@ -18,8 +18,8 @@ export default function BlogPosts() {
                 <Row>
                     <Col className="ml-auto mr-auto" md="8">
                         <h2 className="title text-center">
-                            {' '}
-                            Latest Blogposts{' '}
+                            {" "}
+                            Latest Blogposts{" "}
                         </h2>
                         <br />
                     </Col>
@@ -35,7 +35,7 @@ export default function BlogPosts() {
                                     <img
                                         alt="..."
                                         className="img img-raised"
-                                        src={require('assets/img/FreeOnes/Photos15.png')}
+                                        src={require("assets/img/FreeOnes/Photos15.png")}
                                         height
                                     />
                                 </a>
@@ -79,7 +79,7 @@ export default function BlogPosts() {
                                     <img
                                         alt="..."
                                         className="img img-raised"
-                                        src={require('assets/img/FreeOnes/Photos17.png')}
+                                        src={require("assets/img/FreeOnes/Photos17.png")}
                                     />
                                 </a>
                             </div>
@@ -123,7 +123,7 @@ export default function BlogPosts() {
                                     <img
                                         alt="..."
                                         className="img img-raised"
-                                        src={require('assets/img/FreeOnes/Photos14.png')}
+                                        src={require("assets/img/FreeOnes/Photos14.png")}
                                     />
                                 </a>
                             </div>
@@ -165,7 +165,7 @@ export default function BlogPosts() {
                                     <img
                                         alt="..."
                                         className="img img-raised"
-                                        src={require('assets/img/FreeOnes/Photos11.png')}
+                                        src={require("assets/img/FreeOnes/Photos11.png")}
                                     />
                                 </a>
                             </div>

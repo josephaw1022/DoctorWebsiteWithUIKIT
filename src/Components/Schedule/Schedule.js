@@ -1,8 +1,8 @@
-import React from 'react'
-import './Schedule.css'
-import InfiniteCalendar from 'react-infinite-calendar'
-import 'react-infinite-calendar/styles.css'
-import { CardBody, Card, Container } from 'reactstrap'
+import React from "react"
+import "./Schedule.css"
+import InfiniteCalendar from "react-infinite-calendar"
+import "react-infinite-calendar/styles.css"
+import { CardBody, Card, Container } from "reactstrap"
 
 export default class extends React.Component {
     render() {
@@ -10,12 +10,12 @@ export default class extends React.Component {
             <>
                 <div
                     className="section"
-                    style={{ backgroundColor: '#333', height: '100px' }}
+                    style={{ backgroundColor: "#333", height: "100px" }}
                 />
                 <div
                     div
                     className="section"
-                    style={{ backgroundColor: '#333' }}
+                    style={{ backgroundColor: "#333" }}
                 >
                     <div className="text-center">
                         <Container>
@@ -24,11 +24,11 @@ export default class extends React.Component {
                                     <InfiniteCalendar
                                         width="80%"
                                         style={{
-                                            left: '50%',
-                                            position: 'relative',
+                                            left: "50%",
+                                            position: "relative",
                                         }}
                                         displayOptions={{
-                                            layout: 'portrait',
+                                            layout: "portrait",
                                             showOverlay: false,
                                             shouldHeaderAnimate: false,
                                         }}

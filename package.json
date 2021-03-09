@@ -24,11 +24,14 @@
     "react-datetime": "2.16.3",
     "react-dom": "16.13.1",
     "react-flippy": "^0.1.5",
+    "react-headroom": "^3.1.0",
     "react-infinite-calendar": "^2.3.1",
     "react-parallax": "^3.1.2",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.1",
+    "react-scroll-progress-bar": "^1.1.13",
+    "react-stickynode": "^3.0.4",
     "reactstrap": "8.4.1"
   },
   "scripts": {

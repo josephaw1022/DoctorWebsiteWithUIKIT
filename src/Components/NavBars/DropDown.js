@@ -51,9 +51,9 @@ class DropDown extends React.Component {
                     <UncontrolledDropdown nav inNavbar>
                         <DropdownToggle
                             className="mr-2"
-                            color="default"
                             caret
                             nav
+                            style={{ color: "#51bcda" }}
                         >
                             More
                         </DropdownToggle>

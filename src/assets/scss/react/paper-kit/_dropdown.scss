@@ -21,7 +21,10 @@
         }
     }
 }
-.dropdown.show .dropdown-menu .dropdown:not(.show) .dropdown-menu {
+.dropdown.show
+    .dropdown-menu
+    .dropdown:not(.show)
+    .dropdown-menu {
     display: none;
 }
 .dropdown-menu {

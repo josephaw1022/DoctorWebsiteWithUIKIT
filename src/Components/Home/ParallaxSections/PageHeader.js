@@ -57,7 +57,9 @@ function LandingPageHeader(props) {
                                         <h1
                                             className="title text-center"
                                             id="navbarstuff"
-                                            style={{ position: "sticky" }}
+                                            style={{
+                                                position: "sticky",
+                                            }}
                                         >
                                             "{props.Quote}"
                                         </h1>
@@ -66,7 +68,9 @@ function LandingPageHeader(props) {
                                     <h1
                                         className="title text-center"
                                         id="navbarstuff"
-                                        style={{ position: "sticky" }}
+                                        style={{
+                                            position: "sticky",
+                                        }}
                                     >
                                         "{props.Quote}"
                                     </h1>

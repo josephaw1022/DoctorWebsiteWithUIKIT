@@ -11,7 +11,7 @@ class SideNav extends React.Component {
         }
     }
 
-    componentWillMount() {
+    componentDidMount() {
         let file = require("./navjs.json")
         this.setState({ values: file.Nav, change: true })
     }
@@ -22,9 +22,23 @@ class SideNav extends React.Component {
             var list = this.state.values.map((index) => {
                 const temp = String(index.Name)
 
+                function onClickScroll(temp) {
+                    document.getElementById(temp).scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                        inline: "nearest",
+                    })
+                }
+
                 return (
                     <li key={temp}>
-                        <a href={"#" + index.Name}>
+                        <a
+                            href={"#" + index.Name}
+                            id={"#" + index.Name}
+                            onClick={(event) => (
+                                event.preventDefault(), onClickScroll(temp)
+                            )}
+                        >
                             <span className="cd-dot pointercolor" />
                             <span className="cd-label">{index.Name}</span>
                         </a>

@@ -27,7 +27,9 @@ class GettingStarted extends React.Component {
                                 >
                                     <h2
                                         className="title add-animation"
-                                        style={{ color: "#fff" }}
+                                        style={{
+                                            color: "#fff",
+                                        }}
                                     >
                                         {" "}
                                         Please call me and fill out the
@@ -60,7 +62,11 @@ class GettingStarted extends React.Component {
                                             >
                                                 Hippa
                                             </h4>
-                                            <p style={{ color: "#fff" }}></p>
+                                            <p
+                                                style={{
+                                                    color: "#fff",
+                                                }}
+                                            ></p>
                                             <a
                                                 href="A+HIPAA.docx"
                                                 rel="noopener noreferrer"
@@ -97,7 +103,11 @@ class GettingStarted extends React.Component {
                                             >
                                                 Individual Consent
                                             </h4>
-                                            <p style={{ color: "#fff" }}></p>
+                                            <p
+                                                style={{
+                                                    color: "#fff",
+                                                }}
+                                            ></p>
                                             <a
                                                 href="A+Diclosure-informed-consent.docx"
                                                 rel="noopener noreferrer"
@@ -134,7 +144,11 @@ class GettingStarted extends React.Component {
                                             >
                                                 Financial Responsibility
                                             </h4>
-                                            <p style={{ color: "#fff" }}></p>
+                                            <p
+                                                style={{
+                                                    color: "#fff",
+                                                }}
+                                            ></p>
                                             <a
                                                 href="A+-Patient-Financial-Responsibility-Form.docx"
                                                 rel="noopener noreferrer"
@@ -172,7 +186,11 @@ class GettingStarted extends React.Component {
                                             >
                                                 Individual Intake
                                             </h4>
-                                            <p style={{ color: "#fff" }}></p>
+                                            <p
+                                                style={{
+                                                    color: "#fff",
+                                                }}
+                                            ></p>
                                         </div>
                                         <a
                                             href="A+-Individual-Intake-2021.docx"
@@ -209,7 +227,11 @@ class GettingStarted extends React.Component {
                                             >
                                                 Email Consent
                                             </h4>
-                                            <p style={{ color: "#fff" }}></p>
+                                            <p
+                                                style={{
+                                                    color: "#fff",
+                                                }}
+                                            ></p>
                                         </div>
 
                                         <a

@@ -15,7 +15,9 @@ export default function ClientResources() {
                 >
                     <Card
                         className="my-element"
-                        style={{ backgroundColor: "#50bcdb" }}
+                        style={{
+                            backgroundColor: "#50bcdb",
+                        }}
                     >
                         <CardTitle>Hello</CardTitle>
                         <CardBody>Hello Again</CardBody>

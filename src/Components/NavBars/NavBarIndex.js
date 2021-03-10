@@ -8,6 +8,7 @@ import {
     Navbar,
     Container,
     UncontrolledTooltip,
+    Button,
 } from "reactstrap"
 import DropDown from "./DropDown"
 import $ from "jquery"
@@ -15,7 +16,9 @@ import ProgressBar from "react-scroll-progress-bar"
 import Sticky from "react-stickynode"
 import Headroom from "react-headroom"
 export default function NavBarIndex() {
+    // eslint-disable-next-line
     const [navbarColor, setNavbarColor] = React.useState("transparent")
+
     const [bodyClick, setBodyClick] = React.useState(false)
     const [collapseOpen, setCollapseOpen] = React.useState(false)
 
@@ -33,10 +36,19 @@ export default function NavBarIndex() {
                 />
             ) : null}
 
-            <Sticky>
-                <ProgressBar bgcolor="#51bcda" />
-            </Sticky>
-            <Headroom style={{ zIndex: "8000", backgroundColor: "#333" }}>
+            <Headroom
+                style={{
+                    zIndex: "8000",
+                    backgroundColor: "#333",
+                }}
+            >
+                <Sticky>
+                    <ProgressBar
+                        bgcolor="#51bcda"
+                        duration={3}
+                        className="fixProgress"
+                    />
+                </Sticky>
                 <Navbar
                     className={classnames("", navbarColor)}
                     expand="md"
@@ -49,7 +61,10 @@ export default function NavBarIndex() {
                                 id="navbar-brand"
                                 to="/"
                                 tag={Link}
-                                style={{ fontSize: "80%", color: "#51bcda" }}
+                                style={{
+                                    fontSize: "80%",
+                                    color: "#51bcda",
+                                }}
                             >
                                 <img
                                     alt=" "
@@ -67,11 +82,13 @@ export default function NavBarIndex() {
                             >
                                 {Title}
                             </UncontrolledTooltip>
-                            <button
+                            <Button
                                 className="navbar-toggler"
                                 id="navigation"
                                 type="button"
-                                style={{ backgroundColor: "transparent" }}
+                                style={{
+                                    backgroundColor: "transparent",
+                                }}
                                 onClick={() => {
                                     document.documentElement.classList.toggle(
                                         "nav-open"
@@ -88,13 +105,15 @@ export default function NavBarIndex() {
                                         <span className="navbar-toggler-bar bar3 bg-info" />{" "}
                                     </>
                                 )}
-                            </button>
+                            </Button>
                         </div>
 
                         <Collapse
                             navbar
                             isOpen={collapseOpen}
-                            style={{ backgroundColor: "transparent" }}
+                            style={{
+                                backgroundColor: "transparent",
+                            }}
                         >
                             <DropDown />
                         </Collapse>

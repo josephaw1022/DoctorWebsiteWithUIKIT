@@ -32,7 +32,9 @@ function Bio(props) {
                         >
                             <Card
                                 className="card-profile card-contact"
-                                style={{ borderRadius: "25px" }}
+                                style={{
+                                    borderRadius: "25px",
+                                }}
                             >
                                 <div className="card-image">
                                     <img

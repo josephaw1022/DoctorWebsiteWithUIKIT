@@ -45,7 +45,9 @@ class TeleHealth extends React.Component {
                     <div className="" id="TeleHealth">
                         <div
                             className="section"
-                            style={{ backgroundColor: "transparent" }}
+                            style={{
+                                backgroundColor: "transparent",
+                            }}
                         />
                         <Container style={{ top: "50%" }}>
                             <Row>
@@ -60,7 +62,9 @@ class TeleHealth extends React.Component {
                                             <CardTitle
                                                 className="text-center"
                                                 tag="h3"
-                                                style={{ color: "#f5593d" }}
+                                                style={{
+                                                    color: "#f5593d",
+                                                }}
                                             >
                                                 {this.state.Title} <hr />
                                             </CardTitle>
@@ -92,7 +96,9 @@ class TeleHealth extends React.Component {
                         </Container>
                         <div
                             className="section"
-                            style={{ backgroundColor: "transparent" }}
+                            style={{
+                                backgroundColor: "transparent",
+                            }}
                         />
                     </div>
                 </div>

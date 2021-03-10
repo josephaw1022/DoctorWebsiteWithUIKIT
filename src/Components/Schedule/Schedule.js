@@ -10,7 +10,10 @@ export default class extends React.Component {
             <>
                 <div
                     className="section"
-                    style={{ backgroundColor: "#333", height: "100px" }}
+                    style={{
+                        backgroundColor: "#333",
+                        height: "100px",
+                    }}
                 />
                 <div
                     div

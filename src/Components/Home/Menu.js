@@ -64,7 +64,9 @@ class Menu extends React.Component {
                                     <div className="description">
                                         <h3
                                             className="info-title"
-                                            style={{ color: "#fff" }}
+                                            style={{
+                                                color: "#fff",
+                                            }}
                                         >
                                             {value.Name}
                                         </h3>
@@ -100,7 +102,9 @@ class Menu extends React.Component {
                     <div className="main" data-parallex="true">
                         <div
                             className="section text-center menubg"
-                            style={{ backgroundcolor: "#333" }}
+                            style={{
+                                backgroundcolor: "#333",
+                            }}
                         >
                             <Container>
                                 <Row>
@@ -113,14 +117,18 @@ class Menu extends React.Component {
                                         >
                                             <h2
                                                 className="title add-animation"
-                                                style={{ color: "#fff" }}
+                                                style={{
+                                                    color: "#fff",
+                                                }}
                                             >
                                                 {this.state.Menu.Title}{" "}
                                             </h2>
                                             <h5
                                                 className="description"
                                                 id="Menu"
-                                                style={{ color: "#fff" }}
+                                                style={{
+                                                    color: "#fff",
+                                                }}
                                             >
                                                 {this.state.Menu.Description}
                                             </h5>

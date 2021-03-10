@@ -111,7 +111,8 @@ video {
 
 // For IE Browser
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+@media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
     .page-header {
         .content-center {
             position: absolute;

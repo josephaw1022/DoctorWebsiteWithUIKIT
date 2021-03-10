@@ -9,11 +9,31 @@
         "Send": "Send",
         "Visit": "Or come and visit",
         "Form": [
-            { "Name": "First Name", "Type": "text", "Rows": "1" },
-            { "Name": "Last Name", "Type": "text", "Rows": "1" },
-            { "Name": "Email", "Type": "text", "Rows": "1" },
-            { "Name": "Subject", "Type": "text", "Rows": "1" },
-            { "Name": "Message", "Type": "textarea", "Rows": "7" }
+            {
+                "Name": "First Name",
+                "Type": "text",
+                "Rows": "1"
+            },
+            {
+                "Name": "Last Name",
+                "Type": "text",
+                "Rows": "1"
+            },
+            {
+                "Name": "Email",
+                "Type": "text",
+                "Rows": "1"
+            },
+            {
+                "Name": "Subject",
+                "Type": "text",
+                "Rows": "1"
+            },
+            {
+                "Name": "Message",
+                "Type": "textarea",
+                "Rows": "7"
+            }
         ],
         "SocialNetworks": [
             { "Name": "facebook" },

@@ -65,12 +65,18 @@
     position: absolute;
     visibility: hidden;
 }
-.form-check input[type="checkbox"]:checked + .form-check-sign::after {
+.form-check
+    input[type="checkbox"]:checked
+    + .form-check-sign::after {
     opacity: 1;
 }
 
-.form-control input[type="checkbox"]:disabled + .form-check-sign::before,
-.checkbox input[type="checkbox"]:disabled + .form-check-sign::after {
+.form-control
+    input[type="checkbox"]:disabled
+    + .form-check-sign::before,
+.checkbox
+    input[type="checkbox"]:disabled
+    + .form-check-sign::after {
     cursor: not-allowed;
 }
 
@@ -78,7 +84,9 @@
     .form-check-label
     input[type="checkbox"]:disabled
     + .form-check-sign,
-.form-check-radio input[type="radio"]:disabled + .form-check-sign {
+.form-check-radio
+    input[type="radio"]:disabled
+    + .form-check-sign {
     pointer-events: none !important;
 }
 
@@ -110,11 +118,15 @@
     top: -5px;
 }
 
-.form-check-label input[type="checkbox"]:checked + .form-check-sign:before {
+.form-check-label
+    input[type="checkbox"]:checked
+    + .form-check-sign:before {
     background-color: #66615b;
 }
 
-.form-check-radio input[type="radio"] + .form-check-sign:after,
+.form-check-radio
+    input[type="radio"]
+    + .form-check-sign:after,
 .form-check-radio input[type="radio"] {
     opacity: 0;
     @include transition-opacity(0.3s, linear);
@@ -122,7 +134,9 @@
     display: block;
 }
 
-.form-check-radio input[type="radio"]:checked + .form-check-sign::after {
+.form-check-radio
+    input[type="radio"]:checked
+    + .form-check-sign::after {
     font-family: "FontAwesome";
     content: "\f192";
     top: -5px;
@@ -132,11 +146,17 @@
     font-size: 22px;
 }
 
-.form-check-radio input[type="radio"]:checked + .form-check-sign::after {
+.form-check-radio
+    input[type="radio"]:checked
+    + .form-check-sign::after {
     opacity: 1;
 }
 
-.form-check-radio input[type="radio"]:disabled + .form-check-sign::before,
-.form-check-radio input[type="radio"]:disabled + .form-check-sign::after {
+.form-check-radio
+    input[type="radio"]:disabled
+    + .form-check-sign::before,
+.form-check-radio
+    input[type="radio"]:disabled
+    + .form-check-sign::after {
     color: $dark-gray;
 }

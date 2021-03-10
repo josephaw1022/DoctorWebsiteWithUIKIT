@@ -50,7 +50,9 @@ export default class ServicesOffered extends React.Component {
                                 <Card
                                     className={"photo1 " + this.screensize()}
                                     data-background="image"
-                                    style={{ height: "initial" }}
+                                    style={{
+                                        height: "initial",
+                                    }}
                                 >
                                     <CardBody>
                                         <h6 className="card-category">
@@ -70,7 +72,9 @@ export default class ServicesOffered extends React.Component {
                                 <Card
                                     className={"photo2 " + this.screensize()}
                                     data-background="image"
-                                    style={{ height: "initial" }}
+                                    style={{
+                                        height: "initial",
+                                    }}
                                 >
                                     <CardBody>
                                         <h6 className="card-category">
@@ -93,7 +97,9 @@ export default class ServicesOffered extends React.Component {
                                         className={
                                             "photo3 " + this.screensize()
                                         }
-                                        style={{ height: "initial" }}
+                                        style={{
+                                            height: "initial",
+                                        }}
                                     >
                                         <CardBody>
                                             <h6 className="card-category">
@@ -114,7 +120,9 @@ export default class ServicesOffered extends React.Component {
                                         className={
                                             "photo4 " + this.screensize()
                                         }
-                                        style={{ height: "initial" }}
+                                        style={{
+                                            height: "initial",
+                                        }}
                                     >
                                         <CardBody>
                                             <h6 className="card-category">

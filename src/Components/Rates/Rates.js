@@ -82,7 +82,9 @@ class Rates extends React.Component {
                                                 <div className="clearfix" />
                                                 <p
                                                     className="card-description"
-                                                    style={{ color: "#333333" }}
+                                                    style={{
+                                                        color: "#333333",
+                                                    }}
                                                 >
                                                     Adult Individual Counseling
                                                     - $100/50 minutes <br />
@@ -138,7 +140,9 @@ class Rates extends React.Component {
                                                 <div className="clearfix" />
                                                 <p
                                                     className="card-description"
-                                                    style={{ color: "#333333" }}
+                                                    style={{
+                                                        color: "#333333",
+                                                    }}
                                                 >
                                                     Sorry for the inconvenience;
                                                     we are in the process of
@@ -190,7 +194,9 @@ class Rates extends React.Component {
                                                 <div className="clearfix" />
                                                 <p
                                                     className="card-description"
-                                                    style={{ color: "#333333" }}
+                                                    style={{
+                                                        color: "#333333",
+                                                    }}
                                                 >
                                                     Cash, check, or debit
                                                     (service fees apply)
@@ -240,7 +246,9 @@ class Rates extends React.Component {
                                                 <div className="clearfix" />
                                                 <p
                                                     className="card-description"
-                                                    style={{ color: "#333333" }}
+                                                    style={{
+                                                        color: "#333333",
+                                                    }}
                                                 >
                                                     If you do not show up for
                                                     your scheduled therapy
@@ -294,7 +302,9 @@ class Rates extends React.Component {
                                                 <div className="clearfix" />
                                                 <p
                                                     className="card-description"
-                                                    style={{ color: "#333333" }}
+                                                    style={{
+                                                        color: "#333333",
+                                                    }}
                                                 >
                                                     Services may be covered in
                                                     full or in part by your

@@ -1,6 +1,7 @@
 $font-color: #66615b !default;
 $fill-font-color: rgba(255, 255, 255, 0.8);
-$font-family-sans-serif: "Montserrat", "Helvetica", Arial, sans-serif;
+$font-family-sans-serif: "Montserrat", "Helvetica", Arial,
+    sans-serif;
 
 $none: 0 !default;
 $border-thin: 1px !default;
@@ -112,14 +113,20 @@ $border-radius-large: 6px !default;
 $border-radius-x-large: 8px !default;
 $border-radius-extreme: 12px !default;
 
-$border-radius-none-top: $border-radius-none $border-radius-none 0 0 !default;
-$border-radius-none-bottom: 0 0 $border-radius-none $border-radius-none !default;
+$border-radius-none-top: $border-radius-none
+    $border-radius-none 0 0 !default;
+$border-radius-none-bottom: 0 0 $border-radius-none
+    $border-radius-none !default;
 
-$border-radius-small-top: $border-radius-small $border-radius-small 0 0 !default;
-$border-radius-small-bottom: 0 0 $border-radius-small $border-radius-small !default;
+$border-radius-small-top: $border-radius-small
+    $border-radius-small 0 0 !default;
+$border-radius-small-bottom: 0 0 $border-radius-small
+    $border-radius-small !default;
 
-$border-radius-large-top: $border-radius-large $border-radius-large 0 0 !default;
-$border-radius-large-bottom: 0 0 $border-radius-large $border-radius-large !default;
+$border-radius-large-top: $border-radius-large
+    $border-radius-large 0 0 !default;
+$border-radius-large-bottom: 0 0 $border-radius-large
+    $border-radius-large !default;
 
 $btn-round-radius: 30px !default;
 
@@ -156,7 +163,8 @@ $border-radius-top: 10px 10px 0 0 !default;
 $border-radius-bottom: 0 0 10px 10px !default;
 $border-radius-dropdown: 10px 10px !default;
 
-$dropdown-shadow: 0 2px rgba(17, 16, 15, 0.1), 0 2px 10px rgba(17, 16, 15, 0.1);
+$dropdown-shadow: 0 2px rgba(17, 16, 15, 0.1),
+    0 2px 10px rgba(17, 16, 15, 0.1);
 
 $general-transition-time: 300ms !default;
 
@@ -167,7 +175,12 @@ $fast-transition-time: 150ms !default;
 $select-coordinates: 50% -40px !default;
 
 $transition-linear: linear !default;
-$transition-bezier: cubic-bezier(0.34, 1.61, 0.7, 1) !default;
+$transition-bezier: cubic-bezier(
+    0.34,
+    1.61,
+    0.7,
+    1
+) !default;
 $transition-ease: ease 0s;
 
 $navbar-padding-a: 10px 15px;

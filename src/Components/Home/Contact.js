@@ -23,7 +23,10 @@ function SectionContactUs() {
             <div
                 className="section "
                 id="Contact"
-                style={{ backgroundColor: "#333", height: "110%" }}
+                style={{
+                    backgroundColor: "#333",
+                    height: "110%",
+                }}
             >
                 <div className="contactus-1">
                     <Container>

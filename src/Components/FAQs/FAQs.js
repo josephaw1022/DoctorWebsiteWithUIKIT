@@ -75,7 +75,11 @@ class FAQs extends React.Component {
                                 animateOnce={true}
                             >
                                 <Flippy className=" card card-contact">
-                                    <FrontSide style={{ height: cardSize }}>
+                                    <FrontSide
+                                        style={{
+                                            height: cardSize,
+                                        }}
+                                    >
                                         <Row>
                                             <Col md="12">
                                                 <CardBody>
@@ -111,7 +115,9 @@ class FAQs extends React.Component {
                                         }}
                                     >
                                         <CardBody
-                                            style={{ backgroundColor: "#333" }}
+                                            style={{
+                                                backgroundColor: "#333",
+                                            }}
                                         >
                                             <p
                                                 style={{
@@ -145,8 +151,16 @@ class FAQs extends React.Component {
                                 duration={0.5}
                                 animateOnce={true}
                             >
-                                <Flippy style={{ zIndex: "-1" }}>
-                                    <FrontSide style={{ height: cardSize }}>
+                                <Flippy
+                                    style={{
+                                        zIndex: "-1",
+                                    }}
+                                >
+                                    <FrontSide
+                                        style={{
+                                            height: cardSize,
+                                        }}
+                                    >
                                         <Row>
                                             <Col md="12">
                                                 <CardBody>

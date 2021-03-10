@@ -244,7 +244,8 @@ export default function Menu2() {
                                         and the products are not burdened with
                                         non-essentials. Back to purity, back to
                                         simplicity. At best, it is
-                                        self-explanatory.{'"'}
+                                        self-explanatory.
+                                        {'"'}
                                     </p>
                                 </CardBody>
                             </Card>

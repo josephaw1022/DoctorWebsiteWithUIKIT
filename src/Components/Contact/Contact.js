@@ -72,7 +72,9 @@ class ContactUs extends React.Component {
                     <div className="bg-success">
                         <div
                             className="section reddy"
-                            style={{ backgroundColor: "#333" }}
+                            style={{
+                                backgroundColor: "#333",
+                            }}
                         >
                             <Container>
                                 <Row>
@@ -82,11 +84,17 @@ class ContactUs extends React.Component {
                                     >
                                         <h2
                                             className="title"
-                                            style={{ color: "#fff" }}
+                                            style={{
+                                                color: "#fff",
+                                            }}
                                         >
                                             {this.state.Header}
                                         </h2>
-                                        <p style={{ color: "#fff" }}>
+                                        <p
+                                            style={{
+                                                color: "#fff",
+                                            }}
+                                        >
                                             {this.state.SubHeader}
                                             <br />
                                             <br />

@@ -193,7 +193,8 @@
     > div {
         -ms-animation: uil-reload-css 1.4s linear infinite;
         -moz-animation: uil-reload-css 1.4s linear infinite;
-        -webkit-animation: uil-reload-css 1.4s linear infinite;
+        -webkit-animation: uil-reload-css 1.4s linear
+            infinite;
         -o-animation: uil-reload-css 1.4s linear infinite;
         animation: uil-reload-css 1.4s linear infinite;
         display: block;
@@ -215,11 +216,13 @@
         height: 0px;
         border-style: solid;
         border-width: 0 8px 8px 8px;
-        border-color: transparent transparent $preloader-color transparent;
+        border-color: transparent transparent
+            $preloader-color transparent;
         display: block;
         -ms-transform: translate(-3px, -5px) rotate(45deg);
         -moz-transform: translate(-3px, -5px) rotate(45deg);
-        -webkit-transform: translate(-3px, -5px) rotate(45deg);
+        -webkit-transform: translate(-3px, -5px)
+            rotate(45deg);
         -o-transform: translate(-3px, -5px) rotate(45deg);
         transform: translate(-3px, -5px) rotate(45deg);
     }
@@ -244,7 +247,8 @@
         border-width: 0 5px 5px 5px;
         -ms-transform: translate(-2px, -3px) rotate(45deg);
         -moz-transform: translate(-2px, -3px) rotate(45deg);
-        -webkit-transform: translate(-2px, -3px) rotate(45deg);
+        -webkit-transform: translate(-2px, -3px)
+            rotate(45deg);
         -o-transform: translate(-2px, -3px) rotate(45deg);
         transform: translate(-2px, -3px) rotate(45deg);
     }
@@ -261,7 +265,8 @@
     }
 
     > div:after {
-        border-color: transparent transparent $white-color transparent;
+        border-color: transparent transparent $white-color
+            transparent;
     }
 }
 .uil-reload-css.reload-background.reload-small {

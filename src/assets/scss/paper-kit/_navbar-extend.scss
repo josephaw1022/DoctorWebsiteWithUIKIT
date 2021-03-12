@@ -223,8 +223,7 @@
 
 .navbar-nav > .dropdown-menu,
 .dropdown .dropdown-menu {
-    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1)
-            0s,
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s,
         opacity 0.3s ease 0s, height 0s linear 0.35s;
 }
 
@@ -252,9 +251,7 @@
 }
 
 .navbar-toggler .navbar-toggler-bar + .navbar-toggler-bar,
-.navbar-toggler
-    .navbar-toggler-icon
-    + .navbar-toggler-icon {
+.navbar-toggler .navbar-toggler-icon + .navbar-toggler-icon {
     margin-top: 4px;
 }
 

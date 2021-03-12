@@ -1,6 +1,5 @@
 @mixin label-style() {
-    padding: $padding-label-vertical
-        $padding-label-horizontal;
+    padding: $padding-label-vertical $padding-label-horizontal;
     border: 1px solid $default-color;
     border-radius: $border-radius-small;
     color: $default-color;

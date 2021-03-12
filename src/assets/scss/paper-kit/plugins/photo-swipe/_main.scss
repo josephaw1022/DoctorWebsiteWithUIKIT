@@ -126,8 +126,7 @@
     -ms-transform-origin: left top;
     transform-origin: left top;
     /* for open/close transition */
-    transition: transform
-        $pswp__show-hide-transition-duration
+    transition: transform $pswp__show-hide-transition-duration
         cubic-bezier(0.4, 0, 0.22, 1);
 }
 

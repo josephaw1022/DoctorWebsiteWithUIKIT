@@ -129,14 +129,10 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     border-radius: 3px;
     background: #fff;
     cursor: default;
-    box-shadow: inset 0 0 1px #fff, inset 0 1px 7px #ebebeb,
-        0 3px 6px -3px #bbb;
-    -webkit-transition: $general-transition-time
-        $transition-ease;
-    -moz-transition: $general-transition-time
-        $transition-ease;
-    -ms-transition: $general-transition-time
-        $transition-ease;
+    box-shadow: inset 0 0 1px #fff, inset 0 1px 7px #ebebeb, 0 3px 6px -3px #bbb;
+    -webkit-transition: $general-transition-time $transition-ease;
+    -moz-transition: $general-transition-time $transition-ease;
+    -ms-transition: $general-transition-time $transition-ease;
     -o-transform: $general-transition-time $transition-ease;
     transition: $general-transition-time $transition-ease;
 }

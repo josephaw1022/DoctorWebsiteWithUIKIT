@@ -1,5 +1,4 @@
-.navbar-default:not(.navbar-transparent)
-    .btn-default.dropdown-toggle:hover {
+.navbar-default:not(.navbar-transparent) .btn-default.dropdown-toggle:hover {
     background-color: $default-color;
     color: $transparent-bg;
     border-color: $default-color;

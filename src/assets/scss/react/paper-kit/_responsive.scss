@@ -69,9 +69,7 @@
     .navbar .navbar-nav .dropdown-menu .dropdown-menu {
         max-height: unset !important;
     }
-    .dropdown
-        .dropdown-menu
-        .dropdown-toggle.dropdown-item {
+    .dropdown .dropdown-menu .dropdown-toggle.dropdown-item {
         pointer-events: none;
     }
 }

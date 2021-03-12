@@ -93,8 +93,7 @@
     }
 
     .open & {
-        border-radius: $border-radius-base
-            $border-radius-base 0 0;
+        border-radius: $border-radius-base $border-radius-base 0 0;
         border-bottom-color: transparent;
     }
 
@@ -158,8 +157,7 @@
 .input-group .form-control:first-child,
 .input-group:not(.input-group-text):first-child,
 .input-group-btn:first-child > .dropdown-toggle,
-.input-group-btn:last-child
-    > .btn:not(:last-child):not(.dropdown-toggle) {
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
     border-right: 0 none;
 }
 .input-group .form-control:last-child,
@@ -185,8 +183,7 @@ fieldset[disabled] .form-control {
 
 .input-group-btn .btn {
     border-width: $border-thin;
-    padding: $padding-round-vertical
-        $padding-base-horizontal;
+    padding: $padding-round-vertical $padding-base-horizontal;
 }
 .input-group-btn .btn-default:not(.btn-fill) {
     border-color: $medium-gray;

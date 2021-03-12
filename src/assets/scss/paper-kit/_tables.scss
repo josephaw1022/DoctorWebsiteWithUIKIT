@@ -133,8 +133,7 @@
 
 // quatity buttons
 
-.btn-group
-    .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+.btn-group .btn:first-child:not(:last-child):not(.dropdown-toggle) {
     color: $default-color;
 
     &:hover {

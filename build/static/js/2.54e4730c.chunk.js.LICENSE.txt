@@ -5,14 +5,14 @@ object-assign
 */
 
 /*!
-   * Sizzle CSS Selector Engine v2.3.5
+   * Sizzle CSS Selector Engine v2.3.6
    * https://sizzlejs.com/
    *
    * Copyright JS Foundation and other contributors
    * Released under the MIT license
    * https://js.foundation/
    *
-   * Date: 2020-03-14
+   * Date: 2021-02-16
    */
 
 /*!
@@ -22,23 +22,17 @@ object-assign
 */
 
 /*!
- * headroom.js v0.12.0 - Give your page some headroom. Hide your header until you need it
- * Copyright (c) 2020 Nick Williams - http://wicky.nillia.ms/headroom.js
- * License: MIT
- */
-
-/*!
- * jQuery JavaScript Library v3.5.1
+ * jQuery JavaScript Library v3.6.0
  * https://jquery.com/
  *
  * Includes Sizzle.js
  * https://sizzlejs.com/
  *
- * Copyright JS Foundation and other contributors
+ * Copyright OpenJS Foundation and other contributors
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2020-05-04T22:49Z
+ * Date: 2021-03-02T17:08Z
  */
 
 /** @license React v0.19.1
@@ -87,6 +81,15 @@ object-assign
  */
 
 /** @license React v16.14.0
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.1
  * react.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.

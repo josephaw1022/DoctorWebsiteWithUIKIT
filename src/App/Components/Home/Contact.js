@@ -48,9 +48,7 @@ function SectionContactUs() {
                                             <Col className="ml-auto" md="5">
                                                 <CardBody>
                                                     <div className="info info-horizontal">
-                                                        <div className="icon icon-info">
-                                                            {/* <i className="nc-icon nc-pin-3" /> */}
-                                                        </div>
+                                                        <div className="icon icon-info"></div>
                                                         <div className="description"></div>
                                                     </div>
                                                     <div className="info info-horizontal">

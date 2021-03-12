@@ -1,8 +1,4 @@
-@mixin input-size(
-    $padding-vertical,
-    $padding-horizontal,
-    $height
-) {
+@mixin input-size($padding-vertical, $padding-horizontal, $height) {
     padding: $padding-vertical $padding-horizontal;
     height: $height;
 }
@@ -26,9 +22,7 @@
     @include optional-at-root(":-ms-input-placeholder") {
         @content;
     } // Internet Explorer 10+
-    @include optional-at-root(
-        "::-webkit-input-placeholder"
-    ) {
+    @include optional-at-root("::-webkit-input-placeholder") {
         @content;
     } // Safari and Chrome
 }

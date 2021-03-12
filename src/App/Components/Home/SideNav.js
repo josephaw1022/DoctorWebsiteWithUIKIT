@@ -36,6 +36,7 @@ class SideNav extends React.Component {
                             href={"#" + index.Name}
                             id={"#" + index.Name}
                             onClick={(event) => (
+                                // eslint-disable-next-line
                                 event.preventDefault(), onClickScroll(temp)
                             )}
                         >

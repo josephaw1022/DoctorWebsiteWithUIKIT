@@ -60,54 +60,30 @@ select.selectpicker {
 .bootstrap-select > .dropdown-toggle.bs-placeholder:active {
     color: #999;
 }
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-primary,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-secondary,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-success,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-danger,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-info,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-dark,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-primary:hover,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-secondary:hover,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-success:hover,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-danger:hover,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-info:hover,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-dark:hover,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-primary:focus,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-secondary:focus,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-success:focus,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-danger:focus,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-info:focus,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-dark:focus,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-primary:active,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-secondary:active,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-success:active,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-danger:active,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-info:active,
-.bootstrap-select
-    > .dropdown-toggle.bs-placeholder.btn-dark:active {
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-primary,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-secondary,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-success,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-danger,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-info,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-dark,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-primary:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-secondary:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-success:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-danger:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-info:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-dark:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-primary:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-secondary:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-success:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-danger:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-info:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-dark:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-primary:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-secondary:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-success:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-danger:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-info:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-dark:active {
     color: rgba(255, 255, 255, 0.5);
 }
 .bootstrap-select > select {
@@ -131,17 +107,11 @@ select.selectpicker {
 .has-error .bootstrap-select .dropdown-toggle,
 .error .bootstrap-select .dropdown-toggle,
 .bootstrap-select.is-invalid .dropdown-toggle,
-.was-validated
-    .bootstrap-select
-    .selectpicker:invalid
-    + .dropdown-toggle {
+.was-validated .bootstrap-select .selectpicker:invalid + .dropdown-toggle {
     border-color: #b94a48;
 }
 .bootstrap-select.is-valid .dropdown-toggle,
-.was-validated
-    .bootstrap-select
-    .selectpicker:valid
-    + .dropdown-toggle {
+.was-validated .bootstrap-select .selectpicker:valid + .dropdown-toggle {
     border-color: #28a745;
 }
 .bootstrap-select.fit-width {
@@ -160,8 +130,7 @@ select.selectpicker {
     padding: 0;
     border: none;
 }
-:not(.input-group)
-    > .bootstrap-select.form-control:not([class*="col-"]) {
+:not(.input-group) > .bootstrap-select.form-control:not([class*="col-"]) {
     width: 100%;
 }
 .bootstrap-select.form-control.input-group-btn {
@@ -191,12 +160,8 @@ select.selectpicker {
 .form-group-sm .bootstrap-select.form-control {
     padding: 0;
 }
-.form-group-lg
-    .bootstrap-select.form-control
-    .dropdown-toggle,
-.form-group-sm
-    .bootstrap-select.form-control
-    .dropdown-toggle {
+.form-group-lg .bootstrap-select.form-control .dropdown-toggle,
+.form-group-sm .bootstrap-select.form-control .dropdown-toggle {
     height: 100%;
     font-size: inherit;
     line-height: inherit;
@@ -254,9 +219,7 @@ select.selectpicker {
 .bootstrap-select .dropdown-toggle .filter-option-inner {
     padding-right: inherit;
 }
-.bootstrap-select
-    .dropdown-toggle
-    .filter-option-inner-inner {
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
     overflow: hidden;
 }
 .bootstrap-select .dropdown-toggle .caret {
@@ -266,9 +229,7 @@ select.selectpicker {
     margin-top: -2px;
     vertical-align: middle;
 }
-.input-group
-    .bootstrap-select.form-control
-    .dropdown-toggle {
+.input-group .bootstrap-select.form-control .dropdown-toggle {
     border-radius: inherit;
 }
 .bootstrap-select[class*="col-"] .dropdown-toggle {
@@ -349,19 +310,13 @@ select.selectpicker {
     margin: 0 5px;
     white-space: nowrap;
 }
-.bootstrap-select.fit-width
-    .dropdown-toggle
-    .filter-option {
+.bootstrap-select.fit-width .dropdown-toggle .filter-option {
     position: static;
     display: inline;
     padding: 0;
 }
-.bootstrap-select.fit-width
-    .dropdown-toggle
-    .filter-option-inner,
-.bootstrap-select.fit-width
-    .dropdown-toggle
-    .filter-option-inner-inner {
+.bootstrap-select.fit-width .dropdown-toggle .filter-option-inner,
+.bootstrap-select.fit-width .dropdown-toggle .filter-option-inner-inner {
     display: inline;
 }
 .bootstrap-select.fit-width .dropdown-toggle .caret {
@@ -369,10 +324,7 @@ select.selectpicker {
     top: auto;
     margin-top: -1px;
 }
-.bootstrap-select.show-tick
-    .dropdown-menu
-    .selected
-    span.check-mark {
+.bootstrap-select.show-tick .dropdown-menu .selected span.check-mark {
     position: absolute;
     display: inline-block;
     right: 15px;
@@ -397,9 +349,7 @@ select.selectpicker {
 .bootstrap-select.show-menu-arrow.show > .dropdown-toggle {
     z-index: 1061;
 }
-.bootstrap-select.show-menu-arrow
-    .dropdown-toggle
-    .filter-option:before {
+.bootstrap-select.show-menu-arrow .dropdown-toggle .filter-option:before {
     content: "";
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
@@ -409,9 +359,7 @@ select.selectpicker {
     left: 9px;
     display: none;
 }
-.bootstrap-select.show-menu-arrow
-    .dropdown-toggle
-    .filter-option:after {
+.bootstrap-select.show-menu-arrow .dropdown-toggle .filter-option:after {
     content: "";
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
@@ -429,9 +377,7 @@ select.selectpicker {
     border-top: 7px solid rgba(204, 204, 204, 0.2);
     border-bottom: 0;
 }
-.bootstrap-select.show-menu-arrow.dropup
-    .dropdown-toggle
-    .filter-option:after {
+.bootstrap-select.show-menu-arrow.dropup .dropdown-toggle .filter-option:after {
     bottom: auto;
     top: -4px;
     border-top: 6px solid white;
@@ -449,18 +395,10 @@ select.selectpicker {
     right: 13px;
     left: auto;
 }
-.bootstrap-select.show-menu-arrow.open
-    > .dropdown-toggle
-    .filter-option:before,
-.bootstrap-select.show-menu-arrow.show
-    > .dropdown-toggle
-    .filter-option:before,
-.bootstrap-select.show-menu-arrow.open
-    > .dropdown-toggle
-    .filter-option:after,
-.bootstrap-select.show-menu-arrow.show
-    > .dropdown-toggle
-    .filter-option:after {
+.bootstrap-select.show-menu-arrow.open > .dropdown-toggle .filter-option:before,
+.bootstrap-select.show-menu-arrow.show > .dropdown-toggle .filter-option:before,
+.bootstrap-select.show-menu-arrow.open > .dropdown-toggle .filter-option:after,
+.bootstrap-select.show-menu-arrow.show > .dropdown-toggle .filter-option:after {
     display: block;
 }
 .bs-searchbox,

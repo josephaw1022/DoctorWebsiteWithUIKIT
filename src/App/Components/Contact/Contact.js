@@ -18,7 +18,7 @@ class ContactUs extends React.Component {
         }
     }
 
-    componentWillMount() {
+    componentDidMount() {
         const file = require("./Contact.json")
         this.setState({
             Header: file.Contact.Header,

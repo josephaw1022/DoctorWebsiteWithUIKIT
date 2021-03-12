@@ -32,7 +32,9 @@
     "react-scripts": "3.4.1",
     "react-scroll-progress-bar": "^1.1.13",
     "react-stickynode": "^3.0.4",
-    "reactstrap": "8.4.1"
+    "react-styleguidist": "^11.1.5",
+    "reactstrap": "8.4.1",
+    "webpack-cli": "^4.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,7 +44,9 @@
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && yarn install && yarn start",
     "compile-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css",
     "minify-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css --source-map true"
+    "map-sass": "node-sass src/assets/scss/paper-kit.scss src/assets/css/paper-kit.css --source-map true",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -63,6 +67,12 @@
     "typescript": "3.9.5"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.1.21",
+    "@storybook/node-logger": "^6.1.21",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.1.21",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
     "husky": "=4",

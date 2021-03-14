@@ -1,0 +1,137 @@
+{
+    "ServiceModals": {
+        "Faith": "A+ offers spiritual-based counseling, which implements biblical and spiritual principles and parables to stories and situations that they find themselves in. Through this internal processing, blocks are removed from our awareness, revealing a deeper understanding and connection in our life.",
+        "Hollistic": "A+ offers a holistic counseling approach to help clients find the power to transform, heal, and grow. Our mission is to support you in creating a healthy, more balanced lifestyle. Whether you find yourself navigating a life transition, dealing with issues you can’t ignore, or you’re simply ready to grow and achieve a more abundant life, we can assist you on your journey.",
+        "Group": "A+ Individual therapy provides the opportunity to build a healthy rapport and apply an evidence-based therapeutic approach to the client in order to reach the emotional health and wholeness they desire. Whether a person is dealing with recent stress or a lifelong struggle, our holistic approach will provide an environment where individuals can share and work through their burdens, develop skills to cope with difficult situations, and find hope amid the pain."
+    },
+
+    "Nav": [
+        { "Name": "Home" },
+        { "Name": "Menu" },
+        { "Name": "Convenience" },
+        { "Name": "Services" },
+        { "Name": "OurTeam" },
+        { "Name": "TeleHealth" },
+        { "Name": "Contact" }
+    ],
+
+    "PageHeader": {
+        "Quote": "We know what we are but not what we may be.",
+        "QuoteBy": "Ophelia in Hamlet"
+    },
+
+    "TeleHealth": {
+        "Title": "Why do people consider using therapy?",
+        "Description": "Telehealth therapy is counseling and psychological services using live video interaction. It allows the therapist to continue to provide counseling in the event of illness or when in-office visits are not available. A+ Counseling and Consulting, LLC offers Telehealth on our HIPPA secured platform where clinicians deliver professional counseling on the forum. Patients can access the platform on most devices, including smartphones, tablets, and laptops. If you are interested in making an appointment for telehealth sessions, please contact us. Note that we are licensed to see clients who live in the state of South Carolina.",
+        "Color": "text-info"
+    },
+
+    "OurTeam": {
+        "Title": "Our Team",
+        "Description": "This is the paragraph where you can write more details about your team. Keep you user engaged by providing meaningful information.",
+        "Name": "Aldric Brown",
+        "Position": "Founder",
+        "Bio": "click pictutre for bio",
+        "ModalBody": "Hello, and thanks for visiting A+ Counseling and Consulting, LLCs website. My name is Aldric Browne, and below, I will provide some insight about myself to help you decide if I am the best fit to assist you on this journey. I was born and raised in Georgetown, South Carolina, and I’m excited about starting a practice that integrates the values gained from my upbringing with the rich South Carolina traditions ingrained within my soul. I am a professionally Licensed Professional Counselor and Nationally Certified Counselor who is passionate about helping others, while using Trauma-Focused Cognitive Behavioral Therapy. I earned my Bachelor of Psychology degree at the University of South Carolina Upstate and a master's degree in Mental Health Counseling at Capella University. I have over 15 years of experience working in the human service field, with experience within a local public school system, county alcohol and drug programs, providing community mental health services, and while working in the private counseling setting. The knowledge gained from each of these experiences has been vital to my growth and development as a clinician. I will be incorporating my skills, professional practices, knowledge, and understandings into A+ Counseling and Consulting, and will continue to work hard to elevate my expertise as a professional in this field. I have intensive experience in individual counseling working with a variety of patients experiencing depression, anxiety, trauma, grief and loss, self-esteem/self-worth issues, life transitions, mood disorders, stressors related to minority populations/marginalized groups, LGBTQIA, and sexual identity/gender identity concerns. I adhere to all ethical codes and guidelines defined by the American Counseling Association (ACA) and the National Board of Certified Counselors (NBCC). I pride myself on building a strong rapport with my clients and tailoring the treatment plan to meet your unique and specific needs. By getting to know you, we can determine which type of counseling will be most beneficial to you help you accomplish your goals. If you are interested in beginning the therapeutic process, please reach me by phone at 843-589-1517 or by email at aplus21@gmail.com"
+    },
+
+    "ServicesOffered": {
+        "Services": [
+            {
+                "Type": "Individual",
+                "Description": " ",
+                "Photo": "assets/img/FreeOnes/Photos3.png",
+                "Icon": "nc-chat-33",
+                "Link": "/",
+                "Class": "photo1"
+            },
+            {
+                "Type": "Group",
+                "Description": " ",
+                "Photo": "assets/img/FreeOnes/Photos13.png",
+                "Icon": "nc-shop",
+                "Link": "/",
+                "Class": "photo2"
+            },
+            {
+                "Type": "Faith Counseling",
+                "Description": " ",
+                "Photo": "style={{backgroundImage:'url(' + require(assets/img/FreeOnes/Photos1.png) + ')'}}",
+                "Icon": "nc-chat-33",
+                "Link": "/",
+                "Class": "photo3"
+            }
+        ]
+    },
+
+    "Menu": {
+        "Title": "Let's talk therapy and counseling",
+        "Description": "A+ Counseling's mission is to create a space in which those affected by mental health concerns, trauma, or other challenging life circumstances can find safety, hope, peace, and joy.",
+        "Options": [
+            {
+                "Name": "Getting Started",
+                "Description": "Paperwork to preferably fill out before our first meeting.",
+                "Icon": "nc-spaceship",
+                "Link": "/GettingStarted",
+                "Direction": "Left",
+                "Spot": "Out"
+            },
+            {
+                "Name": "Contact Me",
+                "Description": "Simply shoot me a phone call or send me an email by filling out the contact form.",
+                "Icon": "nc-mobile",
+                "Link": "/Contact",
+                "Direction": "Left",
+                "Spot": "In"
+            },
+            {
+                "Name": "Telehealth",
+                "Description": "About this new form of therapy and on how effective it is",
+                "Icon": "nc-laptop",
+                "Link": "/TeleHealth",
+                "Direction": "Right",
+                "Spot": "In"
+            },
+            {
+                "Name": "What To Expect",
+                "Description": "New methods and events to expect later in the future",
+                "Icon": "nc-time-alarm",
+                "Link": "/Future",
+                "Direction": "Right",
+                "Spot": "Out"
+            },
+            {
+                "Name": "Rates & Insurance",
+                "Description": "Currently not accepting insurance, but will be soon in the future.",
+                "Icon": "nc-icon nc-credit-card",
+                "Link": "/Rates",
+                "Direction": "Left",
+                "Spot": "Out"
+            },
+            {
+                "Name": "Why Us",
+                "Description": "Why you should choose us for your next appointment.",
+                "Icon": "nc-icon nc-pin-3",
+                "Link": "/WhyUs",
+                "Direction": "Left",
+                "Spot": "In"
+            },
+            {
+                "Name": "FAQs",
+                "Description": "Some commonly asked questions that may help you through this process",
+                "Icon": "nc-icon nc-vector",
+                "Link": "/FAQs",
+                "Direction": "Right",
+                "Spot": "In"
+            },
+            {
+                "Name": "Exercise ",
+                "Description": "Why exercise and overall well-being is an integral part to mental health.",
+                "Icon": "nc-icon nc-user-run",
+                "Link": "/",
+                "Direction": "Right",
+                "Spot": "Out"
+            }
+        ]
+    }
+}

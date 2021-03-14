@@ -12,10 +12,10 @@
         visibility: hidden;
         position: absolute;
 
-        &[x-placement='top-start'] {
+        &[x-placement="top-start"] {
             @include transform-translate-y-dropdown(0px);
         }
-        &[x-placement='bottom-start'] {
+        &[x-placement="bottom-start"] {
             @include transform-translate-y-dropdown(0px);
         }
     }
@@ -24,12 +24,12 @@
         @include opacity(1);
         visibility: visible;
 
-        &[x-placement='top-start'] {
+        &[x-placement="top-start"] {
             @include transform-translate-y-dropdown(-50px);
             top: auto !important;
             bottom: 0 !important;
         }
-        &[x-placement='bottom-start'] {
+        &[x-placement="bottom-start"] {
             @include transform-translate-y-dropdown(40px);
             bottom: auto !important;
             top: 0 !important;
@@ -180,15 +180,15 @@
 }
 
 .navbar-nav .dropdown-menu:before,
-.dropdown .dropdown-menu[x-placement='bottom-start']:before,
-.dropdown .dropdown-menu[x-placement='bottom-end']:before,
+.dropdown .dropdown-menu[x-placement="bottom-start"]:before,
+.dropdown .dropdown-menu[x-placement="bottom-end"]:before,
 .card.card-just-text .dropdown .dropdown-menu:before,
 .card-just-text .dropdown .dropdown-menu:before,
 .dropdown-btn .dropdown-menu:before {
     border-bottom: 11px solid $medium-pale-bg;
     border-left: 11px solid rgba(0, 0, 0, 0);
     border-right: 11px solid rgba(0, 0, 0, 0);
-    content: '';
+    content: "";
     display: inline-block;
     position: absolute;
     right: 12px;
@@ -196,30 +196,30 @@
 }
 
 .navbar-nav .dropdown-menu:after,
-.dropdown .dropdown-menu[x-placement='bottom-start']:after,
-.dropdown .dropdown-menu[x-placement='bottom-end']:after,
+.dropdown .dropdown-menu[x-placement="bottom-start"]:after,
+.dropdown .dropdown-menu[x-placement="bottom-end"]:after,
 .card.card-just-text .dropdown .dropdown-menu:after,
 .card-just-text .dropdown .dropdown-menu:after,
 .dropdown-btn .dropdown-menu:after {
     border-bottom: 11px solid $white-color;
     border-left: 11px solid rgba(0, 0, 0, 0);
     border-right: 11px solid rgba(0, 0, 0, 0);
-    content: '';
+    content: "";
     display: inline-block;
     position: absolute;
     right: 12px;
     top: -10px;
 }
 
-.dropdown .dropdown-menu.dropdown-notification[x-placement='top-start']:before,
+.dropdown .dropdown-menu.dropdown-notification[x-placement="top-start"]:before,
 .dropdown
-    .dropdown-menu.dropdown-notification[x-placement='bottom-start']:before {
+    .dropdown-menu.dropdown-notification[x-placement="bottom-start"]:before {
     left: 30px !important;
     right: auto;
 }
-.dropdown .dropdown-menu.dropdown-notification[x-placement='top-start']:after,
+.dropdown .dropdown-menu.dropdown-notification[x-placement="top-start"]:after,
 .dropdown
-    .dropdown-menu.dropdown-notification[x-placement='bottom-start']:after {
+    .dropdown-menu.dropdown-notification[x-placement="bottom-start"]:after {
     left: 30px !important;
     right: auto;
 }
@@ -298,7 +298,7 @@
             line-height: 28px;
             padding: 10px 20px 5px 20px !important;
 
-            [class*='icon-'] {
+            [class*="icon-"] {
                 font-size: 20px;
             }
         }
@@ -334,7 +334,7 @@
             padding: 5px 10px;
             line-height: 24px;
             font-weight: bold;
-            [class*='icon-'] {
+            [class*="icon-"] {
                 font-size: 24px;
             }
             .col-sm-9 {
@@ -364,26 +364,26 @@
         }
     }
 }
-.dropdown .dropdown-menu[x-placement='top-start']:before,
-.dropdown .dropdown-menu[x-placement='top-end']:before,
+.dropdown .dropdown-menu[x-placement="top-start"]:before,
+.dropdown .dropdown-menu[x-placement="top-end"]:before,
 .dropup .dropdown-menu:before {
     border-top: 11px solid #dcd9d1;
     border-left: 11px solid transparent;
     border-right: 11px solid transparent;
-    content: '';
+    content: "";
     display: inline-block;
     position: absolute;
     right: 12px;
     bottom: -11px;
 }
 
-.dropdown .dropdown-menu[x-placement='top-start']:after,
-.dropdown .dropdown-menu[x-placement='top-end']:after,
+.dropdown .dropdown-menu[x-placement="top-start"]:after,
+.dropdown .dropdown-menu[x-placement="top-end"]:after,
 .dropup .dropdown-menu:after {
     border-top: 11px solid #fff;
     border-left: 11px solid transparent;
     border-right: 11px solid transparent;
-    content: '';
+    content: "";
     display: inline-block;
     position: absolute;
     right: 12px;

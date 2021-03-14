@@ -251,7 +251,7 @@
 }
 .profile-background .filter-black::after {
     background-color: rgba(0, 0, 0, 0.5);
-    content: '';
+    content: "";
     display: block;
     height: 300px;
     left: 0;
@@ -569,7 +569,7 @@
         }
     }
     .blog-header-image {
-        background-image: url('{{ path-general }}/assets/img{{ site.product_path }}/farid-askerov.jpg');
+        background-image: url("{{ path-general }}/assets/img{{ site.product_path }}/farid-askerov.jpg");
     }
     .navbar {
         input {
@@ -737,7 +737,7 @@
                     border-bottom: 11px solid $medium-pale-bg;
                     border-left: 11px solid rgba(0, 0, 0, 0);
                     border-right: 11px solid rgba(0, 0, 0, 0);
-                    content: '';
+                    content: "";
                     display: inline-block;
                     position: absolute;
                     right: 12px;
@@ -747,7 +747,7 @@
                     border-bottom: 11px solid $pale-bg;
                     border-left: 11px solid rgba(0, 0, 0, 0);
                     border-right: 11px solid rgba(0, 0, 0, 0);
-                    content: '';
+                    content: "";
                     display: inline-block;
                     position: absolute;
                     right: 12px;
@@ -877,7 +877,7 @@ body {
 
     .filter:after {
         background-color: rgba(0, 0, 0, 0.5);
-        content: '';
+        content: "";
         display: block;
         height: 100%;
         left: 0;

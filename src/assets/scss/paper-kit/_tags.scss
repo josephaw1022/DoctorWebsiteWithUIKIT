@@ -81,12 +81,12 @@
         &:hover {
             padding-right: 25px;
         }
-        &:hover [data-role='remove'] {
+        &:hover [data-role="remove"] {
             opacity: 1;
             padding-right: 6px;
         }
 
-        & [data-role='remove'] {
+        & [data-role="remove"] {
             cursor: pointer;
             position: absolute;
             top: 3.5px;
@@ -94,7 +94,7 @@
             opacity: 0;
 
             &:after {
-                content: '\f00d';
+                content: "\f00d";
                 padding: 0px 4px;
                 font-size: 18px;
                 font: normal normal normal 10px/1 FontAwesome;

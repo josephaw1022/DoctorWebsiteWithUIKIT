@@ -58,7 +58,7 @@
         border-radius: $border-radius-extreme $border-radius-extreme 0 0;
     }
 
-    &[data-radius='none'] {
+    &[data-radius="none"] {
         border-radius: $border-radius-none;
 
         .header {
@@ -307,7 +307,7 @@
         top: 0;
         width: 1px;
         background-color: $medium-gray;
-        content: '';
+        content: "";
         position: absolute;
     }
 
@@ -352,7 +352,7 @@
         display: block;
         width: calc(100% - 10px);
         height: calc(100% - 10px);
-        content: '';
+        content: "";
         top: 5px;
         left: 5px;
         border: 1px solid rgba(0, 0, 0, 0.15);
@@ -376,7 +376,7 @@
         }
     }
 
-    &[data-background='image'] {
+    &[data-background="image"] {
         background-position: center center;
         background-size: cover;
         text-align: center;
@@ -403,7 +403,7 @@
             display: block;
             left: 0;
             top: 0;
-            content: '';
+            content: "";
             background-color: rgba(0, 0, 0, 0.56);
             border-radius: $border-radius-extreme;
         }
@@ -412,8 +412,8 @@
         }
     }
 
-    &[data-background='image'],
-    &[data-background='color'],
+    &[data-background="image"],
+    &[data-background="color"],
     &[data-color] {
         .image {
             border-radius: $border-radius-large;
@@ -433,7 +433,7 @@
         .card-footer,
         .stats,
         small,
-        [class*='text-'],
+        [class*="text-"],
         ul li b,
         a:not(.btn) {
             color: $white-color !important;
@@ -456,7 +456,7 @@
         }
     }
 
-    &[data-background='image'] {
+    &[data-background="image"] {
         .filter {
             @include opacity(0.55);
         }
@@ -466,27 +466,27 @@
         }
     }
 
-    &[data-color='blue'] {
+    &[data-color="blue"] {
         background: $bg-info;
     }
 
-    &[data-color='green'] {
+    &[data-color="green"] {
         background: $bg-success;
     }
 
-    &[data-color='yellow'] {
+    &[data-color="yellow"] {
         background: $bg-warning;
     }
 
-    &[data-color='brown'] {
+    &[data-color="brown"] {
         background: $bg-brown;
     }
 
-    &[data-color='purple'] {
+    &[data-color="purple"] {
         background: $bg-purple;
     }
 
-    &[data-color='orange'] {
+    &[data-color="orange"] {
         background: $bg-danger;
     }
 }
@@ -500,12 +500,12 @@
     position: relative;
 
     &:before {
-        background-image: url('http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png');
+        background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         bottom: -12%;
-        content: '';
+        content: "";
         display: block;
         left: -12%;
         position: absolute;

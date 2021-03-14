@@ -1,5 +1,5 @@
 .card.card-profile {
-    [class*='col-'] {
+    [class*="col-"] {
         .card-body {
             padding-top: 0px;
             .card-title {
@@ -30,7 +30,7 @@
         }
         .filter:after {
             background-color: rgba(0, 0, 0, 0.5);
-            content: '';
+            content: "";
             display: block;
             height: 100%;
             left: 0;

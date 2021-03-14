@@ -58,12 +58,12 @@
         color: $white-color;
     }
 }
-[class*='features-'],
-[class*='team-'],
-[class*='projects-'],
-[class*='pricing-'],
-[class*='testimonials-'],
-[class*='contactus-'] {
+[class*="features-"],
+[class*="team-"],
+[class*="projects-"],
+[class*="pricing-"],
+[class*="testimonials-"],
+[class*="contactus-"] {
     padding: 80px 0;
 }
 .section-image {
@@ -72,7 +72,7 @@
 
     &:before {
         background-color: rgba(0, 0, 0, 0.5);
-        content: '';
+        content: "";
         display: block;
         height: 100%;
         left: 0;
@@ -88,11 +88,11 @@
 }
 
 // Sections
-@import 'sections/headers';
-@import 'sections/features';
-@import 'sections/blogs';
-@import 'sections/teams';
-@import 'sections/projects';
-@import 'sections/pricing';
-@import 'sections/testimonials';
-@import 'sections/contact-us';
+@import "sections/headers";
+@import "sections/features";
+@import "sections/blogs";
+@import "sections/teams";
+@import "sections/projects";
+@import "sections/pricing";
+@import "sections/testimonials";
+@import "sections/contact-us";

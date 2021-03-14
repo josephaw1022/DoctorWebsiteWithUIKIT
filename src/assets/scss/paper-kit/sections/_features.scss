@@ -41,7 +41,7 @@
             color: rgba(255, 255, 255, 0.8);
         }
     }
-    .container [class*='col-'] {
+    .container [class*="col-"] {
         border: 1px solid rgba(255, 255, 255, 0.35);
         border-top: 0;
         border-left: 0;
@@ -50,12 +50,12 @@
             border-right: 0;
         }
     }
-    .bottom-line [class*='col-'] {
+    .bottom-line [class*="col-"] {
         border-bottom: 0;
     }
     .filter:after {
         background-color: rgba(0, 0, 0, 0.5);
-        content: '';
+        content: "";
         display: block;
         height: 100%;
         left: 0;

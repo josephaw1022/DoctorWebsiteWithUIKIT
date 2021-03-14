@@ -3,7 +3,7 @@ body {
     color: $font-color;
     font-size: $font-size-base;
     font-weight: $font-weight-light;
-    font-family: 'Montserrat', 'Helvetica', Arial, sans-serif;
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
 }
 a {
     color: $info-color;
@@ -28,11 +28,11 @@ hr {
 a:focus,
 a:active,
 button::-moz-focus-inner,
-input[type='reset']::-moz-focus-inner,
-input[type='button']::-moz-focus-inner,
-input[type='submit']::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
 select::-moz-focus-inner,
-input[type='file'] > input[type='button']::-moz-focus-inner {
+input[type="file"] > input[type="button"]::-moz-focus-inner {
     outline: 0;
 }
 .ui-slider-handle:focus,
@@ -54,7 +54,7 @@ input[type='file'] > input[type='button']::-moz-focus-inner {
 .tagsinput-remove-link,
 .filter,
 .btn-hover,
-[data-toggle='collapse'] i,
+[data-toggle="collapse"] i,
 .animation-transition-fast,
 .dropdown-menu .dropdown-item {
     @include transition($fast-transition-time, linear);
@@ -194,7 +194,7 @@ input[type='file'] > input[type='button']::-moz-focus-inner {
         }
         &:after {
             background-color: rgba(0, 0, 0, 0.5);
-            content: '';
+            content: "";
             display: block;
             height: 100%;
             left: 0;

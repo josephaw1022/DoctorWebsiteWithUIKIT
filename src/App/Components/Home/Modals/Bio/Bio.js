@@ -18,6 +18,27 @@ function Bio(props) {
         false
     )
 
+    const myobj = document.getElementById("navbar-main-here")
+
+    function hideNav() {
+        setScrollingLongContent(!scrollingLongContent, () => {
+            if (myobj.style.display === "none") {
+                myobj.style.display = "block"
+            } else {
+                myobj.style.display = "none"
+            }
+        })
+    }
+
+    function showNav() {
+        setScrollingLongContent(!scrollingLongContent)
+        if (myobj.style.display === "block") {
+            myobj.style.display = "none"
+        } else {
+            myobj.style.display = "block"
+        }
+    }
+
     return (
         <>
             <Card className="card-profile card-plain">
@@ -28,7 +49,7 @@ function Bio(props) {
                                 backgroundColor: "transparent",
                                 borderColor: "transparent",
                             }}
-                            onClick={() => setScrollingLongContent(true)}
+                            onClick={() => showNav()}
                         >
                             <Card
                                 className="card-profile card-contact"
@@ -90,7 +111,7 @@ function Bio(props) {
                         className="close"
                         data-dismiss="modal"
                         type="button"
-                        onClick={() => setScrollingLongContent(false)}
+                        onClick={() => hideNav()}
                     >
                         <span aria-hidden={true}>×</span>
                     </button>

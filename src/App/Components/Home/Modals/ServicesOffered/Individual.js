@@ -7,12 +7,33 @@ export default function Individual() {
     )
     const content = require("./modals.json")
 
+    const myobj = document.getElementById("navbar-main-here")
+
+    const hideNav = () => {
+        setScrollingLongContent(!scrollingLongContent)
+        if (myobj.style.display === "none") {
+            myobj.style.display = "block"
+        } else {
+            myobj.style.display = "none"
+        }
+        setScrollingLongContent(!scrollingLongContent)
+    }
+
+    const showNav = () => {
+        setScrollingLongContent(!scrollingLongContent)
+        if (myobj.style.display === "block") {
+            myobj.style.display = "none"
+        } else {
+            myobj.style.display = "block"
+        }
+    }
+
     return (
         <>
             <Button
                 className="btn-neutral"
                 color="link"
-                onClick={() => setScrollingLongContent(true)}
+                onClick={() => hideNav()}
             >
                 <i className="fa fa-book mr-1" />
                 Show more
@@ -31,7 +52,7 @@ export default function Individual() {
                         className="close"
                         data-dismiss="modal"
                         type="button"
-                        onClick={() => setScrollingLongContent(false)}
+                        onClick={() => showNav()}
                     >
                         <span aria-hidden={true}>×</span>
                     </button>

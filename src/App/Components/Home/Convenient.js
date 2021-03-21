@@ -2,6 +2,7 @@ import React from "react"
 import ScrollAnimation from "react-animate-on-scroll"
 import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap"
 import $ from "jquery"
+import "./SectionStyling/InPerson&Zoom.scss"
 export default function Convenient() {
     return (
         <>
@@ -41,22 +42,15 @@ export default function Convenient() {
                                                 animationOut="zoomOut"
                                                 duration={0.5}
                                             >
-                                                <CardBody>
+                                                <CardBody classname="hoverover">
                                                     <h6 className="card-category text-info">
                                                         {" "}
                                                         Traditional{" "}
                                                     </h6>
                                                     <CardTitle tag="h3">
-                                                        <a
-                                                            href="#pablo"
-                                                            onClick={(e) =>
-                                                                e.preventDefault()
-                                                            }
-                                                        >
-                                                            In-Person Visits
-                                                        </a>
+                                                        In-Person Visits
                                                     </CardTitle>
-                                                    <p className="card-description">
+                                                    <p className="card-description hoverover">
                                                         If you live in the
                                                         Bluffton area and would
                                                         like in person
@@ -95,7 +89,7 @@ export default function Convenient() {
                                                             Virtual Meetings
                                                         </a>
                                                     </CardTitle>
-                                                    <p className="card-description">
+                                                    <p className="card-description hoverover">
                                                         If you live in South
                                                         Carolina and would like
                                                         to talk to a therapist,

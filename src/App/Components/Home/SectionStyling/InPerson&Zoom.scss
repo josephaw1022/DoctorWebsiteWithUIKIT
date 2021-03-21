@@ -1,0 +1,10 @@
+
+.hoverover{ 
+
+   &:hover{ 
+    font-weight: bold;
+    font-style: italic;
+    transition: all 100ms ease-in-out ; 
+   } 
+
+} 

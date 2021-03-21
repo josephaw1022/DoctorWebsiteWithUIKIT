@@ -60,7 +60,7 @@ function SectionContactUs() {
                                                                 Give me a ring
                                                             </h4>
                                                             <p>
-                                                                Al Brown <br />
+                                                                Al Browne <br />
                                                                 843-589-1517{" "}
                                                                 <br />
                                                                 Mon - Fri, 8:00

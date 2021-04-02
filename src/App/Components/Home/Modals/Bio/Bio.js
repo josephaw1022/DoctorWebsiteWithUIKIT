@@ -19,7 +19,7 @@ function Bio(props) {
     const myobj = document.getElementById("navbar-main-here")
 
     function hideNav() {
-        setScrollingLongContent(!scrollingLongContent)
+        setScrollingLongContent(true)
         if (myobj === null) {
             return
         } else if (myobj.style.display === "none") {
@@ -30,7 +30,7 @@ function Bio(props) {
     }
 
     function showNav() {
-        setScrollingLongContent(!scrollingLongContent)
+        setScrollingLongContent(false)
         if (myobj === null) {
             return
         } else if (myobj.style.display === "block") {

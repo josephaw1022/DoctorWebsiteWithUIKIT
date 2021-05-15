@@ -1,6 +1,6 @@
 import React from "react";
 import "./WhyUs.css";
-import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
+import { Card, CardBody, Container, Row, Col } from "reactstrap";
 
 class WhyUs extends React.Component {
     render() {

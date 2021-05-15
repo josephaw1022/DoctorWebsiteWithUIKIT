@@ -1,7 +1,7 @@
-import React from "react"
-import "./AboutHeader.css"
+import React from "react";
+import "./AboutHeader.css";
 // reactstrap components
-import { Container } from "reactstrap"
+import { Container } from "reactstrap";
 
 // core components
 
@@ -21,7 +21,7 @@ function AboutUsHeader() {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default AboutUsHeader
+export default AboutUsHeader;

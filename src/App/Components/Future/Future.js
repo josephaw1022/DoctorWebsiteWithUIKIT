@@ -1,33 +1,33 @@
-import React, { Component } from "react"
-import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap"
-import { Animated } from "react-animated-css"
-import "./Future.css"
+import React, { Component } from "react";
+import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
+import { Animated } from "react-animated-css";
+import "./Future.css";
 
 class Future extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             Title1: "",
             Title2: "",
             Content1: "",
             Content2: "",
             Header: "",
-        }
+        };
     }
 
     componentWillMount() {
-        const file = require("./Future.json")
+        const file = require("./Future.json");
         this.setState({
             Title1: file.Future.Articles.Title,
             Title2: file.Future.Articles.Title2,
             Content1: file.Future.Articles.Content,
             Content2: file.Future.Articles.Content2,
             Header: file.Future.Articles.Header,
-        })
+        });
     }
 
     render() {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
 
         return (
             <>
@@ -198,7 +198,7 @@ class Future extends Component {
                     />
                 </div>
             </>
-        )
+        );
     }
 }
-export default Future
+export default Future;

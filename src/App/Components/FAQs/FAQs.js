@@ -1,36 +1,36 @@
-import "./FAQs.css"
-import React from "react"
+import "./FAQs.css";
+import React from "react";
 
-import { Row, Col, CardBody, CardTitle, Container } from "reactstrap"
+import { Row, Col, CardBody, CardTitle, Container } from "reactstrap";
 
-import $ from "jquery"
-import ScrollAnimation from "react-animate-on-scroll"
-import Flippy, { FrontSide, BackSide } from "react-flippy"
+import $ from "jquery";
+import ScrollAnimation from "react-animate-on-scroll";
+import Flippy, { FrontSide, BackSide } from "react-flippy";
 
 class FAQs extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             FAQ: {},
             update: false,
             cardBack: "",
-        }
+        };
     }
 
     updateQuestion() {
-        let file = require("./faqInfo.json")
-        this.setState({ FAQ: file.FAQ, update: true })
+        let file = require("./faqInfo.json");
+        this.setState({ FAQ: file.FAQ, update: true });
     }
 
     componentWillMount() {
-        this.updateQuestion()
+        this.updateQuestion();
     }
 
     render() {
         let ComponentPieces = this.state.FAQ.Questions.map((index) => {
-            let cardSize = ""
+            let cardSize = "";
             if (index.Weird === true) {
-                cardSize = "auto"
+                cardSize = "auto";
 
                 index.Answer = (
                     <p
@@ -60,7 +60,7 @@ class FAQs extends React.Component {
                         <br />- They are troubled by emotional problems facing
                         family members or close friends.
                     </p>
-                )
+                );
             }
 
             return (
@@ -209,10 +209,10 @@ class FAQs extends React.Component {
                         </Col>
                     </Row>
                 </>
-            )
-        })
+            );
+        });
 
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
         return (
             <>
                 <div
@@ -251,7 +251,7 @@ class FAQs extends React.Component {
                     style={{ backgroundColor: "#333333" }}
                 />
             </>
-        )
+        );
     }
 }
-export default FAQs
+export default FAQs;

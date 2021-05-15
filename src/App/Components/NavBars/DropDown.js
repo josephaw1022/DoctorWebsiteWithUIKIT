@@ -1,32 +1,32 @@
-import React from "react"
-import "./NAV.json"
-import "./NavBar.css"
-import { Link } from "react-router-dom"
-import { DropdownItem } from "reactstrap"
+import React from "react";
+import "./NAV.json";
+import "./NavBar.css";
+import { Link } from "react-router-dom";
+import { DropdownItem } from "reactstrap";
 
 import {
     DropdownToggle,
     DropdownMenu,
     UncontrolledDropdown,
     Nav,
-} from "reactstrap"
+} from "reactstrap";
 
 class DropDown extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             menu: {},
             collapse: false,
-        }
+        };
     }
 
     OpenJsonFile() {
-        const file = require("./NAV.json")
-        this.setState({ menu: file.menu.list })
+        const file = require("./NAV.json");
+        this.setState({ menu: file.menu.list });
     }
 
     componentWillMount() {
-        this.OpenJsonFile()
+        this.OpenJsonFile();
     }
 
     render() {
@@ -42,8 +42,8 @@ class DropDown extends React.Component {
                         {index.Name}
                     </DropdownItem>
                 </>
-            )
-        })
+            );
+        });
 
         return (
             <>
@@ -63,8 +63,8 @@ class DropDown extends React.Component {
                     </UncontrolledDropdown>
                 </Nav>
             </>
-        )
+        );
     }
 }
 
-export default DropDown
+export default DropDown;

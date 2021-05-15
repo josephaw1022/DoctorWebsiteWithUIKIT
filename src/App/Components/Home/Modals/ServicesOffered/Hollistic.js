@@ -1,30 +1,30 @@
-import React from "react"
-import { Button, Modal } from "reactstrap"
+import React from "react";
+import { Button, Modal } from "reactstrap";
 
 export const Hollistic = () => {
     const [scrollingLongContent, setScrollingLongContent] = React.useState(
         false
-    )
-    const content = require("./modals.json")
+    );
+    const content = require("./modals.json");
 
-    const myobj = document.getElementById("navbar-main-here")
+    const myobj = document.getElementById("navbar-main-here");
 
     function hideNav() {
-        setScrollingLongContent(!scrollingLongContent)
+        setScrollingLongContent(!scrollingLongContent);
         if (myobj.style.display === "none") {
-            myobj.style.display = "block"
+            myobj.style.display = "block";
         } else {
-            myobj.style.display = "none"
+            myobj.style.display = "none";
         }
-        setScrollingLongContent(!scrollingLongContent)
+        setScrollingLongContent(!scrollingLongContent);
     }
 
     function showNav() {
-        setScrollingLongContent(!scrollingLongContent)
+        setScrollingLongContent(!scrollingLongContent);
         if (myobj.style.display === "block") {
-            myobj.style.display = "none"
+            myobj.style.display = "none";
         } else {
-            myobj.style.display = "block"
+            myobj.style.display = "block";
         }
     }
 
@@ -60,7 +60,7 @@ export const Hollistic = () => {
                 <div className="modal-body">{content.Type.Hollistic.Text}</div>
             </Modal>
         </>
-    )
-}
+    );
+};
 
-export default Hollistic
+export default Hollistic;

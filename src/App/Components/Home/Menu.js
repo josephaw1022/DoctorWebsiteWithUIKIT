@@ -1,37 +1,37 @@
-import React from "react"
-import ScrollAnimation from "react-animate-on-scroll"
+import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap"
+import { Button, Container, Row, Col } from "reactstrap";
 
-import $ from "jquery"
+import $ from "jquery";
 
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 // core component
 
 class Menu extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             Menu: {},
-        }
+        };
     }
 
     componentWillMount() {
-        this.setState({ Menu: this.props.data })
+        this.setState({ Menu: this.props.data });
     }
 
     render() {
-        console.log($(window).width())
+        console.log($(window).width());
 
         let menuOptions = this.state.Menu.Options.map((value) => {
-            let templink = null
+            let templink = null;
 
             if (!value.Dont) {
-                templink = value.Link
+                templink = value.Link;
             }
-            const speed = 0.5
+            const speed = 0.5;
 
             return (
                 <>
@@ -93,8 +93,8 @@ class Menu extends React.Component {
                         </ScrollAnimation>
                     </Col>
                 </>
-            )
-        })
+            );
+        });
 
         return (
             <>
@@ -144,7 +144,7 @@ class Menu extends React.Component {
                     </div>
                 </div>
             </>
-        )
+        );
     }
 }
-export default Menu
+export default Menu;

@@ -1,11 +1,11 @@
-import React from "react"
-import "./Rates.css"
-import { Animated } from "react-animated-css"
+import React from "react";
+import "./Rates.css";
+import { Animated } from "react-animated-css";
 // reactstrap components
-import { Card, CardBody, Container, Row, Col } from "reactstrap"
+import { Card, CardBody, Container, Row, Col } from "reactstrap";
 
 export const Rates = () => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
     return (
         <>
             <div className="section section-black">
@@ -318,7 +318,7 @@ export const Rates = () => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default Rates
+export default Rates;

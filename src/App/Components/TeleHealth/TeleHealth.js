@@ -1,33 +1,33 @@
-import "./TeleHealth.css"
-import React from "react"
-import { Row, Col, Card, CardBody, CardTitle, Container } from "reactstrap"
-import { Animated } from "react-animated-css"
+import "./TeleHealth.css";
+import React from "react";
+import { Row, Col, Card, CardBody, CardTitle, Container } from "reactstrap";
+import { Animated } from "react-animated-css";
 
 class TeleHealth extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             Title: "",
             Description: "",
             Color: "",
-        }
+        };
     }
 
     componentWillMount() {
-        const file = require("./TeleHealth.json")
+        const file = require("./TeleHealth.json");
         this.setState({
             Title: file.TeleHealth.Title,
             Description: file.TeleHealth.Description,
             Color: file.TeleHealth.Color,
-        })
+        });
     }
 
     render() {
-        let Title = this.state.Title
-        let Description = this.state.Description
-        let Color = this.state.Color
+        let Title = this.state.Title;
+        let Description = this.state.Description;
+        let Color = this.state.Color;
 
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
 
         return (
             <>
@@ -113,7 +113,7 @@ class TeleHealth extends React.Component {
                 </div>
                 <div className="section " style={{ backgroundColor: "#333" }} />
             </>
-        )
+        );
     }
 }
-export default TeleHealth
+export default TeleHealth;

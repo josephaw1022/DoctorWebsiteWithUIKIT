@@ -1,11 +1,11 @@
-import React from "react"
-import { Row, Col, Card, CardBody, CardTitle, Container } from "reactstrap"
-import "./Home.css"
-import $ from "jquery"
-import ScrollAnimation from "react-animate-on-scroll"
+import React from "react";
+import { Row, Col, Card, CardBody, CardTitle, Container } from "reactstrap";
+import "./Home.css";
+import $ from "jquery";
+import ScrollAnimation from "react-animate-on-scroll";
 class TeleHealth extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
 
         this.state = {
             TeleHealth: {
@@ -13,9 +13,9 @@ class TeleHealth extends React.Component {
                 Description: "",
                 Color: "",
             },
-        }
+        };
 
-        this.myRef = React.createRef()
+        this.myRef = React.createRef();
     }
 
     componentWillMount() {
@@ -23,7 +23,7 @@ class TeleHealth extends React.Component {
             Title: this.props.data.Title,
             Description: this.props.data.Description,
             Color: this.props.data.Color,
-        })
+        });
     }
 
     render() {
@@ -103,7 +103,7 @@ class TeleHealth extends React.Component {
                     </div>
                 </div>
             </>
-        )
+        );
     }
 }
-export default TeleHealth
+export default TeleHealth;

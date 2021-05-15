@@ -1,8 +1,8 @@
-import React from "react"
-import ScrollAnimation from "react-animate-on-scroll"
-import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap"
-import $ from "jquery"
-import "./SectionStyling/InPerson&Zoom.scss"
+import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
+import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
+import $ from "jquery";
+import "./SectionStyling/InPerson&Zoom.scss";
 export default function Convenient() {
     return (
         <>
@@ -119,5 +119,5 @@ export default function Convenient() {
                 </div>
             </div>
         </>
-    )
+    );
 }

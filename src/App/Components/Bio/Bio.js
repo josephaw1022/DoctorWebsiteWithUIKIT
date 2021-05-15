@@ -1,10 +1,10 @@
-import "./Bio.css"
-import React from "react"
+import "./Bio.css";
+import React from "react";
 
 class Bio extends React.Component {
     constructor(props) {
-        super(props)
-        this.state = {}
+        super(props);
+        this.state = {};
     }
 
     render() {
@@ -16,8 +16,8 @@ class Bio extends React.Component {
                     style={{ backgroundColor: "#333" }}
                 ></div>
             </>
-        )
+        );
     }
 }
 
-export default Bio
+export default Bio;

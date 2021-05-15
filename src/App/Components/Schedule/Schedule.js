@@ -1,8 +1,8 @@
-import React from "react"
-import "./Schedule.css"
-import InfiniteCalendar from "react-infinite-calendar"
-import "react-infinite-calendar/styles.css"
-import { CardBody, Card, Container } from "reactstrap"
+import React from "react";
+import "./Schedule.css";
+import InfiniteCalendar from "react-infinite-calendar";
+import "react-infinite-calendar/styles.css";
+import { CardBody, Card, Container } from "reactstrap";
 
 export const Schedule = () => {
     return (
@@ -37,7 +37,7 @@ export const Schedule = () => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default Schedule
+export default Schedule;

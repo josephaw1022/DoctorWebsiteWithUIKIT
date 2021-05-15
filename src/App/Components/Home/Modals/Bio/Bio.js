@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 // reactstrap components
 import {
     Button,
@@ -9,34 +9,34 @@ import {
     CardBody,
     CardTitle,
     CardFooter,
-} from "reactstrap"
+} from "reactstrap";
 
 function Bio(props) {
     const [scrollingLongContent, setScrollingLongContent] = React.useState(
         false
-    )
+    );
 
-    const myobj = document.getElementById("navbar-main-here")
+    const myobj = document.getElementById("navbar-main-here");
 
     function hideNav() {
-        setScrollingLongContent(true)
+        setScrollingLongContent(true);
         if (myobj === null) {
-            return
+            return;
         } else if (myobj.style.display === "none") {
-            myobj.style.display = "block"
+            myobj.style.display = "block";
         } else {
-            myobj.style.display = "none"
+            myobj.style.display = "none";
         }
     }
 
     function showNav() {
-        setScrollingLongContent(false)
+        setScrollingLongContent(false);
         if (myobj === null) {
-            return
+            return;
         } else if (myobj.style.display === "block") {
-            myobj.style.display = "none"
+            myobj.style.display = "none";
         } else {
-            myobj.style.display = "block"
+            myobj.style.display = "block";
         }
     }
 
@@ -120,7 +120,7 @@ function Bio(props) {
                 <div className="modal-body">{props.AboutMe}</div>
             </Modal>
         </>
-    )
+    );
 }
 
-export default Bio
+export default Bio;

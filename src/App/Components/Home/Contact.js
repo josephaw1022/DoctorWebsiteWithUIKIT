@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-import ScrollAnimation from "react-animate-on-scroll"
+import ScrollAnimation from "react-animate-on-scroll";
 
 import {
     Button,
@@ -13,7 +13,7 @@ import {
     Container,
     Row,
     Col,
-} from "reactstrap"
+} from "reactstrap";
 
 // core components
 
@@ -157,7 +157,7 @@ function SectionContactUs() {
                 {/* ********* END CONTACT US 1 ********* */}
             </div>
         </>
-    )
+    );
 }
 
-export default SectionContactUs
+export default SectionContactUs;

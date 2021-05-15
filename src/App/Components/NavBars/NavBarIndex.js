@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import classnames from "classnames"
+import React from "react";
+import { Link } from "react-router-dom";
+import classnames from "classnames";
 
 import {
     Collapse,
@@ -9,20 +9,20 @@ import {
     Container,
     UncontrolledTooltip,
     Button,
-} from "reactstrap"
-import DropDown from "./DropDown"
-import $ from "jquery"
-import ProgressBar from "react-scroll-progress-bar"
-import Sticky from "react-stickynode"
-import Headroom from "react-headroom"
+} from "reactstrap";
+import DropDown from "./DropDown";
+import $ from "jquery";
+import ProgressBar from "react-scroll-progress-bar";
+import Sticky from "react-stickynode";
+import Headroom from "react-headroom";
 export default function NavBarIndex() {
     // eslint-disable-next-line
-    const [navbarColor, setNavbarColor] = React.useState("transparent")
+    const [navbarColor, setNavbarColor] = React.useState("transparent");
 
-    const [bodyClick, setBodyClick] = React.useState(false)
-    const [collapseOpen, setCollapseOpen] = React.useState(false)
+    const [bodyClick, setBodyClick] = React.useState(false);
+    const [collapseOpen, setCollapseOpen] = React.useState(false);
 
-    const Title = "A+ Counselling & Consulting, LLC"
+    const Title = "A+ Counselling & Consulting, LLC";
 
     return (
         <>
@@ -32,9 +32,9 @@ export default function NavBarIndex() {
                         onClick={() => {
                             document.documentElement.classList.toggle(
                                 "nav-open"
-                            )
-                            setBodyClick(true)
-                            setCollapseOpen(true)
+                            );
+                            setBodyClick(true);
+                            setCollapseOpen(true);
                         }}
                     />
                 ) : null}
@@ -96,9 +96,9 @@ export default function NavBarIndex() {
                                     onClick={() => {
                                         document.documentElement.classList.toggle(
                                             "nav-open"
-                                        )
-                                        setBodyClick(true)
-                                        setCollapseOpen(true)
+                                        );
+                                        setBodyClick(true);
+                                        setCollapseOpen(true);
                                     }}
                                 >
                                     {$(window).width() < 400 ? null : (
@@ -126,5 +126,5 @@ export default function NavBarIndex() {
                 </Headroom>
             </div>
         </>
-    )
+    );
 }

@@ -1,11 +1,11 @@
 // export default NavBarIndex;
-import React from "react"
-import { Link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
-import classnames from "classnames"
+import classnames from "classnames";
 
 // JavaScript plugin that hides or shows a component based on your scroll
-import Headroom from "headroom.js"
+import Headroom from "headroom.js";
 
 import {
     Collapse,
@@ -13,54 +13,54 @@ import {
     Navbar,
     Container,
     UncontrolledTooltip,
-} from "reactstrap"
+} from "reactstrap";
 
-import DropDown from "./DropDown"
+import DropDown from "./DropDown";
 
-import $ from "jquery"
+import $ from "jquery";
 
 // import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function NavBar2() {
     // const target = React.createRef();
 
-    const [navbarColor, setNavbarColor] = React.useState("navbar-transparent")
-    const [bodyClick, setBodyClick] = React.useState(false)
-    const [collapseOpen, setCollapseOpen] = React.useState(false)
+    const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
+    const [bodyClick, setBodyClick] = React.useState(false);
+    const [collapseOpen, setCollapseOpen] = React.useState(false);
 
     React.useEffect(() => {
-        let headroom = new Headroom(document.getElementById("navbar-main"))
+        let headroom = new Headroom(document.getElementById("navbar-main"));
         // initialise
-        headroom.init()
+        headroom.init();
         const updateNavbarColor = () => {
             if (
                 document.documentElement.scrollTop > 499 ||
                 document.body.scrollTop > 499
             ) {
-                setNavbarColor("invisible")
+                setNavbarColor("invisible");
             } else if (
                 document.documentElement.scrollTop < 200 ||
                 document.body.scrollTop < 200
             ) {
-                setNavbarColor("navbar-transparent")
+                setNavbarColor("navbar-transparent");
             }
-        }
-        window.addEventListener("scroll", updateNavbarColor)
+        };
+        window.addEventListener("scroll", updateNavbarColor);
         return function cleanup() {
-            window.removeEventListener("scroll", updateNavbarColor)
-        }
-    })
+            window.removeEventListener("scroll", updateNavbarColor);
+        };
+    });
 
-    const Title = "A+ Counselling & Consulting, LLC"
+    const Title = "A+ Counselling & Consulting, LLC";
 
     return (
         <>
             {bodyClick ? (
                 <div
                     onClick={() => {
-                        document.documentElement.classList.toggle("nav-open")
-                        setBodyClick(true)
-                        setCollapseOpen(true)
+                        document.documentElement.classList.toggle("nav-open");
+                        setBodyClick(true);
+                        setCollapseOpen(true);
                     }}
                 />
             ) : null}
@@ -101,9 +101,9 @@ export default function NavBar2() {
                             onClick={() => {
                                 document.documentElement.classList.toggle(
                                     "nav-open"
-                                )
-                                setBodyClick(true)
-                                setCollapseOpen(true)
+                                );
+                                setBodyClick(true);
+                                setCollapseOpen(true);
                             }}
                         >
                             {$(window).width() < 400 ? null : (
@@ -127,5 +127,5 @@ export default function NavBar2() {
                 </Container>
             </Navbar>
         </>
-    )
+    );
 }

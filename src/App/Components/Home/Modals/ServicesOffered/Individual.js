@@ -1,32 +1,32 @@
-import React from "react"
-import { Button, Modal } from "reactstrap"
+import React from "react";
+import { Button, Modal } from "reactstrap";
 
 export default function Individual() {
     const [scrollingLongContent, setScrollingLongContent] = React.useState(
         false
-    )
-    const content = require("./modals.json")
+    );
+    const content = require("./modals.json");
 
-    const myobj = document.getElementById("navbar-main-here")
+    const myobj = document.getElementById("navbar-main-here");
 
     const hideNav = () => {
-        setScrollingLongContent(!scrollingLongContent)
+        setScrollingLongContent(!scrollingLongContent);
         if (myobj.style.display === "none") {
-            myobj.style.display = "block"
+            myobj.style.display = "block";
         } else {
-            myobj.style.display = "none"
+            myobj.style.display = "none";
         }
-        setScrollingLongContent(!scrollingLongContent)
-    }
+        setScrollingLongContent(!scrollingLongContent);
+    };
 
     const showNav = () => {
-        setScrollingLongContent(!scrollingLongContent)
+        setScrollingLongContent(!scrollingLongContent);
         if (myobj.style.display === "block") {
-            myobj.style.display = "none"
+            myobj.style.display = "none";
         } else {
-            myobj.style.display = "block"
+            myobj.style.display = "block";
         }
-    }
+    };
 
     return (
         <>
@@ -60,5 +60,5 @@ export default function Individual() {
                 <div className="modal-body">{content.Type.Individual.Text}</div>
             </Modal>
         </>
-    )
+    );
 }

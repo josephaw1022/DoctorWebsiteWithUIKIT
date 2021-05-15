@@ -1,9 +1,9 @@
-import React from "react"
-import { Button, Form, Input, Container, Row, Col } from "reactstrap"
+import React from "react";
+import { Button, Form, Input, Container, Row, Col } from "reactstrap";
 
 class ContactUs extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             Header: "",
             SubHeader: "",
@@ -15,11 +15,11 @@ class ContactUs extends React.Component {
             Visit: "",
             Form: [],
             SocialNetworks: [],
-        }
+        };
     }
 
     componentDidMount() {
-        const file = require("./Contact.json")
+        const file = require("./Contact.json");
         this.setState({
             Header: file.Contact.Header,
             SubHeader: file.Contact.SubHeader,
@@ -31,24 +31,24 @@ class ContactUs extends React.Component {
             Visit: file.Contact.Visit,
             Form: file.Contact.Form,
             SocialNetworks: file.Contact.SocialNetworks,
-        })
+        });
     }
 
     render() {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
 
         const SocialNetworks = this.state.SocialNetworks.map((index) => {
             return (
                 <Button className="btn-just-icon mr-1" color={index.Name}>
                     <i className={"fa fa-" + index.Name} />
                 </Button>
-            )
-        })
+            );
+        });
 
         const Forms = this.state.Form.map((index) => {
-            let md = "6"
+            let md = "6";
             if (String(index.Type) === "textarea") {
-                md = "12"
+                md = "12";
             }
             return (
                 <Col md={md}>
@@ -62,8 +62,8 @@ class ContactUs extends React.Component {
                         rows={index.Rows}
                     />
                 </Col>
-            )
-        })
+            );
+        });
 
         return (
             <>
@@ -152,8 +152,8 @@ class ContactUs extends React.Component {
                     </div>
                 </div>
             </>
-        )
+        );
     }
 }
 
-export default ContactUs
+export default ContactUs;

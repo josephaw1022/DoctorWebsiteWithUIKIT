@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
-import classnames from "classnames"
-import "./NavBar.css"
+import classnames from "classnames";
+import "./NavBar.css";
 
 // reactstrap components
 import {
@@ -18,17 +18,17 @@ import {
     DropdownToggle,
     UncontrolledDropdown,
     DropdownItem,
-} from "reactstrap"
+} from "reactstrap";
 
 export default function ExamplesNavbar() {
-    ExamplesNavbar.displayName = ExamplesNavbar.name
-    const [navbarColor, setNavbarColor] = React.useState("navbar-transparent")
-    const [navbarCollapse, setNavbarCollapse] = React.useState(true)
+    ExamplesNavbar.displayName = ExamplesNavbar.name;
+    const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
+    const [navbarCollapse, setNavbarCollapse] = React.useState(true);
 
     const toggleNavbarCollapse = () => {
-        setNavbarCollapse(!navbarCollapse)
-        document.documentElement.classList.toggle("nav-open")
-    }
+        setNavbarCollapse(!navbarCollapse);
+        document.documentElement.classList.toggle("nav-open");
+    };
 
     React.useEffect(() => {
         const updateNavbarColor = () => {
@@ -36,21 +36,21 @@ export default function ExamplesNavbar() {
                 document.documentElement.scrollTop > 299 ||
                 document.body.scrollTop > 299
             ) {
-                setNavbarColor("transparent")
+                setNavbarColor("transparent");
             } else if (
                 document.documentElement.scrollTop < 300 ||
                 document.body.scrollTop < 300
             ) {
-                setNavbarColor("transparent")
+                setNavbarColor("transparent");
             }
-        }
+        };
 
-        window.addEventListener("scroll", updateNavbarColor)
+        window.addEventListener("scroll", updateNavbarColor);
 
         return function cleanup() {
-            window.removeEventListener("scroll", updateNavbarColor)
-        }
-    })
+            window.removeEventListener("scroll", updateNavbarColor);
+        };
+    });
     return (
         <Navbar
             className={classnames("fixed-top" + "transparent") + " fsd8a9a"}
@@ -174,5 +174,5 @@ export default function ExamplesNavbar() {
                 </Collapse>
             </Container>
         </Navbar>
-    )
+    );
 }

@@ -1,14 +1,14 @@
-import "./GettingStarted.css"
-import React from "react"
+import "./GettingStarted.css";
+import React from "react";
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap"
+import { Button, Container, Row, Col } from "reactstrap";
 
 // import { Link } from "react-router-dom"
-import { Animated } from "react-animated-css"
+import { Animated } from "react-animated-css";
 
 class GettingStarted extends React.Component {
     render() {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
         return (
             <>
                 <div className="section" style={{ backgroundColor: "#333" }} />
@@ -254,7 +254,7 @@ class GettingStarted extends React.Component {
                     </Container>
                 </div>
             </>
-        )
+        );
     }
 }
-export default GettingStarted
+export default GettingStarted;

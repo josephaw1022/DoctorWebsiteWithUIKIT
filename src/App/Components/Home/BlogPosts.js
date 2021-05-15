@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 // reactstrap components
 import {
@@ -9,7 +9,7 @@ import {
     Container,
     Row,
     Col,
-} from "reactstrap"
+} from "reactstrap";
 
 export default function BlogPosts() {
     return (
@@ -200,5 +200,5 @@ export default function BlogPosts() {
                 </Row>
             </Container>
         </div>
-    )
+    );
 }

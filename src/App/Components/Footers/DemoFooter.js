@@ -1,7 +1,15 @@
-import React from "react"
-import "./Footer.css"
+import React from "react";
+import "./Footer.css";
 // reactstrap components
-import { Row, Container, Col, Form, FormGroup, Button, Input } from "reactstrap"
+import {
+    Row,
+    Container,
+    Col,
+    Form,
+    FormGroup,
+    Button,
+    Input,
+} from "reactstrap";
 
 export default function DemoFooter() {
     return (
@@ -77,5 +85,5 @@ export default function DemoFooter() {
       </Container>
     </footer> */}
         </>
-    )
+    );
 }

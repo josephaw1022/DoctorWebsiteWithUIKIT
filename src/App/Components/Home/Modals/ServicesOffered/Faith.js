@@ -1,18 +1,39 @@
-import React from "react"
-import { Button, Modal } from "reactstrap"
+import React from "react";
+import { Button, Modal } from "reactstrap";
 
 export default function Faith() {
     const [scrollingLongContent, setScrollingLongContent] = React.useState(
         false
-    )
-    const content = require("./modals.json")
+    );
+    const content = require("./modals.json");
+
+    const myobj = document.getElementById("navbar-main-here");
+
+    function hideNav() {
+        setScrollingLongContent(!scrollingLongContent);
+        if (myobj.style.display === "none") {
+            myobj.style.display = "block";
+        } else {
+            myobj.style.display = "none";
+        }
+        setScrollingLongContent(!scrollingLongContent);
+    }
+
+    function showNav() {
+        setScrollingLongContent(!scrollingLongContent);
+        if (myobj.style.display === "block") {
+            myobj.style.display = "none";
+        } else {
+            myobj.style.display = "block";
+        }
+    }
 
     return (
         <>
             <Button
                 className="btn-neutral"
                 color="link"
-                onClick={() => setScrollingLongContent(true)}
+                onClick={() => hideNav()}
             >
                 <i className="fa fa-book mr-1" />
                 Show more
@@ -31,7 +52,7 @@ export default function Faith() {
                         className="close"
                         data-dismiss="modal"
                         type="button"
-                        onClick={() => setScrollingLongContent(false)}
+                        onClick={() => showNav()}
                     >
                         <span aria-hidden={true}>×</span>
                     </button>
@@ -39,5 +60,5 @@ export default function Faith() {
                 <div className="modal-body">{content.Type.Faith.Text}</div>
             </Modal>
         </>
-    )
+    );
 }

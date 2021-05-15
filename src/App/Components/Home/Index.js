@@ -1,18 +1,18 @@
-import React from "react"
-import PartOne from "./PartOne"
-import Menu from "./Menu"
-import ServicesOffered from "./ServicesOffered"
-import Convenient from "./Convenient"
-import OurTeam from "./OurTeam"
-import Contact from "./Contact"
-import SideNav from "./SideNav"
-import TeleHealth from "./TeleHealth"
+import React from "react";
+import PartOne from "./PartOne";
+import Menu from "./Menu";
+import ServicesOffered from "./ServicesOffered";
+import Convenient from "./Convenient";
+import OurTeam from "./OurTeam";
+import Contact from "./Contact";
+import SideNav from "./SideNav";
+import TeleHealth from "./TeleHealth";
 
-import "./Home.css"
+import "./Home.css";
 
 class Index extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             PartOne: {},
             Menu: {},
@@ -21,11 +21,11 @@ class Index extends React.Component {
             modalServicesOffered: {},
             OurTeam: {},
             ServiceModals: {},
-        }
+        };
     }
 
     componentWillMount() {
-        let file = require("./navjs.json")
+        let file = require("./navjs.json");
         this.setState({
             PartOne: file.PageHeader,
             Menu: file.Menu,
@@ -33,7 +33,7 @@ class Index extends React.Component {
             ServicesOffered: file.ServicesOffered,
             OurTeam: file.OurTeam,
             ServiceModals: file.ServiceModals,
-        })
+        });
     }
 
     render() {
@@ -52,7 +52,7 @@ class Index extends React.Component {
                 <Contact />
                 <SideNav />
             </>
-        )
+        );
     }
 }
-export default Index
+export default Index;

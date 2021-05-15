@@ -1,11 +1,11 @@
-import React from "react"
-import { Container, Row, Col } from "reactstrap"
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
 
-import Bio from "./Modals/Bio/Bio"
+import Bio from "./Modals/Bio/Bio";
 
 class OurTeam extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             Title: "",
             Description: "",
@@ -13,7 +13,7 @@ class OurTeam extends React.Component {
             Position: "",
             Bio: "",
             ForModal: "",
-        }
+        };
     }
 
     componentWillMount() {
@@ -24,7 +24,7 @@ class OurTeam extends React.Component {
             Position: this.props.data.Position,
             Bio: this.props.data.Bio,
             ForModal: this.props.data.ModalBody,
-        })
+        });
     }
 
     render() {
@@ -58,7 +58,7 @@ class OurTeam extends React.Component {
                     style={{ backgroundColor: "#fff" }}
                 />
             </>
-        )
+        );
     }
 }
-export default OurTeam
+export default OurTeam;

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 import {
     Badge,
@@ -10,7 +10,7 @@ import {
     Container,
     Row,
     Col,
-} from "reactstrap"
+} from "reactstrap";
 
 export default function Menu2() {
     return (
@@ -341,5 +341,5 @@ export default function Menu2() {
                 </Container>
             </div>
         </>
-    )
+    );
 }

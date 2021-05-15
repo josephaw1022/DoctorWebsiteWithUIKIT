@@ -1,33 +1,33 @@
-import React from "react"
-import { Button, Container, Row, Col } from "reactstrap"
-import { Card, CardFooter, CardBody } from "reactstrap"
-import $ from "jquery"
+import React from "react";
+import { Button, Container, Row, Col } from "reactstrap";
+import { Card, CardFooter, CardBody } from "reactstrap";
+import $ from "jquery";
 
-import Hollistic from "./Modals/ServicesOffered/Hollistic"
-import Individual from "./Modals/ServicesOffered/Individual"
-import Faith from "./Modals/ServicesOffered/Faith"
+import Hollistic from "./Modals/ServicesOffered/Hollistic";
+import Individual from "./Modals/ServicesOffered/Individual";
+import Faith from "./Modals/ServicesOffered/Faith";
 
 export default class ServicesOffered extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             ServicesOffered: {},
             modalData: {},
-        }
+        };
     }
 
     componentDidMount() {
         this.setState({
             ServicesOffered: this.props.data,
             modalData: this.props.data2,
-        })
+        });
     }
 
     screensize() {
         if ($(window).width() < 900) {
-            return null
+            return null;
         }
-        return " parallax"
+        return " parallax";
     }
 
     render() {
@@ -152,6 +152,6 @@ export default class ServicesOffered extends React.Component {
                     </Container>
                 </div>
             </>
-        )
+        );
     }
 }

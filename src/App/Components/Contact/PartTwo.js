@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 // reactstrap components
 import {
@@ -10,10 +10,10 @@ import {
     Container,
     Row,
     Col,
-} from "reactstrap"
+} from "reactstrap";
 
 export default function PartTwo() {
-    ;<div className="main">
+    <div className="main">
         <div className="section">
             <Container>
                 <h3 className="title-uppercase">We build great products.</h3>
@@ -301,5 +301,5 @@ export default function PartTwo() {
                 </Row>
             </Container>
         </div>
-    </div>
+    </div>;
 }

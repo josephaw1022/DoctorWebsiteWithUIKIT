@@ -1,20 +1,20 @@
-import React from "react"
+import React from "react";
 
 // reactstrap components
-import { Card, CardBody, Container, Row, Col } from "reactstrap"
+import { Card, CardBody, Container, Row, Col } from "reactstrap";
 
-import "./Error.css"
+import "./Error.css";
 
 function NotFoundPage() {
-    document.documentElement.classList.remove("nav-open")
+    document.documentElement.classList.remove("nav-open");
     React.useEffect(() => {
-        document.body.classList.add("error-404")
-        window.scrollTo(0, 0)
-        document.body.scrollTop = 0
+        document.body.classList.add("error-404");
+        window.scrollTo(0, 0);
+        document.body.scrollTop = 0;
         return function cleanup() {
-            document.body.classList.remove("error-404")
-        }
-    })
+            document.body.classList.remove("error-404");
+        };
+    });
     return (
         <>
             <div className="background-img hsd87sa">
@@ -136,7 +136,7 @@ function NotFoundPage() {
                 </Container>
             </div>
         </>
-    )
+    );
 }
 
-export default NotFoundPage
+export default NotFoundPage;

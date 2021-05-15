@@ -1,10 +1,10 @@
-import React from "react"
-import "./WhyUs.css"
-import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap"
+import React from "react";
+import "./WhyUs.css";
+import { Card, CardBody, Container, Row, Col } from "reactstrap";
 
 class WhyUs extends React.Component {
     render() {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0);
 
         return (
             <>
@@ -35,27 +35,50 @@ class WhyUs extends React.Component {
                                                     <img
                                                         alt="..."
                                                         className="img"
-                                                        src={require("assets/img/sections/jeff-sheldon.jpg")}
+                                                        src={require("assets/img/FreeOnes/Photos8.png")}
                                                     />
                                                 </div>
                                             </Col>
                                             <Col md="8">
                                                 <CardBody>
-                                                    <h6 className="card-category text-info">
-                                                        Mental
-                                                    </h6>
-                                                    <CardTitle tag="h3">
-                                                        <a
-                                                            href="#pablo"
-                                                            onClick={(e) =>
-                                                                e.preventDefault()
-                                                            }
-                                                        >
-                                                            Title 1
-                                                        </a>
-                                                    </CardTitle>
-                                                    <p className="card-description">
-                                                        blah blah blah blah
+                                                    <p
+                                                        className="card-description"
+                                                        style={{
+                                                            color: "#fff",
+                                                            fontWeight:
+                                                                "bolder",
+                                                        }}
+                                                    >
+                                                        Hello, and thanks for
+                                                        visiting A+ Counseling
+                                                        and Consulting, LLCs
+                                                        website. My name is
+                                                        Aldric Browne, and
+                                                        below, I will provide
+                                                        some insights about
+                                                        myself to help you
+                                                        decide if this practice
+                                                        is the best fit to
+                                                        assist you on this
+                                                        journey. I was born and
+                                                        raised in Georgetown,
+                                                        South Carolina. I am
+                                                        excited about starting a
+                                                        counseling service that
+                                                        integrates the values
+                                                        gained from my
+                                                        upbringing with the rich
+                                                        South Carolina
+                                                        traditions ingrained
+                                                        within my soul. I am a
+                                                        professionally Licensed
+                                                        Professional Counselor
+                                                        and Nationally Certified
+                                                        Counselor who is
+                                                        passionate about helping
+                                                        others while using
+                                                        Trauma-Focused Cognitive
+                                                        Behavioral Therapy.
                                                     </p>
                                                 </CardBody>
                                             </Col>
@@ -65,23 +88,44 @@ class WhyUs extends React.Component {
                                         <Row>
                                             <Col md="8">
                                                 <CardBody>
-                                                    <h6 className="card-category text-danger">
-                                                        <i className="fa fa-free-code-camp mr-1" />
-                                                        Spiritual
-                                                    </h6>
-                                                    <CardTitle tag="h3">
-                                                        <a
-                                                            href="#pablo"
-                                                            onClick={(e) =>
-                                                                e.preventDefault()
-                                                            }
-                                                        >
-                                                            Title 2
-                                                        </a>
-                                                    </CardTitle>
-                                                    <p className="card-description">
-                                                        blah blah blah blah blah
-                                                        blah
+                                                    <p
+                                                        className="card-description"
+                                                        style={{
+                                                            color: "#fff",
+                                                            fontWeight:
+                                                                "bolder",
+                                                        }}
+                                                    >
+                                                        I earned my Bachelor of
+                                                        Psychology degree at the
+                                                        University of South
+                                                        Carolina Upstate and a
+                                                        master's degree in
+                                                        Mental Health Counseling
+                                                        at Capella University. I
+                                                        have over 15 years of
+                                                        experience working in
+                                                        the human services
+                                                        field, with experience
+                                                        within a local public
+                                                        school system, county
+                                                        alcohol and drug
+                                                        programs, community
+                                                        mental health services,
+                                                        and working in the
+                                                        private counseling
+                                                        setting. The knowledge
+                                                        gained from each of
+                                                        these experiences has
+                                                        been vital to my growth
+                                                        and development as a
+                                                        clinician. I will be
+                                                        incorporating my skills,
+                                                        professional practices,
+                                                        knowledge, and
+                                                        understandings into A+
+                                                        Counseling and
+                                                        Consulting.
                                                     </p>
                                                 </CardBody>
                                             </Col>
@@ -96,7 +140,7 @@ class WhyUs extends React.Component {
                                                         <img
                                                             alt="..."
                                                             className="img"
-                                                            src={require("assets/img/sections/rawpixel-comm.jpg")}
+                                                            src={require("assets/img/FreeOnes/Photos12.png")}
                                                         />
                                                     </a>
                                                 </div>
@@ -116,36 +160,62 @@ class WhyUs extends React.Component {
                                                         <img
                                                             alt="..."
                                                             className="img"
-                                                            src={require("assets/img/sections/jeremy-yap.jpg")}
+                                                            src={require("assets/img/FreeOnes/Photos11.png")}
                                                         />
                                                     </a>
                                                 </div>
                                             </Col>
                                             <Col md="8">
                                                 <CardBody>
-                                                    <h6 className="card-category text-success">
-                                                        Physical
-                                                    </h6>
-                                                    <CardTitle tag="h3">
-                                                        <a
-                                                            href="#pablo"
-                                                            onClick={(e) =>
-                                                                e.preventDefault()
-                                                            }
-                                                        >
-                                                            Title 3
-                                                        </a>
-                                                    </CardTitle>
-                                                    <p className="card-description">
-                                                        Streaming services once
-                                                        again top the list of
-                                                        this year’s Emmy
-                                                        nominations – another
-                                                        indicator of the shift
-                                                        in how today’s consumers
-                                                        are watching TV. HBO,
-                                                        which has been
-                                                        available.{" "}
+                                                    <p
+                                                        className="card-description"
+                                                        style={{
+                                                            color: "#fff",
+                                                            fontWeight:
+                                                                "bolder",
+                                                        }}
+                                                    >
+                                                        I have intensive
+                                                        experience in individual
+                                                        counseling, working with
+                                                        various patients
+                                                        experiencing depression,
+                                                        anxiety, trauma, grief
+                                                        and loss,
+                                                        self-esteem/self-worth
+                                                        issues, life
+                                                        transitions, mood
+                                                        disorders, stressors
+                                                        related to minority
+                                                        populations/marginalized
+                                                        groups, LGBTQIA, and
+                                                        sexual identity/gender
+                                                        identity concerns. I
+                                                        adhere to all ethical
+                                                        codes and guidelines
+                                                        defined by the American
+                                                        Counseling Association
+                                                        (ACA) and the National
+                                                        Board of Certified
+                                                        Counselors (NBCC). I
+                                                        pride myself on building
+                                                        a strong rapport with my
+                                                        clients and tailoring
+                                                        the treatment plan to
+                                                        meet your unique and
+                                                        specific needs. By
+                                                        getting to know you, we
+                                                        can determine which type
+                                                        of counseling will be
+                                                        most beneficial to you
+                                                        help you accomplish your
+                                                        goals. If you are
+                                                        interested in beginning
+                                                        the therapeutic process,
+                                                        please reach me by phone
+                                                        at 843 949-9644 or by
+                                                        email at
+                                                        aplus21@gmail.com.
                                                     </p>
                                                 </CardBody>
                                             </Col>
@@ -157,7 +227,7 @@ class WhyUs extends React.Component {
                     </div>
                 </div>
             </>
-        )
+        );
     }
 }
-export default WhyUs
+export default WhyUs;

@@ -1,28 +1,28 @@
-import React from "react"
-import { Container, Row, Col } from "reactstrap"
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
 // import {Animated} from "react-animated-css";
-import ScrollAnimation from "react-animate-on-scroll"
-import $ from "jquery"
+import ScrollAnimation from "react-animate-on-scroll";
+import $ from "jquery";
 // reactstrap components
 
 // core components
 
 function LandingPageHeader(props) {
-    let pageHeader1 = React.createRef()
+    let pageHeader1 = React.createRef();
 
     React.useEffect(() => {
         if (window.innerWidth < 991) {
             const updateScroll = () => {
-                let windowScrollTop = window.pageYOffset / 3
+                let windowScrollTop = window.pageYOffset / 3;
                 pageHeader1.current.style.transform =
-                    "translate3d(0," + windowScrollTop + "px,0)"
-            }
-            window.addEventListener("scroll", updateScroll)
+                    "translate3d(0," + windowScrollTop + "px,0)";
+            };
+            window.addEventListener("scroll", updateScroll);
             return function cleanup() {
-                window.removeEventListener("scroll", updateScroll)
-            }
+                window.removeEventListener("scroll", updateScroll);
+            };
         }
-    })
+    });
 
     return (
         <>
@@ -101,7 +101,7 @@ function LandingPageHeader(props) {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default LandingPageHeader
+export default LandingPageHeader;

@@ -1,8 +1,7 @@
-import React from "react"
+import React from "react";
 // reactstrap components
 import {
     Button,
-    //  FormGroup, Input,
     Modal,
     Card,
     Col,
@@ -10,13 +9,36 @@ import {
     CardBody,
     CardTitle,
     CardFooter,
-    //  CardImg
-} from "reactstrap"
+} from "reactstrap";
 
 function Bio(props) {
     const [scrollingLongContent, setScrollingLongContent] = React.useState(
         false
-    )
+    );
+
+    const myobj = document.getElementById("navbar-main-here");
+
+    function hideNav() {
+        setScrollingLongContent(true);
+        if (myobj === null) {
+            return;
+        } else if (myobj.style.display === "none") {
+            myobj.style.display = "block";
+        } else {
+            myobj.style.display = "none";
+        }
+    }
+
+    function showNav() {
+        setScrollingLongContent(false);
+        if (myobj === null) {
+            return;
+        } else if (myobj.style.display === "block") {
+            myobj.style.display = "none";
+        } else {
+            myobj.style.display = "block";
+        }
+    }
 
     return (
         <>
@@ -28,7 +50,7 @@ function Bio(props) {
                                 backgroundColor: "transparent",
                                 borderColor: "transparent",
                             }}
-                            onClick={() => setScrollingLongContent(true)}
+                            onClick={() => hideNav()}
                         >
                             <Card
                                 className="card-profile card-contact"
@@ -90,7 +112,7 @@ function Bio(props) {
                         className="close"
                         data-dismiss="modal"
                         type="button"
-                        onClick={() => setScrollingLongContent(false)}
+                        onClick={() => showNav()}
                     >
                         <span aria-hidden={true}>×</span>
                     </button>
@@ -98,7 +120,7 @@ function Bio(props) {
                 <div className="modal-body">{props.AboutMe}</div>
             </Modal>
         </>
-    )
+    );
 }
 
-export default Bio
+export default Bio;

@@ -1,7 +1,7 @@
 import React from "react"
 import { Button, Modal } from "reactstrap"
 
-export default function Hollistic() {
+export const Hollistic = () => {
     const [scrollingLongContent, setScrollingLongContent] = React.useState(
         false
     )
@@ -62,3 +62,5 @@ export default function Hollistic() {
         </>
     )
 }
+
+export default Hollistic

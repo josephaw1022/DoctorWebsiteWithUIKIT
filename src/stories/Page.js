@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 import React from "react"
 import PropTypes from "prop-types"
 
 import { Header } from "./Header"
 import "./page.css"
+=======
+import React from "react";
+import PropTypes from "prop-types";
+
+import { Header } from "./Header";
+import "./page.css";
+>>>>>>> b97d3294b6b1f016c1d4556f96db9863cc60ca75
 
 export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
     <article>
@@ -82,14 +90,26 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
             </div>
         </section>
     </article>
+<<<<<<< HEAD
 )
+=======
+);
+>>>>>>> b97d3294b6b1f016c1d4556f96db9863cc60ca75
 Page.propTypes = {
     user: PropTypes.shape({}),
     onLogin: PropTypes.func.isRequired,
     onLogout: PropTypes.func.isRequired,
     onCreateAccount: PropTypes.func.isRequired,
+<<<<<<< HEAD
 }
 
 Page.defaultProps = {
     user: null,
 }
+=======
+};
+
+Page.defaultProps = {
+    user: null,
+};
+>>>>>>> b97d3294b6b1f016c1d4556f96db9863cc60ca75

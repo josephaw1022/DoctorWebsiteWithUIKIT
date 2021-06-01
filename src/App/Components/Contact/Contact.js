@@ -127,6 +127,7 @@ class ContactUs extends React.Component {
                                         <Form
                                             className="contact"
                                             data-netlify="true"
+                                            netlify
                                         >
                                             <Row>{Forms}</Row>
 

@@ -124,7 +124,10 @@ class ContactUs extends React.Component {
                                         <h3 className="title">
                                             <small>{this.state.Note}</small>
                                         </h3>
-                                        <Form className="contact">
+                                        <Form
+                                            className="contact"
+                                            data-netlify="true"
+                                        >
                                             <Row>{Forms}</Row>
 
                                             <Row>

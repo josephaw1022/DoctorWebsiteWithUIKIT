@@ -2579,12 +2579,15 @@
                                         u > 1 && xe(p),
                                         u > 1 &&
                                             be(
-                                                e.slice(0, u - 1).concat({
-                                                    value:
-                                                        " " === e[u - 2].type
-                                                            ? "*"
-                                                            : "",
-                                                })
+                                                e
+                                                    .slice(0, u - 1)
+                                                    .concat({
+                                                        value:
+                                                            " " ===
+                                                            e[u - 2].type
+                                                                ? "*"
+                                                                : "",
+                                                    })
                                             ).replace(W, "$1"),
                                         n,
                                         u < o && Se(e.slice(u, o)),

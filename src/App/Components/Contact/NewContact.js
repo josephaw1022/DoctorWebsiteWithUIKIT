@@ -17,7 +17,7 @@ const ContactUs = () => {
             first_name: data.first_name,
             last_name: data.last_name,
             email: data.email,
-            subject: data.subject,
+            phonenumber: data.phonenumber,
             message: data.message,
         });
     };
@@ -28,14 +28,11 @@ const ContactUs = () => {
             last_name: " ",
             email: " ",
             message: " ",
-            subject: " ",
+            phonenumber: " ",
         },
         onSubmit: (values) => {
-            console.log("values = ", values);
-
             submitDATA(values);
             history.push("/");
-            // axios.post("https://all-sites-api-22.herokuapp.com/api/message/", );
         },
     });
 
@@ -159,18 +156,18 @@ const ContactUs = () => {
                                             <Col md={6}>
                                                 <label
                                                     style={{ color: "#fff" }}
-                                                    htmlFor="subject"
+                                                    htmlFor="phonenumber"
                                                 >
-                                                    Subject
+                                                    phonenumber
                                                 </label>
                                                 <Input
                                                     onChange={
                                                         formData.handleChange
                                                     }
-                                                    placeholder={"subject"}
+                                                    placeholder={"phonenumber"}
                                                     type={"text"}
                                                     rows={1}
-                                                    id="subject"
+                                                    id="phonenumber"
                                                 />
                                             </Col>
                                         </Row>

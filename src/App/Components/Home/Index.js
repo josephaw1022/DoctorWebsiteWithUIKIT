@@ -1,14 +1,12 @@
 import React from "react";
-import PartOne from "./PartOne";
-import Menu from "./Menu";
-import ServicesOffered from "./ServicesOffered";
 import Convenient from "./Convenient";
+import "./Home.css";
+import Menu from "./Menu";
 import OurTeam from "./OurTeam";
-import Contact from "./Contact";
+import PartOne from "./PartOne";
+import ServicesOffered from "./ServicesOffered";
 import SideNav from "./SideNav";
 import TeleHealth from "./TeleHealth";
-
-import "./Home.css";
 
 class Index extends React.Component {
     constructor(props) {
@@ -49,7 +47,6 @@ class Index extends React.Component {
                 />
                 <OurTeam data={this.state.OurTeam} />
                 <TeleHealth data={this.state.TeleHealth} />
-                <Contact />
                 <SideNav />
             </>
         );

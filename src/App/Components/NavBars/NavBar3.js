@@ -16,7 +16,6 @@ import {
 } from "reactstrap";
 
 const NavBar3 = () => {
-    const [bodyClick, setBodyClick] = React.useState(false);
     const [collapseOpen, setCollapseOpen] = React.useState(false);
     React.useEffect(() => {
         let headroom = new Headroom(document.getElementById("navbar-main"));
@@ -41,7 +40,6 @@ const NavBar3 = () => {
                                 document.documentElement.classList.toggle(
                                     "nav-close"
                                 );
-                                setBodyClick(false);
                                 setCollapseOpen(false);
                             }}
                         >
@@ -63,7 +61,6 @@ const NavBar3 = () => {
                                 document.documentElement.classList.toggle(
                                     "nav-open"
                                 );
-                                setBodyClick(true);
                                 setCollapseOpen(true);
                             }}
                         >

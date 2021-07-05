@@ -1,6 +1,5 @@
 import React from "react";
-import { Button, Form, Input, Container, Row, Col } from "reactstrap";
-
+import { Button, Col, Container, Form, Input, Row } from "reactstrap";
 class ContactUs extends React.Component {
     constructor(props) {
         super(props);
@@ -33,6 +32,19 @@ class ContactUs extends React.Component {
             SocialNetworks: file.Contact.SocialNetworks,
         });
     }
+
+    // formik = useFormik({
+    //     initialValues: {
+    //         FirstName: "",
+    //         LastName: "",
+    //         subject: "",
+    //         message: "",
+    //         email: "",
+    //     },
+    //     onSubmit:()=>{
+    //
+    // }
+    // });
 
     render() {
         window.scrollTo(0, 0);
@@ -129,7 +141,7 @@ class ContactUs extends React.Component {
                                             data-netlify="true"
                                             netlify
                                         >
-                                            <Row>{Forms}</Row>
+                                            <Row></Row>
 
                                             <Row>
                                                 <Col
@@ -159,5 +171,3 @@ class ContactUs extends React.Component {
         );
     }
 }
-
-export default ContactUs;

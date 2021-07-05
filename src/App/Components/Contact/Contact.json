@@ -10,27 +10,27 @@
         "Visit": "Or come and visit",
         "Form": [
             {
-                "Name": "First Name",
+                "Name": "FirstName",
                 "Type": "text",
                 "Rows": "1"
             },
             {
-                "Name": "Last Name",
+                "Name": "LastName",
                 "Type": "text",
                 "Rows": "1"
             },
             {
-                "Name": "Email",
+                "Name": "email",
                 "Type": "text",
                 "Rows": "1"
             },
             {
-                "Name": "Subject",
+                "Name": "subject",
                 "Type": "text",
                 "Rows": "1"
             },
             {
-                "Name": "Message",
+                "Name": "message",
                 "Type": "textarea",
                 "Rows": "7"
             }

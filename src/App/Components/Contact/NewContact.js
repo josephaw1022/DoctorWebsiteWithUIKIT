@@ -158,7 +158,7 @@ const ContactUs = () => {
                                                     style={{ color: "#fff" }}
                                                     htmlFor="phonenumber"
                                                 >
-                                                    phonenumber
+                                                    phone number
                                                 </label>
                                                 <Input
                                                     onChange={

@@ -14,7 +14,7 @@ import NewContact from "./Components/Contact/NewContact";
 
 export const App = () => {
     return (
-        <Layout>
+        <Layout style="overflow-x:hidden ">
             <Route exact path="/" component={Index} />
             <Route path="/Contact" component={NewContact} />
             <Route path="/Rates" component={Rates} />

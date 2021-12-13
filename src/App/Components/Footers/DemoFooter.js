@@ -58,32 +58,7 @@ export default function DemoFooter() {
                     </Row>
                 </Container>
             </div>
-            {/*   
-    <footer className="footer footer-black footer-white">
-      <Container>
-        <Row>
-          <nav className="footer-nav">
-            <ul>
-              <li>
-                <a href="/">
-                  Whiteaker Productions
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="/">
-                  Licenses
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </Row>
-      </Container>
-    </footer> */}
+          
         </>
     );
 }

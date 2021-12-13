@@ -3,12 +3,12 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
 import $ from "jquery";
 import "./SectionStyling/InPerson&Zoom.scss";
+
+
 export default function Convenient() {
     return (
         <>
             <div className="section secion-blog " id="Convenience">
-                {/* ********* BLOGS 1 ********* */}
-
                 <div className="blog-4">
                     <Container>
                         <Row>

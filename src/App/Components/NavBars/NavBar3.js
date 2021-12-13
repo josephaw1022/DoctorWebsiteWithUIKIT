@@ -43,7 +43,7 @@ const NavBar3 = () => {
                                 setCollapseOpen(false);
                             }}
                         >
-                            A+ Counselling
+                            A+ Counseling
                             <br />& Consulting, LLC
                         </NavbarBrand>
                         <UncontrolledTooltip
@@ -51,7 +51,7 @@ const NavBar3 = () => {
                             target="navbar-brand"
                             style={{ fontSize: "2" }}
                         >
-                            A+ Counselling & Consulting, LLC
+                            A+ Counseling & Consulting, LLC
                         </UncontrolledTooltip>
                         <button
                             className="navbar-toggler"

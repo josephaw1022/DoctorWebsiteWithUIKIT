@@ -22,7 +22,7 @@ export default function NavBarIndex() {
     const [bodyClick, setBodyClick] = React.useState(false);
     const [collapseOpen, setCollapseOpen] = React.useState(false);
 
-    const Title = "A+ Counselling & Consulting, LLC";
+    const Title = "A+ Counseling & Consulting, LLC";
 
     return (
         <>

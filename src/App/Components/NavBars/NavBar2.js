@@ -51,7 +51,7 @@ export default function NavBar2() {
         };
     });
 
-    const Title = "A+ Counselling & Consulting, LLC";
+    const Title = "A+ Counseling & Consulting, LLC";
 
     return (
         <>
